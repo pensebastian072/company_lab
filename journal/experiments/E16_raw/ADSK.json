@@ -1,0 +1,56 @@
+{
+  "ticker": "ADSK",
+  "cik": "0000769397",
+  "sector": "Information Technology",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "intellectual_property",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.0,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "data_advantages",
+      "economies_of_scale",
+      "network_effects"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 27.1,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 8,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "data_advantages",
+      "economies_of_scale",
+      "intellectual_property",
+      "network_effects",
+      "switching_costs",
+      "technological_advantage"
+    ]
+  }
+}

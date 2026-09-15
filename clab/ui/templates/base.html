@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}company_lab{% endblock %}</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="advisory" role="note">{{ ADVISORY }}</div>
+<div class="horizon" role="note" title="{{ HORIZON_NOTE }}">
+  Read on a <strong>{{ HORIZON_LABEL }}</strong> horizon &middot; {{ HORIZON_NOTE }}
+</div>
+
+<header class="topbar">
+  <a class="brand" href="/">company<span>_lab</span></a>
+  <nav class="tabs">
+    {% for href, key, label in [('/', 'rank', 'Rank'), ('/health', 'health', 'Health')] %}
+    <a href="{{ href }}" class="tab{{ ' active' if page == key else '' }}">{{ label }}</a>
+    {% endfor %}
+    <a href="/export/scores.csv" class="tab">CSV</a>
+    <a href="/export/company_lab.xlsx" class="tab">XLSX</a>
+  </nav>
+  <span class="pill" id="headline">loading&hellip;</span>
+</header>
+
+<main>{% block body %}{% endblock %}</main>
+
+<footer>
+  <span>SEC EDGAR XBRL companyfacts + yfinance &middot; 127.0.0.1:{{ UI_PORT }} &middot;
+  measured half: FE BS VA ER EN &middot; LLM half: SG BQ MG</span>
+</footer>
+
+<script src="/static/app.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

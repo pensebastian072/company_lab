@@ -1,0 +1,95 @@
+{
+  "n": 23,
+  "components": {
+    "SG": {
+      "companies_with_nulls": 18,
+      "median_gain_strict": 0,
+      "mean_gain_strict": 0,
+      "mean_gain_no_gate": 0,
+      "companies_gaining": 0,
+      "S1_pass": false,
+      "proposed": 1,
+      "kept_by_gate": {
+        "has_quote": 0,
+        "production": 0,
+        "tight": 0,
+        "strict": 0
+      },
+      "scores_with_no_quote": 1,
+      "per_subtest": {
+        "tam_expanding": {
+          "proposed": 0,
+          "strict": 0,
+          "production": 0,
+          "null_in": 17
+        },
+        "capacity_backlog_contracts": {
+          "proposed": 0,
+          "strict": 0,
+          "production": 0,
+          "null_in": 11
+        },
+        "multiple_independent_drivers": {
+          "proposed": 1,
+          "strict": 0,
+          "production": 0,
+          "null_in": 2
+        }
+      },
+      "median_secs": 7.0
+    },
+    "MG": {
+      "companies_with_nulls": 23,
+      "median_gain_strict": 0,
+      "mean_gain_strict": 0,
+      "mean_gain_no_gate": 0,
+      "companies_gaining": 0,
+      "S1_pass": false,
+      "proposed": 17,
+      "kept_by_gate": {
+        "has_quote": 16,
+        "production": 16,
+        "tight": 16,
+        "strict": 14
+      },
+      "scores_with_no_quote": 1,
+      "per_subtest": {
+        "tenure": {
+          "proposed": 8,
+          "strict": 6,
+          "production": 8,
+          "null_in": 21
+        },
+        "execution_history": {
+          "proposed": 6,
+          "strict": 5,
+          "production": 5,
+          "null_in": 12
+        },
+        "industry_expertise": {
+          "proposed": 2,
+          "strict": 2,
+          "production": 2,
+          "null_in": 3
+        },
+        "ownership": {
+          "proposed": 1,
+          "strict": 1,
+          "production": 1,
+          "null_in": 23
+        },
+        "founder_led": {
+          "proposed": 0,
+          "strict": 0,
+          "production": 0,
+          "null_in": 22
+        }
+      },
+      "median_secs": 15.1
+    }
+  },
+  "median_secs_per_company": 23.4,
+  "S4_pass": true,
+  "S3_repairs_touching_a_scored_subtest": [],
+  "S3_pass": true
+}

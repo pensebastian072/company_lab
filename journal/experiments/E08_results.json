@@ -1,0 +1,410 @@
+{
+  "study": "E08_value_trap",
+  "as_of": "2026-08-12T14:50:09.230064+00:00",
+  "coverage": {
+    "rows": 67889,
+    "symbols": 675,
+    "share_computable_share_of_rows": 0.5984474657160954,
+    "d_share_computable_share_of_rows": 0.3781024908306206,
+    "median_peer_n": 6.0,
+    "merger_like_share_of_rows": 0.013124364771907083,
+    "limit": "peer group is S&P 500 members only - share of large-cap LISTED peers, not true market share"
+  },
+  "h1": {
+    "hypothesis": "H1: within the top decile, rising share beats declining share",
+    "1y": {
+      "rising_share": {
+        "n": 1624,
+        "mean": 0.022363227183243004,
+        "median": -0.011448665264893076,
+        "share_above_zero": 0.4852216748768473,
+        "n_dates": 79
+      },
+      "declining_share": {
+        "n": 420,
+        "mean": 0.005704841186135969,
+        "median": 0.001837136636670289,
+        "share_above_zero": 0.5047619047619047,
+        "n_dates": 72
+      },
+      "rising_share_ex_mergers": {
+        "n": 1528,
+        "mean": 0.0160426042548621,
+        "median": -0.01382685488231905,
+        "share_above_zero": 0.47971204188481675,
+        "n_dates": 79
+      },
+      "declining_share_ex_mergers": {
+        "n": 418,
+        "mean": 0.007041490459924508,
+        "median": 0.0029765314774796714,
+        "share_above_zero": 0.507177033492823,
+        "n_dates": 72
+      }
+    },
+    "3y": {
+      "rising_share": {
+        "n": 1060,
+        "mean": -0.060681063743860335,
+        "median": -0.24747023387996359,
+        "share_above_zero": 0.330188679245283,
+        "n_dates": 55
+      },
+      "declining_share": {
+        "n": 228,
+        "mean": 0.09366337473013614,
+        "median": -0.16725838227349776,
+        "share_above_zero": 0.4342105263157895,
+        "n_dates": 48
+      },
+      "rising_share_ex_mergers": {
+        "n": 1006,
+        "mean": -0.05452223008738516,
+        "median": -0.2534154284039274,
+        "share_above_zero": 0.3290258449304175,
+        "n_dates": 55
+      },
+      "declining_share_ex_mergers": {
+        "n": 228,
+        "mean": 0.09366337473013614,
+        "median": -0.16725838227349776,
+        "share_above_zero": 0.4342105263157895,
+        "n_dates": 48
+      }
+    },
+    "checks": {
+      "1y": false,
+      "3y": false
+    },
+    "passes": false
+  },
+  "h2": {
+    "hypothesis": "H2: harvesting is the worst quadrant, worse than plain losing",
+    "1y": {
+      "buying_share": {
+        "n": 5097,
+        "mean": -0.07444062613756994,
+        "median": -0.11555290650397576,
+        "share_above_zero": 0.34569354522268003,
+        "n_dates": 79
+      },
+      "harvesting": {
+        "n": 5573,
+        "mean": 0.013814076617175168,
+        "median": -0.02457765314200011,
+        "share_above_zero": 0.45648663197559664,
+        "n_dates": 79
+      },
+      "losing": {
+        "n": 3604,
+        "mean": 0.007348045021900081,
+        "median": -0.0642554295986868,
+        "share_above_zero": 0.4078801331853496,
+        "n_dates": 79
+      },
+      "winning": {
+        "n": 5812,
+        "mean": -0.019894237009025456,
+        "median": -0.0636625595341278,
+        "share_above_zero": 0.4146593255333792,
+        "n_dates": 79
+      }
+    },
+    "1y_top_decile_only": {
+      "buying_share": {
+        "n": 244,
+        "mean": -0.09219563499452875,
+        "median": -0.0989354361131225,
+        "share_above_zero": 0.3483606557377049,
+        "n_dates": 76
+      },
+      "harvesting": {
+        "n": 345,
+        "mean": 0.01872985678127833,
+        "median": 0.019909632522135734,
+        "share_above_zero": 0.5217391304347826,
+        "n_dates": 71
+      },
+      "losing": {
+        "n": 57,
+        "mean": -0.0731327218399585,
+        "median": -0.03414620966938542,
+        "share_above_zero": 0.40350877192982454,
+        "n_dates": 39
+      },
+      "winning": {
+        "n": 1298,
+        "mean": 0.04589016439295242,
+        "median": 0.011292818575380448,
+        "share_above_zero": 0.5154083204930663,
+        "n_dates": 79
+      }
+    },
+    "3y": {
+      "buying_share": {
+        "n": 3386,
+        "mean": -0.1638093055985116,
+        "median": -0.3115796224951505,
+        "share_above_zero": 0.26845835794447725,
+        "n_dates": 55
+      },
+      "harvesting": {
+        "n": 3577,
+        "mean": -0.011998949672654137,
+        "median": -0.14265451563851106,
+        "share_above_zero": 0.3762929829466033,
+        "n_dates": 55
+      },
+      "losing": {
+        "n": 2334,
+        "mean": 0.04055964255845713,
+        "median": -0.1844373706399136,
+        "share_above_zero": 0.3389031705227078,
+        "n_dates": 55
+      },
+      "winning": {
+        "n": 3276,
+        "mean": -0.11606791741660519,
+        "median": -0.2825730591456129,
+        "share_above_zero": 0.3144078144078144,
+        "n_dates": 55
+      }
+    },
+    "3y_top_decile_only": {
+      "buying_share": {
+        "n": 171,
+        "mean": 0.27508748878648354,
+        "median": -0.15123189184622188,
+        "share_above_zero": 0.4093567251461988,
+        "n_dates": 54
+      },
+      "harvesting": {
+        "n": 189,
+        "mean": 0.14087321159116717,
+        "median": -0.09681648009755062,
+        "share_above_zero": 0.4656084656084656,
+        "n_dates": 47
+      },
+      "losing": {
+        "n": 31,
+        "mean": -0.1880190084219689,
+        "median": -0.27367941186479117,
+        "share_above_zero": 0.1935483870967742,
+        "n_dates": 23
+      },
+      "winning": {
+        "n": 831,
+        "mean": -0.126123201680795,
+        "median": -0.2712771377956631,
+        "share_above_zero": 0.31167268351383876,
+        "n_dates": 55
+      }
+    },
+    "checks": {
+      "harvesting_worse_than_winning": false,
+      "harvesting_worse_than_losing": false,
+      "harvesting_worse_than_buying_share": false
+    },
+    "passes": false
+  },
+  "h3": {
+    "hypothesis": "H3: excluding declining-share names raises the top decile's MEDIAN excess over SPY above zero",
+    "criterion": "median excess > 0.0",
+    "1y": {
+      "unfiltered": {
+        "n": 5975,
+        "mean": 0.03511409281203448,
+        "median": -0.010994200626769257,
+        "share_above_zero": 0.48552301255230124,
+        "n_dates": 108
+      },
+      "unfiltered_where_share_known": {
+        "n": 2044,
+        "mean": 0.018940271156440192,
+        "median": -0.008233608041882001,
+        "share_above_zero": 0.4892367906066536,
+        "n_dates": 79
+      },
+      "filtered_excluding_declining_share": {
+        "n": 5555,
+        "mean": 0.03733765459113031,
+        "median": -0.01170520461294089,
+        "share_above_zero": 0.4840684068406841,
+        "n_dates": 108
+      },
+      "rising_share_only": {
+        "n": 1624,
+        "mean": 0.022363227183243004,
+        "median": -0.011448665264893076,
+        "share_above_zero": 0.4852216748768473,
+        "n_dates": 79
+      },
+      "rising_share_only_ex_mergers": {
+        "n": 1528,
+        "mean": 0.0160426042548621,
+        "median": -0.01382685488231905,
+        "share_above_zero": 0.47971204188481675,
+        "n_dates": 79
+      },
+      "excluded_declining_share": {
+        "n": 420,
+        "mean": 0.005704841186135969,
+        "median": 0.001837136636670289,
+        "share_above_zero": 0.5047619047619047,
+        "n_dates": 72
+      },
+      "unknown_share_retained": {
+        "n": 3931,
+        "mean": 0.043523986341425146,
+        "median": -0.012197131264293004,
+        "share_above_zero": 0.48359196133299415,
+        "n_dates": 108
+      },
+      "share_of_top_decile_excluded": 0.08571010677197602
+    },
+    "3y": {
+      "unfiltered": {
+        "n": 4590,
+        "mean": 0.12050724557703074,
+        "median": -0.07424384679752516,
+        "share_above_zero": 0.45250544662309367,
+        "n_dates": 84
+      },
+      "unfiltered_where_share_known": {
+        "n": 1288,
+        "mean": -0.033359222150637344,
+        "median": -0.23998526660029706,
+        "share_above_zero": 0.34860248447204967,
+        "n_dates": 55
+      },
+      "filtered_excluding_declining_share": {
+        "n": 4362,
+        "mean": 0.12191036399818893,
+        "median": -0.07141145004104776,
+        "share_above_zero": 0.4534617148097203,
+        "n_dates": 84
+      },
+      "rising_share_only": {
+        "n": 1060,
+        "mean": -0.060681063743860335,
+        "median": -0.24747023387996359,
+        "share_above_zero": 0.330188679245283,
+        "n_dates": 55
+      },
+      "rising_share_only_ex_mergers": {
+        "n": 1006,
+        "mean": -0.05452223008738516,
+        "median": -0.2534154284039274,
+        "share_above_zero": 0.3290258449304175,
+        "n_dates": 55
+      },
+      "excluded_declining_share": {
+        "n": 228,
+        "mean": 0.09366337473013614,
+        "median": -0.16725838227349776,
+        "share_above_zero": 0.4342105263157895,
+        "n_dates": 48
+      },
+      "unknown_share_retained": {
+        "n": 3302,
+        "mean": 0.18052541954227497,
+        "median": -0.012609392644878703,
+        "share_above_zero": 0.49303452453058755,
+        "n_dates": 84
+      },
+      "share_of_top_decile_excluded": 0.08571010677197602
+    },
+    "checks": {
+      "median_3y_excess_above_zero": false,
+      "enough_date_clusters": true
+    },
+    "passes": false
+  },
+  "h4": {
+    "hypothesis": "H4: d_share_3y carries information independent of the score",
+    "1y": {
+      "raw_ic": {
+        "n_months": 79,
+        "mean_ic": -0.0658908933514547,
+        "median_ic": -0.07181169509736769,
+        "share_positive": 0.11392405063291139
+      },
+      "partial_ic_controlling_for_score": {
+        "n_months": 79,
+        "mean_ic": -0.07567165145047516,
+        "median_ic": -0.07941105773048938,
+        "share_positive": 0.12658227848101267
+      },
+      "n": 21321
+    },
+    "3y": {
+      "raw_ic": {
+        "n_months": 55,
+        "mean_ic": -0.08958746065594003,
+        "median_ic": -0.10716112531969312,
+        "share_positive": 0.05454545454545454
+      },
+      "partial_ic_controlling_for_score": {
+        "n_months": 55,
+        "mean_ic": -0.10031899497161781,
+        "median_ic": -0.10540870795549555,
+        "share_positive": 0.01818181818181818
+      },
+      "n": 13347
+    },
+    "checks": {
+      "partial_ic_3y_positive": false
+    },
+    "passes": false
+  },
+  "per_year": {
+    "2019": {
+      "rising_n": 137,
+      "rising_median": -0.15755047572740333,
+      "declining_n": 31,
+      "declining_median": 0.33628213246692584
+    },
+    "2020": {
+      "rising_n": 254,
+      "rising_median": -0.07855746539595454,
+      "declining_n": 63,
+      "declining_median": -0.2809492643006952
+    },
+    "2021": {
+      "rising_n": 259,
+      "rising_median": -0.2642673181240873,
+      "declining_n": 48,
+      "declining_median": 0.08311335366991801
+    },
+    "2022": {
+      "rising_n": 258,
+      "rising_median": -0.41431801466862617,
+      "declining_n": 58,
+      "declining_median": -0.26802163376474364
+    },
+    "2023": {
+      "rising_n": 152,
+      "rising_median": -0.5646738819680943,
+      "declining_n": 28,
+      "declining_median": -0.43602231776906475
+    },
+    "2024": {
+      "rising_n": 0,
+      "rising_median": null,
+      "declining_n": 0,
+      "declining_median": null
+    },
+    "2025": {
+      "rising_n": 0,
+      "rising_median": null,
+      "declining_n": 0,
+      "declining_median": null
+    },
+    "2026": {
+      "rising_n": 0,
+      "rising_median": null,
+      "declining_n": 0,
+      "declining_median": null
+    }
+  }
+}

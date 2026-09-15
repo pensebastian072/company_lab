@@ -1,0 +1,565 @@
+# COMPANY LAB - E65 PHASE A: INFORMATION TECHNOLOGY INDUSTRY OBJECTS
+
+Work in:
+
+  repository: C:\Users\<your-user>\company_lab
+  research tree: D:\company_lab_data\external
+
+Phase A only. Build and verify Information Technology industry objects. Do not research
+companies, create a company roster, run `clab.external.request`, run
+`clab.external.finalize`, or touch `journal\flags\external_research_request.json`.
+
+Everything remains advisory / SHADOW. `promoted` is false everywhere and no code path may
+set it true.
+
+## READ THIS FIRST - FOUR RULES, AND THE FIRST ONE IS NOW CODE
+
+The last Phase A run shipped 25 objects that concluded nothing. It was accepted, then
+measured, and the measurement is why these four rules exist. Three are earned. One is now
+enforced by the pipeline whether or not you agree with it.
+
+### 1. Every structural field is answered, or the object is retired automatically
+
+`clab.external.batch_health.enforce()` runs against the store after ingest.
+
+  - An object answering **ZERO** of the three structural ordinals - `structural_growth`,
+    `replication_difficulty`, `substitution_risk` - is marked SUPERSEDED with no
+    replacement. Automatically. The companies that resolve to it then show as having no
+    current industry object, which is the honest state and is worse than nothing shipped.
+  - An object answering **one or two** survives, and is reported as `below_ship_bar` for
+    you to justify. It is not deleted, because a reasoned UNKNOWN is a result: E53's
+    utilities returned `market_share_direction` UNKNOWN 59 times out of 59 and were
+    correct, since a rate-regulated monopoly has no contestable share.
+  - The ship bar is 3 of 3. It is not a new or harsh bar. Measured on the live store
+    2026-09-09, after the retirement pass: **49 of 60 active objects clear it** -
+    Communication Services 11/11, Utilities 7/7, **IT 5/5**, Real Estate 1/1, Energy 7/8,
+    Financials 18/22, Industrials 0/6. The eleven that do not are partials at 1 or 2 of 3,
+    kept for the reason above. Industrials shipped 26 and 20 of them are gone.
+
+This is stated so you know what happens, not to make you assert. Asserting an unevidenced
+categorical to clear the gate is the other error and it costs the same - see THE TWO
+ERRORS below. The gate deletes empty objects; it does not reward invented ones, and every
+categorical still needs a claim naming that field or the finalizer strips it.
+
+### 2. An UNKNOWN needs a written reason naming what was looked for
+
+For every field you leave UNKNOWN, the object's report entry must carry:
+
+  - the specific evidence you went looking for (name the document, filing item, statistic
+    or regulator - "no data" is not a reason),
+  - where you looked and what came back,
+  - and which of the two it was: **evidence genuinely absent**, or **you stopped short**.
+
+"I stopped short" is an acceptable answer and we want it recorded. What is not acceptable
+is a blank. This rule is what separates the two cases the gate cannot tell apart, and
+without it a below-bar object cannot be reviewed at all.
+
+### 3. Depth follows the evidence - a uniform claim count is a quota, and a quota has produced a defect twice
+
+E54 returned exactly 5 claims per company. E57 returned exactly one claim per field. Both
+uniformities were the artifact, not the finding: E57 passed 66 of 66 literal quote checks
+while a later audit found only 11 passages directly established their assigned field, and
+all 11 Health Care objects were retired.
+
+A well-documented industry with three regulators and a trade association should carry more
+claims than a six-company niche with two public filers. If your claim counts come back
+near-identical across twelve structurally different industries, that is a signal you
+allocated by budget instead of by evidence, and you should say so.
+
+Aim for at least eight field-specific claims and three genuinely independent organizations
+per object. **Aim** is exact: if the evidence is not there, return fewer claims and say
+why. Do not pad, and do not manufacture a domain.
+
+### 4. Context is not support, and source diversity is part of the deliverable
+
+Measured on the live corpus today:
+
+  - **`stance` is currently a per-run labelling habit, not a property of the evidence, and
+    that is our defect rather than yours.** Across 508 industry-object claims: Health Care
+    filed 63 SUPPORTS and 0 CONTEXT, Communication Services 44 and 11, IT 22 and 4 - while
+    Financials filed 29 SUPPORTS against 103 CONTEXT and Industrials 11 against 134. Three
+    sectors never filed a single FACT claim; one never filed an INFERENCE. A field that is
+    ~100% one value in one run and ~100% the other in the next is measuring the run.
+    Because of that we cannot presently tell context-only evidence from unlabelled
+    support, which is exactly why the two labels below are demanded explicitly.
+  - Of the 26 objects the Industrials tree shipped, **20 have ZERO claims labelled
+    SUPPORTS**, and those same 20 are exactly the 20 that answered 0 of 3 and have since
+    been auto-retired. Do not over-read it: eleven Financials objects also carry zero
+    SUPPORTS labels **and answer all three fields**, so the label alone does not separate a
+    good object from an empty one (measured 2026-09-09, `journal/experiments/E78_results.md`).
+    The claim that survives both is narrower and still worth acting on: **an object with no
+    passage that actually supports a field has nothing that can answer one.**
+  - **25 of those 26 objects use a single independence domain.** 140 of 145 claims are
+    `COMPETITOR_FILING`. Independent issuers give organization diversity; they do not give
+    source-type diversity, and confidence in this system counts distinct domains.
+
+Two mechanical traps that produced part of the above:
+
+  - `stance` **defaults to CONTEXT** when the field is omitted from a claim, and
+    `fact_or_inference` defaults to INFERENCE. Set both explicitly on every claim. A claim
+    you meant as support but left unlabelled is stored as context.
+  - `independence_domain` is a label, so it is a lever. `research_ingest.evidence_profile()`
+    checks it structurally: claims vs distinct URLs vs distinct hosts vs distinct domains,
+    how many domains rest on a single claim, and whether one host was filed under two
+    domains. On an earlier delivery it caught `www.se.com` entered as both
+    `COMPETITOR_FILING` and `SUPPLIER`, manufacturing a fourth domain out of one
+    organization. Do not relabel to diversify. Find another organization, or report the
+    concentration.
+
+`evidence_profile()` output per object is a required part of your report.
+
+## EXACT STARTING DENOMINATOR
+
+The live book contains 190 Information Technology companies in 17 research units.
+
+### Five objects exist, pass 3 of 3, and must not be rebuilt
+
+  ai_accelerators           2   AMD NVDA
+  cloud_infrastructure      2   MSFT ORCL
+  cybersecurity             4   CRWD FTNT OKTA PANW
+  dram_hbm                  1   MU
+  semiconductor_equipment  21   ACLS ACMR AEIS AMAT COHU ENPH ENTG FORM ICHR KLAC
+                                KLIC LRCX MKSI ONTO PDFS PLAB Q SEDG TER UCTT VECO
+
+They cover 30 companies. `semiconductor_equipment` is also the deepest IT object in the
+corpus - 9 claims, 9 distinct URLs, 4 independence domains - and it is the internal
+benchmark for this run. The other four sit at 4-5 claims, 2 URLs and 2 domains each.
+
+Note but do not fix: ENPH and SEDG (solar inverters) sit inside a semiconductor bucket
+because GICS puts solar there. `semiconductor_equipment` is protected, so flag that
+membership for review and leave the object alone. FSLR is inside `semiconductors`, which
+IS in scope - see the taxonomy checkpoint.
+
+### The 12 units to build, 160 companies
+
+  application_software                             36
+    ACIW ADBE ADSK AGYS APPF BILL BL BLKB BOX BSY CALX CDNS CRM CXM DBX DDOG
+    DLB DOCU DT FIVN GWRE INTU LIF MANH PEGA PLTR PTC QTWO RAMP RNG SNPS SPSC
+    TRMB TYL WDAY YOU
+
+  semiconductors                                   29
+    ADI ALGM AMKR AOSL AVGO CRUS DIOD FSLR INTC LSCC MCHP MPWR MRVL MTSI MXL
+    NXPI OLED ON PENG POWI QCOM QRVO RMBS SITM SLAB SMTC SWKS SYNA TXN
+
+  electronic_equipment_instruments                 17
+    ADIG BMI CGNX CXT DBD ITRI KEYS MIR NOVT NSSC OSIS PI RAL ROP TDY VNT ZBRA
+
+  communications_equipment                         14
+    ANET ARLO CIEN CSCO DGII EXTR FFIV HLIT IDCC LITE MSI NTCT VIAV VSAT
+
+  it_consulting_other_services                     11
+    ACN ADEA CTSH DXC EFOR EPAM IBM IT KD TDC VYX
+
+  technology_hardware_storage_peripherals          11
+    AAPL CRSR DELL HPE HPQ NTAP P SMCI SNDK STX WDC
+
+  electronic_manufacturing_services                10
+    BHE CTS FLEX FN IPGP JBL PLXS SANM TEL TTMI
+
+  systems_software                                 10
+    ATEN CVLT GEN NABL NOW NTNX PATH PRGS QLYS TWLO
+
+  electronic_components                             8
+    APH BDC COHR GLW KN LFUS ROG VSH
+
+  technology_distributors                           7
+    ARW AVT CDW CNXN PLUS SCSC SNX
+
+  internet_services_infrastructure                  6
+    AKAM CLSK DOCN GDDY MARA VRSN
+
+  us_credit_scoring                                 1
+    FICO
+
+30 + 160 = 190. Recompute this yourself through `clab.external.taxonomy.industry_id` over
+the live book before you start; if the book has moved, the book wins, not this prompt.
+Several of these tickers are unusual - PENG, ADIG, RAL, LIF, YOU, P, KD, EFOR, Q. Confirm
+each against its book row rather than assuming a typo or a rename.
+
+### Two of the twelve are cross-sector and are NOT clean builds
+
+  `technology_distributors` already has an object at version `2026-09-08`, built by the
+  Industrials run, carrying `sector_id: "industrials"` and answering **1 of 3**
+  (MODERATE / UNKNOWN / UNKNOWN) on 7 claims, 3 URLs, 1 independence domain and 1 SUPPORTS
+  claim. Seven of its eight members are IT names; NSIT is the Industrials one. **Rebuild
+  it as a new version.** Keep `sector_id: "industrials"` - ownership follows the first
+  builder here, and the IT sector object lists it under `major_industries` instead. Do not
+  copy its conclusions; re-evidence them or change them.
+
+  `us_credit_scoring` already has an object at version `2026-09-01`, `sector_id:
+  "financials"`, answering **2 of 3** - `replication_difficulty` HIGH,
+  `substitution_risk` ELEVATED, `structural_growth` UNKNOWN. Its members are FICO (IT),
+  EFX and TRU (Industrials). This is the smallest piece of work in the run and the easiest
+  to do badly: **the only gap is `structural_growth`.** Either evidence it and ship a new
+  version with the other two fields re-evidenced rather than copied, or leave the object as
+  it stands and file the rule-2 written UNKNOWN reason. Say which you did. Keep
+  `sector_id: "financials"`.
+
+## TAXONOMY CHECKPOINT COMES BEFORE OBJECT CONSTRUCTION
+
+An incoherent shared unit returns UNKNOWN on every field and is worse than several narrow
+objects. Four buckets here look mixed on inspection and should be tested first. These are
+starting suspicions from a ticker read, not verdicts - test them from evidence:
+
+  - `internet_services_infrastructure` (6) mixes CDN / DNS / registrar economics (AKAM,
+    VRSN, GDDY, DOCN) with **bitcoin miners** (CLSK, MARA). Hash rate, power cost and
+    halving cycles have no shared metric with domain renewals. This is the strongest split
+    candidate in the sector.
+  - `semiconductors` (29) mixes fabless digital (AVGO, QCOM, MRVL), analog and
+    mixed-signal (ADI, TXN, MPWR, POWI, DIOD), RF front-end (QRVO, SWKS), OSAT packaging
+    (AMKR), IP and materials licensing (RMBS, OLED), an IDM (INTC) and a solar module
+    maker (FSLR). Capital intensity, cycle and customer structure differ across those.
+  - `technology_hardware_storage_peripherals` (11) mixes a consumer platform (AAPL),
+    HDD/NAND storage (STX, WDC, SNDK, NTAP) and AI server ODMs (SMCI, DELL, HPE). Storage
+    is a supply-cycle commodity business; server ODM is a pass-through-margin business.
+  - `electronic_equipment_instruments` (17) mixes test and measurement (KEYS, TDY),
+    machine vision (CGNX), utility metering (BMI, ITRI), auto-ID (ZBRA) and a diversified
+    conglomerate (ROP).
+
+Also test, without a prior: `application_software` (36, the largest unit in the sector -
+vertical and horizontal software have different retention and TAM arguments) and
+`it_consulting_other_services` (11, staffing-shaped consultancies against IBM).
+
+Before writing any new `industry_state.json`:
+
+1. Recompute membership for all 190 names through `clab.external.taxonomy.industry_id`.
+2. Read the five protected objects and the existing IT sector object. Preserve them.
+3. Test each in-scope unit for shared customers, economics, cycle, regulatory regime and
+   metrics.
+4. Write `D:\company_lab_data\external\reports\E65_it_taxonomy_checkpoint.md` with every
+   keep/split decision, the economic reason and the exact ticker map.
+5. If a split is justified, edit **only the Information Technology entries** in
+   `clab/external/taxonomy.py`, add focused taxonomy tests, run them, and recompute the
+   roster before research. Another session owns the other sectors' overrides in that file.
+   A one-company object is allowed when it describes a real industry with private or
+   foreign competitors; it is not allowed merely to isolate a difficult company.
+
+Twelve is the starting count, not a target to preserve. If you cannot defend a change from
+evidence, keep the unit and flag it.
+
+## OBJECT CONTRACT
+
+Use a current object as the schema template; do not copy its conclusions. Each object:
+
+  industry_id, sector_id="information_technology", version="2026-09-09", status="SHADOW"
+  structural_growth
+  market_structure
+  key_participants
+  moat_mechanism
+  replication_difficulty
+  technology_trajectory
+  regulatory_trajectory
+  substitution_risk
+  key_metrics
+  refresh_class
+  next_refresh_due
+  claims
+  last_updated
+
+(`technology_distributors` keeps `sector_id: "industrials"` and `us_credit_scoring` keeps
+`sector_id: "financials"`, per the cross-sector note above.)
+
+Enforced vocabularies:
+
+  structural_growth        DECLINING | FLAT | MODERATE | HIGH | EXCEPTIONAL | UNKNOWN
+  replication_difficulty   LOW | MODERATE | HIGH | EXTREME | UNKNOWN
+  substitution_risk        SEVERE | ELEVATED | MODERATE | LOW | UNKNOWN
+  refresh_class            STRUCTURAL | QUARTERLY | EVENT_DRIVEN
+
+Free-text caps, enforced on ingest:
+
+  market_structure 1500 chars   moat_mechanism 1000
+  technology_trajectory 1000    regulatory_trajectory 1000
+
+Claim contract, enforced on ingest:
+
+  claim_id            must match ^c_[0-9a-f]{12}$ and be unique within the object
+  field               required, and it must name the field the claim supports
+  text                required
+  quote               required, <= 300 chars, and must appear LITERALLY in `excerpt`
+  excerpt             required, and must be a passage you actually read
+  source_url          required
+  source_date         required
+  stance              SUPPORTS | CONTRADICTS | CONTEXT   - REQUIRED on an industry claim
+  fact_or_inference   FACT | INFERENCE                   - REQUIRED on an industry claim
+
+Those two are now enforced: an industry-object claim that omits either is rejected at
+ingest with "no stance - it must be stated, not left to a default". They used to be
+silently filled in with CONTEXT and INFERENCE, which is how two entire sector runs came to
+read as context-only evidence when they had simply never used the labels. The requirement
+is on industry objects only; the company lane records NULL and counts it, because a
+42-company batch must not be rejected wholesale over a label.
+  source_type         SEC_FILING | EARNINGS_CALL | INVESTOR_PRESENTATION | REGULATOR |
+                      TRADE_PUBLICATION | PRIMARY_DATA | COMPANY_IR | NEWS | OTHER
+  independence_domain COMPANY_IR | COMPETITOR_FILING | CUSTOMER | SUPPLIER | REGULATOR |
+                      TRADE_PRESS | PRIMARY_DATA | ACADEMIC
+
+`verify_status` is assigned locally after a re-fetch. Never send it.
+
+The IT sector object is updated to a new version rather than recreated. Its
+`major_industries` must include every active IT research unit after the taxonomy
+checkpoint, including the five protected ones and both cross-sector units - an entry that
+points at no built object is rejected on ingest. Its current `capital_cycle` is UNKNOWN and
+its `current_winners` / `current_losers` are empty; re-attempt all three, and if they stay
+empty, rule 2 applies to them too.
+
+## ONE FIELD, ONE SEMANTIC RECEIPT
+
+Quote containment is necessary and not sufficient. E57 passed 66 of 66 literal quote checks
+while a field-by-field audit found only 11 passages directly supported the complete field
+claim - the builder had assigned each of three source windows to a fixed pair of fields.
+
+Do not create a `FIELD_SOURCE_INDEX` or any equivalent pairing shortcut.
+
+- One claim backs one field.
+- Never attach an identical quote/excerpt window to two fields. The expected count of
+  reused windows in your report is zero.
+- The same URL may back two claims only when two genuinely different passages establish
+  two different facts; create separate claims and explain the distinction.
+- For each non-UNKNOWN categorical, provide a claim whose passage directly supports that
+  categorical's field, scope and direction - and whose `stance` is SUPPORTS.
+- Support the material assertions in `market_structure`, `moat_mechanism`,
+  `technology_trajectory`, `regulatory_trajectory` and `key_metrics` with field-specific
+  receipts. A generic company description is not a replication-difficulty receipt; an
+  export-control proposal is not a realized outcome; a metric used by one segment is not
+  an industry metric without a scope argument.
+- Compare peer metrics only on the same period, definition and economic basis. If the
+  bases differ, say so and do not rank them.
+- Distinguish proposed, approved, implemented and realized events. This matters more in IT
+  than in the sectors done so far: export controls, entity-list additions and the EU AI Act
+  each have a proposal date, an effective date and a compliance date, and they are not the
+  same event.
+
+## METRICS TO START THE RESEARCH, NOT ANSWERS TO COPY
+
+  application_software
+    net revenue retention, ARR or subscription mix, billings, RPO and backlog, seat versus
+    consumption pricing, gross margin, R&D intensity, churn, vertical lock-in and
+    switching cost, and whether AI features are priced or bundled
+
+  semiconductors
+    define the segment before choosing metrics; candidates include node and process
+    exposure, fab versus fabless capital intensity, foundry dependence, ASP and unit
+    trends, inventory and channel weeks, book-to-bill, design-win cycle length, end-market
+    mix, export-control and entity-list exposure, and content per unit
+
+  electronic_equipment_instruments
+    orders and book-to-bill, installed base and service or consumables mix, calibration
+    and recurring revenue, R&D intensity, regulated-metrology exposure, utility capex
+    cycles, and end-market concentration
+
+  communications_equipment
+    carrier and hyperscaler capex, orders and backlog, port or unit shipments, optics
+    attach rate, ASP erosion, standards-cycle timing, essential-patent and licensing
+    revenue, and customer concentration
+
+  it_consulting_other_services
+    bookings and book-to-bill, backlog, utilization, bill rates, headcount and attrition,
+    offshore mix, revenue per employee, contract mix (time-and-materials versus fixed),
+    client concentration, and whether AI delivery is compressing billable hours
+
+  technology_hardware_storage_peripherals
+    name the business first; candidates include unit shipments, ASP, exabytes shipped,
+    NAND or HDD cost per terabyte, supply-cycle position, attach and refresh cycles,
+    channel inventory, server ODM pass-through margin, and customer concentration
+
+  electronic_manufacturing_services
+    capacity utilization, inventory turns and cash cycle, program wins and ramp timing,
+    customer concentration, pass-through material cost, regional footprint and tariff
+    exposure, and margin per revenue dollar rather than gross margin level
+
+  systems_software
+    net revenue retention, consumption versus seat mix, RPO, cloud migration progress,
+    gross margin, infrastructure-cost pass-through, platform lock-in, and displacement by
+    hyperscaler-native tooling
+
+  electronic_components
+    content per device or vehicle, book-to-bill, distributor inventory weeks, ASP and
+    price-cost, capacity and utilization, qualification cycle length as a barrier, and
+    end-market mix (auto, industrial, consumer)
+
+  technology_distributors
+    billings versus net revenue basis - state which and do not mix them, gross margin,
+    working capital and inventory turns, vendor and customer concentration, cloud
+    marketplace and services mix, credit exposure, and channel consolidation
+
+  internet_services_infrastructure
+    if this unit survives the taxonomy checkpoint intact, justify a shared metric before
+    choosing one; otherwise per split: registrations, renewal rate and price for
+    registry/registrar, traffic and delivered bits for CDN, and hash rate, power cost per
+    megawatt-hour and network difficulty for mining
+
+  us_credit_scoring
+    score volumes and mortgage inquiry counts, price per score, regulatory pricing
+    scrutiny, alternative-data entrants, and lender adoption of competing models
+
+`key_participants` is the comparison set for later company research. Name real private and
+foreign competitors - in IT that means TSMC, Samsung, SK hynix, Huawei, ARM licensees,
+private security and software vendors, and the hyperscalers' internal silicon. Do not infer
+market leadership from revenue size alone.
+
+## THE TWO ERRORS COST THE SAME
+
+There are two ways to be wrong here and they are equally bad.
+
+  ASSERTING what you cannot evidence.   A categorical with no claim naming that field is
+                                        removed by the finalizer. It corrupts the score
+                                        and it wastes the search that produced it.
+
+  ABSTAINING when you could have        An UNKNOWN on a field that the evidence would
+  established it.                       have supported is a silent loss. It costs the
+                                        company real points - the score divides by what
+                                        APPLIES, not by what you answered - and unlike a
+                                        bad assertion nothing in the pipeline catches it.
+
+Neither is the safe choice. UNKNOWN is not a way to avoid being wrong; it is a different
+way to be wrong, and it is the one that leaves no trace.
+
+For every field you leave UNKNOWN, say in the report which you were closer to: was the
+evidence genuinely absent, or did you stop short? An honest "I stopped short" is more
+useful to us than a confident blocking claim, and it costs you nothing.
+
+## WHAT UNKNOWN MEANS
+
+UNKNOWN means the evidence to establish this field does not exist or could not be
+reached. It does NOT mean:
+
+  - the answer is uncertain          -> give the answer your evidence supports
+  - the answer is mid-range          -> MODERATE and STABLE are real values, use them
+  - peers are hard to compare        -> say so AND give your best-evidenced reading
+  - the field feels risky to answer  -> that is the abstention error, see above
+
+UNKNOWN scores as NO_DATA and never as zero, so it does not drag a company down relative
+to its peers. That is exactly why it is tempting and exactly why it must be earned.
+
+## CITATIONS ARE REQUIRED, AND THEY ARE NOT A REASON TO ABSTAIN
+
+Every non-UNKNOWN categorical needs a claim whose `field` names it. That rule exists to
+stop unbacked assertion, NOT to discourage answering. If you can evidence a field, cite
+it and answer it. If the citation requirement is what is stopping you from answering a
+field you believe you could establish, say so explicitly in the report - that is a
+finding about our process and we want it.
+
+## THE BLIND PASS - DO NOT OPEN A CONCLUSIONS FILE, ASK FOR IT
+
+`journal\flags\external_research_conclusions.json` holds what our local model concluded
+(SG and BQ). It is withheld during pass A on purpose, and it is now withheld
+MECHANICALLY - it is not written to disk until we release it.
+
+  1. Write pass A from the request and your own research only.
+  2. FREEZE it: write `<request_id>.pass_a.json` and tell us it is frozen.
+  3. We release the conclusions and record your frozen pass A's sha256.
+  4. Then write pass B reconciliation. Never edit pass A afterwards - the hash will not
+     match and we will see it.
+
+If a conclusions file is present before step 3, it is stale from an earlier request.
+**Do not read it. Say it is there.** You are not being asked to resist temptation; if
+you can see it, that is our bug and we want to know.
+
+For this Phase A object run there is no request and no pass A/B company reconciliation.
+The rule still applies: do not open or use a conclusions file.
+
+## COMPETITIVE_POSITION_TREND - ATTEMPT IT ONLY WHERE A SHARED METRIC EXISTS
+
+Do not spend searches forcing this one. Measured across four sectors:
+
+  works    banks (NIM), insurers (combined ratio), oilfield services (operating margin)
+           - 27 of 45 in E45, 11 of 52 in Energy
+  fails    regulated utilities - 0 of 59, TWICE, and correctly: authorised ROE is set per
+           rate case on different schedules by different commissions, and rate-base CAGR
+           moves with capex plans that are not comparable
+
+The rule: name the metric FIRST. If the peers in this industry file a shared metric on a
+comparable basis over the same two periods, rank-order on it and answer. If they do not,
+return UNKNOWN with "no comparable two-period peer metric" and move on - one blocking
+claim, not a search campaign.
+
+We built a computed version to replace this and REFUSED it: 36% agreement against your
+researched values where chance alone predicts 34.3%, Cohen's kappa 0.026, and it got the
+sign wrong as often as right. So there is no fallback. Where you do not establish it, it
+stays empty, and that is accepted.
+
+**This carve-out is for THIS FIELD ONLY.** It is not licence to abstain elsewhere, and
+the two-errors rule above still governs the other eleven. A carve-out that spreads is how
+the last collapse happened.
+
+(That is a company field. It appears here because it is part of the canonical rules block,
+not because a Phase A object carries it.)
+
+## CLAIM AND SOURCE RULES
+
+1. No score, rank, rating, price target or gate. Company Lab computes every number.
+2. Every claim needs `source_url`, `source_date`, a verbatim quote no longer than 300
+   characters, and an excerpt actually read. The quote must appear literally in the
+   excerpt.
+3. Use primary filings, regulators, official statistics, standards bodies and credible
+   competitor disclosures where available. A company's IR is the weakest source. IT has
+   unusually good non-issuer sources - BIS and the Federal Register for export controls,
+   the FCC and ITU for spectrum and standards, SEMI and WSTS for semiconductor statistics,
+   USPTO and ETSI for essential patents, NIST and CISA for security requirements, the EU AI
+   Act official texts. Use them; they are how this sector reaches three independence
+   domains without relabelling anything.
+4. One organization gets one `independence_domain`. A company, its IR site and its filing
+   are not independent organizations.
+5. Never invent a number, date, source, quote, competitor or search count.
+6. UNKNOWN is NO_DATA, never zero.
+7. Every object and the sector object have `status: "SHADOW"`.
+8. Do not optimize for a verification rate. Report literal containment and semantic
+   support separately, with exact denominators.
+
+## BUILD, VALIDATE AND REPORT
+
+Write objects under:
+
+  D:\company_lab_data\external\research\industries\<industry_id>\industry_state.json
+  D:\company_lab_data\external\research\industries\<industry_id>\industry_brief.md
+
+Update:
+
+  D:\company_lab_data\external\research\sectors\information_technology\sector_state.json
+  D:\company_lab_data\external\research\sectors\information_technology\sector_brief.md
+
+Write the run report to:
+
+  D:\company_lab_data\external\reports\E65_it_phase_a.md
+
+Run `clab.external.research_ingest` in dry-run mode first. Do not apply to the DuckDB store
+until every object and the sector object pass the local schema and the taxonomy receipt
+matches the live book. After apply, run `clab.external.verify --apply`, then read the store
+back by exact `industry_id` and version. When counting object claims, filter on
+`ticker IS NULL`; `external_claim.industry_id` is also populated on company claims.
+
+The report must include:
+
+1. Starting roster and final roster, exact counts, every taxonomy change.
+2. Per object: member count, claim count, distinct URLs, distinct hosts, distinct
+   independence domains, domains resting on a single claim, host/domain conflicts, and the
+   SUPPORTS / CONTRADICTS / CONTEXT split. That is `evidence_profile()` output plus the
+   stance split - paste it, do not summarize it.
+3. Answered-field count per object (0-3), and for every UNKNOWN the rule-2 written reason:
+   what was looked for, where, what came back, and absent versus stopped short.
+4. Literal quote-containment results and a SEPARATE field-specific semantic-support audit,
+   each with its exact denominator. Number of identical quote/excerpt windows reused across
+   fields; expected value zero.
+5. Keep/split verdict and economic reason for each of the six buckets named in the taxonomy
+   checkpoint section.
+6. Searches, page fetches and cache hits as three separate counts. A cache replay is not a
+   search.
+7. Exact store readback after ingestion and verification. The generated report is not store
+   evidence.
+8. Whether your claim counts varied with the evidence or clustered around a number - and if
+   they clustered, say so plainly. Rule 3 is a rule about us catching ourselves, not only
+   about you.
+
+Budget 300-450 searches for the taxonomy checkpoint plus twelve units. Stop and report
+before going materially over 500. A partial, clearly receipted result is preferable to
+invented completion - and under the rule-1 gate, a unit you did not have time to evidence
+should be left unbuilt rather than shipped empty, because an empty object is deleted anyway
+and costs the search budget on the way.
+
+## WHAT YOU MUST NOT CLAIM
+
+This ranking is not validated. Its top decile ran a -7.6% median three-year excess return
+against SPY on a survivorship-free holdout, only 45.3% beat SPY, and 95.6% of ranking power
+came from sector selection. Completing IT buys coverage and a more honest research
+instrument. It does not establish predictive power. `promoted` remains false.

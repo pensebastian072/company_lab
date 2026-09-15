@@ -1,0 +1,70 @@
+{
+  "ticker": "CVI",
+  "cik": "0001376139",
+  "sector": "Energy",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001376139-24-000006",
+        "form": "10-K",
+        "filed": "2024-02-21",
+        "chars": 503045
+      },
+      "pack_secs": 28.7,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001376139-24-000025",
+        "form": "DEF 14A",
+        "filed": "2024-04-17",
+        "error": null,
+        "n_chunks": 139
+      },
+      "total_secs": 41.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001376139-25-000008",
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "chars": 533455
+      },
+      "pack_secs": 27.5,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 0,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001376139-25-000025",
+        "form": "DEF 14A",
+        "filed": "2025-04-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.1
+    }
+  }
+}

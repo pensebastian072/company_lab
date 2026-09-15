@@ -1,0 +1,70 @@
+{
+  "ticker": "BCPC",
+  "cik": "0000009326",
+  "sector": "Materials",
+  "decile": 6,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001628280-24-005397",
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "chars": 293013
+      },
+      "pack_secs": 25.7,
+      "components": {
+        "MG": {
+          "secs": 14.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-022464",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001628280-25-007202",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": 292585
+      },
+      "pack_secs": 24.0,
+      "components": {
+        "MG": {
+          "secs": 14.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-015747",
+        "form": "DEF 14A",
+        "filed": "2025-04-25",
+        "error": null,
+        "n_chunks": 138
+      },
+      "total_secs": 38.2
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp
+
+# regenerable outputs (bulk raw feeds live on D: and are never committed)
+data/scorecards/
+data/exports/
+data/scores.parquet
+data/scores.csv
+data/peer_stats.json
+journal/runs/
+journal/probes/
+journal/snapshots/
+journal/manifest/
+
+# Advisory lease files: runtime state whose whole point is a live pid and a TTL.
+# Committing one would hand a future clone a lease held by a process that never existed.
+journal/flags/.write_lease.json
+*.gpu_lease.json
+
+# secrets (none today - company_lab uses only keyless public sources)
+secrets/
+.env
+
+# The pass-B conclusions must not be readable during a blind pass. Withholding them from
+# DISK is not enough if they are in version control: `git show` lifts the blind whatever
+# the working tree looks like, and this file was tracked until 2026-09-06. History is left
+# intact as a record; from here it stays out.
+journal/flags/external_research_conclusions.json
+
+# Generated experiment panels: large and fully regenerable from the code here.
+*.parquet

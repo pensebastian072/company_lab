@@ -1,0 +1,48 @@
+{
+  "ticker": "AZZ",
+  "cik": "0000008947",
+  "sector": "Industrials",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "intellectual_property",
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 17.0,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "economies_of_scale",
+      "manufacturing_complexity"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 23.9,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 7,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers"
+    ]
+  }
+}

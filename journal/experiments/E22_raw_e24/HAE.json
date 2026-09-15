@@ -1,0 +1,70 @@
+{
+  "ticker": "HAE",
+  "cik": "0000313143",
+  "sector": "Health Care",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000313143-24-000020",
+        "form": "10-K",
+        "filed": "2024-05-20",
+        "chars": 463576
+      },
+      "pack_secs": 25.0,
+      "components": {
+        "MG": {
+          "secs": 12.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000313143-24-000040",
+        "form": "DEF 14A",
+        "filed": "2024-06-07",
+        "error": null,
+        "n_chunks": 143
+      },
+      "total_secs": 37.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000313143-25-000025",
+        "form": "10-K",
+        "filed": "2025-05-21",
+        "chars": 499408
+      },
+      "pack_secs": 24.3,
+      "components": {
+        "MG": {
+          "secs": 14.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000313143-25-000041",
+        "form": "DEF 14A",
+        "filed": "2025-06-06",
+        "error": null,
+        "n_chunks": 142
+      },
+      "total_secs": 39.0
+    }
+  }
+}

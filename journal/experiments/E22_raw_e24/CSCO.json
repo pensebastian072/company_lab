@@ -1,0 +1,70 @@
+{
+  "ticker": "CSCO",
+  "cik": "0000858877",
+  "sector": "Information Technology",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000858877-23-000023",
+        "form": "10-K",
+        "filed": "2023-09-07",
+        "chars": null
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-23-109641",
+        "form": "DEF 14A",
+        "filed": "2023-10-17",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000858877-24-000017",
+        "form": "10-K",
+        "filed": "2024-09-05",
+        "chars": null
+      },
+      "pack_secs": 24.1,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-24-109859",
+        "form": "DEF 14A",
+        "filed": "2024-10-18",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.7
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "companies": 1498,
+  "floor": 6,
+  "below_floor": 463,
+  "dimensions_scored_histogram": {
+    "0": 5,
+    "1": 22,
+    "2": 37,
+    "3": 108,
+    "4": 86,
+    "5": 205,
+    "6": 248,
+    "7": 204,
+    "8": 228,
+    "9": 172,
+    "10": 26,
+    "11": 157
+  },
+  "parse_ok": {
+    "True": 1496,
+    "False": 2
+  },
+  "nulls_total": 6391,
+  "nulls_from_a_rejected_value": 0,
+  "raw_response_chars": {
+    "min": 933,
+    "median": 1614,
+    "max": 2906
+  },
+  "null_rate_by_dimension": {
+    "network_effects": 83.5,
+    "data_advantages": 73.9,
+    "manufacturing_complexity": 73.1,
+    "economies_of_scale": 61.4,
+    "technological_advantage": 27.8,
+    "intellectual_property": 26.5,
+    "distribution": 24.1,
+    "regulatory_barriers": 19.7,
+    "brand": 18.1,
+    "switching_costs": 11.6,
+    "customer_relationships": 7.5
+  },
+  "by_sector": {
+    "Real Estate": {
+      "n": 105,
+      "below_floor_pct": 76.2,
+      "null_rate": {
+        "manufacturing_complexity": 94.3,
+        "network_effects": 92.4,
+        "data_advantages": 90.5,
+        "intellectual_property": 81.0
+      }
+    },
+    "Energy": {
+      "n": 69,
+      "below_floor_pct": 53.6,
+      "null_rate": {
+        "network_effects": 91.3,
+        "data_advantages": 84.1,
+        "manufacturing_complexity": 73.9,
+        "economies_of_scale": 62.3
+      }
+    },
+    "Utilities": {
+      "n": 59,
+      "below_floor_pct": 39.0,
+      "null_rate": {
+        "network_effects": 98.3,
+        "manufacturing_complexity": 98.3,
+        "data_advantages": 78.0,
+        "intellectual_property": 62.7
+      }
+    },
+    "Financials": {
+      "n": 254,
+      "below_floor_pct": 37.0,
+      "null_rate": {
+        "manufacturing_complexity": 94.1,
+        "network_effects": 83.1,
+        "economies_of_scale": 76.4,
+        "data_advantages": 65.7
+      }
+    },
+    "Information Technology": {
+      "n": 195,
+      "below_floor_pct": 26.7,
+      "null_rate": {
+        "network_effects": 82.6,
+        "data_advantages": 76.9,
+        "economies_of_scale": 74.4,
+        "manufacturing_complexity": 60.0
+      }
+    },
+    "Consumer Discretionary": {
+      "n": 183,
+      "below_floor_pct": 25.1,
+      "null_rate": {
+        "network_effects": 79.8,
+        "manufacturing_complexity": 71.6,
+        "data_advantages": 69.9,
+        "economies_of_scale": 57.4
+      }
+    },
+    "Industrials": {
+      "n": 271,
+      "below_floor_pct": 23.2,
+      "null_rate": {
+        "network_effects": 81.5,
+        "data_advantages": 70.5,
+        "manufacturing_complexity": 59.8,
+        "economies_of_scale": 55.0
+      }
+    },
+    "Health Care": {
+      "n": 160,
+      "below_floor_pct": 22.5,
+      "null_rate": {
+        "network_effects": 86.2,
+        "data_advantages": 75.6,
+        "manufacturing_complexity": 66.2,
+        "economies_of_scale": 60.6
+      }
+    },
+    "Materials": {
+      "n": 82,
+      "below_floor_pct": 19.5,
+      "null_rate": {
+        "network_effects": 81.7,
+        "data_advantages": 79.3,
+        "manufacturing_complexity": 46.3,
+        "economies_of_scale": 36.6
+      }
+    },
+    "Communication Services": {
+      "n": 46,
+      "below_floor_pct": 17.4,
+      "null_rate": {
+        "manufacturing_complexity": 78.3,
+        "economies_of_scale": 50.0,
+        "data_advantages": 50.0,
+        "network_effects": 43.5
+      }
+    },
+    "Consumer Staples": {
+      "n": 73,
+      "below_floor_pct": 11.0,
+      "null_rate": {
+        "network_effects": 90.4,
+        "data_advantages": 82.2,
+        "manufacturing_complexity": 75.3,
+        "economies_of_scale": 31.5
+      }
+    },
+    "?": {
+      "n": 1,
+      "below_floor_pct": 0.0,
+      "null_rate": {
+        "economies_of_scale": 100.0,
+        "network_effects": 100.0,
+        "manufacturing_complexity": 100.0,
+        "data_advantages": 100.0
+      }
+    }
+  },
+  "null_rate_matrix": {
+    "Industrials": {
+      "brand": 13.3,
+      "customer_relationships": 5.5,
+      "data_advantages": 70.5,
+      "distribution": 22.9,
+      "economies_of_scale": 55.0,
+      "intellectual_property": 17.7,
+      "manufacturing_complexity": 59.8,
+      "network_effects": 81.5,
+      "regulatory_barriers": 19.9,
+      "switching_costs": 9.2,
+      "technological_advantage": 23.6
+    },
+    "Financials": {
+      "brand": 18.5,
+      "customer_relationships": 1.6,
+      "data_advantages": 65.7,
+      "distribution": 26.4,
+      "economies_of_scale": 76.4,
+      "intellectual_property": 39.4,
+      "manufacturing_complexity": 94.1,
+      "network_effects": 83.1,
+      "regulatory_barriers": 4.7,
+      "switching_costs": 11.8,
+      "technological_advantage": 39.4
+    },
+    "Information Technology": {
+      "brand": 30.8,
+      "customer_relationships": 3.1,
+      "data_advantages": 76.9,
+      "distribution": 33.3,
+      "economies_of_scale": 74.4,
+      "intellectual_property": 2.1,
+      "manufacturing_complexity": 60.0,
+      "network_effects": 82.6,
+      "regulatory_barriers": 59.5,
+      "switching_costs": 1.5,
+      "technological_advantage": 2.6
+    },
+    "Consumer Discretionary": {
+      "brand": 4.4,
+      "customer_relationships": 3.8,
+      "data_advantages": 69.9,
+      "distribution": 8.7,
+      "economies_of_scale": 57.4,
+      "intellectual_property": 24.0,
+      "manufacturing_complexity": 71.6,
+      "network_effects": 79.8,
+      "regulatory_barriers": 34.4,
+      "switching_costs": 7.7,
+      "technological_advantage": 25.1
+    },
+    "Health Care": {
+      "brand": 25.6,
+      "customer_relationships": 16.2,
+      "data_advantages": 75.6,
+      "distribution": 25.0,
+      "economies_of_scale": 60.6,
+      "intellectual_property": 8.8,
+      "manufacturing_complexity": 66.2,
+      "network_effects": 86.2,
+      "regulatory_barriers": 2.5,
+      "switching_costs": 7.5,
+      "technological_advantage": 13.8
+    },
+    "Real Estate": {
+      "brand": 24.3,
+      "customer_relationships": 12.6,
+      "data_advantages": 93.1,
+      "distribution": 52.4,
+      "economies_of_scale": 81.6,
+      "intellectual_property": 82.5,
+      "manufacturing_complexity": 96.1,
+      "network_effects": 94.2,
+      "regulatory_barriers": 8.7,
+      "switching_costs": 49.5,
+      "technological_advantage": 72.8
+    },
+    "Materials": {
+      "brand": 22.0,
+      "customer_relationships": 14.6,
+      "data_advantages": 79.3,
+      "distribution": 23.2,
+      "economies_of_scale": 36.6,
+      "intellectual_property": 14.6,
+      "manufacturing_complexity": 46.3,
+      "network_effects": 81.7,
+      "regulatory_barriers": 9.8,
+      "switching_costs": 13.4,
+      "technological_advantage": 22.0
+    },
+    "Consumer Staples": {
+      "brand": 0.0,
+      "customer_relationships": 1.4,
+      "data_advantages": 82.2,
+      "distribution": 0.0,
+      "economies_of_scale": 31.5,
+      "intellectual_property": 15.1,
+      "manufacturing_complexity": 75.3,
+      "network_effects": 90.4,
+      "regulatory_barriers": 27.4,
+      "switching_costs": 6.8,
+      "technological_advantage": 19.2
+    },
+    "Energy": {
+      "brand": 39.1,
+      "customer_relationships": 31.9,
+      "data_advantages": 84.1,
+      "distribution": 42.0,
+      "economies_of_scale": 62.3,
+      "intellectual_property": 47.8,
+      "manufacturing_complexity": 73.9,
+      "network_effects": 91.3,
+      "regulatory_barriers": 0.0,
+      "switching_costs": 24.6,
+      "technological_advantage": 49.3
+    },
+    "Utilities": {
+      "brand": 11.9,
+      "customer_relationships": 8.5,
+      "data_advantages": 78.0,
+      "distribution": 10.2,
+      "economies_of_scale": 40.7,
+      "intellectual_property": 62.7,
+      "manufacturing_complexity": 98.3,
+      "network_effects": 98.3,
+      "regulatory_barriers": 0.0,
+      "switching_costs": 5.1,
+      "technological_advantage": 47.5
+    },
+    "Communication Services": {
+      "brand": 4.3,
+      "customer_relationships": 2.2,
+      "data_advantages": 50.0,
+      "distribution": 6.5,
+      "economies_of_scale": 50.0,
+      "intellectual_property": 19.6,
+      "manufacturing_complexity": 78.3,
+      "network_effects": 43.5,
+      "regulatory_barriers": 19.6,
+      "switching_costs": 6.5,
+      "technological_advantage": 21.7
+    },
+    "?": {
+      "brand": 0.0,
+      "customer_relationships": 0.0,
+      "data_advantages": 100.0,
+      "distribution": 0.0,
+      "economies_of_scale": 100.0,
+      "intellectual_property": 0.0,
+      "manufacturing_complexity": 100.0,
+      "network_effects": 100.0,
+      "regulatory_barriers": 0.0,
+      "switching_costs": 0.0,
+      "technological_advantage": 0.0
+    }
+  },
+  "p2": {
+    "intellectual_property": {
+      "min_sector": "Information Technology",
+      "min_pct": 2.1,
+      "max_sector": "Real Estate",
+      "max_pct": 82.5,
+      "spread_pp": 80.5,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 1,
+      "spread_over_40pp": true
+    },
+    "technological_advantage": {
+      "min_sector": "Information Technology",
+      "min_pct": 2.6,
+      "max_sector": "Real Estate",
+      "max_pct": 72.8,
+      "spread_pp": 70.3,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 0,
+      "spread_over_40pp": true
+    },
+    "regulatory_barriers": {
+      "min_sector": "Utilities",
+      "min_pct": 0.0,
+      "max_sector": "Information Technology",
+      "max_pct": 59.5,
+      "spread_pp": 59.5,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 0,
+      "spread_over_40pp": true
+    },
+    "network_effects": {
+      "min_sector": "Communication Services",
+      "min_pct": 43.5,
+      "max_sector": "Utilities",
+      "max_pct": 98.3,
+      "spread_pp": 54.8,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 10,
+      "spread_over_40pp": true
+    },
+    "distribution": {
+      "min_sector": "Consumer Staples",
+      "min_pct": 0.0,
+      "max_sector": "Real Estate",
+      "max_pct": 52.4,
+      "spread_pp": 52.4,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 0,
+      "spread_over_40pp": true
+    },
+    "manufacturing_complexity": {
+      "min_sector": "Materials",
+      "min_pct": 46.3,
+      "max_sector": "Utilities",
+      "max_pct": 98.3,
+      "spread_pp": 52.0,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 5,
+      "spread_over_40pp": true
+    },
+    "economies_of_scale": {
+      "min_sector": "Consumer Staples",
+      "min_pct": 31.5,
+      "max_sector": "Real Estate",
+      "max_pct": 81.6,
+      "spread_pp": 50.0,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 2,
+      "spread_over_40pp": true
+    },
+    "switching_costs": {
+      "min_sector": "Information Technology",
+      "min_pct": 1.5,
+      "max_sector": "Real Estate",
+      "max_pct": 49.5,
+      "spread_pp": 48.0,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 0,
+      "spread_over_40pp": true
+    },
+    "data_advantages": {
+      "min_sector": "Communication Services",
+      "min_pct": 50.0,
+      "max_sector": "Real Estate",
+      "max_pct": 93.1,
+      "spread_pp": 43.1,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 7,
+      "spread_over_40pp": true
+    },
+    "brand": {
+      "min_sector": "Consumer Staples",
+      "min_pct": 0.0,
+      "max_sector": "Energy",
+      "max_pct": 39.1,
+      "spread_pp": 39.1,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 0,
+      "spread_over_40pp": false
+    },
+    "customer_relationships": {
+      "min_sector": "Consumer Staples",
+      "min_pct": 1.4,
+      "max_sector": "Energy",
+      "max_pct": 31.9,
+      "spread_pp": 30.5,
+      "sectors": 11,
+      "sectors_at_or_above_75pct": 0,
+      "spread_over_40pp": false
+    }
+  },
+  "p2_min_sector_n": 30
+}

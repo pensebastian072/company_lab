@@ -1,0 +1,70 @@
+{
+  "ticker": "ENS",
+  "cik": "0001289308",
+  "sector": "Industrials",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001289308-24-000018",
+        "form": "10-K",
+        "filed": "2024-05-22",
+        "chars": 474067
+      },
+      "pack_secs": 25.0,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-163435",
+        "form": "DEF 14A",
+        "filed": "2024-06-18",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.7
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001289308-25-000017",
+        "form": "10-K",
+        "filed": "2025-05-21",
+        "chars": 489697
+      },
+      "pack_secs": 24.9,
+      "components": {
+        "MG": {
+          "secs": 12.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-142723",
+        "form": "DEF 14A",
+        "filed": "2025-06-18",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.8
+    }
+  }
+}

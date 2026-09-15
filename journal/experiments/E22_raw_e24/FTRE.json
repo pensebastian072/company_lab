@@ -1,0 +1,70 @@
+{
+  "ticker": "FTRE",
+  "cik": "0001965040",
+  "sector": "Health Care",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001965040-24-000010",
+        "form": "10-K",
+        "filed": "2024-03-13",
+        "chars": null
+      },
+      "pack_secs": 21.3,
+      "components": {
+        "MG": {
+          "secs": 12.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-080827",
+        "form": "DEF 14A",
+        "filed": "2024-03-28",
+        "error": null,
+        "n_chunks": 127
+      },
+      "total_secs": 34.1
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001965040-25-000015",
+        "form": "10-K",
+        "filed": "2025-03-03",
+        "chars": null
+      },
+      "pack_secs": 24.1,
+      "components": {
+        "MG": {
+          "secs": 14.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-100451",
+        "form": "DEF 14A",
+        "filed": "2025-04-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.4
+    }
+  }
+}

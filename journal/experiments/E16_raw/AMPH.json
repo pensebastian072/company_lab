@@ -1,0 +1,53 @@
+{
+  "ticker": "AMPH",
+  "cik": "0001297184",
+  "sector": "Health Care",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 15.8,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "economies_of_scale",
+      "manufacturing_complexity"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 26.5,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 7,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ]
+  }
+}

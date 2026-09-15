@@ -1,0 +1,233 @@
+{
+  "start": "2016-01-01",
+  "n_change_events": 407,
+  "unparsed_change_dates": 0,
+  "current_members": 503,
+  "distinct_members_ever": 716,
+  "removed_since_start": 213,
+  "survivorship_hole_pct": 0.29748603351955305,
+  "removed_examples": [
+    "AA",
+    "AAL",
+    "AAP",
+    "ABMD",
+    "ADS",
+    "ADT",
+    "AET",
+    "AGN",
+    "AIV",
+    "ALK",
+    "ALXN",
+    "AMG",
+    "AMTM",
+    "AN",
+    "ANDV",
+    "ANSS",
+    "APC",
+    "ARG",
+    "ARNC",
+    "ATVI",
+    "AYI",
+    "BBBY",
+    "BBWI",
+    "BCR",
+    "BHF",
+    "BHI",
+    "BIO",
+    "BRCM",
+    "BWA",
+    "BXLT",
+    "CA",
+    "CAG",
+    "CAM",
+    "CCE",
+    "CDAY",
+    "CE",
+    "CELG",
+    "CERN",
+    "CHK",
+    "CMA",
+    "CNX",
+    "COL",
+    "COTY",
+    "CPB",
+    "CPGX",
+    "CPRI",
+    "CSRA",
+    "CTLT",
+    "CTRA",
+    "CTXS",
+    "CVC",
+    "CXO",
+    "CZR",
+    "DAY",
+    "DFS",
+    "DISCA",
+    "DISCK",
+    "DISH",
+    "DNB",
+    "DO"
+  ],
+  "warnings": [],
+  "price_coverage_of_removed": {
+    "checked": 213,
+    "in_panel": 213,
+    "missing": [],
+    "panel_source": "D:\\stock_xsect_data\\daily\\*.parquet",
+    "n_missing": 0,
+    "panel_distinct_tickers": 60653
+  },
+  "cik_coverage_of_removed": {
+    "checked": 213,
+    "resolved_by_ticker_file": 97,
+    "have_a_company_name": 116,
+    "no_name_available": [],
+    "resolved_by_name_match": 108,
+    "rejected_wrong_entity_or_no_xbrl": {
+      "AET": [
+        "AETNA INC -> HttpError: HTTP 404 https://data.sec.gov",
+        "AETNA HOLDINGS INC -> HttpError: HTTP 404 https://data.sec.gov",
+        "AETNA INDUSTRIES INC -> HttpError: HTTP 404 https://data.sec.gov"
+      ],
+      "BCR": [
+        "CR INTERNATIONAL, INC. -> HttpError: HTTP 404 https://data.sec.gov",
+        "CR FINANCIAL HOLDINGS, INC. -> HttpError: HTTP 404 https://data.sec.gov",
+        "CR ATLANTA, LLC -> HttpError: HTTP 404 https://data.sec.gov"
+      ]
+    },
+    "total_resolved": 205,
+    "total_unresolved": 8,
+    "resolution_rate": 0.9624413145539906,
+    "match_methods": {
+      "exact": 98,
+      "no_candidate_with_filings": 8,
+      "prefix_index_1w": 4,
+      "prefix_index_2w": 6
+    },
+    "name_match_examples": {
+      "ABMD": {
+        "name": "Abiomed",
+        "cik": "0000815094",
+        "how": "exact"
+      },
+      "ADS": {
+        "name": "Alliance Data Systems",
+        "cik": "0001101215",
+        "how": "exact"
+      },
+      "AGN": {
+        "name": "Allergan",
+        "cik": "0000850693",
+        "how": "exact"
+      },
+      "ALXN": {
+        "name": "Alexion Pharmaceuticals",
+        "cik": "0000899866",
+        "how": "exact"
+      },
+      "ANDV": {
+        "name": "Andeavor",
+        "cik": "0000050104",
+        "how": "exact"
+      },
+      "ANSS": {
+        "name": "Ansys",
+        "cik": "0001013462",
+        "how": "exact"
+      },
+      "ARG": {
+        "name": "Airgas",
+        "cik": "0000804212",
+        "how": "exact"
+      },
+      "ARNC": {
+        "name": "Arconic",
+        "cik": "0001790982",
+        "how": "exact"
+      },
+      "ATVI": {
+        "name": "Activision Blizzard",
+        "cik": "0000718877",
+        "how": "exact"
+      },
+      "BHI": {
+        "name": "Baker Hughes",
+        "cik": "0001701605",
+        "how": "exact"
+      },
+      "BRCM": {
+        "name": "Broadcom Corporation",
+        "cik": "0001649338",
+        "how": "exact"
+      },
+      "BXLT": {
+        "name": "Baxalta",
+        "cik": "0001620546",
+        "how": "exact"
+      },
+      "CA": {
+        "name": "CA Technologies",
+        "cik": "0000356028",
+        "how": "exact"
+      },
+      "CAM": {
+        "name": "Cameron International",
+        "cik": "0000941548",
+        "how": "exact"
+      },
+      "CCE": {
+        "name": "Coca-Cola Enterprises",
+        "cik": "0000021344",
+        "how": "exact"
+      },
+      "CDAY": {
+        "name": "Ceridian",
+        "cik": "0000109758",
+        "how": "exact"
+      },
+      "CELG": {
+        "name": "Celgene",
+        "cik": "0000816284",
+        "how": "prefix_index_1w"
+      },
+      "CERN": {
+        "name": "Cerner",
+        "cik": "0000804753",
+        "how": "exact"
+      },
+      "CHK": {
+        "name": "Chesapeake Energy",
+        "cik": "0000895126",
+        "how": "exact"
+      },
+      "CMA": {
+        "name": "Comerica",
+        "cik": "0000028412",
+        "how": "exact"
+      }
+    },
+    "still_unresolved_examples": [
+      "AET",
+      "BCR",
+      "DFS",
+      "DWDP",
+      "HAR",
+      "PCL",
+      "SBNY",
+      "TSS"
+    ]
+  },
+  "members_by_year": {
+    "2016": 505,
+    "2017": 506,
+    "2018": 506,
+    "2019": 506,
+    "2020": 506,
+    "2021": 506,
+    "2022": 504,
+    "2023": 504,
+    "2024": 504,
+    "2025": 504,
+    "2026": 503
+  }
+}

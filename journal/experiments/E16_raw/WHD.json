@@ -1,0 +1,45 @@
+{
+  "ticker": "WHD",
+  "cik": "0001699136",
+  "sector": "Energy",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "intellectual_property",
+      "manufacturing_complexity"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.8,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "manufacturing_complexity"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 25.8,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 5,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "intellectual_property",
+      "manufacturing_complexity"
+    ]
+  }
+}

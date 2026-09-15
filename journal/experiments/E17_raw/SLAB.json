@@ -1,0 +1,67 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": 4,
+      "quote": "The manufacturing of our products is a highly complex and technologically demanding process.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "data_advantages": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "economies_of_scale": {
+      "score": 2,
+      "quote": "3Y CAGR: -5.6%",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    }
+  },
+  "ticker": "SLAB",
+  "cik": "0001038074",
+  "sector": "Information Technology",
+  "arm": "under",
+  "base_scored": [
+    "customer_relationships",
+    "intellectual_property",
+    "manufacturing_complexity",
+    "switching_costs",
+    "technological_advantage"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 7,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

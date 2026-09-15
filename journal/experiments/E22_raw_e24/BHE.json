@@ -1,0 +1,70 @@
+{
+  "ticker": "BHE",
+  "cik": "0000863436",
+  "sector": "Information Technology",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-020565",
+        "form": "10-K",
+        "filed": "2024-02-27",
+        "chars": 345790
+      },
+      "pack_secs": 28.3,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-24-043794",
+        "form": "DEF 14A",
+        "filed": "2024-04-12",
+        "error": null,
+        "n_chunks": 147
+      },
+      "total_secs": 41.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-029247",
+        "form": "10-K/A",
+        "filed": "2025-02-27",
+        "chars": 160474
+      },
+      "pack_secs": 23.8,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-25-051057",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 157
+      },
+      "total_secs": 37.2
+    }
+  }
+}

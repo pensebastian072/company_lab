@@ -1,0 +1,70 @@
+{
+  "ticker": "EQT",
+  "cik": "0000033213",
+  "sector": "Energy",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000033213-24-000008",
+        "form": "10-K",
+        "filed": "2024-02-14",
+        "chars": 521045
+      },
+      "pack_secs": 27.3,
+      "components": {
+        "MG": {
+          "secs": 12.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-24-029592",
+        "form": "DEF 14A",
+        "filed": "2024-03-01",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000033213-25-000011",
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "chars": 696614
+      },
+      "pack_secs": 27.2,
+      "components": {
+        "MG": {
+          "secs": 15.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": null,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-019408",
+        "form": "DEF 14A",
+        "filed": "2025-03-03",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 42.5
+    }
+  }
+}

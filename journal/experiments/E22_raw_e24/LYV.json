@@ -1,0 +1,70 @@
+{
+  "ticker": "LYV",
+  "cik": "0001335258",
+  "sector": "Communication Services",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001335258-24-000017",
+        "form": "10-K",
+        "filed": "2024-02-22",
+        "chars": 430630
+      },
+      "pack_secs": 24.3,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001335258-24-000060",
+        "form": "DEF 14A",
+        "filed": "2024-04-29",
+        "error": null,
+        "n_chunks": 136
+      },
+      "total_secs": 37.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001335258-25-000028",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": 442535
+      },
+      "pack_secs": 24.5,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-094918",
+        "form": "DEF 14A",
+        "filed": "2025-04-25",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.2
+    }
+  }
+}

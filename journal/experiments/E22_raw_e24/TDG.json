@@ -1,0 +1,70 @@
+{
+  "ticker": "TDG",
+  "cik": "0001260221",
+  "sector": "Industrials",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001260221-23-000081",
+        "form": "10-K",
+        "filed": "2023-11-09",
+        "chars": 527456
+      },
+      "pack_secs": 24.8,
+      "components": {
+        "MG": {
+          "secs": 12.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001260221-24-000015",
+        "form": "DEF 14A",
+        "filed": "2024-01-26",
+        "error": null,
+        "n_chunks": 146
+      },
+      "total_secs": 37.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001260221-24-000083",
+        "form": "10-K",
+        "filed": "2024-11-07",
+        "chars": 536369
+      },
+      "pack_secs": 24.2,
+      "components": {
+        "MG": {
+          "secs": 12.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001260221-25-000007",
+        "form": "DEF 14A",
+        "filed": "2025-01-24",
+        "error": null,
+        "n_chunks": 158
+      },
+      "total_secs": 36.5
+    }
+  }
+}

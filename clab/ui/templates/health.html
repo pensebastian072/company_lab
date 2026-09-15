@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}Health &middot; company_lab{% endblock %}
+{% block body %}
+<div id="page"><p class="muted">Loading&hellip;</p></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(async function () {
+  const st = await getJSON('/api/state');
+  headline(st);
+  const h = await getJSON('/api/health');
+  const f = h.flag || {}, m = h.manifest || {}, s = h.summary || {};
+  const fails = Object.entries(m.failures || {});
+  const proj = h.latest_probe || {};
+
+  $('page').innerHTML =
+    '<div class="card"><h2>Run state' +
+      (h.stale ? ' <span class="warn">(stale)</span>' : '') + '</h2><dl class="kv">' +
+      kv('as_of', esc(f.as_of || DASH)) +
+      kv('data_through', esc(f.data_through || DASH)) +
+      kv('status', esc(f.status || DASH)) +
+      kv('promoted', String(f.promoted)) +
+      kv('tier', esc(f.tier || DASH)) +
+      kv('companies scored', int(f.symbols_scored)) +
+      kv('companies failed', int(f.symbols_failed)) +
+      kv('median coverage', pct(f.coverage_median)) +
+      kv('with LLM half', int(f.n_qual_scored)) +
+      kv('batches', int(m.batches_done) + ' / ' + int(m.batches_total)) +
+      kv('manifest updated', esc(m.updated_at || DASH)) +
+    '</dl></div>' +
+
+    '<div class="card"><h2>Latest probe projection</h2>' +
+      (Object.keys(proj).length ? '<dl class="kv">' +
+        kv('universe size', int(proj.universe_size)) +
+        kv('median s / company', num(proj.median_seconds_per_symbol)) +
+        kv('projected quant crawl', num(proj.quant_only_minutes, 0) + ' min') +
+        kv('projected disk', num(proj.projected_disk_gb, 2) + ' GB') +
+      '</dl>' : '<p class="muted">No probe report yet. A crawl over 50 companies is ' +
+        'refused until one exists: run <code>python -m clab.runner.probe --n 10</code>.</p>') +
+    '</div>' +
+
+    '<div class="card"><h2>Source freshness</h2>' +
+      (Object.keys(h.freshness || {}).length
+        ? '<dl class="kv">' + Object.entries(h.freshness).map(([k, v]) =>
+            kv(k, esc(v.health) + (v.error ? ' — ' + esc(v.error) : ''))).join('') + '</dl>'
+        : '<p class="muted">No freshness record written yet.</p>') +
+    '</div>' +
+
+    '<div class="card"><h2>Failures (' + fails.length + ')</h2>' +
+      (fails.length ? '<dl class="kv">' + fails.map(([k, v]) =>
+        kv(k, '<span class="err">' + esc(v) + '</span>')).join('') + '</dl>'
+        : '<p class="muted">None.</p>') +
+    '</div>' +
+
+    '<div class="card"><h2>Validation</h2><p class="muted">This ranking has never been ' +
+      'tested against forward returns, so nothing here is promoted. Point-in-time ' +
+      'snapshots accumulate weekly in <code>journal/snapshots/</code>; a forward-return ' +
+      'IC grader becomes possible once roughly a year of them exists. Until then the ' +
+      'system is a research tool, and the ADVISORY banner says so on every page.</p></div>';
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,70 @@
+{
+  "ticker": "CACI",
+  "cik": "0000016058",
+  "sector": "Industrials",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000016058-24-000132",
+        "form": "10-K",
+        "filed": "2024-08-08",
+        "chars": null
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000016058-23-000103",
+        "form": "DEF 14A",
+        "filed": "2023-09-08",
+        "error": null,
+        "n_chunks": 146
+      },
+      "total_secs": 36.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001628280-25-038739",
+        "form": "10-K",
+        "filed": "2025-08-07",
+        "chars": null
+      },
+      "pack_secs": 23.0,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000016058-24-000143",
+        "form": "DEF 14A",
+        "filed": "2024-09-06",
+        "error": null,
+        "n_chunks": 139
+      },
+      "total_secs": 35.9
+    }
+  }
+}

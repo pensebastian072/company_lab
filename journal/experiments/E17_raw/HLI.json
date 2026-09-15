@@ -1,0 +1,66 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 2,
+      "quote": "Our global industry group model with embedded M&A capabilities brings sector-specific knowledge, experience and relationships to our clients, allowing us to provide differentiated expert advice and connect buyers and sellers on a global basis.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    }
+  },
+  "ticker": "HLI",
+  "cik": "0001302215",
+  "sector": "Financials",
+  "arm": "under",
+  "base_scored": [
+    "brand",
+    "customer_relationships",
+    "intellectual_property",
+    "regulatory_barriers",
+    "switching_costs"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 7,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

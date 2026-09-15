@@ -1,0 +1,114 @@
+{
+  "ticker": "MAA",
+  "cik": "0000912595",
+  "sector": "Real Estate",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-013275",
+        "form": "10-K",
+        "filed": "2024-02-09",
+        "chars": 572948
+      },
+      "pack_secs": 9.9,
+      "components": {
+        "SG": {
+          "secs": 19.6,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": null,
+            "revenue_growth_sustainable": 2,
+            "demand_drivers_3_5yr": 3,
+            "capacity_backlog_contracts": null,
+            "secular_not_cyclical": 2,
+            "multiple_independent_drivers": 1
+          }
+        },
+        "BQ": {
+          "secs": 16.5,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": null,
+            "economies_of_scale": 3,
+            "switching_costs": 1,
+            "network_effects": null,
+            "intellectual_property": null,
+            "brand": 2,
+            "regulatory_barriers": 3,
+            "manufacturing_complexity": null,
+            "distribution": 2,
+            "customer_relationships": 1,
+            "data_advantages": null
+          }
+        },
+        "MG": {
+          "secs": 9.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "total_secs": 55.8
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-016287",
+        "form": "10-K",
+        "filed": "2025-02-07",
+        "chars": 584141
+      },
+      "pack_secs": 9.8,
+      "components": {
+        "SG": {
+          "secs": 14.7,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": null,
+            "revenue_growth_sustainable": 2,
+            "demand_drivers_3_5yr": 4,
+            "capacity_backlog_contracts": null,
+            "secular_not_cyclical": 3,
+            "multiple_independent_drivers": 1
+          }
+        },
+        "BQ": {
+          "secs": 16.5,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": null,
+            "economies_of_scale": 3,
+            "switching_costs": 1,
+            "network_effects": null,
+            "intellectual_property": null,
+            "brand": 2,
+            "regulatory_barriers": 3,
+            "manufacturing_complexity": null,
+            "distribution": 2,
+            "customer_relationships": 1,
+            "data_advantages": null
+          }
+        },
+        "MG": {
+          "secs": 9.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "total_secs": 50.6
+    }
+  }
+}

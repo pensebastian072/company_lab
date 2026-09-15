@@ -1,0 +1,70 @@
+{
+  "ticker": "CRI",
+  "cik": "0001060822",
+  "sector": "Consumer Discretionary",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001060822-24-000062",
+        "form": "10-K",
+        "filed": "2024-02-27",
+        "chars": 408982
+      },
+      "pack_secs": 22.8,
+      "components": {
+        "MG": {
+          "secs": 14.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-086507",
+        "form": "DEF 14A",
+        "filed": "2024-04-04",
+        "error": null,
+        "n_chunks": 124
+      },
+      "total_secs": 37.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001060822-25-000030",
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "chars": 426412
+      },
+      "pack_secs": 21.5,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001060822-25-000089",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 105
+      },
+      "total_secs": 35.3
+    }
+  }
+}

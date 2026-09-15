@@ -1,0 +1,70 @@
+{
+  "ticker": "AMZN",
+  "cik": "0001018724",
+  "sector": "Consumer Discretionary",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001018724-24-000008",
+        "form": "10-K",
+        "filed": "2024-02-02",
+        "chars": null
+      },
+      "pack_secs": 21.2,
+      "components": {
+        "MG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-24-045910",
+        "form": "DEF 14A",
+        "filed": "2024-04-11",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 34.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001018724-25-000004",
+        "form": "10-K",
+        "filed": "2025-02-07",
+        "chars": null
+      },
+      "pack_secs": 21.1,
+      "components": {
+        "MG": {
+          "secs": 13.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-033442",
+        "form": "DEF 14A",
+        "filed": "2025-04-10",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 34.6
+    }
+  }
+}

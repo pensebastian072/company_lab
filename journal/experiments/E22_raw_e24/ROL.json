@@ -1,0 +1,70 @@
+{
+  "ticker": "ROL",
+  "cik": "0000084839",
+  "sector": "Industrials",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000084839-24-000025",
+        "form": "10-K",
+        "filed": "2024-02-15",
+        "chars": 304303
+      },
+      "pack_secs": 23.6,
+      "components": {
+        "MG": {
+          "secs": 15.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000084839-24-000058",
+        "form": "DEF 14A",
+        "filed": "2024-03-14",
+        "error": null,
+        "n_chunks": 132
+      },
+      "total_secs": 38.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000084839-25-000024",
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "chars": 301791
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 15.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000084839-25-000048",
+        "form": "DEF 14A",
+        "filed": "2025-03-13",
+        "error": null,
+        "n_chunks": 132
+      },
+      "total_secs": 39.2
+    }
+  }
+}

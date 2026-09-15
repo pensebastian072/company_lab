@@ -1,0 +1,79 @@
+{
+  "ticker": "CWK",
+  "cik": "0001628369",
+  "sector": "Real Estate",
+  "arm": "under",
+  "components": {
+    "SG": {
+      "base_scored": [
+        "capacity_backlog_contracts",
+        "demand_drivers_3_5yr",
+        "multiple_independent_drivers",
+        "revenue_growth_sustainable",
+        "secular_not_cyclical",
+        "tam_expanding"
+      ],
+      "nulls": [],
+      "skipped": "nothing null",
+      "secs": 0.0
+    },
+    "MG": {
+      "base_scored": [
+        "execution_history",
+        "industry_expertise"
+      ],
+      "nulls": [
+        "founder_led",
+        "tenure",
+        "ownership"
+      ],
+      "secs": 14.1,
+      "parse_ok": true,
+      "items": {
+        "founder_led": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "tenure": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "ownership": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        }
+      },
+      "targeted_meta": {
+        "n_chunks_picked": 6,
+        "methods": {
+          "founder_led": "embedding",
+          "tenure": "embedding",
+          "ownership": "embedding"
+        }
+      },
+      "gain_strict": 0,
+      "gain_no_gate": 0
+    }
+  }
+}

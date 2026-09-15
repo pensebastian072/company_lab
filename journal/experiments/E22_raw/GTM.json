@@ -1,0 +1,114 @@
+{
+  "ticker": "GTM",
+  "cik": "0001794515",
+  "sector": "Communication Services",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001794515-24-000016",
+        "form": "10-K",
+        "filed": "2024-02-15",
+        "chars": 507543
+      },
+      "pack_secs": 13.6,
+      "components": {
+        "SG": {
+          "secs": 18.4,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": 3,
+            "revenue_growth_sustainable": 2,
+            "demand_drivers_3_5yr": 4,
+            "capacity_backlog_contracts": 2,
+            "secular_not_cyclical": 3,
+            "multiple_independent_drivers": 1
+          }
+        },
+        "BQ": {
+          "secs": 16.2,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": 3,
+            "economies_of_scale": null,
+            "switching_costs": 2,
+            "network_effects": null,
+            "intellectual_property": 3,
+            "brand": 2,
+            "regulatory_barriers": null,
+            "manufacturing_complexity": null,
+            "distribution": 3,
+            "customer_relationships": 2,
+            "data_advantages": 4
+          }
+        },
+        "MG": {
+          "secs": 11.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "total_secs": 59.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001794515-25-000045",
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "chars": 476089
+      },
+      "pack_secs": 12.7,
+      "components": {
+        "SG": {
+          "secs": 14.6,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": null,
+            "revenue_growth_sustainable": 2,
+            "demand_drivers_3_5yr": 3,
+            "capacity_backlog_contracts": null,
+            "secular_not_cyclical": 2,
+            "multiple_independent_drivers": 1
+          }
+        },
+        "BQ": {
+          "secs": 16.6,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": 3,
+            "economies_of_scale": null,
+            "switching_costs": 2,
+            "network_effects": 3,
+            "intellectual_property": 4,
+            "brand": 2,
+            "regulatory_barriers": null,
+            "manufacturing_complexity": null,
+            "distribution": 3,
+            "customer_relationships": 2,
+            "data_advantages": 4
+          }
+        },
+        "MG": {
+          "secs": 11.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "total_secs": 55.8
+    }
+  }
+}

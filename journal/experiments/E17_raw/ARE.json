@@ -1,0 +1,63 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 1,
+      "quote": "Megacampus\u2122 A Megacampuses have realized the scale and flexibility that deliver strategic optionality to our tenants.",
+      "gates": {
+        "has_quote": true,
+        "strict": false,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": 3,
+      "quote": "As of December 31, 2025 , we had 340 properties aggregating 35.9 million operating RSF in key cluster locations.",
+      "gates": {
+        "has_quote": true,
+        "strict": false,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    }
+  },
+  "ticker": "ARE",
+  "cik": "0001035443",
+  "sector": "Real Estate",
+  "arm": "under",
+  "base_scored": [
+    "customer_relationships"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 8,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "study": "E07_llm_swap",
+  "as_of": "2026-08-28T22:34:48.165560+00:00",
+  "preregistration": "journal/experiments/E07_llm_swap_preregistration.md",
+  "sample": [
+    "CDP",
+    "CSL",
+    "NVDA"
+  ],
+  "repeats": 1,
+  "incumbent": "qwen2.5:7b",
+  "models": {
+    "hf.co/mradermacher/LFM2.5-2.6B-Finance-GGUF:Q4_K_M": {
+      "load_error": null,
+      "generations": 9,
+      "M1_mean_spread": null,
+      "M1_max_spread": null,
+      "M1_share_unstable": null,
+      "M2_parse_failure_rate": 0.7777777777777778,
+      "M2_parse_failures": 7,
+      "M3_unverified_rate": 0.0,
+      "M4_null_rate": 0.0,
+      "M5_median_s_per_generation": 13.138375499998801,
+      "M5_projected_hours_for_1500": 16.4229693749985,
+      "companies_done": 3,
+      "companies_total": 3,
+      "budget_exhausted": false,
+      "failed_generations": 0,
+      "E12_bq_null_by_dimension": {},
+      "E12_watched_mean_null": null,
+      "criteria": {
+        "M1_no_worse_consistency": null,
+        "M2_no_worse_parse_rate": null,
+        "M3_no_higher_unverified": null,
+        "M5_under_24h_rescore": true
+      },
+      "verdict": "INCOMPLETE - not measured: M1_no_worse_consistency, M2_no_worse_parse_rate, M3_no_higher_unverified"
+    }
+  },
+  "promoted": false,
+  "note": "Nothing is adopted by this harness. A verdict of CANDIDATE means the registered criteria hold on a 15-company sample, not that the model is better - the qual half has never been validated against forward returns, so 'better' is not measurable here."
+}

@@ -1,0 +1,559 @@
+{
+  "study": "E11_insider_investability",
+  "as_of": "2026-08-16T19:35:11.753293+00:00",
+  "preregistration": "journal/experiments/E11_insider_investability_preregistration.md",
+  "construction": {
+    "hold_months": 12,
+    "cost_round_trip": 0.004,
+    "position_usd": 10000.0,
+    "adv_cap": 0.01,
+    "n_trials_registered": 4,
+    "empty_months": "held in cash at zero excess, never dropped"
+  },
+  "variants": {
+    "sp600_insiders_ge_1": {
+      "universe": "sp600",
+      "cluster_threshold": 1,
+      "n_signals": 10389,
+      "n_entry_months": 118,
+      "n_months": 120,
+      "months_in_market": 120,
+      "median_names_per_month": 1072.0,
+      "annualised_excess_gross": 0.05288429848908234,
+      "annualised_excess_net": 0.04888429848908232,
+      "annualised_excess_net_ex2020": 0.04468323480033777,
+      "breakeven_cost_bps": 528.8429848908235,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.00407369154075686,
+        "median": 0.0012019672916917642,
+        "std": 0.039798763978100504,
+        "share_positive": 0.5083333333333333,
+        "p05": -0.049929621537015294,
+        "p25": -0.021588473175055696,
+        "p75": 0.02534671196452845,
+        "p95": 0.06927275830630453,
+        "min": -0.13441869696172756,
+        "max": 0.1227840908448866
+      },
+      "monthly_excess_net_ex2020": {
+        "n": 108,
+        "mean": 0.003723602900028148,
+        "median": 0.0012019672916917642,
+        "std": 0.03703763906256462,
+        "share_positive": 0.5092592592592593,
+        "p05": -0.049339952371009736,
+        "p25": -0.021588473175055696,
+        "p75": 0.02280025414748616,
+        "p95": 0.06903092922969918,
+        "min": -0.09257481287394569,
+        "max": 0.1227840908448866
+      },
+      "capacity": {
+        "signals_checked": 10300,
+        "blocked": 243,
+        "blocked_share": 0.023592233009708738
+      },
+      "per_year": {
+        "2016": {
+          "n_months": 4,
+          "mean_monthly_net": 0.043077830305598384,
+          "median_monthly_net": 0.03763220731986666
+        },
+        "2017": {
+          "n_months": 12,
+          "mean_monthly_net": -0.0004866164038740263,
+          "median_monthly_net": -0.006394241476077632
+        },
+        "2018": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0004221074732835463,
+          "median_monthly_net": -0.00013284526036577878
+        },
+        "2019": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0036239959262192277,
+          "median_monthly_net": 0.003165302795783432
+        },
+        "2020": {
+          "n_months": 12,
+          "mean_monthly_net": 0.007224489307315289,
+          "median_monthly_net": 0.0016552177699735349
+        },
+        "2021": {
+          "n_months": 12,
+          "mean_monthly_net": 0.002712135668632039,
+          "median_monthly_net": 0.003251443047613208
+        },
+        "2022": {
+          "n_months": 12,
+          "mean_monthly_net": 0.01173629576413242,
+          "median_monthly_net": 0.00578750136251825
+        },
+        "2023": {
+          "n_months": 12,
+          "mean_monthly_net": 0.003304990920630048,
+          "median_monthly_net": 0.0018427120993950935
+        },
+        "2024": {
+          "n_months": 12,
+          "mean_monthly_net": -0.0027162715549679515,
+          "median_monthly_net": -0.01703848070296281
+        },
+        "2025": {
+          "n_months": 12,
+          "mean_monthly_net": -0.008388514243579772,
+          "median_monthly_net": -0.0066686056326921185
+        },
+        "2026": {
+          "n_months": 8,
+          "mean_monthly_net": 0.013417538671867506,
+          "median_monthly_net": 0.009968834726059677
+        }
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.1024,
+          "ratio": 0.0735,
+          "prob": 0.5293,
+          "n": 120,
+          "n_trials": 4,
+          "psr_z": 1.1257,
+          "bracket": 1.0521,
+          "sr_star": 0.095671,
+          "sigma_sr": 0.090932
+        },
+        "pbo": 0.0516,
+        "profit_factor": 1.3181,
+        "sharpe": 0.10235723760161075,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio 0.0735 <= 1.645"
+        ],
+        "available": true
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 61,
+        "p_value_two_sided": 0.9273150210898833,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      }
+    },
+    "sp600_insiders_ge_3": {
+      "universe": "sp600",
+      "cluster_threshold": 3,
+      "n_signals": 1844,
+      "n_entry_months": 118,
+      "n_months": 120,
+      "months_in_market": 120,
+      "median_names_per_month": 173.0,
+      "annualised_excess_gross": 0.08101911134459783,
+      "annualised_excess_net": 0.07701911134459782,
+      "annualised_excess_net_ex2020": 0.07542475165566596,
+      "breakeven_cost_bps": 810.1911134459783,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.006418259278716486,
+        "median": 0.0032743153810680364,
+        "std": 0.05042118611174175,
+        "share_positive": 0.55,
+        "p05": -0.0612697757180885,
+        "p25": -0.02299322386716808,
+        "p75": 0.039990971000661464,
+        "p95": 0.08506079396393622,
+        "min": -0.18008879266274433,
+        "max": 0.18411966429594026
+      },
+      "monthly_excess_net_ex2020": {
+        "n": 108,
+        "mean": 0.006285395971305497,
+        "median": 0.00196278745304922,
+        "std": 0.045968037598220934,
+        "share_positive": 0.5370370370370371,
+        "p05": -0.057380118850380184,
+        "p25": -0.02229074017013128,
+        "p75": 0.030624158910666038,
+        "p95": 0.08214582011124545,
+        "min": -0.09310241006007601,
+        "max": 0.18411966429594026
+      },
+      "capacity": {
+        "signals_checked": 1815,
+        "blocked": 45,
+        "blocked_share": 0.024793388429752067
+      },
+      "per_year": {
+        "2016": {
+          "n_months": 4,
+          "mean_monthly_net": 0.062497162486174256,
+          "median_monthly_net": 0.047485095971294085
+        },
+        "2017": {
+          "n_months": 12,
+          "mean_monthly_net": -0.004918819728639133,
+          "median_monthly_net": -0.01030952617673489
+        },
+        "2018": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0021780517352853568,
+          "median_monthly_net": 0.0031394988260333347
+        },
+        "2019": {
+          "n_months": 12,
+          "mean_monthly_net": 0.002148628662521301,
+          "median_monthly_net": 0.0016163541476418245
+        },
+        "2020": {
+          "n_months": 12,
+          "mean_monthly_net": 0.00761402904541538,
+          "median_monthly_net": 0.026416578762912264
+        },
+        "2021": {
+          "n_months": 12,
+          "mean_monthly_net": 0.010974832740178235,
+          "median_monthly_net": 0.011491789561985636
+        },
+        "2022": {
+          "n_months": 12,
+          "mean_monthly_net": 0.024317444622711227,
+          "median_monthly_net": 0.01666011034060688
+        },
+        "2023": {
+          "n_months": 12,
+          "mean_monthly_net": 0.00629934859780656,
+          "median_monthly_net": -0.0012479180289893931
+        },
+        "2024": {
+          "n_months": 12,
+          "mean_monthly_net": -0.003970941546293587,
+          "median_monthly_net": -0.017830728769085306
+        },
+        "2025": {
+          "n_months": 12,
+          "mean_monthly_net": -0.014537289764616176,
+          "median_monthly_net": -0.008978368375502348
+        },
+        "2026": {
+          "n_months": 8,
+          "mean_monthly_net": 0.01986738139110642,
+          "median_monthly_net": 0.008044580438491138
+        }
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.1273,
+          "ratio": 0.3519,
+          "prob": 0.6376,
+          "n": 120,
+          "n_trials": 4,
+          "psr_z": 1.4041,
+          "bracket": 1.0521,
+          "sr_star": 0.095385,
+          "sigma_sr": 0.09066
+        },
+        "pbo": 0.0516,
+        "profit_factor": 1.42,
+        "sharpe": 0.12729290549596659,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio 0.3519 <= 1.645"
+        ],
+        "available": true
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 66,
+        "p_value_two_sided": 0.3153033008322578,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      }
+    },
+    "sp500_insiders_ge_1": {
+      "universe": "sp500",
+      "cluster_threshold": 1,
+      "n_signals": 7879,
+      "n_entry_months": 118,
+      "n_months": 120,
+      "months_in_market": 120,
+      "median_names_per_month": 768.0,
+      "annualised_excess_gross": 0.03553288593636259,
+      "annualised_excess_net": 0.03153288593636259,
+      "annualised_excess_net_ex2020": 0.0314273725649437,
+      "breakeven_cost_bps": 355.3288593636259,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.0026277404946968824,
+        "median": 0.0023797634762281286,
+        "std": 0.020021425578488312,
+        "share_positive": 0.55,
+        "p05": -0.025473892963587146,
+        "p25": -0.007825039796856585,
+        "p75": 0.015022078675193201,
+        "p95": 0.033100116006444316,
+        "min": -0.06106975909624358,
+        "max": 0.060453689766862904
+      },
+      "monthly_excess_net_ex2020": {
+        "n": 108,
+        "mean": 0.0026189477137453085,
+        "median": 0.0017358053527882255,
+        "std": 0.018723977235731826,
+        "share_positive": 0.5462962962962963,
+        "p05": -0.025171708550626334,
+        "p25": -0.0072874398492961765,
+        "p75": 0.013431591787126364,
+        "p95": 0.03255651089185615,
+        "min": -0.054167623961387114,
+        "max": 0.05292147581278032
+      },
+      "capacity": {
+        "signals_checked": 7822,
+        "blocked": 0,
+        "blocked_share": 0.0
+      },
+      "per_year": {
+        "2016": {
+          "n_months": 4,
+          "mean_monthly_net": 0.006670436754415147,
+          "median_monthly_net": 0.003918645367357015
+        },
+        "2017": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0010181118603369969,
+          "median_monthly_net": 0.0020908174743256643
+        },
+        "2018": {
+          "n_months": 12,
+          "mean_monthly_net": 0.00024272988310270708,
+          "median_monthly_net": -0.0006559962959325606
+        },
+        "2019": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0021442725066514973,
+          "median_monthly_net": 0.001943071435359754
+        },
+        "2020": {
+          "n_months": 12,
+          "mean_monthly_net": 0.002706875523261054,
+          "median_monthly_net": 0.004436577208406553
+        },
+        "2021": {
+          "n_months": 12,
+          "mean_monthly_net": 0.002907977771941865,
+          "median_monthly_net": 0.00047149005561728874
+        },
+        "2022": {
+          "n_months": 12,
+          "mean_monthly_net": 0.011399279644207718,
+          "median_monthly_net": 0.009897905675417342
+        },
+        "2023": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0060694848430708145,
+          "median_monthly_net": 0.0019041130180620367
+        },
+        "2024": {
+          "n_months": 12,
+          "mean_monthly_net": -0.0034055309607389805,
+          "median_monthly_net": -0.00021025743794967353
+        },
+        "2025": {
+          "n_months": 12,
+          "mean_monthly_net": -0.0014498815889629386,
+          "median_monthly_net": -0.0014583021800414456
+        },
+        "2026": {
+          "n_months": 8,
+          "mean_monthly_net": 0.0036309098189395653,
+          "median_monthly_net": 0.006658691418515213
+        }
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.1312,
+          "ratio": 0.3582,
+          "prob": 0.6399,
+          "n": 120,
+          "n_trials": 4,
+          "psr_z": 1.4103,
+          "bracket": 1.0521,
+          "sr_star": 0.097913,
+          "sigma_sr": 0.093062
+        },
+        "pbo": 0.0397,
+        "profit_factor": 1.4231,
+        "sharpe": 0.13124642320775673,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio 0.3582 <= 1.645"
+        ],
+        "available": true
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 66,
+        "p_value_two_sided": 0.3153033008322578,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      }
+    },
+    "sp500_insiders_ge_3": {
+      "universe": "sp500",
+      "cluster_threshold": 3,
+      "n_signals": 862,
+      "n_entry_months": 118,
+      "n_months": 120,
+      "months_in_market": 120,
+      "median_names_per_month": 83.0,
+      "annualised_excess_gross": 0.04978084521492904,
+      "annualised_excess_net": 0.04578084521492904,
+      "annualised_excess_net_ex2020": 0.049746213585374566,
+      "breakeven_cost_bps": 497.80845214929036,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.00381507043457742,
+        "median": 0.00012788652856381637,
+        "std": 0.03223044079217535,
+        "share_positive": 0.5,
+        "p05": -0.04439288228658279,
+        "p25": -0.016238851379373434,
+        "p75": 0.024547086341076933,
+        "p95": 0.05482107697236783,
+        "min": -0.06467019913009107,
+        "max": 0.11978957255277074
+      },
+      "monthly_excess_net_ex2020": {
+        "n": 108,
+        "mean": 0.0041455177987812135,
+        "median": 0.0004911521239030438,
+        "std": 0.031713408642448246,
+        "share_positive": 0.5092592592592593,
+        "p05": -0.042664727548214716,
+        "p25": -0.015767584297136622,
+        "p75": 0.02263062987166308,
+        "p95": 0.05594255960520175,
+        "min": -0.06467019913009107,
+        "max": 0.11978957255277074
+      },
+      "capacity": {
+        "signals_checked": 857,
+        "blocked": 0,
+        "blocked_share": 0.0
+      },
+      "per_year": {
+        "2016": {
+          "n_months": 4,
+          "mean_monthly_net": 0.03264427823743341,
+          "median_monthly_net": 0.03180046055698488
+        },
+        "2017": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0022804260018419384,
+          "median_monthly_net": -0.0026293643672323018
+        },
+        "2018": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0013345664685726563,
+          "median_monthly_net": 0.004364674730321759
+        },
+        "2019": {
+          "n_months": 12,
+          "mean_monthly_net": -0.0016110442395639718,
+          "median_monthly_net": -0.0009760440476390671
+        },
+        "2020": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0008410441567432764,
+          "median_monthly_net": -0.008920866374182814
+        },
+        "2021": {
+          "n_months": 12,
+          "mean_monthly_net": 0.003281481819153232,
+          "median_monthly_net": -0.0017917784793794861
+        },
+        "2022": {
+          "n_months": 12,
+          "mean_monthly_net": 0.0026895382675383157,
+          "median_monthly_net": 0.004094112790193559
+        },
+        "2023": {
+          "n_months": 12,
+          "mean_monthly_net": 0.019872051224999066,
+          "median_monthly_net": 0.005995799155572341
+        },
+        "2024": {
+          "n_months": 12,
+          "mean_monthly_net": -0.0027422346922733216,
+          "median_monthly_net": 0.0059423805410163235
+        },
+        "2025": {
+          "n_months": 12,
+          "mean_monthly_net": -0.0016574902943512337,
+          "median_monthly_net": -0.0040762230369280885
+        },
+        "2026": {
+          "n_months": 8,
+          "mean_monthly_net": 0.0044714093309546656,
+          "median_monthly_net": -0.003668156423153925
+        }
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.1184,
+          "ratio": 0.2725,
+          "prob": 0.6074,
+          "n": 120,
+          "n_trials": 4,
+          "psr_z": 1.3246,
+          "bracket": 1.0521,
+          "sr_star": 0.094021,
+          "sigma_sr": 0.089363
+        },
+        "pbo": 0.0476,
+        "profit_factor": 1.3591,
+        "sharpe": 0.11836854665368436,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio 0.2725 <= 1.645"
+        ],
+        "available": true
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 60,
+        "p_value_two_sided": 1.0,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      }
+    }
+  },
+  "criteria": {
+    "P1_positive_excess_ex2020_after_cost": true,
+    "P2_median_monthly_excess_above_zero": true,
+    "P3_cluster_filter_raises_the_median": true,
+    "P4_capacity_under_10pct_blocked": true,
+    "P5_breakeven_cost_above_40bps": true,
+    "P6_deflated_sharpe_and_pbo": false
+  },
+  "overall_registered": "PASS",
+  "status": "SHADOW",
+  "headline": "PASS on the registered economic criteria, FAIL on the overfit gate. The median month clears zero by 0.12% on 61 positive months out of 120 (sign test p=0.93) - a coin flip. Deflated Sharpe is 0.0735 against a 1.645 threshold. Stays SHADOW.",
+  "promoted": false
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "KWR",
+  "cik": "0000081362",
+  "sector": "Materials",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000081362-24-000024",
+        "form": "10-K/A",
+        "filed": "2024-03-14",
+        "chars": null
+      },
+      "pack_secs": 21.1,
+      "components": {
+        "MG": {
+          "secs": 13.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000081362-24-000049",
+        "form": "DEF 14A",
+        "filed": "2024-03-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 34.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000081362-25-000014",
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "chars": null
+      },
+      "pack_secs": 23.4,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000081362-25-000051",
+        "form": "DEF 14A",
+        "filed": "2025-03-31",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.8
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "NXPI",
+  "cik": "0001413447",
+  "sector": "Information Technology",
+  "decile": 6,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001413447-24-000013",
+        "form": "10-K",
+        "filed": "2024-02-22",
+        "chars": 399546
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 0,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001413447-24-000033",
+        "form": "DEF 14A",
+        "filed": "2024-04-15",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001413447-25-000019",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": 400735
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 14.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001413447-25-000035",
+        "form": "DEF 14A",
+        "filed": "2025-04-29",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.1
+    }
+  }
+}

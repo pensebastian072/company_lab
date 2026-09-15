@@ -1,0 +1,624 @@
+{
+  "experiment": "E43_first_batch",
+  "seed": 43,
+  "requested": 40,
+  "control_fraction": 0.2,
+  "eligible_pool": 226,
+  "n_priority": 32,
+  "n_control": 8,
+  "strata": 14,
+  "sector_counts": {
+    "information_technology": 4,
+    "financials": 27,
+    "industrials": 3,
+    "energy": 4,
+    "real_estate": 2
+  },
+  "order": [
+    "FICO",
+    "PYPL",
+    "FIS",
+    "MU",
+    "MA",
+    "EEFT",
+    "EVTC",
+    "JKHY",
+    "PLMR",
+    "HIG",
+    "PAYO",
+    "EFX",
+    "EXE",
+    "TOST",
+    "SEZL",
+    "MCY",
+    "NATL",
+    "CINF",
+    "EQT",
+    "KNSL",
+    "AX",
+    "HCI",
+    "CASH",
+    "WEX",
+    "THG",
+    "FNF",
+    "CBU",
+    "CUBI",
+    "FNB",
+    "FISV",
+    "XYZ",
+    "TPL",
+    "TRU",
+    "PBF",
+    "FORM",
+    "EQIX",
+    "DLR",
+    "ETN",
+    "AFL",
+    "KLIC"
+  ],
+  "priority": [
+    {
+      "ticker": "FICO",
+      "priority_score": 0.5682,
+      "inputs": {
+        "rank_percentile": 0.9579,
+        "score_delta": 0.0,
+        "contradiction_count": 1.0,
+        "valuation_attractive": 0.8666666666666667,
+        "staleness": 0.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "PYPL",
+      "priority_score": 0.5633,
+      "inputs": {
+        "rank_percentile": 1.0,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.9333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FIS",
+      "priority_score": 0.5465,
+      "inputs": {
+        "rank_percentile": 0.8327,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 1.0,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "MU",
+      "priority_score": 0.5447,
+      "inputs": {
+        "rank_percentile": 0.9737,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "MA",
+      "priority_score": 0.535,
+      "inputs": {
+        "rank_percentile": 0.9416,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 1.0,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "EEFT",
+      "priority_score": 0.532,
+      "inputs": {
+        "rank_percentile": 0.8016,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "EVTC",
+      "priority_score": 0.5315,
+      "inputs": {
+        "rank_percentile": 0.8327,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "JKHY",
+      "priority_score": 0.529,
+      "inputs": {
+        "rank_percentile": 0.9533,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "PLMR",
+      "priority_score": 0.5253,
+      "inputs": {
+        "rank_percentile": 0.8016,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "HIG",
+      "priority_score": 0.5212,
+      "inputs": {
+        "rank_percentile": 0.856,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "PAYO",
+      "priority_score": 0.5165,
+      "inputs": {
+        "rank_percentile": 0.8327,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "EFX",
+      "priority_score": 0.514,
+      "inputs": {
+        "rank_percentile": 0.7452,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "EXE",
+      "priority_score": 0.5114,
+      "inputs": {
+        "rank_percentile": 0.9155,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "TOST",
+      "priority_score": 0.5096,
+      "inputs": {
+        "rank_percentile": 0.9728,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "SEZL",
+      "priority_score": 0.5094,
+      "inputs": {
+        "rank_percentile": 0.9805,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "MCY",
+      "priority_score": 0.5089,
+      "inputs": {
+        "rank_percentile": 0.786,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "NATL",
+      "priority_score": 0.5079,
+      "inputs": {
+        "rank_percentile": 0.856,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "CINF",
+      "priority_score": 0.5049,
+      "inputs": {
+        "rank_percentile": 0.8327,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "EQT",
+      "priority_score": 0.5045,
+      "inputs": {
+        "rank_percentile": 0.831,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "KNSL",
+      "priority_score": 0.5018,
+      "inputs": {
+        "rank_percentile": 0.9339,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "AX",
+      "priority_score": 0.4998,
+      "inputs": {
+        "rank_percentile": 0.7821,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "HCI",
+      "priority_score": 0.4995,
+      "inputs": {
+        "rank_percentile": 0.856,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "CASH",
+      "priority_score": 0.4981,
+      "inputs": {
+        "rank_percentile": 0.7821,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "WEX",
+      "priority_score": 0.4954,
+      "inputs": {
+        "rank_percentile": 0.9105,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "THG",
+      "priority_score": 0.4948,
+      "inputs": {
+        "rank_percentile": 0.7821,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FNF",
+      "priority_score": 0.4942,
+      "inputs": {
+        "rank_percentile": 0.7626,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "CBU",
+      "priority_score": 0.4926,
+      "inputs": {
+        "rank_percentile": 0.6381,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "CUBI",
+      "priority_score": 0.4916,
+      "inputs": {
+        "rank_percentile": 0.5914,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 1.0,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FNB",
+      "priority_score": 0.4916,
+      "inputs": {
+        "rank_percentile": 0.5914,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 1.0,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FISV",
+      "priority_score": 0.4914,
+      "inputs": {
+        "rank_percentile": 0.7821,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "XYZ",
+      "priority_score": 0.4912,
+      "inputs": {
+        "rank_percentile": 0.856,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "TPL",
+      "priority_score": 0.4885,
+      "inputs": {
+        "rank_percentile": 0.8592,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    }
+  ],
+  "control": [
+    {
+      "ticker": "TRU",
+      "priority_score": 0.4314,
+      "inputs": {
+        "rank_percentile": 0.7985,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "PBF",
+      "priority_score": 0.3127,
+      "inputs": {
+        "rank_percentile": 0.5634,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.2,
+        "staleness": 1.0,
+        "conviction_proximity": 0.19999999999999996,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "FORM",
+      "priority_score": 0.4424,
+      "inputs": {
+        "rank_percentile": 0.7368,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "EQIX",
+      "priority_score": 0.4738,
+      "inputs": {
+        "rank_percentile": 0.8774,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.13333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "DLR",
+      "priority_score": 0.4108,
+      "inputs": {
+        "rank_percentile": 0.8208,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.06666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "ETN",
+      "priority_score": 0.4523,
+      "inputs": {
+        "rank_percentile": 0.7034,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.26666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "AFL",
+      "priority_score": 0.353,
+      "inputs": {
+        "rank_percentile": 0.4319,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.26666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "KLIC",
+      "priority_score": 0.3559,
+      "inputs": {
+        "rank_percentile": 0.4211,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    }
+  ],
+  "note": "pool restricted to companies covered by a BUILT industry object so Phase 0's 15 objects are reused; prior research dates supplied so already-researched companies are not re-picked on false staleness"
+}

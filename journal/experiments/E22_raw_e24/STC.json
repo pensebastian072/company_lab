@@ -1,0 +1,70 @@
+{
+  "ticker": "STC",
+  "cik": "0000094344",
+  "sector": "Financials",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000094344-24-000005",
+        "form": "10-K",
+        "filed": "2024-02-29",
+        "chars": 263211
+      },
+      "pack_secs": 28.7,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001174947-24-000428",
+        "form": "DEF 14A",
+        "filed": "2024-03-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000094344-25-000004",
+        "form": "10-K",
+        "filed": "2025-02-28",
+        "chars": 264370
+      },
+      "pack_secs": 27.2,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001174947-25-000398",
+        "form": "DEF 14A",
+        "filed": "2025-03-26",
+        "error": null,
+        "n_chunks": 151
+      },
+      "total_secs": 40.4
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "MZTI",
+  "cik": "0000057515",
+  "sector": "Consumer Staples",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000057515-24-000020",
+        "form": "10-K",
+        "filed": "2024-08-22",
+        "chars": 264812
+      },
+      "pack_secs": 18.6,
+      "components": {
+        "MG": {
+          "secs": 13.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000057515-23-000023",
+        "form": "DEF 14A",
+        "filed": "2023-10-10",
+        "error": null,
+        "n_chunks": 78
+      },
+      "total_secs": 32.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000057515-25-000020",
+        "form": "10-K",
+        "filed": "2025-08-21",
+        "chars": null
+      },
+      "pack_secs": 17.2,
+      "components": {
+        "MG": {
+          "secs": 13.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000057515-24-000023",
+        "form": "DEF 14A",
+        "filed": "2024-10-08",
+        "error": null,
+        "n_chunks": 75
+      },
+      "total_secs": 30.9
+    }
+  }
+}

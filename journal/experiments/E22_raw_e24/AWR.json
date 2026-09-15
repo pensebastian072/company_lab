@@ -1,0 +1,70 @@
+{
+  "ticker": "AWR",
+  "cik": "0001056903",
+  "sector": "Utilities",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001628280-24-005922",
+        "form": "10-K",
+        "filed": "2024-02-21",
+        "chars": null
+      },
+      "pack_secs": 28.3,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-018222",
+        "form": "DEF 14A",
+        "filed": "2024-04-05",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001628280-25-006389",
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "chars": null
+      },
+      "pack_secs": 27.0,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-012187",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.3
+    }
+  }
+}

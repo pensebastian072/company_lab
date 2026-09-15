@@ -1,0 +1,134 @@
+{
+  "companies": 1501,
+  "min_sector_n": 30,
+  "constant_share": 0.95,
+  "sectors": {
+    "Communication Services": {
+      "n": 47,
+      "median_score": 51,
+      "constant_subtests": [
+        {
+          "subtest": "bs_maturity_wall",
+          "n_scored": 41,
+          "max_points": 1,
+          "modal_value": 1,
+          "modal_share": 0.9512,
+          "mean_earned": 0.951
+        }
+      ],
+      "discriminating_subtests": 40,
+      "constant_points": 0.95,
+      "discriminating_points": 53.29,
+      "constant_share_of_earned": 0.0175
+    },
+    "Consumer Discretionary": {
+      "n": 193,
+      "median_score": 49,
+      "constant_subtests": [],
+      "discriminating_subtests": 41,
+      "constant_points": 0,
+      "discriminating_points": 51.07,
+      "constant_share_of_earned": 0.0
+    },
+    "Consumer Staples": {
+      "n": 75,
+      "median_score": 48,
+      "constant_subtests": [],
+      "discriminating_subtests": 41,
+      "constant_points": 0,
+      "discriminating_points": 49.86,
+      "constant_share_of_earned": 0.0
+    },
+    "Energy": {
+      "n": 71,
+      "median_score": 41,
+      "constant_subtests": [],
+      "discriminating_subtests": 41,
+      "constant_points": 0,
+      "discriminating_points": 46.8,
+      "constant_share_of_earned": 0.0
+    },
+    "Financials": {
+      "n": 257,
+      "median_score": 48,
+      "constant_subtests": [],
+      "discriminating_subtests": 41,
+      "constant_points": 0,
+      "discriminating_points": 55.29,
+      "constant_share_of_earned": 0.0
+    },
+    "Health Care": {
+      "n": 163,
+      "median_score": 54,
+      "constant_subtests": [],
+      "discriminating_subtests": 41,
+      "constant_points": 0,
+      "discriminating_points": 54.62,
+      "constant_share_of_earned": 0.0
+    },
+    "Industrials": {
+      "n": 263,
+      "median_score": 54,
+      "constant_subtests": [],
+      "discriminating_subtests": 41,
+      "constant_points": 0,
+      "discriminating_points": 54.65,
+      "constant_share_of_earned": 0.0
+    },
+    "Information Technology": {
+      "n": 190,
+      "median_score": 61,
+      "constant_subtests": [],
+      "discriminating_subtests": 41,
+      "constant_points": 0,
+      "discriminating_points": 59.12,
+      "constant_share_of_earned": 0.0
+    },
+    "Materials": {
+      "n": 77,
+      "median_score": 48,
+      "constant_subtests": [
+        {
+          "subtest": "bs_current_ratio",
+          "n_scored": 77,
+          "max_points": 1,
+          "modal_value": 1,
+          "modal_share": 0.961,
+          "mean_earned": 0.961
+        }
+      ],
+      "discriminating_subtests": 40,
+      "constant_points": 0.96,
+      "discriminating_points": 47.43,
+      "constant_share_of_earned": 0.0199
+    },
+    "Real Estate": {
+      "n": 106,
+      "median_score": 34,
+      "constant_subtests": [],
+      "discriminating_subtests": 41,
+      "constant_points": 0,
+      "discriminating_points": 42.52,
+      "constant_share_of_earned": 0.0
+    },
+    "Utilities": {
+      "n": 59,
+      "median_score": 39,
+      "constant_subtests": [
+        {
+          "subtest": "bs_cash_vs_opex",
+          "n_scored": 57,
+          "max_points": 1,
+          "modal_value": 0,
+          "modal_share": 0.9649,
+          "mean_earned": 0.035
+        }
+      ],
+      "discriminating_subtests": 40,
+      "constant_points": 0.04,
+      "discriminating_points": 42.39,
+      "constant_share_of_earned": 0.0008
+    }
+  },
+  "note": "Descriptive only. No threshold is proposed and nothing is changed: there is no forward-return grader, so a per-sector band cannot be calibrated honestly. This says how much of a sector's score separates nobody inside it."
+}

@@ -1,0 +1,108 @@
+{
+  "ticker": "COTY",
+  "cik": "0001024305",
+  "sector": "Consumer Staples",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001024305-24-000035",
+        "form": "10-K",
+        "filed": "2024-08-20",
+        "chars": 671732
+      },
+      "pack_secs": 18.6,
+      "components": {
+        "SG": {
+          "secs": 16.4,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": null,
+            "revenue_growth_sustainable": 2,
+            "demand_drivers_3_5yr": 3,
+            "capacity_backlog_contracts": null,
+            "secular_not_cyclical": 2,
+            "multiple_independent_drivers": 1
+          }
+        },
+        "BQ": {
+          "secs": 16.4,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": 1,
+            "economies_of_scale": 2,
+            "switching_costs": 3,
+            "network_effects": null,
+            "intellectual_property": 4,
+            "brand": 5,
+            "regulatory_barriers": 2,
+            "manufacturing_complexity": null,
+            "distribution": 3,
+            "customer_relationships": 4,
+            "data_advantages": null
+          }
+        },
+        "MG": {
+          "secs": 10.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 0
+          }
+        }
+      },
+      "total_secs": 61.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001024305-25-000030",
+        "form": "10-K",
+        "filed": "2025-08-21",
+        "chars": null
+      },
+      "pack_secs": 12.0,
+      "components": {
+        "SG": {
+          "secs": 20.1,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": 1,
+            "revenue_growth_sustainable": null,
+            "demand_drivers_3_5yr": 2,
+            "capacity_backlog_contracts": null,
+            "secular_not_cyclical": 2,
+            "multiple_independent_drivers": 1
+          }
+        },
+        "BQ": {
+          "secs": 15.1,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": 1,
+            "economies_of_scale": 2,
+            "switching_costs": 3,
+            "network_effects": 0,
+            "intellectual_property": 1,
+            "brand": 4,
+            "regulatory_barriers": 2,
+            "manufacturing_complexity": 3,
+            "distribution": 4,
+            "customer_relationships": 2,
+            "data_advantages": 1
+          }
+        },
+        "MG": {
+          "secs": 7.3,
+          "parse_ok": true,
+          "scores": {}
+        }
+      },
+      "total_secs": 54.5
+    }
+  }
+}

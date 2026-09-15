@@ -1,0 +1,70 @@
+{
+  "ticker": "BXMT",
+  "cik": "0001061630",
+  "sector": "Financials",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001061630-24-000029",
+        "form": "10-K",
+        "filed": "2024-02-14",
+        "chars": null
+      },
+      "pack_secs": 22.5,
+      "components": {
+        "MG": {
+          "secs": 12.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-114005",
+        "form": "DEF 14A",
+        "filed": "2024-04-25",
+        "error": null,
+        "n_chunks": 104
+      },
+      "total_secs": 35.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001061630-25-000024",
+        "form": "10-K",
+        "filed": "2025-02-12",
+        "chars": null
+      },
+      "pack_secs": 20.7,
+      "components": {
+        "MG": {
+          "secs": 14.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-107470",
+        "form": "DEF 14A",
+        "filed": "2025-04-30",
+        "error": null,
+        "n_chunks": 114
+      },
+      "total_secs": 34.8
+    }
+  }
+}

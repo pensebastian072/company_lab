@@ -1,0 +1,14 @@
+{
+  "companies": 460,
+  "answered": 331,
+  "kept": 90,
+  "by_component": {
+    "BQ": {
+      "answered": 331,
+      "kept": 90,
+      "companies": 238
+    }
+  },
+  "gate": "strict",
+  "updated_at": "2026-08-19T17:10:52.323557+00:00"
+}

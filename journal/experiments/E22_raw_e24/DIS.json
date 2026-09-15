@@ -1,0 +1,70 @@
+{
+  "ticker": "DIS",
+  "cik": "0001744489",
+  "sector": "Communication Services",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001744489-24-000064",
+        "form": "10-K/A",
+        "filed": "2024-01-24",
+        "chars": 251580
+      },
+      "pack_secs": 24.6,
+      "components": {
+        "MG": {
+          "secs": 12.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-22-012592",
+        "form": "DEF 14A",
+        "filed": "2022-01-19",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001744489-24-000276",
+        "form": "10-K",
+        "filed": "2024-11-14",
+        "chars": 516461
+      },
+      "pack_secs": 24.3,
+      "components": {
+        "MG": {
+          "secs": 12.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001744489-25-000059",
+        "form": "DEF 14A",
+        "filed": "2025-01-23",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.1
+    }
+  }
+}

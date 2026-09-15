@@ -1,0 +1,70 @@
+{
+  "ticker": "ADAM",
+  "cik": "0001273685",
+  "sector": "Real Estate",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001273685-24-000033",
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "chars": null
+      },
+      "pack_secs": 28.3,
+      "components": {
+        "MG": {
+          "secs": 12.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001273685-24-000047",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001273685-25-000028",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": null
+      },
+      "pack_secs": 27.3,
+      "components": {
+        "MG": {
+          "secs": 12.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001273685-25-000038",
+        "form": "DEF 14A",
+        "filed": "2025-04-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.4
+    }
+  }
+}

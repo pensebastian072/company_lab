@@ -1,0 +1,64 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": 3,
+      "quote": "The Pressure Control segment designs, manufactures, sells and rents a range of wellhead and pressure control equipment under the Cactus Wellhead brand.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "data_advantages": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "economies_of_scale": {
+      "score": 2,
+      "quote": "Revenue growth accelerating (measured): True",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    }
+  },
+  "ticker": "WHD",
+  "cik": "0001699136",
+  "sector": "Energy",
+  "arm": "under",
+  "base_scored": [
+    "intellectual_property",
+    "manufacturing_complexity"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 5,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "TLN",
+  "cik": "0001622536",
+  "sector": "Utilities",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001622536-16-000111",
+        "form": "10-K",
+        "filed": "2016-02-29",
+        "chars": null
+      },
+      "pack_secs": 26.9,
+      "components": {
+        "MG": {
+          "secs": 12.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001626129-16-000512",
+        "form": "DEF 14A",
+        "filed": "2016-04-12",
+        "error": null,
+        "n_chunks": 143
+      },
+      "total_secs": 39.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001628280-25-008786",
+        "form": "10-K",
+        "filed": "2025-02-28",
+        "chars": null
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001628280-25-013816",
+        "form": "DEF 14A",
+        "filed": "2025-03-19",
+        "error": null,
+        "n_chunks": 145
+      },
+      "total_secs": 37.3
+    }
+  }
+}

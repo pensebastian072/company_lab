@@ -1,0 +1,63 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "economies_of_scale": {
+      "score": 2,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    }
+  },
+  "ticker": "MUR",
+  "cik": "0000717423",
+  "sector": "Energy",
+  "arm": "under",
+  "base_scored": [
+    "distribution",
+    "intellectual_property",
+    "regulatory_barriers"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 4,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

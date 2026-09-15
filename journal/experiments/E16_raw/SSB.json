@@ -1,0 +1,50 @@
+{
+  "ticker": "SSB",
+  "cik": "0000764038",
+  "sector": "Financials",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 17.7,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "economies_of_scale"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 25.8,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 6,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "economies_of_scale",
+      "regulatory_barriers",
+      "switching_costs"
+    ]
+  }
+}

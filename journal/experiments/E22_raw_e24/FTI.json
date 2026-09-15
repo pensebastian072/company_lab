@@ -1,0 +1,70 @@
+{
+  "ticker": "FTI",
+  "cik": "0001681459",
+  "sector": "Energy",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001681459-24-000070",
+        "form": "10-K",
+        "filed": "2024-02-27",
+        "chars": null
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-013498",
+        "form": "DEF 14A",
+        "filed": "2024-03-15",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001681459-25-000036",
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "chars": null
+      },
+      "pack_secs": 23.8,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001681459-25-000068",
+        "form": "DEF 14A",
+        "filed": "2025-03-14",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.4
+    }
+  }
+}

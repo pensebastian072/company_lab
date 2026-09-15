@@ -1,0 +1,268 @@
+{
+  "study": "E05_four_fixes",
+  "as_of": "2026-08-12T14:49:58.593648+00:00",
+  "panel": {
+    "rows": 67889,
+    "symbols": 675,
+    "start": "2016-01-31",
+    "end": "2026-08-31",
+    "median_avail": 38.0,
+    "survivorship": "removed constituents included until they left"
+  },
+  "sector_coverage": {
+    "rows": 67889,
+    "symbols": 675,
+    "rows_without_gics_sector": 10774,
+    "share_rows_without_gics_sector": 0.15870023125985064,
+    "symbols_without_gics_sector": 182,
+    "sic_resolved_share_of_those": 0.998422127343605,
+    "rows_still_unclassified": 17,
+    "symbols_still_unclassified": 1,
+    "sector_sic_distribution": {
+      "Industrials": 12488,
+      "Information Technology": 11374,
+      "Financials": 9285,
+      "Health Care": 7087,
+      "Consumer Discretionary": 7084,
+      "Utilities": 4461,
+      "Materials": 4271,
+      "Real Estate": 3914,
+      "Consumer Staples": 3219,
+      "Energy": 2504,
+      "Communication Services": 1943,
+      "Unclassified": 259
+    },
+    "disagreement_where_both_known": {
+      "n_symbols": 491,
+      "agreement_rate": 0.7820773930753564,
+      "top_mismatches": {
+        "Consumer Discretionary -> Industrials": 14,
+        "Industrials -> Information Technology": 11,
+        "Financials -> Industrials": 10,
+        "Information Technology -> Industrials": 7,
+        "Consumer Staples -> Materials": 7,
+        "Consumer Staples -> Consumer Discretionary": 6,
+        "Industrials -> Consumer Discretionary": 6,
+        "Health Care -> Financials": 5
+      }
+    }
+  },
+  "f1": {
+    "fix": "F1 sector-relative margin and return metrics",
+    "sector_definition": "sector_filled",
+    "criteria": {
+      "within_sector_ic": "> 0",
+      "sector_spread_pts": "< 10.70 (half of 21.4)"
+    },
+    "arms": {
+      "absolute": {
+        "pooled_ic_1y": 0.042644622465598206,
+        "within_sector_ic_1y": 0.017031467719400034,
+        "within_sector_ic_1y_share_positive": 0.6434782608695652,
+        "score_variance_from_sector": 0.1725515627542339,
+        "sector_spread_pts": 24.119999999999997,
+        "mean_score_by_sector": {
+          "Information Technology": 0.6265,
+          "Financials": 0.6204,
+          "Health Care": 0.6119,
+          "Consumer Discretionary": 0.6102,
+          "Industrials": 0.5945,
+          "Communication Services": 0.5812,
+          "Unclassified": 0.5737,
+          "Materials": 0.5467,
+          "Energy": 0.5418,
+          "Consumer Staples": 0.5336,
+          "Real Estate": 0.4827,
+          "Utilities": 0.3853
+        },
+        "ic_3y": 0.08051050825445011,
+        "top_minus_bottom_3y": -0.14132579648721166,
+        "verdict_r1": "score largely disappears within sector - it is substantially a sector bet"
+      },
+      "sector_relative": {
+        "pooled_ic_1y": 0.04377803806289564,
+        "within_sector_ic_1y": 0.023311276200797024,
+        "within_sector_ic_1y_share_positive": 0.7043478260869566,
+        "score_variance_from_sector": 0.12121546243414105,
+        "sector_spread_pts": 19.169999999999998,
+        "mean_score_by_sector": {
+          "Unclassified": 0.5737,
+          "Financials": 0.5699,
+          "Information Technology": 0.5665,
+          "Health Care": 0.5589,
+          "Consumer Discretionary": 0.5567,
+          "Communication Services": 0.5371,
+          "Industrials": 0.5361,
+          "Energy": 0.5175,
+          "Materials": 0.4979,
+          "Consumer Staples": 0.4834,
+          "Real Estate": 0.4585,
+          "Utilities": 0.382
+        },
+        "ic_3y": 0.07736469870451074,
+        "top_minus_bottom_3y": -0.0941102641021887,
+        "verdict_r1": "score survives sector removal - it is picking companies"
+      }
+    },
+    "did_the_fix_bind": {
+      "rows_compared": 67889,
+      "share_rows_on_sector_relative_basis": 0.9720867887286601,
+      "share_fe_changed": 0.7861067330495367,
+      "mean_fe_delta": -1.7983325722871157,
+      "mean_abs_fe_delta": 1.8560444254592054,
+      "mean_measured_pct_delta": -0.048364598232672425
+    },
+    "checks": {
+      "within_sector_ic_positive": true,
+      "sector_spread_halved": false
+    },
+    "passes": false
+  },
+  "f1_robustness": {
+    "note": "gics_only silently drops every removed constituent and so reintroduces the survivorship bias E04 removed; it is here as a comparison, not as the headline.",
+    "gics_only": {
+      "rows": 57115,
+      "symbols": 493,
+      "absolute_within_sector_ic": 0.0013816095484687637,
+      "relative_within_sector_ic": 0.006307029895187925,
+      "absolute_sector_spread_pts": 24.660000000000004,
+      "relative_sector_spread_pts": 19.399999999999995,
+      "relative_pooled_ic": 0.03110164433202564,
+      "passes": false
+    },
+    "sic_filled": {
+      "rows": 67889,
+      "symbols": 675,
+      "absolute_within_sector_ic": 0.017031467719400034,
+      "relative_within_sector_ic": 0.023311276200797024,
+      "absolute_sector_spread_pts": 24.119999999999997,
+      "relative_sector_spread_pts": 19.169999999999998,
+      "relative_pooled_ic": 0.04377803806289564,
+      "passes": false
+    },
+    "sic_for_everyone": {
+      "rows": 67889,
+      "symbols": 675,
+      "absolute_within_sector_ic": 0.01881958939999712,
+      "relative_within_sector_ic": 0.024927122535484805,
+      "absolute_sector_spread_pts": 26.419999999999998,
+      "relative_sector_spread_pts": 27.67,
+      "relative_pooled_ic": 0.04315636678300991,
+      "passes": false
+    },
+    "verdict_depends_on_sector_definition": false
+  },
+  "f3": {
+    "fix": "F3 band hysteresis (two consecutive readings to change)",
+    "criteria": {
+      "band_change_rate": "< 12%/month",
+      "median_months_in_band": "> 4",
+      "abs_ic_delta": "< 0.005"
+    },
+    "confirm_readings": 2,
+    "arms": {
+      "band_raw": {
+        "band_change_rate_per_month": 0.21794566608147112,
+        "median_months_in_a_band": 3.0,
+        "mean_months_in_a_band": 4.430240146175933,
+        "n_runs": 15324,
+        "band_ic_1y": 0.04478418291035516,
+        "band_ic_3y": 0.08289243057060065,
+        "band_distribution": {
+          "REJECT": 20745,
+          "WATCHLIST": 14625,
+          "WEAK": 14133,
+          "INVESTABLE": 10973,
+          "HIGH_CONVICTION": 5804,
+          "EXCEPTIONAL": 1609
+        }
+      },
+      "band_smoothed": {
+        "band_change_rate_per_month": 0.12845538131936798,
+        "median_months_in_a_band": 5.0,
+        "mean_months_in_a_band": 7.292834890965732,
+        "n_runs": 9309,
+        "band_ic_1y": 0.048425118214678466,
+        "band_ic_3y": 0.08456972357874004,
+        "band_distribution": {
+          "REJECT": 20912,
+          "WATCHLIST": 14673,
+          "WEAK": 14068,
+          "INVESTABLE": 10883,
+          "HIGH_CONVICTION": 5775,
+          "EXCEPTIONAL": 1578
+        }
+      }
+    },
+    "ic_delta_1y": 0.0036409353043233075,
+    "ic_delta_3y": 0.0016772930081393883,
+    "delay_cost": {
+      "definition": "observations whose next 12 months returned <= -30%. This is a HORIZON RETURN, not a peak-to-trough drawdown.",
+      "n_falls": 3977,
+      "share_of_falls_where_smoothed_band_differed": 0.1709831531305004,
+      "share_of_falls_where_smoothed_band_was_more_flattering": 0.07845109378928841
+    },
+    "checks": {
+      "change_rate_under_12pct": false,
+      "median_months_over_4": true,
+      "ic_materially_unchanged": true
+    },
+    "passes": false
+  },
+  "f4": {
+    "fix": "F4 default the UI and expectations to 3 years",
+    "criteria": {
+      "scores_unchanged": "F4 is presentation only"
+    },
+    "by_horizon_absolute": {
+      "1y": {
+        "n_months": 115,
+        "mean_ic": 0.042644622465598206,
+        "median_ic": 0.050985690804897774,
+        "share_positive": 0.6782608695652174,
+        "top_decile_mean": 0.19158514261493895,
+        "bottom_decile_mean": 0.18197548899209096,
+        "top_minus_bottom": 0.009609653622847991,
+        "n": 60040
+      },
+      "3y": {
+        "n_months": 91,
+        "mean_ic": 0.08051050825445011,
+        "median_ic": 0.08148528280059958,
+        "share_positive": 0.9230769230769231,
+        "top_decile_mean": 0.6249495755925483,
+        "bottom_decile_mean": 0.7662753720797599,
+        "top_minus_bottom": -0.14132579648721166,
+        "n": 45588
+      }
+    },
+    "ic_rises_with_horizon": true,
+    "verdict_r3": "IC improves with horizon - earlier tests were too short",
+    "excess_over_spy_absolute": {
+      "1y": {
+        "n_months": 108,
+        "mean_ic": 0.03906640998764192,
+        "median_ic": 0.049341974517955065,
+        "share_positive": 0.6574074074074074,
+        "top_decile_mean_excess": 0.033920963710085426,
+        "top_decile_median_excess": -0.01178798697221134,
+        "bottom_decile_mean_excess": 0.02841901874667563,
+        "n": 58992,
+        "n_dates": 108
+      },
+      "3y": {
+        "n_months": 84,
+        "mean_ic": 0.07781409224089511,
+        "median_ic": 0.07799482481165945,
+        "share_positive": 0.9166666666666666,
+        "top_decile_mean_excess": 0.1185685703873537,
+        "top_decile_median_excess": -0.07561814418590318,
+        "bottom_decile_mean_excess": 0.27056165368269436,
+        "n": 44689,
+        "n_dates": 84
+      }
+    },
+    "passes": true,
+    "note": "F4 changes no score, so it cannot fail on data. The horizon numbers here are new: they are the first computed on a survivorship-free panel."
+  }
+}

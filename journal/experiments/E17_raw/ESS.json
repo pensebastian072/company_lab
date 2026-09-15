@@ -1,0 +1,66 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 1,
+      "quote": "reliance on third party software providers to host systems is critical to our operations and to provide the Company with data",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    }
+  },
+  "ticker": "ESS",
+  "cik": "0000920522",
+  "sector": "Real Estate",
+  "arm": "under",
+  "base_scored": [
+    "brand",
+    "customer_relationships",
+    "distribution",
+    "regulatory_barriers",
+    "switching_costs"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 5,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

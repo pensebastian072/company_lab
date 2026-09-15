@@ -1,0 +1,70 @@
+{
+  "n_under": 59,
+  "n_control": 20,
+  "n_repaired": 52,
+  "cleared_before": 10,
+  "cleared_after": 31,
+  "Q1_cleared_pct": 52.5,
+  "Q1_pass": true,
+  "Q2_repair_unverified_pct": 1.92,
+  "Q2_pass": false,
+  "unverified_counts": {
+    "production": [
+      1,
+      79
+    ],
+    "repair": [
+      1,
+      52
+    ]
+  },
+  "Q3_controls_losing_a_dimension": [],
+  "Q3_pass": true,
+  "Q4_economies_of_scale_pct": 67.8,
+  "Q4_pass": true,
+  "recovered_by_dimension": {
+    "economies_of_scale": 40,
+    "manufacturing_complexity": 13,
+    "data_advantages": 3,
+    "network_effects": 2
+  },
+  "newly_cleared": [
+    "SBRA",
+    "ESS",
+    "HLI",
+    "MBIN",
+    "CNO",
+    "GNW",
+    "WSBC",
+    "WRB",
+    "WABC",
+    "ALK",
+    "GFF",
+    "MYRG",
+    "ADSK",
+    "IDCC",
+    "HLIT",
+    "PRGS",
+    "HE",
+    "RRR",
+    "AMPH",
+    "NVST",
+    "SDGR"
+  ],
+  "newly_cleared_dimension_composition": {
+    "switching_costs": 21,
+    "customer_relationships": 20,
+    "economies_of_scale": 18,
+    "regulatory_barriers": 18,
+    "brand": 15,
+    "distribution": 14,
+    "intellectual_property": 9,
+    "technological_advantage": 7,
+    "manufacturing_complexity": 4,
+    "network_effects": 2,
+    "data_advantages": 2
+  },
+  "median_repair_secs": 23.9,
+  "median_dims_before": 5,
+  "median_dims_after": 6
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "VEEV",
+  "cik": "0001393052",
+  "sector": "Health Care",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001393052-24-000013",
+        "form": "10-K",
+        "filed": "2024-03-25",
+        "chars": 356047
+      },
+      "pack_secs": 24.6,
+      "components": {
+        "MG": {
+          "secs": 12.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-021323",
+        "form": "DEF 14A",
+        "filed": "2024-04-23",
+        "error": null,
+        "n_chunks": 146
+      },
+      "total_secs": 36.8
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001393052-25-000022",
+        "form": "10-K",
+        "filed": "2025-03-24",
+        "chars": 342779
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-017353",
+        "form": "DEF 14A",
+        "filed": "2025-05-05",
+        "error": null,
+        "n_chunks": 149
+      },
+      "total_secs": 37.5
+    }
+  }
+}

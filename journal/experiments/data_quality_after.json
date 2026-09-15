@@ -1,0 +1,244 @@
+{
+  "scorecards": 1498,
+  "universe_rows": 1498,
+  "companies_with_a_failure": 397,
+  "points_withheld": 523,
+  "by_subtest": {
+    "fe_gross_margin": 231,
+    "fe_operating_margin": 180,
+    "fe_fcf_margin": 52,
+    "fe_roic": 20,
+    "bs_net_debt_ebitda": 7,
+    "fe_roe": 6
+  },
+  "by_sector": {
+    "Financials": 99,
+    "Industrials": 59,
+    "Real Estate": 49,
+    "Health Care": 46,
+    "Consumer Discretionary": 42,
+    "Information Technology": 26,
+    "Materials": 22,
+    "Energy": 22,
+    "Communication Services": 16,
+    "Consumer Staples": 8,
+    "Utilities": 8
+  },
+  "by_reason": {
+    "gross_margin pairs a gross_profit series ending 2020-12-31 with revenu": 18,
+    "gross_margin pairs a gross_profit series ending 2019-12-31 with revenu": 14,
+    "gross_margin pairs a gross_profit series ending 2018-06-30 with revenu": 11,
+    "gross_margin pairs a gross_profit series ending 2018-03-31 with revenu": 10,
+    "operating_margin pairs a operating_income series ending 2018-09-30 wit": 10,
+    "operating_margin pairs a operating_income series ending 2017-12-31 wit": 8,
+    "gross_margin pairs a gross_profit series ending 2022-12-31 with revenu": 7,
+    "operating_margin pairs a operating_income series ending 2024-09-30 wit": 6,
+    "operating_margin pairs a operating_income series ending 2024-12-31 wit": 6,
+    "gross_margin pairs a gross_profit series ending 2017-12-31 with revenu": 6
+  },
+  "still_out_of_range_in_the_table": {
+    "gross_margin": 0,
+    "operating_margin": 0,
+    "fcf_margin": 0,
+    "roic": 0,
+    "roe": 0,
+    "net_debt_ebitda": 0
+  },
+  "companies": {
+    "AAT": [
+      "fe_gross_margin"
+    ],
+    "ABM": [
+      "fe_gross_margin"
+    ],
+    "ABR": [
+      "bs_net_debt_ebitda"
+    ],
+    "ABT": [
+      "fe_gross_margin"
+    ],
+    "ACGL": [
+      "fe_operating_margin"
+    ],
+    "ACHC": [
+      "fe_operating_margin"
+    ],
+    "ADM": [
+      "fe_gross_margin"
+    ],
+    "ADP": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "AFL": [
+      "fe_operating_margin"
+    ],
+    "AGNT": [
+      "fe_gross_margin"
+    ],
+    "AIR": [
+      "fe_operating_margin"
+    ],
+    "AJG": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "ALLY": [
+      "fe_operating_margin"
+    ],
+    "AMG": [
+      "fe_operating_margin"
+    ],
+    "AMGN": [
+      "fe_gross_margin"
+    ],
+    "AMP": [
+      "fe_roic"
+    ],
+    "AMSF": [
+      "fe_operating_margin"
+    ],
+    "AMT": [
+      "fe_fcf_margin",
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "ANDE": [
+      "fe_gross_margin"
+    ],
+    "ANET": [
+      "fe_roic"
+    ],
+    "ANF": [
+      "fe_gross_margin"
+    ],
+    "ANIP": [
+      "fe_gross_margin"
+    ],
+    "APD": [
+      "fe_gross_margin"
+    ],
+    "APPF": [
+      "fe_gross_margin"
+    ],
+    "APTV": [
+      "fe_gross_margin"
+    ],
+    "ARES": [
+      "fe_operating_margin"
+    ],
+    "ARMK": [
+      "fe_gross_margin"
+    ],
+    "AROC": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "ASB": [
+      "fe_operating_margin"
+    ],
+    "ASTH": [
+      "fe_gross_margin"
+    ],
+    "ATO": [
+      "fe_gross_margin"
+    ],
+    "ATR": [
+      "fe_gross_margin"
+    ],
+    "AVB": [
+      "fe_fcf_margin",
+      "fe_operating_margin"
+    ],
+    "AWR": [
+      "fe_operating_margin"
+    ],
+    "AX": [
+      "fe_fcf_margin",
+      "fe_operating_margin"
+    ],
+    "AXP": [
+      "fe_operating_margin"
+    ],
+    "BALL": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "BANC": [
+      "fe_fcf_margin",
+      "fe_operating_margin"
+    ],
+    "BANF": [
+      "fe_roic"
+    ],
+    "BBT": [
+      "fe_operating_margin"
+    ],
+    "BC": [
+      "fe_gross_margin"
+    ],
+    "BCC": [
+      "fe_gross_margin"
+    ],
+    "BFH": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "BFS": [
+      "fe_gross_margin"
+    ],
+    "BG": [
+      "fe_gross_margin"
+    ],
+    "BIIB": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "BKH": [
+      "fe_gross_margin"
+    ],
+    "BKNG": [
+      "fe_gross_margin"
+    ],
+    "BKR": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "BKU": [
+      "fe_fcf_margin",
+      "fe_operating_margin"
+    ],
+    "BMY": [
+      "fe_gross_margin"
+    ],
+    "BNL": [
+      "fe_operating_margin"
+    ],
+    "BNY": [
+      "fe_operating_margin"
+    ],
+    "BR": [
+      "fe_gross_margin"
+    ],
+    "BRK-B": [
+      "fe_operating_margin"
+    ],
+    "BRX": [
+      "fe_operating_margin"
+    ],
+    "BURL": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ],
+    "BXMT": [
+      "fe_operating_margin"
+    ],
+    "BXP": [
+      "fe_operating_margin"
+    ],
+    "C": [
+      "fe_gross_margin",
+      "fe_operating_margin"
+    ]
+  }
+}

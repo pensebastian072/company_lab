@@ -1,0 +1,70 @@
+{
+  "ticker": "UMBF",
+  "cik": "0000101382",
+  "sector": "Financials",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000950170-24-018456",
+        "form": "10-K",
+        "filed": "2024-02-22",
+        "chars": 571128
+      },
+      "pack_secs": 27.7,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-066457",
+        "form": "DEF 14A",
+        "filed": "2024-03-13",
+        "error": null,
+        "n_chunks": 150
+      },
+      "total_secs": 40.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000950170-25-028420",
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "chars": 646037
+      },
+      "pack_secs": 27.4,
+      "components": {
+        "MG": {
+          "secs": 14.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-054504",
+        "form": "DEF 14A",
+        "filed": "2025-03-14",
+        "error": null,
+        "n_chunks": 137
+      },
+      "total_secs": 42.1
+    }
+  }
+}

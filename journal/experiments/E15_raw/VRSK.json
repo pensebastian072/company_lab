@@ -1,0 +1,53 @@
+{
+  "ticker": "VRSK",
+  "cik": "0001442145",
+  "sector": "Industrials",
+  "arm": "control",
+  "targeted_meta": {
+    "n_chunks_picked": 5,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  },
+  "A": {
+    "scored": [
+      "customer_relationships",
+      "data_advantages",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 15.8,
+    "parse_ok": true
+  },
+  "B": {
+    "scored": [
+      "customer_relationships",
+      "data_advantages",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      2
+    ],
+    "secs": 19.1,
+    "parse_ok": true,
+    "weak_scored": [
+      "data_advantages",
+      "economies_of_scale"
+    ]
+  }
+}

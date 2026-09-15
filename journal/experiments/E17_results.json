@@ -1,0 +1,61 @@
+{
+  "n_repaired": 52,
+  "n_under_repaired": 49,
+  "n_under_total": 59,
+  "cleared_base_only": 10,
+  "R1_cleared_strict": 21,
+  "R1_cleared_strict_pct": 35.6,
+  "R1_pass": true,
+  "cleared_production_gate": 22,
+  "cleared_no_gate": 22,
+  "R2_yield": {
+    "has_quote": {
+      "kept": 33,
+      "pct": 45.2
+    },
+    "production": {
+      "kept": 33,
+      "pct": 45.2
+    },
+    "tight": {
+      "kept": 33,
+      "pct": 45.2
+    },
+    "strict": {
+      "kept": 29,
+      "pct": 39.7
+    }
+  },
+  "R2_per_dimension": {
+    "network_effects": {
+      "proposed": 2,
+      "strict": 1,
+      "tight": 1,
+      "production": 1
+    },
+    "manufacturing_complexity": {
+      "proposed": 9,
+      "strict": 4,
+      "tight": 4,
+      "production": 4
+    },
+    "data_advantages": {
+      "proposed": 24,
+      "strict": 13,
+      "tight": 16,
+      "production": 16
+    },
+    "economies_of_scale": {
+      "proposed": 38,
+      "strict": 11,
+      "tight": 12,
+      "production": 12
+    }
+  },
+  "R3_controls_losing_a_dimension": [],
+  "R3_pass": true,
+  "R4_eos_strict_pct": 22.4,
+  "R4_pass": false,
+  "quotes_missing_entirely": 40,
+  "median_overlap": 1.0
+}

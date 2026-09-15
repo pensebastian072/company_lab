@@ -1,0 +1,70 @@
+{
+  "ticker": "COCO",
+  "cik": "0001482981",
+  "sector": "Consumer Staples",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001482981-24-000012",
+        "form": "10-K",
+        "filed": "2024-02-29",
+        "chars": null
+      },
+      "pack_secs": 24.3,
+      "components": {
+        "MG": {
+          "secs": 12.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": null,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-021425",
+        "form": "DEF 14A",
+        "filed": "2024-04-23",
+        "error": null,
+        "n_chunks": 134
+      },
+      "total_secs": 37.1
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001482981-25-000032",
+        "form": "10-K",
+        "filed": "2025-02-26",
+        "chars": null
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": null,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001482981-25-000073",
+        "form": "DEF 14A",
+        "filed": "2025-04-23",
+        "error": null,
+        "n_chunks": 143
+      },
+      "total_secs": 37.5
+    }
+  }
+}

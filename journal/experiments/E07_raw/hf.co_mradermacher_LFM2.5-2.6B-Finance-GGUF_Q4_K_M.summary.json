@@ -1,0 +1,19 @@
+{
+  "load_error": null,
+  "generations": 9,
+  "M1_mean_spread": null,
+  "M1_max_spread": null,
+  "M1_share_unstable": null,
+  "M2_parse_failure_rate": 0.7777777777777778,
+  "M2_parse_failures": 7,
+  "M3_unverified_rate": 0.0,
+  "M4_null_rate": 0.0,
+  "M5_median_s_per_generation": 13.138375499998801,
+  "M5_projected_hours_for_1500": 16.4229693749985,
+  "companies_done": 3,
+  "companies_total": 3,
+  "budget_exhausted": false,
+  "failed_generations": 0,
+  "E12_bq_null_by_dimension": {},
+  "E12_watched_mean_null": null
+}

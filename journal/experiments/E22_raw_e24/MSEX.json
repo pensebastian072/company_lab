@@ -1,0 +1,70 @@
+{
+  "ticker": "MSEX",
+  "cik": "0000066004",
+  "sector": "Utilities",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001174947-24-000281",
+        "form": "10-K",
+        "filed": "2024-03-01",
+        "chars": null
+      },
+      "pack_secs": 23.8,
+      "components": {
+        "MG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001174947-24-000548",
+        "form": "DEF 14A",
+        "filed": "2024-04-11",
+        "error": null,
+        "n_chunks": 134
+      },
+      "total_secs": 36.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001174947-25-000318",
+        "form": "10-K/A",
+        "filed": "2025-03-11",
+        "chars": null
+      },
+      "pack_secs": 23.5,
+      "components": {
+        "MG": {
+          "secs": 12.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001174947-25-000561",
+        "form": "DEF 14A",
+        "filed": "2025-04-10",
+        "error": null,
+        "n_chunks": 143
+      },
+      "total_secs": 35.7
+    }
+  }
+}

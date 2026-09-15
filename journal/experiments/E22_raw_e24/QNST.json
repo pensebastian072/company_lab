@@ -1,0 +1,70 @@
+{
+  "ticker": "QNST",
+  "cik": "0001117297",
+  "sector": "Communication Services",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000950170-24-099495",
+        "form": "10-K",
+        "filed": "2024-08-21",
+        "chars": null
+      },
+      "pack_secs": 26.8,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001174947-23-001123",
+        "form": "DEF 14A",
+        "filed": "2023-09-15",
+        "error": null,
+        "n_chunks": 156
+      },
+      "total_secs": 40.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000950170-25-110629",
+        "form": "10-K",
+        "filed": "2025-08-21",
+        "chars": null
+      },
+      "pack_secs": 26.7,
+      "components": {
+        "MG": {
+          "secs": 12.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001174947-24-001089",
+        "form": "DEF 14A",
+        "filed": "2024-09-20",
+        "error": null,
+        "n_chunks": 149
+      },
+      "total_secs": 39.3
+    }
+  }
+}

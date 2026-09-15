@@ -1,0 +1,70 @@
+{
+  "ticker": "SKY",
+  "cik": "0000090896",
+  "sector": "Consumer Discretionary",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000950170-24-065649",
+        "form": "10-K",
+        "filed": "2024-05-29",
+        "chars": null
+      },
+      "pack_secs": 26.7,
+      "components": {
+        "MG": {
+          "secs": 12.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-164059",
+        "form": "DEF 14A",
+        "filed": "2024-06-20",
+        "error": null,
+        "n_chunks": 149
+      },
+      "total_secs": 39.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000950170-25-077746",
+        "form": "10-K",
+        "filed": "2025-05-27",
+        "chars": null
+      },
+      "pack_secs": 23.8,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-139538",
+        "form": "DEF 14A",
+        "filed": "2025-06-12",
+        "error": null,
+        "n_chunks": 138
+      },
+      "total_secs": 37.2
+    }
+  }
+}

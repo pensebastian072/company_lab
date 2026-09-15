@@ -1,0 +1,70 @@
+{
+  "ticker": "FBIN",
+  "cik": "0001519751",
+  "sector": "Industrials",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-021148",
+        "form": "10-K",
+        "filed": "2024-02-27",
+        "chars": null
+      },
+      "pack_secs": 24.6,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-24-035326",
+        "form": "DEF 14A",
+        "filed": "2024-03-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-026763",
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "chars": null
+      },
+      "pack_secs": 24.4,
+      "components": {
+        "MG": {
+          "secs": 13.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-25-047745",
+        "form": "DEF 14A",
+        "filed": "2025-03-31",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.5
+    }
+  }
+}

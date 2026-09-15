@@ -1,0 +1,70 @@
+{
+  "ticker": "LUMN",
+  "cik": "0000018926",
+  "sector": "Communication Services",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000018926-24-000016",
+        "form": "10-K",
+        "filed": "2024-02-22",
+        "chars": null
+      },
+      "pack_secs": 27.0,
+      "components": {
+        "MG": {
+          "secs": 12.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000018926-24-000046",
+        "form": "DEF 14A",
+        "filed": "2024-04-05",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000018926-25-000010",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": null
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 12.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 0,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000018926-25-000031",
+        "form": "DEF 14A",
+        "filed": "2025-03-31",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.1
+    }
+  }
+}

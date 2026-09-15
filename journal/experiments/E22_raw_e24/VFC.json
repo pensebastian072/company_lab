@@ -1,0 +1,70 @@
+{
+  "ticker": "VFC",
+  "cik": "0000103379",
+  "sector": "Consumer Discretionary",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000103379-24-000008",
+        "form": "10-K",
+        "filed": "2024-05-23",
+        "chars": null
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": null,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-158686",
+        "form": "DEF 14A",
+        "filed": "2024-06-11",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.7
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000103379-25-000023",
+        "form": "10-K",
+        "filed": "2025-05-22",
+        "chars": null
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 12.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-137388",
+        "form": "DEF 14A",
+        "filed": "2025-06-09",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.5
+    }
+  }
+}

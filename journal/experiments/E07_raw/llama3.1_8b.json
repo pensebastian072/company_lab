@@ -1,0 +1,1652 @@
+{
+  "NVDA|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "NVDA|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "NVDA|SG|demand_drivers_3_5yr": [
+    null,
+    null,
+    null
+  ],
+  "NVDA|SG|capacity_backlog_contracts": [
+    null,
+    1,
+    1
+  ],
+  "NVDA|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "NVDA|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "NVDA|BQ|technological_advantage": [
+    5,
+    5,
+    5
+  ],
+  "NVDA|BQ|economies_of_scale": [
+    3,
+    3,
+    3
+  ],
+  "NVDA|BQ|switching_costs": [
+    null,
+    null,
+    null
+  ],
+  "NVDA|BQ|network_effects": [
+    2,
+    2,
+    2
+  ],
+  "NVDA|BQ|intellectual_property": [
+    4,
+    4,
+    4
+  ],
+  "NVDA|BQ|brand": [
+    2,
+    2,
+    2
+  ],
+  "NVDA|BQ|regulatory_barriers": [
+    null,
+    4,
+    4
+  ],
+  "NVDA|BQ|manufacturing_complexity": [
+    4,
+    null,
+    null
+  ],
+  "NVDA|BQ|distribution": [
+    3,
+    2,
+    2
+  ],
+  "NVDA|BQ|customer_relationships": [
+    null,
+    3,
+    3
+  ],
+  "NVDA|BQ|data_advantages": [
+    2,
+    null,
+    null
+  ],
+  "NVDA|MG|founder_led": [
+    2,
+    2,
+    2
+  ],
+  "NVDA|MG|tenure": [
+    1,
+    2,
+    2
+  ],
+  "NVDA|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "NVDA|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "NVDA|MG|industry_expertise": [
+    1,
+    2,
+    2
+  ],
+  "CVNA|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "CVNA|SG|revenue_growth_sustainable": [
+    null,
+    null,
+    null
+  ],
+  "CVNA|SG|demand_drivers_3_5yr": [
+    4,
+    4,
+    4
+  ],
+  "CVNA|SG|capacity_backlog_contracts": [
+    2,
+    3,
+    3
+  ],
+  "CVNA|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "CVNA|SG|multiple_independent_drivers": [
+    1,
+    2,
+    2
+  ],
+  "CVNA|BQ|technological_advantage": [
+    5,
+    5,
+    5
+  ],
+  "CVNA|BQ|economies_of_scale": [
+    4,
+    4,
+    4
+  ],
+  "CVNA|BQ|switching_costs": [
+    3,
+    3,
+    3
+  ],
+  "CVNA|BQ|network_effects": [
+    2,
+    2,
+    2
+  ],
+  "CVNA|BQ|intellectual_property": [
+    4,
+    4,
+    4
+  ],
+  "CVNA|BQ|brand": [
+    3,
+    5,
+    5
+  ],
+  "CVNA|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "CVNA|BQ|manufacturing_complexity": [
+    null,
+    null,
+    null
+  ],
+  "CVNA|BQ|distribution": [
+    4,
+    5,
+    5
+  ],
+  "CVNA|BQ|customer_relationships": [
+    3,
+    4,
+    4
+  ],
+  "CVNA|BQ|data_advantages": [
+    4,
+    5,
+    5
+  ],
+  "CVNA|MG|founder_led": [
+    2,
+    1,
+    1
+  ],
+  "CVNA|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "CVNA|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "CVNA|MG|execution_history": [
+    1,
+    1,
+    1
+  ],
+  "CVNA|MG|industry_expertise": [
+    null,
+    2,
+    2
+  ],
+  "D|SG|tam_expanding": [
+    null,
+    null,
+    null
+  ],
+  "D|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "D|SG|demand_drivers_3_5yr": [
+    null,
+    null,
+    null
+  ],
+  "D|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "D|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "D|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "D|BQ|technological_advantage": [
+    0,
+    0,
+    0
+  ],
+  "D|BQ|economies_of_scale": [
+    4,
+    4,
+    4
+  ],
+  "D|BQ|switching_costs": [
+    3,
+    3,
+    3
+  ],
+  "D|BQ|network_effects": [
+    2,
+    2,
+    2
+  ],
+  "D|BQ|intellectual_property": [
+    0,
+    0,
+    0
+  ],
+  "D|BQ|brand": [
+    1,
+    1,
+    1
+  ],
+  "D|BQ|regulatory_barriers": [
+    5,
+    5,
+    5
+  ],
+  "D|BQ|manufacturing_complexity": [
+    0,
+    0,
+    0
+  ],
+  "D|BQ|distribution": [
+    4,
+    4,
+    4
+  ],
+  "D|BQ|customer_relationships": [
+    2,
+    2,
+    2
+  ],
+  "D|BQ|data_advantages": [
+    1,
+    1,
+    1
+  ],
+  "D|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "D|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "D|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "D|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "D|MG|industry_expertise": [
+    null,
+    null,
+    null
+  ],
+  "CFG|SG|tam_expanding": [
+    null,
+    null,
+    null
+  ],
+  "CFG|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "CFG|SG|demand_drivers_3_5yr": [
+    null,
+    null,
+    null
+  ],
+  "CFG|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "CFG|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "CFG|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "CFG|BQ|technological_advantage": [
+    0,
+    0,
+    0
+  ],
+  "CFG|BQ|economies_of_scale": [
+    3,
+    3,
+    3
+  ],
+  "CFG|BQ|switching_costs": [
+    2,
+    2,
+    2
+  ],
+  "CFG|BQ|network_effects": [
+    1,
+    1,
+    1
+  ],
+  "CFG|BQ|intellectual_property": [
+    0,
+    0,
+    0
+  ],
+  "CFG|BQ|brand": [
+    2,
+    2,
+    2
+  ],
+  "CFG|BQ|regulatory_barriers": [
+    4,
+    4,
+    4
+  ],
+  "CFG|BQ|manufacturing_complexity": [
+    null,
+    null,
+    null
+  ],
+  "CFG|BQ|distribution": [
+    2,
+    2,
+    2
+  ],
+  "CFG|BQ|customer_relationships": [
+    3,
+    3,
+    3
+  ],
+  "CFG|BQ|data_advantages": [
+    1,
+    1,
+    1
+  ],
+  "CFG|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "CFG|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "CFG|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "CFG|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "CFG|MG|industry_expertise": [
+    1,
+    1,
+    1
+  ],
+  "IFF|SG|tam_expanding": [
+    1,
+    1,
+    1
+  ],
+  "IFF|SG|revenue_growth_sustainable": [
+    2,
+    2,
+    2
+  ],
+  "IFF|SG|demand_drivers_3_5yr": [
+    null,
+    null,
+    null
+  ],
+  "IFF|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "IFF|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "IFF|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "IFF|BQ|technological_advantage": [
+    4,
+    4,
+    4
+  ],
+  "IFF|BQ|economies_of_scale": [
+    3,
+    3,
+    3
+  ],
+  "IFF|BQ|switching_costs": [
+    4,
+    4,
+    4
+  ],
+  "IFF|BQ|network_effects": [
+    null,
+    null,
+    null
+  ],
+  "IFF|BQ|intellectual_property": [
+    5,
+    5,
+    5
+  ],
+  "IFF|BQ|brand": [
+    null,
+    null,
+    null
+  ],
+  "IFF|BQ|regulatory_barriers": [
+    4,
+    4,
+    4
+  ],
+  "IFF|BQ|manufacturing_complexity": [
+    3,
+    3,
+    3
+  ],
+  "IFF|BQ|distribution": [
+    null,
+    null,
+    null
+  ],
+  "IFF|BQ|customer_relationships": [
+    4,
+    4,
+    4
+  ],
+  "IFF|BQ|data_advantages": [
+    null,
+    null,
+    null
+  ],
+  "IFF|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "IFF|MG|tenure": [
+    2,
+    2,
+    2
+  ],
+  "IFF|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "IFF|MG|execution_history": [
+    1,
+    1,
+    1
+  ],
+  "IFF|MG|industry_expertise": [
+    2,
+    2,
+    2
+  ],
+  "LII|SG|tam_expanding": [
+    3,
+    3,
+    3
+  ],
+  "LII|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "LII|SG|demand_drivers_3_5yr": [
+    null,
+    null,
+    null
+  ],
+  "LII|SG|capacity_backlog_contracts": [
+    2,
+    null,
+    null
+  ],
+  "LII|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "LII|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "LII|BQ|technological_advantage": [
+    3,
+    3,
+    3
+  ],
+  "LII|BQ|economies_of_scale": [
+    4,
+    4,
+    4
+  ],
+  "LII|BQ|switching_costs": [
+    2,
+    3,
+    3
+  ],
+  "LII|BQ|network_effects": [
+    null,
+    null,
+    null
+  ],
+  "LII|BQ|intellectual_property": [
+    4,
+    4,
+    4
+  ],
+  "LII|BQ|brand": [
+    3,
+    5,
+    5
+  ],
+  "LII|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "LII|BQ|manufacturing_complexity": [
+    2,
+    3,
+    3
+  ],
+  "LII|BQ|distribution": [
+    4,
+    4,
+    4
+  ],
+  "LII|BQ|customer_relationships": [
+    3,
+    3,
+    3
+  ],
+  "LII|BQ|data_advantages": [
+    null,
+    null,
+    null
+  ],
+  "LII|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "LII|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "LII|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "LII|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "LII|MG|industry_expertise": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "CGNX|SG|revenue_growth_sustainable": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|SG|demand_drivers_3_5yr": [
+    4,
+    4,
+    4
+  ],
+  "CGNX|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "CGNX|SG|multiple_independent_drivers": [
+    2,
+    2,
+    2
+  ],
+  "CGNX|BQ|technological_advantage": [
+    4,
+    4,
+    4
+  ],
+  "CGNX|BQ|economies_of_scale": [
+    2,
+    2,
+    2
+  ],
+  "CGNX|BQ|switching_costs": [
+    3,
+    3,
+    3
+  ],
+  "CGNX|BQ|network_effects": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|BQ|intellectual_property": [
+    4,
+    4,
+    4
+  ],
+  "CGNX|BQ|brand": [
+    2,
+    2,
+    2
+  ],
+  "CGNX|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|BQ|manufacturing_complexity": [
+    3,
+    3,
+    3
+  ],
+  "CGNX|BQ|distribution": [
+    2,
+    2,
+    2
+  ],
+  "CGNX|BQ|customer_relationships": [
+    4,
+    4,
+    4
+  ],
+  "CGNX|BQ|data_advantages": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "CGNX|MG|industry_expertise": [
+    2,
+    2,
+    2
+  ],
+  "ALGM|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "ALGM|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "ALGM|SG|demand_drivers_3_5yr": [
+    4,
+    4,
+    4
+  ],
+  "ALGM|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "ALGM|SG|secular_not_cyclical": [
+    3,
+    3,
+    3
+  ],
+  "ALGM|SG|multiple_independent_drivers": [
+    2,
+    2,
+    2
+  ],
+  "ALGM|BQ|technological_advantage": [
+    4,
+    4,
+    4
+  ],
+  "ALGM|BQ|economies_of_scale": [
+    2,
+    2,
+    2
+  ],
+  "ALGM|BQ|switching_costs": [
+    3,
+    3,
+    3
+  ],
+  "ALGM|BQ|network_effects": [
+    null,
+    null,
+    null
+  ],
+  "ALGM|BQ|intellectual_property": [
+    4,
+    4,
+    4
+  ],
+  "ALGM|BQ|brand": [
+    2,
+    2,
+    2
+  ],
+  "ALGM|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "ALGM|BQ|manufacturing_complexity": [
+    4,
+    4,
+    4
+  ],
+  "ALGM|BQ|distribution": [
+    2,
+    2,
+    2
+  ],
+  "ALGM|BQ|customer_relationships": [
+    3,
+    3,
+    3
+  ],
+  "ALGM|BQ|data_advantages": [
+    null,
+    null,
+    null
+  ],
+  "ALGM|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "ALGM|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "ALGM|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "ALGM|MG|execution_history": [
+    null,
+    null,
+    null
+  ],
+  "ALGM|MG|industry_expertise": [
+    2,
+    2,
+    2
+  ],
+  "LYFT|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "LYFT|SG|revenue_growth_sustainable": [
+    3,
+    3,
+    3
+  ],
+  "LYFT|SG|demand_drivers_3_5yr": [
+    null,
+    null,
+    null
+  ],
+  "LYFT|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "LYFT|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "LYFT|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "LYFT|BQ|technological_advantage": [
+    3,
+    3,
+    3
+  ],
+  "LYFT|BQ|economies_of_scale": [
+    2,
+    2,
+    2
+  ],
+  "LYFT|BQ|switching_costs": [
+    3,
+    3,
+    3
+  ],
+  "LYFT|BQ|network_effects": [
+    4,
+    4,
+    4
+  ],
+  "LYFT|BQ|intellectual_property": [
+    3,
+    3,
+    3
+  ],
+  "LYFT|BQ|brand": [
+    2,
+    2,
+    2
+  ],
+  "LYFT|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "LYFT|BQ|manufacturing_complexity": [
+    null,
+    null,
+    null
+  ],
+  "LYFT|BQ|distribution": [
+    2,
+    2,
+    2
+  ],
+  "LYFT|BQ|customer_relationships": [
+    3,
+    3,
+    3
+  ],
+  "LYFT|BQ|data_advantages": [
+    4,
+    4,
+    4
+  ],
+  "LYFT|MG|founder_led": [
+    0,
+    0,
+    0
+  ],
+  "LYFT|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "LYFT|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "LYFT|MG|execution_history": [
+    0,
+    0,
+    0
+  ],
+  "LYFT|MG|industry_expertise": [
+    0,
+    0,
+    0
+  ],
+  "PI|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "PI|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "PI|SG|demand_drivers_3_5yr": [
+    null,
+    null,
+    null
+  ],
+  "PI|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "PI|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "PI|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "PI|BQ|technological_advantage": [
+    4,
+    4,
+    4
+  ],
+  "PI|BQ|economies_of_scale": [
+    null,
+    null,
+    null
+  ],
+  "PI|BQ|switching_costs": [
+    3,
+    3,
+    3
+  ],
+  "PI|BQ|network_effects": [
+    2,
+    2,
+    2
+  ],
+  "PI|BQ|intellectual_property": [
+    4,
+    4,
+    4
+  ],
+  "PI|BQ|brand": [
+    null,
+    null,
+    null
+  ],
+  "PI|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "PI|BQ|manufacturing_complexity": [
+    2,
+    2,
+    2
+  ],
+  "PI|BQ|distribution": [
+    3,
+    3,
+    3
+  ],
+  "PI|BQ|customer_relationships": [
+    null,
+    null,
+    null
+  ],
+  "PI|BQ|data_advantages": [
+    null,
+    null,
+    null
+  ],
+  "PI|MG|founder_led": [
+    1,
+    1,
+    1
+  ],
+  "PI|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "PI|MG|ownership": [
+    2,
+    2,
+    2
+  ],
+  "PI|MG|execution_history": [
+    null,
+    null,
+    null
+  ],
+  "PI|MG|industry_expertise": [
+    1,
+    1,
+    1
+  ],
+  "KFY|SG|tam_expanding": [
+    3,
+    3,
+    3
+  ],
+  "KFY|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "KFY|SG|demand_drivers_3_5yr": [
+    null,
+    null,
+    null
+  ],
+  "KFY|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "KFY|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "KFY|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "KFY|BQ|technological_advantage": [
+    3,
+    3,
+    3
+  ],
+  "KFY|BQ|economies_of_scale": [
+    2,
+    2,
+    2
+  ],
+  "KFY|BQ|switching_costs": [
+    4,
+    4,
+    4
+  ],
+  "KFY|BQ|network_effects": [
+    null,
+    null,
+    null
+  ],
+  "KFY|BQ|intellectual_property": [
+    2,
+    2,
+    2
+  ],
+  "KFY|BQ|brand": [
+    3,
+    4,
+    4
+  ],
+  "KFY|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "KFY|BQ|manufacturing_complexity": [
+    null,
+    null,
+    null
+  ],
+  "KFY|BQ|distribution": [
+    2,
+    2,
+    2
+  ],
+  "KFY|BQ|customer_relationships": [
+    4,
+    4,
+    4
+  ],
+  "KFY|BQ|data_advantages": [
+    3,
+    3,
+    3
+  ],
+  "KFY|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "KFY|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "KFY|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "KFY|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "KFY|MG|industry_expertise": [
+    1,
+    1,
+    1
+  ],
+  "ASH|SG|tam_expanding": [
+    1,
+    1,
+    1
+  ],
+  "ASH|SG|revenue_growth_sustainable": [
+    2,
+    2,
+    2
+  ],
+  "ASH|SG|demand_drivers_3_5yr": [
+    1,
+    1,
+    1
+  ],
+  "ASH|SG|capacity_backlog_contracts": [
+    0,
+    0,
+    0
+  ],
+  "ASH|SG|secular_not_cyclical": [
+    2,
+    1,
+    1
+  ],
+  "ASH|SG|multiple_independent_drivers": [
+    0,
+    0,
+    0
+  ],
+  "ASH|BQ|technological_advantage": [
+    3,
+    3,
+    3
+  ],
+  "ASH|BQ|economies_of_scale": [
+    4,
+    4,
+    4
+  ],
+  "ASH|BQ|switching_costs": [
+    null,
+    2,
+    2
+  ],
+  "ASH|BQ|network_effects": [
+    null,
+    null,
+    null
+  ],
+  "ASH|BQ|intellectual_property": [
+    5,
+    5,
+    5
+  ],
+  "ASH|BQ|brand": [
+    4,
+    4,
+    4
+  ],
+  "ASH|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "ASH|BQ|manufacturing_complexity": [
+    null,
+    3,
+    3
+  ],
+  "ASH|BQ|distribution": [
+    null,
+    2,
+    2
+  ],
+  "ASH|BQ|customer_relationships": [
+    3,
+    null,
+    null
+  ],
+  "ASH|BQ|data_advantages": [
+    null,
+    null,
+    null
+  ],
+  "ASH|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "ASH|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "ASH|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "ASH|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "ASH|MG|industry_expertise": [
+    1,
+    1,
+    1
+  ],
+  "NOG|SG|tam_expanding": [
+    null,
+    null,
+    null
+  ],
+  "NOG|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "NOG|SG|demand_drivers_3_5yr": [
+    2,
+    2,
+    2
+  ],
+  "NOG|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "NOG|SG|secular_not_cyclical": [
+    1,
+    1,
+    1
+  ],
+  "NOG|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "NOG|BQ|technological_advantage": [
+    0,
+    0,
+    0
+  ],
+  "NOG|BQ|economies_of_scale": [
+    2,
+    2,
+    2
+  ],
+  "NOG|BQ|switching_costs": [
+    3,
+    3,
+    3
+  ],
+  "NOG|BQ|network_effects": [
+    0,
+    0,
+    0
+  ],
+  "NOG|BQ|intellectual_property": [
+    0,
+    0,
+    0
+  ],
+  "NOG|BQ|brand": [
+    1,
+    1,
+    1
+  ],
+  "NOG|BQ|regulatory_barriers": [
+    4,
+    4,
+    4
+  ],
+  "NOG|BQ|manufacturing_complexity": [
+    2,
+    0,
+    0
+  ],
+  "NOG|BQ|distribution": [
+    3,
+    2,
+    2
+  ],
+  "NOG|BQ|customer_relationships": [
+    0,
+    1,
+    1
+  ],
+  "NOG|BQ|data_advantages": [
+    1,
+    0,
+    0
+  ],
+  "NOG|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "NOG|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "NOG|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "NOG|MG|execution_history": [
+    null,
+    2,
+    2
+  ],
+  "NOG|MG|industry_expertise": [
+    2,
+    2,
+    2
+  ],
+  "MBC|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "MBC|SG|revenue_growth_sustainable": [
+    4,
+    4,
+    4
+  ],
+  "MBC|SG|demand_drivers_3_5yr": [
+    4,
+    2,
+    2
+  ],
+  "MBC|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "MBC|SG|secular_not_cyclical": [
+    2,
+    2,
+    2
+  ],
+  "MBC|SG|multiple_independent_drivers": [
+    2,
+    null,
+    null
+  ],
+  "MBC|BQ|technological_advantage": [
+    3,
+    3,
+    3
+  ],
+  "MBC|BQ|economies_of_scale": [
+    4,
+    4,
+    4
+  ],
+  "MBC|BQ|switching_costs": [
+    2,
+    2,
+    2
+  ],
+  "MBC|BQ|network_effects": [
+    3,
+    null,
+    null
+  ],
+  "MBC|BQ|intellectual_property": [
+    2,
+    1,
+    1
+  ],
+  "MBC|BQ|brand": [
+    4,
+    4,
+    4
+  ],
+  "MBC|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "MBC|BQ|manufacturing_complexity": [
+    2,
+    2,
+    2
+  ],
+  "MBC|BQ|distribution": [
+    4,
+    4,
+    4
+  ],
+  "MBC|BQ|customer_relationships": [
+    3,
+    3,
+    3
+  ],
+  "MBC|BQ|data_advantages": [
+    4,
+    4,
+    4
+  ],
+  "MBC|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "MBC|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "MBC|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "MBC|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "MBC|MG|industry_expertise": [
+    1,
+    1,
+    1
+  ],
+  "TRIP|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "TRIP|SG|revenue_growth_sustainable": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|SG|demand_drivers_3_5yr": [
+    4,
+    4,
+    4
+  ],
+  "TRIP|SG|capacity_backlog_contracts": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|SG|secular_not_cyclical": [
+    2,
+    3,
+    3
+  ],
+  "TRIP|SG|multiple_independent_drivers": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|BQ|technological_advantage": [
+    3,
+    3,
+    3
+  ],
+  "TRIP|BQ|economies_of_scale": [
+    4,
+    4,
+    4
+  ],
+  "TRIP|BQ|switching_costs": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|BQ|network_effects": [
+    2,
+    2,
+    2
+  ],
+  "TRIP|BQ|intellectual_property": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|BQ|brand": [
+    3,
+    3,
+    3
+  ],
+  "TRIP|BQ|regulatory_barriers": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|BQ|manufacturing_complexity": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|BQ|distribution": [
+    2,
+    2,
+    2
+  ],
+  "TRIP|BQ|customer_relationships": [
+    3,
+    3,
+    3
+  ],
+  "TRIP|BQ|data_advantages": [
+    4,
+    4,
+    4
+  ],
+  "TRIP|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|MG|execution_history": [
+    null,
+    null,
+    null
+  ],
+  "TRIP|MG|industry_expertise": [
+    2,
+    2,
+    2
+  ]
+}

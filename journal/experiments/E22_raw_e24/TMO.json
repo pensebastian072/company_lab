@@ -1,0 +1,70 @@
+{
+  "ticker": "TMO",
+  "cik": "0000097745",
+  "sector": "Health Care",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000097745-24-000007",
+        "form": "10-K",
+        "filed": "2024-02-22",
+        "chars": null
+      },
+      "pack_secs": 25.3,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-090173",
+        "form": "DEF 14A",
+        "filed": "2024-04-09",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000097745-25-000010",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": null
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 14.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-075101",
+        "form": "DEF 14A",
+        "filed": "2025-04-08",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.2
+    }
+  }
+}

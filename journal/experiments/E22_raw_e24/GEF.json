@@ -1,0 +1,70 @@
+{
+  "ticker": "GEF",
+  "cik": "0000043920",
+  "sector": "Materials",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000043920-23-000068",
+        "form": "10-K",
+        "filed": "2023-12-18",
+        "chars": 374000
+      },
+      "pack_secs": 20.1,
+      "components": {
+        "MG": {
+          "secs": 12.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000043920-24-000003",
+        "form": "DEF 14A",
+        "filed": "2024-01-16",
+        "error": null,
+        "n_chunks": 114
+      },
+      "total_secs": 32.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000043920-24-000056",
+        "form": "10-K",
+        "filed": "2024-12-23",
+        "chars": null
+      },
+      "pack_secs": 18.6,
+      "components": {
+        "MG": {
+          "secs": 11.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000043920-25-000004",
+        "form": "DEF 14A",
+        "filed": "2025-01-10",
+        "error": null,
+        "n_chunks": 126
+      },
+      "total_secs": 30.6
+    }
+  }
+}

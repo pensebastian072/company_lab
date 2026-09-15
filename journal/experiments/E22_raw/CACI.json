@@ -1,0 +1,114 @@
+{
+  "ticker": "CACI",
+  "cik": "0000016058",
+  "sector": "Industrials",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-21",
+      "filing": {
+        "accn": "0000016058-24-000132",
+        "form": "10-K",
+        "filed": "2024-08-08",
+        "chars": 279012
+      },
+      "pack_secs": 14.2,
+      "components": {
+        "SG": {
+          "secs": 18.9,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": 3,
+            "revenue_growth_sustainable": 4,
+            "demand_drivers_3_5yr": 4,
+            "capacity_backlog_contracts": 3,
+            "secular_not_cyclical": 3,
+            "multiple_independent_drivers": 2
+          }
+        },
+        "BQ": {
+          "secs": 16.9,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": 4,
+            "economies_of_scale": null,
+            "switching_costs": 3,
+            "network_effects": null,
+            "intellectual_property": 4,
+            "brand": 3,
+            "regulatory_barriers": 5,
+            "manufacturing_complexity": null,
+            "distribution": null,
+            "customer_relationships": 4,
+            "data_advantages": null
+          }
+        },
+        "MG": {
+          "secs": 9.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "total_secs": 59.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-21",
+      "filing": {
+        "accn": "0001628280-25-038739",
+        "form": "10-K",
+        "filed": "2025-08-07",
+        "chars": 280473
+      },
+      "pack_secs": 12.3,
+      "components": {
+        "SG": {
+          "secs": 24.1,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": 3,
+            "revenue_growth_sustainable": 4,
+            "demand_drivers_3_5yr": 4,
+            "capacity_backlog_contracts": 3,
+            "secular_not_cyclical": 3,
+            "multiple_independent_drivers": 2
+          }
+        },
+        "BQ": {
+          "secs": 18.2,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": 3,
+            "economies_of_scale": 2,
+            "switching_costs": 1,
+            "network_effects": 0,
+            "intellectual_property": 3,
+            "brand": 2,
+            "regulatory_barriers": 4,
+            "manufacturing_complexity": 2,
+            "distribution": 1,
+            "customer_relationships": 3,
+            "data_advantages": 2
+          }
+        },
+        "MG": {
+          "secs": 9.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "total_secs": 64.1
+    }
+  }
+}

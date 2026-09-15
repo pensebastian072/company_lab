@@ -1,0 +1,70 @@
+{
+  "ticker": "DDOG",
+  "cik": "0001561550",
+  "sector": "Information Technology",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001561550-24-000009",
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "chars": 406367
+      },
+      "pack_secs": 21.3,
+      "components": {
+        "MG": {
+          "secs": 15.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001561550-24-000042",
+        "form": "DEF 14A",
+        "filed": "2024-04-19",
+        "error": null,
+        "n_chunks": 94
+      },
+      "total_secs": 36.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001561550-25-000025",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": 413387
+      },
+      "pack_secs": 21.6,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001561550-25-000108",
+        "form": "DEF 14A",
+        "filed": "2025-04-18",
+        "error": null,
+        "n_chunks": 103
+      },
+      "total_secs": 35.3
+    }
+  }
+}

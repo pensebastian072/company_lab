@@ -1,0 +1,70 @@
+{
+  "ticker": "LIF",
+  "cik": "0001581760",
+  "sector": "Information Technology",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001581760-24-000006",
+        "form": "10-K",
+        "filed": "2024-02-29",
+        "chars": 536851
+      },
+      "pack_secs": 28.0,
+      "components": {
+        "MG": {
+          "secs": 13.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-097815",
+        "form": "DEF 14A",
+        "filed": "2024-04-16",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001581760-25-000086",
+        "form": "10-K/A",
+        "filed": "2025-04-18",
+        "chars": 7431
+      },
+      "pack_secs": 13.5,
+      "components": {
+        "MG": {
+          "secs": 13.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-014154",
+        "form": "DEF 14A",
+        "filed": "2025-04-16",
+        "error": null,
+        "n_chunks": 132
+      },
+      "total_secs": 27.2
+    }
+  }
+}

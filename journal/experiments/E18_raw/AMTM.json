@@ -1,0 +1,93 @@
+{
+  "ticker": "AMTM",
+  "cik": "0002011286",
+  "sector": "Industrials",
+  "arm": "under",
+  "components": {
+    "SG": {
+      "base_scored": [
+        "capacity_backlog_contracts",
+        "demand_drivers_3_5yr",
+        "multiple_independent_drivers",
+        "revenue_growth_sustainable",
+        "secular_not_cyclical",
+        "tam_expanding"
+      ],
+      "nulls": [],
+      "skipped": "nothing null",
+      "secs": 0.0
+    },
+    "MG": {
+      "base_scored": [
+        "industry_expertise"
+      ],
+      "nulls": [
+        "founder_led",
+        "tenure",
+        "ownership",
+        "execution_history"
+      ],
+      "secs": 19.4,
+      "parse_ok": true,
+      "items": {
+        "founder_led": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "tenure": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "ownership": {
+          "score": 2,
+          "max": 2,
+          "quote": "Amentum Equityholder also holds the right to nominate members to stand for election to our Board of Directors.",
+          "gates": {
+            "has_quote": true,
+            "strict": true,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        },
+        "execution_history": {
+          "score": 1,
+          "max": 2,
+          "quote": "Quarterly revenue YoY, last four: ['77.4%', '-5.2%', '-0.4%', '-2.0%']",
+          "gates": {
+            "has_quote": true,
+            "strict": true,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        }
+      },
+      "targeted_meta": {
+        "n_chunks_picked": 7,
+        "methods": {
+          "founder_led": "embedding",
+          "tenure": "embedding",
+          "ownership": "embedding",
+          "execution_history": "embedding"
+        }
+      },
+      "gain_strict": 0,
+      "gain_no_gate": 0
+    }
+  }
+}

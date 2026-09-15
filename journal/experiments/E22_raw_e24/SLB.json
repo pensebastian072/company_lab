@@ -1,0 +1,70 @@
+{
+  "ticker": "SLB",
+  "cik": "0000087347",
+  "sector": "Energy",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000950170-24-006884",
+        "form": "10-K",
+        "filed": "2024-01-24",
+        "chars": null
+      },
+      "pack_secs": 25.2,
+      "components": {
+        "MG": {
+          "secs": 14.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001308179-24-000033",
+        "form": "DEF 14A",
+        "filed": "2024-02-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000950170-25-007638",
+        "form": "10-K",
+        "filed": "2025-01-22",
+        "chars": null
+      },
+      "pack_secs": 24.0,
+      "components": {
+        "MG": {
+          "secs": 14.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001308179-25-000029",
+        "form": "DEF 14A",
+        "filed": "2025-02-20",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.4
+    }
+  }
+}

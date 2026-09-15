@@ -1,0 +1,64 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 2,
+      "quote": "We believe that this structure enables us to obtain critical national market intelligence, while also benefiting from the regional and local expertise of our leasing and operations teams.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": 3,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    }
+  },
+  "ticker": "BRX",
+  "cik": "0001581068",
+  "sector": "Real Estate",
+  "arm": "under",
+  "base_scored": [
+    "brand",
+    "customer_relationships",
+    "regulatory_barriers"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 7,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

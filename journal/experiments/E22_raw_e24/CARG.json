@@ -1,0 +1,70 @@
+{
+  "ticker": "CARG",
+  "cik": "0001494259",
+  "sector": "Communication Services",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-020157",
+        "form": "10-K",
+        "filed": "2024-02-26",
+        "chars": null
+      },
+      "pack_secs": 28.0,
+      "components": {
+        "MG": {
+          "secs": 12.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": null,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-24-049120",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-024181",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": null
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 11.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-25-057382",
+        "form": "DEF 14A",
+        "filed": "2025-04-23",
+        "error": null,
+        "n_chunks": 150
+      },
+      "total_secs": 38.9
+    }
+  }
+}

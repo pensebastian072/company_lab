@@ -1,0 +1,68 @@
+{
+  "as_of": "2026-08-24T13:39:14.864839+00:00",
+  "companies": 1501,
+  "valued": 1027,
+  "V1_identity_checked": 1027,
+  "V1_worst_abs_growth_error": 1.9452464186664464e-07,
+  "V1_pass": true,
+  "V2_pass": true,
+  "V3_strip_monotone": true,
+  "V3_pass": true,
+  "implausible": 135,
+  "median_margin_of_safety": 0.0109,
+  "share_with_positive_margin": 0.5034,
+  "growth_basis": {
+    "fcf_cagr_5y": 630,
+    "revenue_cagr_3y_proxy": 230,
+    "fcf_cagr_3y": 119,
+    "sub_industry_median": 48
+  },
+  "refusals": {
+    "free cash flow is not a valuation input for this business": 275,
+    "trailing free cash flow is zero or negative": 194,
+    "no usable growth rate": 5
+  },
+  "by_sector": {
+    "Communication Services": {
+      "n": 35,
+      "median_margin_of_safety": -0.1333
+    },
+    "Consumer Discretionary": {
+      "n": 144,
+      "median_margin_of_safety": -0.0166
+    },
+    "Consumer Staples": {
+      "n": 70,
+      "median_margin_of_safety": 0.2506
+    },
+    "Energy": {
+      "n": 44,
+      "median_margin_of_safety": 0.4961
+    },
+    "Health Care": {
+      "n": 118,
+      "median_margin_of_safety": 0.1844
+    },
+    "Industrials": {
+      "n": 211,
+      "median_margin_of_safety": -0.2512
+    },
+    "Information Technology": {
+      "n": 160,
+      "median_margin_of_safety": -0.2709
+    },
+    "Materials": {
+      "n": 46,
+      "median_margin_of_safety": -0.5429
+    },
+    "Real Estate": {
+      "n": 59,
+      "median_margin_of_safety": -0.0554
+    },
+    "Utilities": {
+      "n": 5,
+      "median_margin_of_safety": -0.3199
+    }
+  },
+  "peer_median_rescued": 48
+}

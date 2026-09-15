@@ -1,0 +1,40 @@
+{
+  "ticker": "LCII",
+  "cik": "0000763744",
+  "sector": "Consumer Discretionary",
+  "arm": "control",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 18.5,
+    "parse_ok": true
+  },
+  "repaired": null,
+  "repair_ran": false,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ]
+  }
+}

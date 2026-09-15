@@ -1,0 +1,70 @@
+{
+  "ticker": "AROC",
+  "cik": "0001389050",
+  "sector": "Energy",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001389050-24-000015",
+        "form": "10-K/A",
+        "filed": "2024-02-26",
+        "chars": null
+      },
+      "pack_secs": 15.3,
+      "components": {
+        "MG": {
+          "secs": 13.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-012859",
+        "form": "DEF 14A",
+        "filed": "2024-03-12",
+        "error": null,
+        "n_chunks": 157
+      },
+      "total_secs": 28.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001389050-25-000009",
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "chars": null
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 16.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-007994",
+        "form": "DEF 14A",
+        "filed": "2025-03-11",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.4
+    }
+  }
+}

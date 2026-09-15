@@ -1,0 +1,64 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": 4,
+      "quote": "\u2022 State-of-the-art, custom-designed GMP oligonucleotide manufacturing facility with related support laboratories for process development and analytical development, comprising approximately 300,000 total square feet;",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "data_advantages": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "economies_of_scale": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    }
+  },
+  "ticker": "ARWR",
+  "cik": "0000879407",
+  "sector": "Health Care",
+  "arm": "under",
+  "base_scored": [
+    "intellectual_property",
+    "regulatory_barriers",
+    "technological_advantage"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 7,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

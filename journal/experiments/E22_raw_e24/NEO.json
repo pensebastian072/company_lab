@@ -1,0 +1,70 @@
+{
+  "ticker": "NEO",
+  "cik": "0001077183",
+  "sector": "Health Care",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001077183-24-000011",
+        "form": "10-K",
+        "filed": "2024-02-20",
+        "chars": 435601
+      },
+      "pack_secs": 24.6,
+      "components": {
+        "MG": {
+          "secs": 13.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001077183-24-000042",
+        "form": "DEF 14A",
+        "filed": "2024-04-08",
+        "error": null,
+        "n_chunks": 141
+      },
+      "total_secs": 38.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001077183-25-000028",
+        "form": "10-K",
+        "filed": "2025-02-18",
+        "chars": 427245
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 17.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001077183-25-000068",
+        "form": "DEF 14A",
+        "filed": "2025-04-08",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.9
+    }
+  }
+}

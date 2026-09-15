@@ -1,0 +1,70 @@
+{
+  "ticker": "URBN",
+  "cik": "0000912615",
+  "sector": "Consumer Discretionary",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000950170-24-039320",
+        "form": "10-K",
+        "filed": "2024-04-01",
+        "chars": 325132
+      },
+      "pack_secs": 25.1,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-083438",
+        "form": "DEF 14A",
+        "filed": "2024-04-01",
+        "error": null,
+        "n_chunks": 90
+      },
+      "total_secs": 38.8
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000950170-25-048506",
+        "form": "10-K",
+        "filed": "2025-04-01",
+        "chars": 329265
+      },
+      "pack_secs": 24.1,
+      "components": {
+        "MG": {
+          "secs": 14.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-070459",
+        "form": "DEF 14A",
+        "filed": "2025-04-01",
+        "error": null,
+        "n_chunks": 94
+      },
+      "total_secs": 38.8
+    }
+  }
+}

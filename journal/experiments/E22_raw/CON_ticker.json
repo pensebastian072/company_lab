@@ -1,0 +1,65 @@
+{
+  "ticker": "CON",
+  "cik": "0002014596",
+  "sector": "Health Care",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-21",
+      "error": "no 10-K filed on or before 2024-08-21"
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-21",
+      "filing": {
+        "accn": "0002014596-25-000011",
+        "form": "10-K",
+        "filed": "2025-03-03",
+        "chars": 478003
+      },
+      "pack_secs": 15.1,
+      "components": {
+        "SG": {
+          "secs": 16.4,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": null,
+            "revenue_growth_sustainable": 4,
+            "demand_drivers_3_5yr": 4,
+            "capacity_backlog_contracts": null,
+            "secular_not_cyclical": 3,
+            "multiple_independent_drivers": 2
+          }
+        },
+        "BQ": {
+          "secs": 17.9,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": 1,
+            "economies_of_scale": null,
+            "switching_costs": 2,
+            "network_effects": null,
+            "intellectual_property": 3,
+            "brand": 4,
+            "regulatory_barriers": 2,
+            "manufacturing_complexity": null,
+            "distribution": 3,
+            "customer_relationships": 4,
+            "data_advantages": null
+          }
+        },
+        "MG": {
+          "secs": 11.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": null,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "total_secs": 60.4
+    }
+  }
+}

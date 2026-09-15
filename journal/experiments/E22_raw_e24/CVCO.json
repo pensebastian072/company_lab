@@ -1,0 +1,70 @@
+{
+  "ticker": "CVCO",
+  "cik": "0000278166",
+  "sector": "Consumer Discretionary",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000278166-24-000059",
+        "form": "10-K",
+        "filed": "2024-05-24",
+        "chars": null
+      },
+      "pack_secs": 17.8,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000278166-24-000088",
+        "form": "DEF 14A",
+        "filed": "2024-06-14",
+        "error": null,
+        "n_chunks": 102
+      },
+      "total_secs": 31.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000278166-25-000057",
+        "form": "10-K",
+        "filed": "2025-05-23",
+        "chars": null
+      },
+      "pack_secs": 17.9,
+      "components": {
+        "MG": {
+          "secs": 12.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000278166-25-000097",
+        "form": "DEF 14A",
+        "filed": "2025-06-16",
+        "error": null,
+        "n_chunks": 102
+      },
+      "total_secs": 30.4
+    }
+  }
+}

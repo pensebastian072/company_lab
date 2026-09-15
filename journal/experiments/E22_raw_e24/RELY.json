@@ -1,0 +1,70 @@
+{
+  "ticker": "RELY",
+  "cik": "0001782170",
+  "sector": "Financials",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001782170-24-000037",
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "chars": 501416
+      },
+      "pack_secs": 21.7,
+      "components": {
+        "MG": {
+          "secs": 14.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001782170-24-000107",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 94
+      },
+      "total_secs": 36.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001782170-25-000018",
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "chars": 476560
+      },
+      "pack_secs": 21.0,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001782170-25-000077",
+        "form": "DEF 14A",
+        "filed": "2025-04-25",
+        "error": null,
+        "n_chunks": 93
+      },
+      "total_secs": 33.9
+    }
+  }
+}

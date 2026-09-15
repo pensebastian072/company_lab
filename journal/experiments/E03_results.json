@@ -1,0 +1,275 @@
+{
+  "study": "E03_questions_not_asked",
+  "as_of": "2026-08-12T14:48:59.031366+00:00",
+  "panel_file": "journal\\experiments\\E05_panel_abs.parquet",
+  "panel": {
+    "rows": 67889,
+    "symbols": 675,
+    "start": "2016-01-31",
+    "end": "2026-08-31"
+  },
+  "caveats": [
+    "Measured half only - the LLM half cannot be backtested without hindsight.",
+    "Universe is today's index members, so survivorship inflates every long result and makes the bottom decile 'low scores that survived'.",
+    "2016-2025 contains no prolonged bear market.",
+    "ER, PEG, forward P/E and the reverse DCF are not reconstructible."
+  ],
+  "r1": {
+    "question": "Is the framework a quality bet or a sector bet?",
+    "pooled_ic": {
+      "n_months": 115,
+      "mean_ic": 0.042644622465598206,
+      "median_ic": 0.050985690804897774,
+      "share_positive": 0.6782608695652174
+    },
+    "within_sector_ic": {
+      "n_months": 115,
+      "mean_ic": 0.01790472541536285,
+      "median_ic": 0.022288247453069652,
+      "share_positive": 0.6173913043478261
+    },
+    "share_of_score_variance_explained_by_sector": 0.16049000131087876,
+    "ic_retained_within_sector": 0.4198589266397364,
+    "verdict": "score largely disappears within sector - it is substantially a sector bet",
+    "mean_score_by_sector": {
+      "Information Technology": 0.6298,
+      "Financials": 0.6279,
+      "Health Care": 0.6158,
+      "Consumer Discretionary": 0.6147,
+      "Industrials": 0.5936,
+      "Communication Services": 0.5776,
+      "": 0.572,
+      "Materials": 0.5545,
+      "Energy": 0.5504,
+      "Consumer Staples": 0.5401,
+      "Real Estate": 0.4931,
+      "Utilities": 0.3832
+    }
+  },
+  "r2": {
+    "question": "Does the CHANGE in score beat the LEVEL?",
+    "level_ic": {
+      "n_months": 103,
+      "mean_ic": 0.03501833108776919,
+      "median_ic": 0.03420440496871381,
+      "share_positive": 0.6407766990291263
+    },
+    "change_ic": {
+      "n_months": 103,
+      "mean_ic": -0.01787227999258249,
+      "median_ic": -0.026006049175738413,
+      "share_positive": 0.2912621359223301
+    },
+    "two_by_two_1y": {
+      "high_level__improving": {
+        "n": 16299,
+        "mean": 0.14584302692886328,
+        "median": 0.09575437311645996
+      },
+      "high_level__deteriorating": {
+        "n": 9910,
+        "mean": 0.18830402539808158,
+        "median": 0.1337501450708416
+      },
+      "low_level__improving": {
+        "n": 8203,
+        "mean": 0.16855676505488518,
+        "median": 0.09257639172038201
+      },
+      "low_level__deteriorating": {
+        "n": 17818,
+        "mean": 0.16208919762522933,
+        "median": 0.09796266976114709
+      }
+    },
+    "change_beats_level": false,
+    "verdict": "the level carries at least as much as the trajectory"
+  },
+  "r3": {
+    "question": "Does the framework need a longer horizon?",
+    "by_horizon": {
+      "1y": {
+        "n_months": 115,
+        "mean_ic": 0.042644622465598206,
+        "median_ic": 0.050985690804897774,
+        "share_positive": 0.6782608695652174,
+        "top_decile_mean": 0.19158514261493895,
+        "bottom_decile_mean": 0.18197548899209096,
+        "top_minus_bottom": 0.009609653622847991,
+        "n": 60040
+      },
+      "3y": {
+        "n_months": 91,
+        "mean_ic": 0.08051050825445011,
+        "median_ic": 0.08148528280059958,
+        "share_positive": 0.9230769230769231,
+        "top_decile_mean": 0.6249495755925483,
+        "bottom_decile_mean": 0.7662753720797599,
+        "top_minus_bottom": -0.14132579648721166,
+        "n": 45588
+      }
+    },
+    "ic_rises_with_horizon": true,
+    "verdict": "IC improves with horizon - earlier tests were too short"
+  },
+  "r4": {
+    "question": "Is the score stable enough to act on?",
+    "month_to_month_abs_change": {
+      "median": 0.024390243902439046,
+      "mean": 0.030940004695839147,
+      "p90": 0.08108108108108109,
+      "share_over_5pts": 0.2190763828964204,
+      "share_over_10pts": 0.07028297676079388
+    },
+    "band_change_rate_per_month": 0.21794566608147112,
+    "median_months_in_a_band": 3.0,
+    "note": "A band that changes every month or two cannot be traded on regardless of its IC. This is a usability number, not a pass/fail."
+  },
+  "r5": {
+    "question": "Does the score peak at the earnings top for cyclicals?",
+    "n_cyclical_rows": 4518,
+    "n_other_rows": 63371,
+    "cyclical_sub_industries": [
+      "Automobile Manufacturers",
+      "Computer & Electronics Retail",
+      "Consumer Electronics",
+      "Electronic Components",
+      "Electronic Equipment & Instruments",
+      "Electronic Manufacturing Services",
+      "Semiconductors",
+      "Technology Hardware, Storage & Peripherals"
+    ],
+    "cyclical_ic_1y": {
+      "n_months": 108,
+      "mean_ic": -0.028326197793420493,
+      "median_ic": -0.01751744309736982,
+      "share_positive": 0.4444444444444444
+    },
+    "cyclical_ic_3y": {
+      "n_months": 84,
+      "mean_ic": 0.010094252977796762,
+      "median_ic": -0.00459780400754952,
+      "share_positive": 0.4880952380952381
+    },
+    "other_ic_1y": {
+      "n_months": 115,
+      "mean_ic": 0.04430127476251655,
+      "median_ic": 0.05543258444242346,
+      "share_positive": 0.6869565217391305
+    },
+    "other_ic_3y": {
+      "n_months": 91,
+      "mean_ic": 0.07893060230224351,
+      "median_ic": 0.08298330123247605,
+      "share_positive": 0.9120879120879121
+    },
+    "cyclical_quintiles_3y": {
+      "0": {
+        "n": 646,
+        "mean_3y": 1.1070834786664456,
+        "median_3y": 0.5290256797815216
+      },
+      "1": {
+        "n": 588,
+        "mean_3y": 1.6088035140648616,
+        "median_3y": 0.5231955235362398
+      },
+      "2": {
+        "n": 592,
+        "mean_3y": 1.2708734711758716,
+        "median_3y": 0.6829024273232491
+      },
+      "3": {
+        "n": 588,
+        "mean_3y": 1.0192086161522633,
+        "median_3y": 0.7286561976215078
+      },
+      "4": {
+        "n": 646,
+        "mean_3y": 0.9438449733922832,
+        "median_3y": 0.5695996854608232
+      }
+    },
+    "cyclical_top_minus_bottom_3y": -0.1632385052741624,
+    "verdict": "confirmed: inside cyclicals a HIGH score preceded WORSE 3y outcomes"
+  },
+  "r6": {
+    "question": "What does the framework structurally never own?",
+    "bottom_decile": {
+      "n": 6850,
+      "median_market_cap": 14743088050.003052,
+      "median_pe": null,
+      "share_negative_fcf": 0.2637956204379562,
+      "median_revenue_cagr_3y": 0.0017070507033836169,
+      "median_operating_margin": 0.14123695518723142,
+      "top_sectors": {
+        "Utilities": 1515,
+        "": 942,
+        "Real Estate": 763,
+        "Industrials": 558,
+        "Information Technology": 536
+      }
+    },
+    "top_decile": {
+      "n": 6837,
+      "median_market_cap": 16333344972.40346,
+      "median_pe": null,
+      "share_negative_fcf": 0.011554775486324411,
+      "median_revenue_cagr_3y": 0.13337957120838229,
+      "median_operating_margin": 0.21387608827322235,
+      "top_sectors": {
+        "Information Technology": 1302,
+        "Financials": 1094,
+        "": 960,
+        "Consumer Discretionary": 882,
+        "Health Care": 830
+      }
+    },
+    "n_never_in_top3_deciles": 115,
+    "never_in_top3_examples": [
+      "AAL",
+      "ABNB",
+      "ADP",
+      "AEE",
+      "AEP",
+      "AES",
+      "AIV",
+      "ANDV",
+      "ARG",
+      "AWK",
+      "BALL",
+      "BF-B",
+      "BG",
+      "BHF",
+      "BLK",
+      "BRK-B",
+      "CA",
+      "CAM",
+      "CCE",
+      "CCI",
+      "CHTR",
+      "CMS",
+      "CNP",
+      "CNX",
+      "COTY",
+      "CPGX",
+      "CPRI",
+      "CRWD",
+      "CVC",
+      "D"
+    ],
+    "never_in_top3_profile": {
+      "top_sectors": {
+        "Utilities": 2541,
+        "": 1505,
+        "Real Estate": 1184,
+        "Industrials": 590,
+        "Consumer Staples": 515,
+        "Consumer Discretionary": 427
+      },
+      "median_fwd_1y": 0.06369107223257198,
+      "median_operating_margin": 0.19196459928355694
+    },
+    "note": "This is the shape of the hole. Every ranking excludes something; the question is whether this exclusion is intentional."
+  }
+}

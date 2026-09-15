@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-09-02T00:50:34.272023+00:00",
+  "data_through": "2026-08-02",
+  "stale": false,
+  "status": "ok",
+  "promoted": false,
+  "advisory": "ADVISORY / SHADOW - not validated against forward returns. The judged half (Structural Growth, Business Quality) is LLM-generated without human review. Management & Capital Allocation is measured, not judged - see journal/experiments/mg_label_correction.md.",
+  "symbols_scored": 1502,
+  "symbols_failed": 2,
+  "coverage_median": 0.9043,
+  "qual_available": true,
+  "n_qual_scored": 1500,
+  "tier": "sp500",
+  "batches_done": 1,
+  "batches_total": 1
+}

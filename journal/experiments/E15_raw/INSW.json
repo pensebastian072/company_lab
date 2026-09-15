@@ -1,0 +1,43 @@
+{
+  "ticker": "INSW",
+  "cik": "0001679049",
+  "sector": "Energy",
+  "arm": "under",
+  "targeted_meta": {
+    "n_chunks_picked": 5,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  },
+  "A": {
+    "scored": [
+      "customer_relationships",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.3,
+    "parse_ok": true
+  },
+  "B": {
+    "scored": [
+      "economies_of_scale",
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      0,
+      2
+    ],
+    "secs": 17.6,
+    "parse_ok": true,
+    "weak_scored": [
+      "economies_of_scale"
+    ]
+  }
+}

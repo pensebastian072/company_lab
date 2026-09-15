@@ -1,0 +1,70 @@
+{
+  "ticker": "INTC",
+  "cik": "0000050863",
+  "sector": "Information Technology",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000050863-24-000010",
+        "form": "10-K",
+        "filed": "2024-01-26",
+        "chars": null
+      },
+      "pack_secs": 13.9,
+      "components": {
+        "MG": {
+          "secs": 12.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000050863-24-000057",
+        "form": "DEF 14A",
+        "filed": "2024-03-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 26.7
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000050863-25-000009",
+        "form": "10-K",
+        "filed": "2025-01-31",
+        "chars": null
+      },
+      "pack_secs": 14.1,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000050863-25-000054",
+        "form": "DEF 14A",
+        "filed": "2025-03-27",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 27.8
+    }
+  }
+}

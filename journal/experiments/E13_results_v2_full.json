@@ -1,0 +1,426 @@
+{
+  "study": "E13_topn_portfolio",
+  "as_of": "2026-08-17T15:26:35.683659+00:00",
+  "preregistration": "journal/experiments/E13_topn_portfolio_preregistration.md",
+  "panel": "journal\\experiments\\E14_panel_v2.parquet",
+  "restricted_to": null,
+  "grades": "the MEASURED HALF (FE+BS+VA+EN) only - panel.py excludes all 50 LLM points plus ER, PEG, forward P/E and the reverse DCF",
+  "coverage": {
+    "panel_rows": 178388,
+    "rows_after_coverage_filter": 131037,
+    "symbols": 1449,
+    "min_coverage": 0.8,
+    "note": "coverage is a per-(date,profile) proxy; the panel does not store NOT_APPLICABLE points"
+  },
+  "construction": {
+    "hold_months": 12,
+    "cost_round_trip": 0.004,
+    "score_col": "measured_pct",
+    "n_trials_registered": 3
+  },
+  "variants": {
+    "top20": {
+      "n": 20,
+      "entry_months": 128,
+      "months": 120,
+      "months_in_market": 120,
+      "annualised_excess_gross": -0.001318076981259643,
+      "annualised_excess_net": -0.005318076981259643,
+      "annualised_excess_net_ex2020": -0.008561004396666766,
+      "breakeven_cost_bps": -13.18076981259643,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": -0.00044317308177163687,
+        "median": -0.00022902619572801242,
+        "std": 0.030724492792404356,
+        "share_positive": 0.49166666666666664,
+        "p05": -0.05452988173629941,
+        "p25": -0.01750818869899672,
+        "p75": 0.01851338680531943,
+        "p95": 0.05425102479108656,
+        "min": -0.08440847660065456,
+        "max": 0.08840828546405387
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 59,
+        "p_value_two_sided": 0.9273150210898833,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "per_year": {
+        "2016": {
+          "n_months": 4,
+          "mean_monthly": 0.0024341806232080427,
+          "median_monthly": -0.005921333648812217
+        },
+        "2017": {
+          "n_months": 12,
+          "mean_monthly": 0.013483683372289794,
+          "median_monthly": 0.018488163360827543
+        },
+        "2018": {
+          "n_months": 12,
+          "mean_monthly": -0.0032806638006462976,
+          "median_monthly": -0.005512336047467743
+        },
+        "2019": {
+          "n_months": 12,
+          "mean_monthly": 0.005570794953521555,
+          "median_monthly": 0.0035861732018353833
+        },
+        "2020": {
+          "n_months": 12,
+          "mean_monthly": 0.001989022479783699,
+          "median_monthly": -0.0006484677339504993
+        },
+        "2021": {
+          "n_months": 12,
+          "mean_monthly": 0.00045726736894335685,
+          "median_monthly": 0.0025477562808524142
+        },
+        "2022": {
+          "n_months": 12,
+          "mean_monthly": -0.004337531688865934,
+          "median_monthly": -0.005997398918728471
+        },
+        "2023": {
+          "n_months": 12,
+          "mean_monthly": 0.012199190181375235,
+          "median_monthly": 0.01630752982232075
+        },
+        "2024": {
+          "n_months": 12,
+          "mean_monthly": -0.007464065196072665,
+          "median_monthly": -0.007394026710958053
+        },
+        "2025": {
+          "n_months": 12,
+          "mean_monthly": -0.014471029484259561,
+          "median_monthly": -0.010120081093477033
+        },
+        "2026": {
+          "n_months": 8,
+          "mean_monthly": -0.014084688817282361,
+          "median_monthly": -0.005606125193841682
+        }
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": -0.0144,
+          "ratio": -1.0101,
+          "prob": 0.1562,
+          "n": 120,
+          "n_trials": 3,
+          "psr_z": -0.1573,
+          "bracket": 0.8528,
+          "sr_star": 0.078209,
+          "sigma_sr": 0.091708
+        },
+        "pbo": 0.4484,
+        "profit_factor": 0.9631,
+        "sharpe": -0.014424097568217536,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -1.0101 <= 1.645"
+        ],
+        "available": true
+      }
+    },
+    "top40": {
+      "n": 40,
+      "entry_months": 128,
+      "months": 120,
+      "months_in_market": 120,
+      "annualised_excess_gross": 0.004935362696690773,
+      "annualised_excess_net": 0.0009353626966907599,
+      "annualised_excess_net_ex2020": 0.0019602502089159117,
+      "breakeven_cost_bps": 49.35362696690773,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 7.794689139089666e-05,
+        "median": 0.002196925179497223,
+        "std": 0.02958979566297247,
+        "share_positive": 0.5166666666666667,
+        "p05": -0.0491239863803043,
+        "p25": -0.021655603886542585,
+        "p75": 0.018323818843683316,
+        "p95": 0.0517086163625494,
+        "min": -0.07767516697878582,
+        "max": 0.07088573619253592
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 62,
+        "p_value_two_sided": 0.7843281773322767,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "per_year": {
+        "2016": {
+          "n_months": 4,
+          "mean_monthly": 0.0009756777239361946,
+          "median_monthly": -0.011189957660537667
+        },
+        "2017": {
+          "n_months": 12,
+          "mean_monthly": 0.010618113328890075,
+          "median_monthly": 0.013504649958421476
+        },
+        "2018": {
+          "n_months": 12,
+          "mean_monthly": -0.0033125385922028743,
+          "median_monthly": -0.004959003424998871
+        },
+        "2019": {
+          "n_months": 12,
+          "mean_monthly": 0.005302233305573904,
+          "median_monthly": 0.008881739901988898
+        },
+        "2020": {
+          "n_months": 12,
+          "mean_monthly": -0.0006907187427779663,
+          "median_monthly": -0.002159675566842051
+        },
+        "2021": {
+          "n_months": 12,
+          "mean_monthly": 0.0035945126574633266,
+          "median_monthly": 0.002244062732015274
+        },
+        "2022": {
+          "n_months": 12,
+          "mean_monthly": -0.0029364972427620927,
+          "median_monthly": -0.0016457752670264677
+        },
+        "2023": {
+          "n_months": 12,
+          "mean_monthly": 0.010302790174366394,
+          "median_monthly": 0.010382780183452112
+        },
+        "2024": {
+          "n_months": 12,
+          "mean_monthly": -0.007715640408602603,
+          "median_monthly": -0.012173511562689957
+        },
+        "2025": {
+          "n_months": 12,
+          "mean_monthly": -0.010289293128571188,
+          "median_monthly": -0.006380678863500055
+        },
+        "2026": {
+          "n_months": 8,
+          "mean_monthly": -0.006628077518170109,
+          "median_monthly": -0.0004923795842648551
+        }
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.0026,
+          "ratio": -0.8241,
+          "prob": 0.205,
+          "n": 120,
+          "n_trials": 3,
+          "psr_z": 0.0287,
+          "bracket": 0.8528,
+          "sr_star": 0.07817,
+          "sigma_sr": 0.091662
+        },
+        "pbo": 0.4802,
+        "profit_factor": 1.0067,
+        "sharpe": 0.002634249059328125,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -0.8241 <= 1.645"
+        ],
+        "available": true
+      }
+    },
+    "top80": {
+      "n": 80,
+      "entry_months": 128,
+      "months": 120,
+      "months_in_market": 120,
+      "annualised_excess_gross": 0.007694060661008096,
+      "annualised_excess_net": 0.0036940606610080884,
+      "annualised_excess_net_ex2020": 0.003377185530412605,
+      "breakeven_cost_bps": 76.94060661008096,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.0003078383884173407,
+        "median": 0.0021072623454022987,
+        "std": 0.027575845841462252,
+        "share_positive": 0.5416666666666666,
+        "p05": -0.044713254064016994,
+        "p25": -0.01646110223221011,
+        "p75": 0.015848591690156406,
+        "p95": 0.049849261768731036,
+        "min": -0.06923825338426266,
+        "max": 0.06376420279109121
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 65,
+        "p_value_two_sided": 0.41142322026393763,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "per_year": {
+        "2016": {
+          "n_months": 4,
+          "mean_monthly": 0.007775997428403538,
+          "median_monthly": -0.003252186200534999
+        },
+        "2017": {
+          "n_months": 12,
+          "mean_monthly": 0.006369937954627426,
+          "median_monthly": 0.008494737265955678
+        },
+        "2018": {
+          "n_months": 12,
+          "mean_monthly": -0.0038499007989038964,
+          "median_monthly": -0.0034567544172960612
+        },
+        "2019": {
+          "n_months": 12,
+          "mean_monthly": 0.004994797147742265,
+          "median_monthly": 0.007607561516997107
+        },
+        "2020": {
+          "n_months": 12,
+          "mean_monthly": 0.0005454947363639587,
+          "median_monthly": 0.0013615554845671468
+        },
+        "2021": {
+          "n_months": 12,
+          "mean_monthly": 0.003895938720486457,
+          "median_monthly": 0.0036992620444997026
+        },
+        "2022": {
+          "n_months": 12,
+          "mean_monthly": -0.0016546211496248117,
+          "median_monthly": -0.0017792596825486704
+        },
+        "2023": {
+          "n_months": 12,
+          "mean_monthly": 0.006593436426420827,
+          "median_monthly": 0.009993525163515336
+        },
+        "2024": {
+          "n_months": 12,
+          "mean_monthly": -0.006572614882343908,
+          "median_monthly": -0.015210967638302571
+        },
+        "2025": {
+          "n_months": 12,
+          "mean_monthly": -0.007951865178443844,
+          "median_monthly": -0.0014458134947214565
+        },
+        "2026": {
+          "n_months": 8,
+          "mean_monthly": -0.002826327352428353,
+          "median_monthly": -0.00016242570914636956
+        }
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.0112,
+          "ratio": -0.731,
+          "prob": 0.2324,
+          "n": 120,
+          "n_trials": 3,
+          "psr_z": 0.1218,
+          "bracket": 0.8528,
+          "sr_star": 0.078156,
+          "sigma_sr": 0.091646
+        },
+        "pbo": 0.4405,
+        "profit_factor": 1.0289,
+        "sharpe": 0.011163334397325492,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -0.731 <= 1.645"
+        ],
+        "available": true
+      }
+    }
+  },
+  "p4_decile_diagnostic": {
+    "absolute": {
+      "no_coverage_filter": {
+        "fwd_1y": {
+          "top_minus_bottom_pp": -5.409838634968181,
+          "bottom_decile_mean_pct": 22.544296290198567,
+          "top_decile_mean_pct": 17.13445765523039,
+          "n": 156194
+        },
+        "fwd_3y": {
+          "top_minus_bottom_pp": -25.52048208538742,
+          "bottom_decile_mean_pct": 79.72946685624515,
+          "top_decile_mean_pct": 54.20898477085774,
+          "n": 116387
+        }
+      },
+      "coverage_filtered": {
+        "fwd_1y": {
+          "top_minus_bottom_pp": -0.11194996133711832,
+          "bottom_decile_mean_pct": 17.43307225867744,
+          "top_decile_mean_pct": 17.321122297340324,
+          "n": 114021
+        },
+        "fwd_3y": {
+          "top_minus_bottom_pp": 4.139458195003021,
+          "bottom_decile_mean_pct": 50.924136183885494,
+          "top_decile_mean_pct": 55.06359437888852,
+          "n": 84168
+        }
+      }
+    },
+    "excess": {
+      "coverage_filtered": {
+        "excess_1y": {
+          "top_minus_bottom_pp": -0.2637721923077983,
+          "top_decile_mean_pct": 1.4199872743853985,
+          "top_decile_median_pct": -3.893670614535616,
+          "n": 113600
+        },
+        "excess_3y": {
+          "top_minus_bottom_pp": 3.8280704523463633,
+          "top_decile_mean_pct": 4.998293312737912,
+          "top_decile_median_pct": -15.552460233883725,
+          "n": 83843
+        }
+      }
+    }
+  },
+  "criteria": {
+    "P1_top20_positive_ex2020_after_cost": false,
+    "P2_median_month_above_zero": false,
+    "P3_size_gradient_runs_the_right_way": false,
+    "P4_E05_contradiction_reproduced_and_explained": true,
+    "P5_deflated_sharpe_and_pbo": false
+  },
+  "overall_registered": "FAIL",
+  "status": "SHADOW",
+  "promoted": false,
+  "correction_2026_09_07": {
+    "original_p4_label": "P4_E05_contradiction_reproduced_and_explained",
+    "corrected_p4_label": "P4_E05_negative_unfiltered_and_coverage_flip",
+    "corrected_p4_result": true,
+    "unfiltered_3y_pp": -25.52048208538742,
+    "coverage_filtered_3y_pp": 4.139458195003021,
+    "note": "The predicate was directional and did not numerically reproduce E05's -14.1pp.",
+    "verdict_change": false
+  }
+}

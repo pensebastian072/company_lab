@@ -1,0 +1,70 @@
+{
+  "ticker": "DOW",
+  "cik": "0001751788",
+  "sector": "Materials",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001751788-24-000010",
+        "form": "10-K",
+        "filed": "2024-01-31",
+        "chars": 599807
+      },
+      "pack_secs": 24.0,
+      "components": {
+        "MG": {
+          "secs": 12.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-055895",
+        "form": "DEF 14A",
+        "filed": "2024-03-01",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001751788-25-000012",
+        "form": "10-K",
+        "filed": "2025-02-04",
+        "chars": 641069
+      },
+      "pack_secs": 24.0,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 0,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-25-029994",
+        "form": "DEF 14A",
+        "filed": "2025-02-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.9
+    }
+  }
+}

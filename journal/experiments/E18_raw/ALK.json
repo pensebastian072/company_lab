@@ -1,0 +1,93 @@
+{
+  "ticker": "ALK",
+  "cik": "0000766421",
+  "sector": "Industrials",
+  "arm": "under",
+  "components": {
+    "SG": {
+      "base_scored": [
+        "capacity_backlog_contracts",
+        "demand_drivers_3_5yr",
+        "multiple_independent_drivers",
+        "revenue_growth_sustainable",
+        "secular_not_cyclical",
+        "tam_expanding"
+      ],
+      "nulls": [],
+      "skipped": "nothing null",
+      "secs": 0.0
+    },
+    "MG": {
+      "base_scored": [
+        "industry_expertise"
+      ],
+      "nulls": [
+        "founder_led",
+        "tenure",
+        "ownership",
+        "execution_history"
+      ],
+      "secs": 20.4,
+      "parse_ok": true,
+      "items": {
+        "founder_led": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "tenure": {
+          "score": 2,
+          "max": 2,
+          "quote": "Mr. Minicucci was elected President and Chief Executive Officer (CEO) of Alaska Air Group, Inc. in March 2021 and President of Alaska Airlines, Inc. in May 2016.",
+          "gates": {
+            "has_quote": true,
+            "strict": true,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        },
+        "ownership": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "execution_history": {
+          "score": 1,
+          "max": 2,
+          "quote": "He was Chief Executive Officer of Virgin America, Inc. from December 2016 to July 2018, when Virgin America, Inc. was merged into Alaska Airlines, Inc.",
+          "gates": {
+            "has_quote": true,
+            "strict": true,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        }
+      },
+      "targeted_meta": {
+        "n_chunks_picked": 6,
+        "methods": {
+          "founder_led": "embedding",
+          "tenure": "embedding",
+          "ownership": "embedding",
+          "execution_history": "embedding"
+        }
+      },
+      "gain_strict": 0,
+      "gain_no_gate": 0
+    }
+  }
+}

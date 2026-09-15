@@ -1,0 +1,686 @@
+{
+  "study": "E09_lse_vs_edgar",
+  "as_of": "2026-08-13T14:31:24.959667+00:00",
+  "tolerance": 0.01,
+  "describe": [
+    {
+      "symbol": "AAPL",
+      "rows": 114,
+      "earliest_period": "2018-09-29",
+      "latest_period": "2026-06-27",
+      "report_types": {
+        "cashflow": 19,
+        "growth": 19,
+        "income": 19,
+        "metrics": 19,
+        "ratios": 19,
+        "balance": 19
+      },
+      "periods": [
+        "FY",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "restated_period_count": 0,
+      "restatement_examples": {},
+      "traceability_fields": [],
+      "line_item_keys_sample": [
+        "acceptedDate",
+        "accountPayables",
+        "accountsPayables",
+        "accountsReceivables",
+        "accruedExpenses",
+        "accumulatedOtherComprehensiveIncomeLoss",
+        "acquisitionsNet",
+        "additionalPaidInCapital",
+        "assetGrowth",
+        "assetTurnover",
+        "averageInventory",
+        "averagePayables",
+        "averageReceivables",
+        "bookValuePerShare",
+        "bookValueperShareGrowth",
+        "bottomLineNetIncome",
+        "bottomLineProfitMargin",
+        "capexPerShare",
+        "capexToDepreciation",
+        "capexToOperatingCashFlow",
+        "capexToRevenue",
+        "capitalExpenditure",
+        "capitalExpenditureCoverageRatio",
+        "capitalLeaseObligations",
+        "capitalLeaseObligationsCurrent",
+        "capitalLeaseObligationsNonCurrent",
+        "cashAndCashEquivalents",
+        "cashAndShortTermInvestments",
+        "cashAtBeginningOfPeriod",
+        "cashAtEndOfPeriod",
+        "cashConversionCycle",
+        "cashPerShare",
+        "cashRatio",
+        "changeInWorkingCapital",
+        "cik",
+        "commonDividendsPaid",
+        "commonStock",
+        "commonStockIssuance",
+        "commonStockRepurchased",
+        "continuousOperationsProfitMargin"
+      ],
+      "n_line_item_keys": 268
+    },
+    {
+      "symbol": "JPM",
+      "rows": 110,
+      "earliest_period": "2017-12-31",
+      "latest_period": "2026-06-30",
+      "report_types": {
+        "cashflow": 20,
+        "balance": 18,
+        "growth": 18,
+        "metrics": 18,
+        "income": 18,
+        "ratios": 18
+      },
+      "periods": [
+        "FY",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "restated_period_count": 0,
+      "restatement_examples": {},
+      "traceability_fields": [],
+      "line_item_keys_sample": [
+        "acceptedDate",
+        "accountPayables",
+        "accountsPayables",
+        "accountsReceivables",
+        "accruedExpenses",
+        "accumulatedOtherComprehensiveIncomeLoss",
+        "acquisitionsNet",
+        "additionalPaidInCapital",
+        "assetGrowth",
+        "assetTurnover",
+        "averageInventory",
+        "averagePayables",
+        "averageReceivables",
+        "bookValuePerShare",
+        "bookValueperShareGrowth",
+        "bottomLineNetIncome",
+        "bottomLineProfitMargin",
+        "capexPerShare",
+        "capexToDepreciation",
+        "capexToOperatingCashFlow",
+        "capexToRevenue",
+        "capitalExpenditure",
+        "capitalExpenditureCoverageRatio",
+        "capitalLeaseObligations",
+        "capitalLeaseObligationsCurrent",
+        "capitalLeaseObligationsNonCurrent",
+        "cashAndCashEquivalents",
+        "cashAndShortTermInvestments",
+        "cashAtBeginningOfPeriod",
+        "cashAtEndOfPeriod",
+        "cashConversionCycle",
+        "cashPerShare",
+        "cashRatio",
+        "changeInWorkingCapital",
+        "cik",
+        "commonDividendsPaid",
+        "commonStock",
+        "commonStockIssuance",
+        "commonStockRepurchased",
+        "continuousOperationsProfitMargin"
+      ],
+      "n_line_item_keys": 268
+    },
+    {
+      "symbol": "XOM",
+      "rows": 120,
+      "earliest_period": "2017-12-31",
+      "latest_period": "2026-06-30",
+      "report_types": {
+        "balance": 20,
+        "growth": 20,
+        "cashflow": 20,
+        "income": 20,
+        "ratios": 20,
+        "metrics": 20
+      },
+      "periods": [
+        "FY",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "restated_period_count": 0,
+      "restatement_examples": {},
+      "traceability_fields": [],
+      "line_item_keys_sample": [
+        "acceptedDate",
+        "accountPayables",
+        "accountsPayables",
+        "accountsReceivables",
+        "accruedExpenses",
+        "accumulatedOtherComprehensiveIncomeLoss",
+        "acquisitionsNet",
+        "additionalPaidInCapital",
+        "assetGrowth",
+        "assetTurnover",
+        "averageInventory",
+        "averagePayables",
+        "averageReceivables",
+        "bookValuePerShare",
+        "bookValueperShareGrowth",
+        "bottomLineNetIncome",
+        "bottomLineProfitMargin",
+        "capexPerShare",
+        "capexToDepreciation",
+        "capexToOperatingCashFlow",
+        "capexToRevenue",
+        "capitalExpenditure",
+        "capitalExpenditureCoverageRatio",
+        "capitalLeaseObligations",
+        "capitalLeaseObligationsCurrent",
+        "capitalLeaseObligationsNonCurrent",
+        "cashAndCashEquivalents",
+        "cashAndShortTermInvestments",
+        "cashAtBeginningOfPeriod",
+        "cashAtEndOfPeriod",
+        "cashConversionCycle",
+        "cashPerShare",
+        "cashRatio",
+        "changeInWorkingCapital",
+        "cik",
+        "commonDividendsPaid",
+        "commonStock",
+        "commonStockIssuance",
+        "commonStockRepurchased",
+        "continuousOperationsProfitMargin"
+      ],
+      "n_line_item_keys": 268
+    },
+    {
+      "symbol": "NKE",
+      "rows": 114,
+      "earliest_period": "2018-05-31",
+      "latest_period": "2026-05-31",
+      "report_types": {
+        "cashflow": 19,
+        "growth": 19,
+        "income": 19,
+        "metrics": 19,
+        "ratios": 19,
+        "balance": 19
+      },
+      "periods": [
+        "FY",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "restated_period_count": 0,
+      "restatement_examples": {},
+      "traceability_fields": [],
+      "line_item_keys_sample": [
+        "acceptedDate",
+        "accountPayables",
+        "accountsPayables",
+        "accountsReceivables",
+        "accruedExpenses",
+        "accumulatedOtherComprehensiveIncomeLoss",
+        "acquisitionsNet",
+        "additionalPaidInCapital",
+        "assetGrowth",
+        "assetTurnover",
+        "averageInventory",
+        "averagePayables",
+        "averageReceivables",
+        "bookValuePerShare",
+        "bookValueperShareGrowth",
+        "bottomLineNetIncome",
+        "bottomLineProfitMargin",
+        "capexPerShare",
+        "capexToDepreciation",
+        "capexToOperatingCashFlow",
+        "capexToRevenue",
+        "capitalExpenditure",
+        "capitalExpenditureCoverageRatio",
+        "capitalLeaseObligations",
+        "capitalLeaseObligationsCurrent",
+        "capitalLeaseObligationsNonCurrent",
+        "cashAndCashEquivalents",
+        "cashAndShortTermInvestments",
+        "cashAtBeginningOfPeriod",
+        "cashAtEndOfPeriod",
+        "cashConversionCycle",
+        "cashPerShare",
+        "cashRatio",
+        "changeInWorkingCapital",
+        "cik",
+        "commonDividendsPaid",
+        "commonStock",
+        "commonStockIssuance",
+        "commonStockRepurchased",
+        "continuousOperationsProfitMargin"
+      ],
+      "n_line_item_keys": 268
+    },
+    {
+      "symbol": "COST",
+      "rows": 108,
+      "earliest_period": "2018-08-31",
+      "latest_period": "2026-05-10",
+      "report_types": {
+        "cashflow": 18,
+        "growth": 18,
+        "income": 18,
+        "metrics": 18,
+        "ratios": 18,
+        "balance": 18
+      },
+      "periods": [
+        "FY",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "restated_period_count": 0,
+      "restatement_examples": {},
+      "traceability_fields": [],
+      "line_item_keys_sample": [
+        "acceptedDate",
+        "accountPayables",
+        "accountsPayables",
+        "accountsReceivables",
+        "accruedExpenses",
+        "accumulatedOtherComprehensiveIncomeLoss",
+        "acquisitionsNet",
+        "additionalPaidInCapital",
+        "assetGrowth",
+        "assetTurnover",
+        "averageInventory",
+        "averagePayables",
+        "averageReceivables",
+        "bookValuePerShare",
+        "bookValueperShareGrowth",
+        "bottomLineNetIncome",
+        "bottomLineProfitMargin",
+        "capexPerShare",
+        "capexToDepreciation",
+        "capexToOperatingCashFlow",
+        "capexToRevenue",
+        "capitalExpenditure",
+        "capitalExpenditureCoverageRatio",
+        "capitalLeaseObligations",
+        "capitalLeaseObligationsCurrent",
+        "capitalLeaseObligationsNonCurrent",
+        "cashAndCashEquivalents",
+        "cashAndShortTermInvestments",
+        "cashAtBeginningOfPeriod",
+        "cashAtEndOfPeriod",
+        "cashConversionCycle",
+        "cashPerShare",
+        "cashRatio",
+        "changeInWorkingCapital",
+        "cik",
+        "commonDividendsPaid",
+        "commonStock",
+        "commonStockIssuance",
+        "commonStockRepurchased",
+        "continuousOperationsProfitMargin"
+      ],
+      "n_line_item_keys": 268
+    }
+  ],
+  "compare": [
+    {
+      "symbol": "AAPL",
+      "comparable_periods": 8,
+      "overlapping_lse_periods": 8,
+      "edgar_periods": 19,
+      "per_field": {
+        "revenue": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "operatingIncome": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "grossProfit": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "netIncome": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "freeCashFlow": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "operatingCashFlow": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        }
+      },
+      "cik": "0000320193",
+      "profile": "STANDARD",
+      "tags": {
+        "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax + Revenues + SalesRevenueNet",
+        "operating_income": "OperatingIncomeLoss",
+        "gross_profit": "GrossProfit",
+        "net_income": "NetIncomeLoss",
+        "cfo": "NetCashProvidedByUsedInOperatingActivities + NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+        "capex": "PaymentsToAcquirePropertyPlantAndEquipment + PaymentsToAcquireProductiveAssets"
+      }
+    },
+    {
+      "symbol": "JPM",
+      "comparable_periods": 9,
+      "overlapping_lse_periods": 9,
+      "edgar_periods": 19,
+      "per_field": {
+        "revenue": {
+          "n": 8,
+          "agree": 0,
+          "disagreements": [
+            {
+              "period": "2018-12-31",
+              "edgar": 109029000000.0,
+              "lse": 129824000000.0,
+              "rel_diff": 0.1602
+            },
+            {
+              "period": "2019-12-31",
+              "edgar": 115627000000.0,
+              "lse": 142515000000.0,
+              "rel_diff": 0.1887
+            },
+            {
+              "period": "2020-12-31",
+              "edgar": 119543000000.0,
+              "lse": 129843000000.0,
+              "rel_diff": 0.0793
+            },
+            {
+              "period": "2021-12-31",
+              "edgar": 121649000000.0,
+              "lse": 127238000000.0,
+              "rel_diff": 0.0439
+            }
+          ],
+          "agreement_rate": 0.0
+        },
+        "operatingIncome": {
+          "n": 0,
+          "agree": 0,
+          "disagreements": [],
+          "agreement_rate": null
+        },
+        "grossProfit": {
+          "n": 0,
+          "agree": 0,
+          "disagreements": [],
+          "agreement_rate": null
+        },
+        "netIncome": {
+          "n": 9,
+          "agree": 9,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "freeCashFlow": {
+          "n": 0,
+          "agree": 0,
+          "disagreements": [],
+          "agreement_rate": null
+        },
+        "operatingCashFlow": {
+          "n": 9,
+          "agree": 8,
+          "disagreements": [
+            {
+              "period": "2025-12-31",
+              "edgar": -147782000000.0,
+              "lse": 100867000000.0,
+              "rel_diff": 1.6825
+            }
+          ],
+          "agreement_rate": 0.8888888888888888
+        }
+      },
+      "cik": "0000019617",
+      "profile": "FINANCIAL",
+      "tags": {
+        "revenue": "Revenues + RevenuesNetOfInterestExpense",
+        "net_income": "NetIncomeLoss",
+        "cfo": "NetCashProvidedByUsedInOperatingActivities"
+      }
+    },
+    {
+      "symbol": "XOM",
+      "comparable_periods": 9,
+      "overlapping_lse_periods": 9,
+      "edgar_periods": 19,
+      "per_field": {
+        "revenue": {
+          "n": 9,
+          "agree": 5,
+          "disagreements": [
+            {
+              "period": "2022-12-31",
+              "edgar": 413680000000.0,
+              "lse": 398675000000.0,
+              "rel_diff": 0.0363
+            },
+            {
+              "period": "2023-12-31",
+              "edgar": 344582000000.0,
+              "lse": 334697000000.0,
+              "rel_diff": 0.0287
+            },
+            {
+              "period": "2024-12-31",
+              "edgar": 349585000000.0,
+              "lse": 339247000000.0,
+              "rel_diff": 0.0296
+            },
+            {
+              "period": "2025-12-31",
+              "edgar": 332238000000.0,
+              "lse": 323905000000.0,
+              "rel_diff": 0.0251
+            }
+          ],
+          "agreement_rate": 0.5555555555555556
+        },
+        "operatingIncome": {
+          "n": 0,
+          "agree": 0,
+          "disagreements": [],
+          "agreement_rate": null
+        },
+        "grossProfit": {
+          "n": 0,
+          "agree": 0,
+          "disagreements": [],
+          "agreement_rate": null
+        },
+        "netIncome": {
+          "n": 9,
+          "agree": 7,
+          "disagreements": [
+            {
+              "period": "2021-12-31",
+              "edgar": 23040000000.0,
+              "lse": 23598000000.0,
+              "rel_diff": 0.0236
+            },
+            {
+              "period": "2022-12-31",
+              "edgar": 55740000000.0,
+              "lse": 57577000000.0,
+              "rel_diff": 0.0319
+            }
+          ],
+          "agreement_rate": 0.7777777777777778
+        },
+        "freeCashFlow": {
+          "n": 9,
+          "agree": 9,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "operatingCashFlow": {
+          "n": 9,
+          "agree": 9,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        }
+      },
+      "cik": "0000034088",
+      "profile": "STANDARD",
+      "tags": {
+        "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax + Revenues",
+        "net_income": "NetIncomeLoss",
+        "cfo": "NetCashProvidedByUsedInOperatingActivities + NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+        "capex": "PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    {
+      "symbol": "NKE",
+      "comparable_periods": 9,
+      "overlapping_lse_periods": 9,
+      "edgar_periods": 19,
+      "per_field": {
+        "revenue": {
+          "n": 9,
+          "agree": 9,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "operatingIncome": {
+          "n": 0,
+          "agree": 0,
+          "disagreements": [],
+          "agreement_rate": null
+        },
+        "grossProfit": {
+          "n": 9,
+          "agree": 9,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "netIncome": {
+          "n": 9,
+          "agree": 9,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "freeCashFlow": {
+          "n": 9,
+          "agree": 9,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "operatingCashFlow": {
+          "n": 9,
+          "agree": 9,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        }
+      },
+      "cik": "0000320187",
+      "profile": "STANDARD",
+      "tags": {
+        "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax + SalesRevenueNet",
+        "gross_profit": "GrossProfit",
+        "net_income": "NetIncomeLoss",
+        "cfo": "NetCashProvidedByUsedInOperatingActivities",
+        "capex": "PaymentsToAcquirePropertyPlantAndEquipment + PaymentsToAcquireProductiveAssets"
+      }
+    },
+    {
+      "symbol": "COST",
+      "comparable_periods": 8,
+      "overlapping_lse_periods": 8,
+      "edgar_periods": 18,
+      "per_field": {
+        "revenue": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "operatingIncome": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "grossProfit": {
+          "n": 1,
+          "agree": 0,
+          "disagreements": [
+            {
+              "period": "2019-09-01",
+              "edgar": 16465000000.0,
+              "lse": 19817000000.0,
+              "rel_diff": 0.1691
+            }
+          ],
+          "agreement_rate": 0.0
+        },
+        "netIncome": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "freeCashFlow": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        },
+        "operatingCashFlow": {
+          "n": 8,
+          "agree": 8,
+          "disagreements": [],
+          "agreement_rate": 1.0
+        }
+      },
+      "cik": "0000909832",
+      "profile": "STANDARD",
+      "tags": {
+        "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax + Revenues",
+        "operating_income": "OperatingIncomeLoss",
+        "gross_profit": "GrossProfit",
+        "net_income": "NetIncomeLoss",
+        "cfo": "NetCashProvidedByUsedInOperatingActivities + NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+        "capex": "PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    }
+  ],
+  "verdict": "**Verdict \u2014 EDGAR stays the source of record.**\n\n- **Depth**: earliest period seen 2017-12-31, against EDGAR's ~2009. The catalogue advertises 2013; the filers probed start 2017-2018.\n- **Point-in-time**: 0 restated periods retained across all five filers. **Every period appears exactly once**, so this is a latest-view source. It cannot support the `as_first_filed` discipline the panel depends on \u2014 and grading a model on restated numbers is look-ahead bias.\n- **Traceability**: **none**. No accession, no URL, no us-gaap tag on any number, so a figure cannot be traced back to the filing it came from. EDGAR carries the tag and the accession on every fact.\n- **Agreement**: exact on the clean filers (AAPL, NKE), but it diverges on JPM, XOM, COST \u2014 and those are the hard cases the set was chosen for. JPM revenue disagrees by 4-19% every year (a bank total-vs-net revenue definition), JPM 2025 operating cash flow has the **opposite sign** (EDGAR \u2212147.8bn, LSE +100.9bn), and XOM revenue runs 2.5-3.6% apart every year (excise taxes in or out). None of these are errors exactly; they are a different chart of accounts, which is precisely why a source without a tag per number cannot be reconciled.\n\nThe one gap LSE could still fill is **non-US filers**, which have no companyfacts at all. That is worth revisiting only if the universe expands beyond US listings."
+}

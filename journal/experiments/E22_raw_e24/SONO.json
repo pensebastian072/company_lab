@@ -1,0 +1,70 @@
+{
+  "ticker": "SONO",
+  "cik": "0001314727",
+  "sector": "Consumer Discretionary",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000950170-23-065135",
+        "form": "10-K",
+        "filed": "2023-11-20",
+        "chars": 337242
+      },
+      "pack_secs": 28.0,
+      "components": {
+        "MG": {
+          "secs": 12.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-24-008143",
+        "form": "DEF 14A",
+        "filed": "2024-01-29",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001314727-24-000026",
+        "form": "10-K",
+        "filed": "2024-11-15",
+        "chars": 307605
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001314727-25-000012",
+        "form": "DEF 14A",
+        "filed": "2025-01-27",
+        "error": null,
+        "n_chunks": 158
+      },
+      "total_secs": 37.0
+    }
+  }
+}

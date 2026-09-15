@@ -1,0 +1,70 @@
+{
+  "ticker": "OMC",
+  "cik": "0000029989",
+  "sector": "Communication Services",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000029989-24-000007",
+        "form": "10-K",
+        "filed": "2024-02-07",
+        "chars": null
+      },
+      "pack_secs": 23.4,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001213900-24-027211",
+        "form": "DEF 14A",
+        "filed": "2024-03-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000029989-25-000009",
+        "form": "10-K",
+        "filed": "2025-02-05",
+        "chars": null
+      },
+      "pack_secs": 23.6,
+      "components": {
+        "MG": {
+          "secs": 12.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001013762-25-003435",
+        "form": "DEF 14A",
+        "filed": "2025-03-27",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.1
+    }
+  }
+}

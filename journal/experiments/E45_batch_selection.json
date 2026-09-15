@@ -1,0 +1,698 @@
+{
+  "experiment": "E45_remaining_pool",
+  "seed": 45,
+  "requested": 45,
+  "control_fraction": 0.2,
+  "eligible_pool": 144,
+  "control_design": "matched_by_industry",
+  "n_priority": 36,
+  "n_control": 9,
+  "strata": 28,
+  "sector_counts": {
+    "financials": 33,
+    "energy": 6,
+    "information_technology": 6
+  },
+  "order": [
+    "FOUR",
+    "CATY",
+    "EWBC",
+    "RNST",
+    "INSW",
+    "SIGI",
+    "CPF",
+    "NBTB",
+    "RELY",
+    "UBSI",
+    "V",
+    "GL",
+    "FFBC",
+    "SSB",
+    "LPG",
+    "KLAC",
+    "HOMB",
+    "ONTO",
+    "WU",
+    "FBK",
+    "TRUP",
+    "WRB",
+    "SAFT",
+    "DTM",
+    "FBNC",
+    "FBP",
+    "NIC",
+    "DINO",
+    "FHB",
+    "ORCL",
+    "ONB",
+    "OKTA",
+    "AEIS",
+    "UCB",
+    "TRGP",
+    "UFCS",
+    "HFWA",
+    "GPN",
+    "PB",
+    "KNTK",
+    "ACGL",
+    "WBS",
+    "FG",
+    "CVBF",
+    "TER"
+  ],
+  "priority": [
+    {
+      "ticker": "FOUR",
+      "priority_score": 0.4577,
+      "inputs": {
+        "rank_percentile": 0.6887,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "CATY",
+      "priority_score": 0.4547,
+      "inputs": {
+        "rank_percentile": 0.5486,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "EWBC",
+      "priority_score": 0.4547,
+      "inputs": {
+        "rank_percentile": 0.5486,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "RNST",
+      "priority_score": 0.4546,
+      "inputs": {
+        "rank_percentile": 0.6148,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "INSW",
+      "priority_score": 0.4537,
+      "inputs": {
+        "rank_percentile": 0.7183,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "SIGI",
+      "priority_score": 0.4509,
+      "inputs": {
+        "rank_percentile": 0.7626,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "CPF",
+      "priority_score": 0.4506,
+      "inputs": {
+        "rank_percentile": 0.7198,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "NBTB",
+      "priority_score": 0.4493,
+      "inputs": {
+        "rank_percentile": 0.6381,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "RELY",
+      "priority_score": 0.4475,
+      "inputs": {
+        "rank_percentile": 0.8794,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "UBSI",
+      "priority_score": 0.4461,
+      "inputs": {
+        "rank_percentile": 0.6887,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "V",
+      "priority_score": 0.4456,
+      "inputs": {
+        "rank_percentile": 0.8949,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.26666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "GL",
+      "priority_score": 0.4444,
+      "inputs": {
+        "rank_percentile": 0.6887,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FFBC",
+      "priority_score": 0.444,
+      "inputs": {
+        "rank_percentile": 0.7198,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "SSB",
+      "priority_score": 0.444,
+      "inputs": {
+        "rank_percentile": 0.7198,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "LPG",
+      "priority_score": 0.4425,
+      "inputs": {
+        "rank_percentile": 0.8873,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "KLAC",
+      "priority_score": 0.4411,
+      "inputs": {
+        "rank_percentile": 0.9053,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.2,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "HOMB",
+      "priority_score": 0.4394,
+      "inputs": {
+        "rank_percentile": 0.6887,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "ONTO",
+      "priority_score": 0.4389,
+      "inputs": {
+        "rank_percentile": 0.4947,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4,
+        "staleness": 1.0,
+        "conviction_proximity": 1.0,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "WU",
+      "priority_score": 0.4389,
+      "inputs": {
+        "rank_percentile": 0.4864,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.8666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FBK",
+      "priority_score": 0.4387,
+      "inputs": {
+        "rank_percentile": 0.7354,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "TRUP",
+      "priority_score": 0.4387,
+      "inputs": {
+        "rank_percentile": 0.7354,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "WRB",
+      "priority_score": 0.4373,
+      "inputs": {
+        "rank_percentile": 0.7198,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "SAFT",
+      "priority_score": 0.4339,
+      "inputs": {
+        "rank_percentile": 0.4864,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "DTM",
+      "priority_score": 0.432,
+      "inputs": {
+        "rank_percentile": 0.7183,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.3333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FBNC",
+      "priority_score": 0.4311,
+      "inputs": {
+        "rank_percentile": 0.6887,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FBP",
+      "priority_score": 0.429,
+      "inputs": {
+        "rank_percentile": 0.7198,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "NIC",
+      "priority_score": 0.429,
+      "inputs": {
+        "rank_percentile": 0.7198,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.5,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "DINO",
+      "priority_score": 0.4257,
+      "inputs": {
+        "rank_percentile": 0.662,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "FHB",
+      "priority_score": 0.4256,
+      "inputs": {
+        "rank_percentile": 0.4864,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "ORCL",
+      "priority_score": 0.4256,
+      "inputs": {
+        "rank_percentile": 0.6947,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "ONB",
+      "priority_score": 0.4253,
+      "inputs": {
+        "rank_percentile": 0.5097,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.5333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "OKTA",
+      "priority_score": 0.4209,
+      "inputs": {
+        "rank_percentile": 0.5211,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.8,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "AEIS",
+      "priority_score": 0.4189,
+      "inputs": {
+        "rank_percentile": 0.6947,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "UCB",
+      "priority_score": 0.4189,
+      "inputs": {
+        "rank_percentile": 0.4864,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "TRGP",
+      "priority_score": 0.4187,
+      "inputs": {
+        "rank_percentile": 0.7183,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.2,
+        "staleness": 1.0,
+        "conviction_proximity": 0.7,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    },
+    {
+      "ticker": "UFCS",
+      "priority_score": 0.4136,
+      "inputs": {
+        "rank_percentile": 0.5097,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.26666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.9,
+        "sector_event": 0.0
+      },
+      "arm": "priority"
+    }
+  ],
+  "control": [
+    {
+      "ticker": "HFWA",
+      "priority_score": 0.2778,
+      "inputs": {
+        "rank_percentile": 0.2724,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.0,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "GPN",
+      "priority_score": 0.3839,
+      "inputs": {
+        "rank_percentile": 0.4864,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.4666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "PB",
+      "priority_score": 0.3187,
+      "inputs": {
+        "rank_percentile": 0.3268,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.19999999999999996,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "KNTK",
+      "priority_score": 0.1989,
+      "inputs": {
+        "rank_percentile": 0.2113,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.06666666666666667,
+        "staleness": 1.0,
+        "conviction_proximity": 0.0,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "ACGL",
+      "priority_score": 0.4106,
+      "inputs": {
+        "rank_percentile": 0.4864,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.7333333333333333,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "WBS",
+      "priority_score": 0.2582,
+      "inputs": {
+        "rank_percentile": 0.2412,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.0,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "FG",
+      "priority_score": 0.2512,
+      "inputs": {
+        "rank_percentile": 0.2062,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6,
+        "staleness": 1.0,
+        "conviction_proximity": 0.0,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "CVBF",
+      "priority_score": 0.312,
+      "inputs": {
+        "rank_percentile": 0.3268,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.6666666666666666,
+        "staleness": 1.0,
+        "conviction_proximity": 0.19999999999999996,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    },
+    {
+      "ticker": "TER",
+      "priority_score": 0.3989,
+      "inputs": {
+        "rank_percentile": 0.6947,
+        "score_delta": 0.0,
+        "contradiction_count": 0.0,
+        "valuation_attractive": 0.2,
+        "staleness": 1.0,
+        "conviction_proximity": 0.6,
+        "sector_event": 0.0
+      },
+      "arm": "control"
+    }
+  ],
+  "note": "The rest of the industry-covered pool. Control matched by industry; previously researched companies excluded so the funnel comparison stays a first-look comparison."
+}

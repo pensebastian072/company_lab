@@ -1,0 +1,70 @@
+{
+  "ticker": "MPWR",
+  "cik": "0001280452",
+  "sector": "Information Technology",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001437749-24-006133",
+        "form": "10-K",
+        "filed": "2024-02-29",
+        "chars": 358446
+      },
+      "pack_secs": 24.4,
+      "components": {
+        "MG": {
+          "secs": 15.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001437749-24-013657",
+        "form": "DEF 14A",
+        "filed": "2024-04-29",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.1
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001437749-25-005903",
+        "form": "10-K",
+        "filed": "2025-03-03",
+        "chars": 351502
+      },
+      "pack_secs": 24.1,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001437749-25-013745",
+        "form": "DEF 14A",
+        "filed": "2025-04-30",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.0
+    }
+  }
+}

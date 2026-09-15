@@ -1,0 +1,70 @@
+{
+  "ticker": "AMKR",
+  "cik": "0001047127",
+  "sector": "Information Technology",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001047127-24-000019",
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "chars": 374032
+      },
+      "pack_secs": 21.5,
+      "components": {
+        "MG": {
+          "secs": 18.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-094489",
+        "form": "DEF 14A",
+        "filed": "2024-04-12",
+        "error": null,
+        "n_chunks": 120
+      },
+      "total_secs": 39.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001047127-25-000030",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": 379488
+      },
+      "pack_secs": 21.6,
+      "components": {
+        "MG": {
+          "secs": 16.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-073020",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 126
+      },
+      "total_secs": 37.9
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "MWA",
+  "cik": "0001350593",
+  "sector": "Industrials",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001350593-23-000060",
+        "form": "10-K",
+        "filed": "2023-12-14",
+        "chars": 345975
+      },
+      "pack_secs": 25.5,
+      "components": {
+        "MG": {
+          "secs": 15.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001350593-24-000005",
+        "form": "DEF 14A",
+        "filed": "2024-01-19",
+        "error": null,
+        "n_chunks": 158
+      },
+      "total_secs": 40.8
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001350593-24-000079",
+        "form": "10-K",
+        "filed": "2024-11-20",
+        "chars": 356892
+      },
+      "pack_secs": 24.5,
+      "components": {
+        "MG": {
+          "secs": 14.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001350593-24-000088",
+        "form": "DEF 14A",
+        "filed": "2024-12-18",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.5
+    }
+  }
+}

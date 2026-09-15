@@ -1,0 +1,48 @@
+{
+  "ticker": "FHN",
+  "cik": "0000036966",
+  "sector": "Financials",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.6,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "economies_of_scale"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 19.5,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 6,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "economies_of_scale",
+      "regulatory_barriers"
+    ]
+  }
+}

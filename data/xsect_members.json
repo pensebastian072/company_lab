@@ -1,0 +1,41 @@
+{
+  "_comment": [
+    "The cross-listed / foreign-filer tier. Hand-curated on purpose.",
+    "",
+    "config.XSECT_UNIVERSE points at D:/stock_xsect_data/universe.parquet, which is a",
+    "44-million-row daily liquidity screen carrying no CIK, no sector and no",
+    "sub-industry. Loading a company from it produces exactly the failure CLAUDE.md",
+    "records under '--symbols used to silently rewrite a company's PROFILE': an empty",
+    "sub_industry is not thin data, it changes which sub-tests the company is even",
+    "asked. So this tier is a named list with its classification attached.",
+    "",
+    "SCOPE LIMIT, STATED RATHER THAN DISCOVERED LATER: these are 20-F filers reporting",
+    "under IFRS. clab/fundamentals/tags.py resolves us-gaap tags, so the MEASURED half",
+    "returns NO_DATA for them, coverage falls below MIN_COVERAGE_FOR_BAND and the band",
+    "is INSUFFICIENT_DATA. They appear in the external-intelligence workbook and in",
+    "their industry objects; they do NOT appear in the composite ranking. That is the",
+    "correct honest outcome and not a bug. Full IFRS tag support is separate work.",
+    "",
+    "CIKs resolved from company_tickers.json 2026-09-02."
+  ],
+  "members": [
+    {
+      "ticker": "ASML",
+      "cik": "0000937966",
+      "name": "ASML Holding N.V.",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Semiconductor Materials & Equipment",
+      "filer_type": "20-F",
+      "why": "The confirmed-moat calibration case. EUV lithography has no second supplier, so replication difficulty is the thing external evidence is supposed to be able to establish."
+    },
+    {
+      "ticker": "TSM",
+      "cik": "0001046179",
+      "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Semiconductors",
+      "filer_type": "20-F",
+      "why": "The customer side of semiconductor_equipment and the foundry ASML's tools are bought for. Without it the equipment industry object has no demand-side counterparty in the book."
+    }
+  ]
+}

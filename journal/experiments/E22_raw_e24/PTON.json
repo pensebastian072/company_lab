@@ -1,0 +1,70 @@
+{
+  "ticker": "PTON",
+  "cik": "0001639825",
+  "sector": "Consumer Discretionary",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001639825-24-000128",
+        "form": "10-K",
+        "filed": "2024-08-22",
+        "chars": null
+      },
+      "pack_secs": 26.4,
+      "components": {
+        "MG": {
+          "secs": 12.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-23-264093",
+        "form": "DEF 14A",
+        "filed": "2023-10-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001639825-25-000138",
+        "form": "10-K",
+        "filed": "2025-08-07",
+        "chars": null
+      },
+      "pack_secs": 26.5,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-241065",
+        "form": "DEF 14A",
+        "filed": "2024-10-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.8
+    }
+  }
+}

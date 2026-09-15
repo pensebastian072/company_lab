@@ -1,0 +1,70 @@
+{
+  "ticker": "CENX",
+  "cik": "0000949157",
+  "sector": "Materials",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000949157-24-000028",
+        "form": "10-K",
+        "filed": "2024-03-15",
+        "chars": null
+      },
+      "pack_secs": 27.5,
+      "components": {
+        "MG": {
+          "secs": 13.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000949157-24-000038",
+        "form": "DEF 14A",
+        "filed": "2024-04-18",
+        "error": null,
+        "n_chunks": 133
+      },
+      "total_secs": 41.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000949157-25-000024",
+        "form": "10-K",
+        "filed": "2025-03-03",
+        "chars": null
+      },
+      "pack_secs": 26.8,
+      "components": {
+        "MG": {
+          "secs": 14.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001552781-25-000153",
+        "form": "DEF 14A",
+        "filed": "2025-04-25",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.3
+    }
+  }
+}

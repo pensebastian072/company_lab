@@ -1,0 +1,511 @@
+{
+  "study": "v2_book_review",
+  "descriptive_only": true,
+  "v2_parquet": "D:\\company_lab_v2\\data\\scores.parquet",
+  "n_v1": 1501,
+  "n_v2": 1472,
+  "n_comparable": 1472,
+  "n_v2_only": 0,
+  "n_v1_only": 29,
+  "score": {
+    "v1": {
+      "n": 1472,
+      "mean": 49.52,
+      "p25": 39.75,
+      "median": 49.0,
+      "p75": 60.0,
+      "max": 87.0
+    },
+    "v2": {
+      "n": 1472,
+      "mean": 58.32,
+      "p25": 50.0,
+      "median": 59.0,
+      "p75": 67.0,
+      "max": 87.0
+    }
+  },
+  "coverage": {
+    "v1": {
+      "n": 1472,
+      "mean": 0.87,
+      "p25": 0.82,
+      "median": 0.9,
+      "p75": 0.95,
+      "max": 1.0
+    },
+    "v2": {
+      "n": 1472,
+      "mean": 0.96,
+      "p25": 0.94,
+      "median": 0.98,
+      "p75": 1.0,
+      "max": 1.0
+    }
+  },
+  "coverage_gate": {
+    "threshold": 0.8,
+    "v1_clearing": 1184,
+    "v2_clearing": 1414
+  },
+  "bands": {
+    "v1": {
+      "EXCEPTIONAL": 0,
+      "HIGH_CONVICTION": 12,
+      "INVESTABLE": 97,
+      "WATCHLIST": 265,
+      "WEAK": 325,
+      "REJECT": 485,
+      "INSUFFICIENT_DATA": 288,
+      "other": 0
+    },
+    "v2": {
+      "EXCEPTIONAL": 0,
+      "HIGH_CONVICTION": 30,
+      "INVESTABLE": 248,
+      "WATCHLIST": 416,
+      "WEAK": 416,
+      "REJECT": 304,
+      "INSUFFICIENT_DATA": 58,
+      "other": 0
+    }
+  },
+  "agreement": {
+    "spearman_score": 0.9224728963968019,
+    "spearman_sector_neutral": 0.8483348214103928,
+    "same_band": 535,
+    "top_overlap": {
+      "n": 50,
+      "shared": 28,
+      "entered": [
+        "BKR",
+        "CW",
+        "DIS",
+        "FORM",
+        "FSLR",
+        "GEN",
+        "GMED",
+        "HQY",
+        "IT",
+        "JAZZ",
+        "MWA",
+        "MYRG",
+        "OSIS",
+        "PCTY",
+        "PEP",
+        "PRI",
+        "PTC",
+        "SANM",
+        "STX",
+        "TER",
+        "TOST",
+        "TPR"
+      ],
+      "left": [
+        "ANET",
+        "AON",
+        "CHWY",
+        "DELL",
+        "HSTM",
+        "KEYS",
+        "KLAC",
+        "KNSL",
+        "META",
+        "NFLX",
+        "PAYC",
+        "PSN",
+        "QLYS",
+        "RAMP",
+        "RL",
+        "RMD",
+        "SEIC",
+        "STRL",
+        "TEL",
+        "TT",
+        "ULS",
+        "ZWS"
+      ]
+    }
+  },
+  "sectors": [
+    {
+      "sector": "Energy",
+      "n": 70,
+      "median_score_v1": 41.0,
+      "median_score_v2": 53.5,
+      "banded_v1": 0.571,
+      "banded_v2": 0.786,
+      "median_coverage_v1": 0.819,
+      "median_coverage_v2": 0.947
+    },
+    {
+      "sector": "Real Estate",
+      "n": 102,
+      "median_score_v1": 35.0,
+      "median_score_v2": 47.0,
+      "banded_v1": 0.431,
+      "banded_v2": 0.941,
+      "median_coverage_v1": 0.793,
+      "median_coverage_v2": 0.957
+    },
+    {
+      "sector": "Consumer Staples",
+      "n": 74,
+      "median_score_v1": 49.5,
+      "median_score_v2": 60.0,
+      "banded_v1": 0.919,
+      "banded_v2": 1.0,
+      "median_coverage_v1": 0.915,
+      "median_coverage_v2": 0.989
+    },
+    {
+      "sector": "Communication Services",
+      "n": 47,
+      "median_score_v1": 51.0,
+      "median_score_v2": 61.0,
+      "banded_v1": 0.787,
+      "banded_v2": 0.83,
+      "median_coverage_v1": 0.883,
+      "median_coverage_v2": 0.957
+    },
+    {
+      "sector": "Financials",
+      "n": 255,
+      "median_score_v1": 48.0,
+      "median_score_v2": 58.0,
+      "banded_v1": 0.776,
+      "banded_v2": 0.988,
+      "median_coverage_v1": 0.864,
+      "median_coverage_v2": 0.978
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "n": 184,
+      "median_score_v1": 49.0,
+      "median_score_v2": 58.0,
+      "banded_v1": 0.848,
+      "banded_v2": 0.978,
+      "median_coverage_v1": 0.904,
+      "median_coverage_v2": 0.979
+    },
+    {
+      "sector": "Utilities",
+      "n": 59,
+      "median_score_v1": 39.0,
+      "median_score_v2": 48.0,
+      "banded_v1": 0.831,
+      "banded_v2": 0.966,
+      "median_coverage_v1": 0.887,
+      "median_coverage_v2": 0.978
+    },
+    {
+      "sector": "Health Care",
+      "n": 163,
+      "median_score_v1": 54.0,
+      "median_score_v2": 62.0,
+      "banded_v1": 0.816,
+      "banded_v2": 0.975,
+      "median_coverage_v1": 0.915,
+      "median_coverage_v2": 0.979
+    },
+    {
+      "sector": "Materials",
+      "n": 75,
+      "median_score_v1": 49.0,
+      "median_score_v2": 57.0,
+      "banded_v1": 0.773,
+      "banded_v2": 0.973,
+      "median_coverage_v1": 0.904,
+      "median_coverage_v2": 0.968
+    },
+    {
+      "sector": "Industrials",
+      "n": 257,
+      "median_score_v1": 54.0,
+      "median_score_v2": 61.0,
+      "banded_v1": 0.875,
+      "banded_v2": 0.957,
+      "median_coverage_v1": 0.925,
+      "median_coverage_v2": 0.989
+    },
+    {
+      "sector": "Information Technology",
+      "n": 186,
+      "median_score_v1": 60.5,
+      "median_score_v2": 65.0,
+      "banded_v1": 0.946,
+      "banded_v2": 0.984,
+      "median_coverage_v1": 0.936,
+      "median_coverage_v2": 0.989
+    }
+  ],
+  "broken_components": [
+    {
+      "component": "SG",
+      "n_dead_in_v2": 0,
+      "tickers": []
+    },
+    {
+      "component": "BQ",
+      "n_dead_in_v2": 0,
+      "tickers": []
+    },
+    {
+      "component": "MG",
+      "n_dead_in_v2": 0,
+      "tickers": []
+    }
+  ],
+  "top25_v2": [
+    {
+      "ticker": "PTC",
+      "name_v1": "PTC Inc.",
+      "sector_v1": "Information Technology",
+      "score_v1": 84.0,
+      "score_v2": 87,
+      "sector_neutral_score_v1": 97.5,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "NVDA",
+      "name_v1": "Nvidia",
+      "sector_v1": "Information Technology",
+      "score_v1": 85.0,
+      "score_v2": 86,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "FSLR",
+      "name_v1": "First Solar",
+      "sector_v1": "Information Technology",
+      "score_v1": 82.0,
+      "score_v2": 84,
+      "sector_neutral_score_v1": 96.9,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "VRT",
+      "name_v1": "Vertiv",
+      "sector_v1": "Industrials",
+      "score_v1": 82.0,
+      "score_v2": 83,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "EXEL",
+      "name_v1": "Exelixis",
+      "sector_v1": "Health Care",
+      "score_v1": 83.0,
+      "score_v2": 87,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "APP",
+      "name_v1": "AppLovin",
+      "sector_v1": "Communication Services",
+      "score_v1": 83.0,
+      "score_v2": 84,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "PCTY",
+      "name_v1": "Paylocity",
+      "sector_v1": "Industrials",
+      "score_v1": 80.0,
+      "score_v2": 87,
+      "sector_neutral_score_v1": 90.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "MORN",
+      "name_v1": "Morningstar, Inc.",
+      "sector_v1": "Financials",
+      "score_v1": 78.0,
+      "score_v2": 80,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "JLL",
+      "name_v1": "Jones Lang LaSalle",
+      "sector_v1": "Real Estate",
+      "score_v1": 80.0,
+      "score_v2": 77,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "PYPL",
+      "name_v1": "PayPal",
+      "sector_v1": "Financials",
+      "score_v1": 78.0,
+      "score_v2": 79,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "EXLS",
+      "name_v1": "EXL Service",
+      "sector_v1": "Industrials",
+      "score_v1": 77.0,
+      "score_v2": 82,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "APH",
+      "name_v1": "Amphenol",
+      "sector_v1": "Information Technology",
+      "score_v1": 78.0,
+      "score_v2": 82,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "FSS",
+      "name_v1": "Federal Signal Corporation",
+      "sector_v1": "Industrials",
+      "score_v1": 75.0,
+      "score_v2": 76,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "LRN",
+      "name_v1": "Stride, Inc.",
+      "sector_v1": "Consumer Discretionary",
+      "score_v1": 73.0,
+      "score_v2": 80,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "GMED",
+      "name_v1": "Globus Medical",
+      "sector_v1": "Health Care",
+      "score_v1": 73.0,
+      "score_v2": 84,
+      "sector_neutral_score_v1": 91.2,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "EXPE",
+      "name_v1": "Expedia Group",
+      "sector_v1": "Consumer Discretionary",
+      "score_v1": 74.0,
+      "score_v2": 78,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "GEN",
+      "name_v1": "Gen Digital",
+      "sector_v1": "Information Technology",
+      "score_v1": 74.0,
+      "score_v2": 79,
+      "sector_neutral_score_v1": 85.7,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "AIZ",
+      "name_v1": "Assurant",
+      "sector_v1": "Financials",
+      "score_v1": 74.0,
+      "score_v2": 76,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "WATCHLIST"
+    },
+    {
+      "ticker": "TOST",
+      "name_v1": "Toast, Inc.",
+      "sector_v1": "Financials",
+      "score_v1": 73.0,
+      "score_v2": 80,
+      "sector_neutral_score_v1": 89.5,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    },
+    {
+      "ticker": "PGNY",
+      "name_v1": "Progyny, Inc.",
+      "sector_v1": "Health Care",
+      "score_v1": 72.0,
+      "score_v2": 77,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "CW",
+      "name_v1": "Curtiss-Wright",
+      "sector_v1": "Industrials",
+      "score_v1": 72.0,
+      "score_v2": 77,
+      "sector_neutral_score_v1": 96.3,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "BMY",
+      "name_v1": "Bristol Myers Squibb",
+      "sector_v1": "Health Care",
+      "score_v1": 72.0,
+      "score_v2": 74,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "STX",
+      "name_v1": "Seagate Technology",
+      "sector_v1": "Information Technology",
+      "score_v1": 73.0,
+      "score_v2": 78,
+      "sector_neutral_score_v1": 90.9,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "SCHW",
+      "name_v1": "Charles Schwab Corporation",
+      "sector_v1": "Financials",
+      "score_v1": 72.0,
+      "score_v2": 74,
+      "sector_neutral_score_v1": 100.0,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "INVESTABLE"
+    },
+    {
+      "ticker": "TPR",
+      "name_v1": "Tapestry, Inc.",
+      "sector_v1": "Consumer Discretionary",
+      "score_v1": 72.0,
+      "score_v2": 79,
+      "sector_neutral_score_v1": 92.3,
+      "sector_neutral_score_v2": 100.0,
+      "band_v2": "HIGH_CONVICTION"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "NWSA",
+  "cik": "0001564708",
+  "sector": "Communication Services",
+  "decile": 6,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001564708-24-000408",
+        "form": "10-K",
+        "filed": "2024-08-13",
+        "chars": null
+      },
+      "pack_secs": 23.4,
+      "components": {
+        "MG": {
+          "secs": 13.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-23-046940",
+        "form": "DEF 14A",
+        "filed": "2023-10-04",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001564708-25-000419",
+        "form": "10-K",
+        "filed": "2025-08-06",
+        "chars": null
+      },
+      "pack_secs": 22.9,
+      "components": {
+        "MG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-23-046940",
+        "form": "DEF 14A",
+        "filed": "2023-10-04",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.0
+    }
+  }
+}

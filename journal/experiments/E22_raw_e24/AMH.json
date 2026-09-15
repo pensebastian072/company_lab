@@ -1,0 +1,70 @@
+{
+  "ticker": "AMH",
+  "cik": "0001562401",
+  "sector": "Real Estate",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001562401-24-000021",
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "chars": null
+      },
+      "pack_secs": 27.4,
+      "components": {
+        "MG": {
+          "secs": 11.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001562401-24-000039",
+        "form": "DEF 14A",
+        "filed": "2024-03-29",
+        "error": null,
+        "n_chunks": 130
+      },
+      "total_secs": 38.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001562401-25-000013",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": null
+      },
+      "pack_secs": 24.0,
+      "components": {
+        "MG": {
+          "secs": 12.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001562401-25-000024",
+        "form": "DEF 14A",
+        "filed": "2025-03-26",
+        "error": null,
+        "n_chunks": 107
+      },
+      "total_secs": 36.8
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "as_of": "2026-08-21T00:20:47.615814+00:00",
+  "companies_compared": 1500,
+  "companies_repaired": 80,
+  "coverage_median_before": 0.87,
+  "coverage_median_after": 0.87,
+  "threshold_0_80": {
+    "gained": 0,
+    "lost": 3,
+    "lost_tickers": [
+      "EXE",
+      "INVH",
+      "WYNN"
+    ]
+  },
+  "threshold_0_90": {
+    "gained": 1,
+    "lost": 1,
+    "lost_tickers": [
+      "TGT"
+    ]
+  },
+  "within_sector_spearman": {
+    "Consumer Discretionary": {
+      "n": 16,
+      "peers": 193,
+      "spearman": 0.9983,
+      "repaired_whose_score_moved": 3
+    },
+    "Consumer Staples": {
+      "n": 4,
+      "peers": 75,
+      "spearman": 0.9891,
+      "repaired_whose_score_moved": 2
+    },
+    "Energy": {
+      "n": 3,
+      "peers": 71,
+      "spearman": 0.997,
+      "repaired_whose_score_moved": 0
+    },
+    "Financials": {
+      "n": 7,
+      "peers": 257,
+      "spearman": 0.9995,
+      "repaired_whose_score_moved": 1
+    },
+    "Health Care": {
+      "n": 13,
+      "peers": 163,
+      "spearman": 0.9995,
+      "repaired_whose_score_moved": 2
+    },
+    "Industrials": {
+      "n": 9,
+      "peers": 263,
+      "spearman": 0.9992,
+      "repaired_whose_score_moved": 1
+    },
+    "Information Technology": {
+      "n": 14,
+      "peers": 190,
+      "spearman": 0.999,
+      "repaired_whose_score_moved": 2
+    },
+    "Materials": {
+      "n": 6,
+      "peers": 77,
+      "spearman": 0.9948,
+      "repaired_whose_score_moved": 1
+    },
+    "Real Estate": {
+      "n": 7,
+      "peers": 105,
+      "spearman": 0.9966,
+      "repaired_whose_score_moved": 1
+    },
+    "Utilities": {
+      "n": 1,
+      "peers": 59,
+      "spearman": 0.9993,
+      "repaired_whose_score_moved": 0
+    }
+  },
+  "band_changes": {
+    "WEAK -> INSUFFICIENT_DATA": {
+      "n": 2,
+      "tickers": [
+        "EXE",
+        "WYNN"
+      ]
+    },
+    "REJECT -> INSUFFICIENT_DATA": {
+      "n": 1,
+      "tickers": [
+        "INVH"
+      ]
+    }
+  }
+}

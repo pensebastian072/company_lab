@@ -1,0 +1,70 @@
+{
+  "ticker": "BMI",
+  "cik": "0000009092",
+  "sector": "Information Technology",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-016245",
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "chars": null
+      },
+      "pack_secs": 21.9,
+      "components": {
+        "MG": {
+          "secs": 13.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-24-032923",
+        "form": "DEF 14A",
+        "filed": "2024-03-18",
+        "error": null,
+        "n_chunks": 126
+      },
+      "total_secs": 35.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-020889",
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "chars": null
+      },
+      "pack_secs": 20.6,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-25-040448",
+        "form": "DEF 14A",
+        "filed": "2025-03-17",
+        "error": null,
+        "n_chunks": 120
+      },
+      "total_secs": 33.9
+    }
+  }
+}

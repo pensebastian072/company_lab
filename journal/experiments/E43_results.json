@@ -1,0 +1,135 @@
+{
+ "qwen": {
+  "n_rows": 371,
+  "competitive_position": {
+   "claims_total": 174,
+   "quote_asserts_OWN_leadership": 66,
+   "quote_asserts_SOMEONE_ELSES_leadership": 12,
+   "quote_asserts_no_leadership": 96,
+   "of_checkable_consistent": 66,
+   "of_checkable_contradicted": 0,
+   "of_checkable_unscored_value": 0,
+   "contradiction_rate": 0.0,
+   "examples_contradicted": []
+  },
+  "litigation_framed_quotes": {
+   "current_moat_strength": {
+    "claims": 355,
+    "litigation_framed": 9,
+    "share": 0.0254
+   },
+   "moat_trajectory": {
+    "claims": 295,
+    "litigation_framed": 3,
+    "share": 0.0102
+   },
+   "regulatory_risk": {
+    "claims": 358,
+    "litigation_framed": 21,
+    "share": 0.0587
+   },
+   "competitive_position": {
+    "claims": 174,
+    "litigation_framed": 0,
+    "share": 0.0
+   },
+   "technology_risk": {
+    "claims": 355,
+    "litigation_framed": 2,
+    "share": 0.0056
+   },
+   "pricing_power": {
+    "claims": 149,
+    "litigation_framed": 1,
+    "share": 0.0067
+   }
+  }
+ },
+ "lfm": {
+  "n_rows": 645,
+  "competitive_position": {
+   "claims_total": 268,
+   "quote_asserts_OWN_leadership": 117,
+   "quote_asserts_SOMEONE_ELSES_leadership": 23,
+   "quote_asserts_no_leadership": 128,
+   "of_checkable_consistent": 54,
+   "of_checkable_contradicted": 63,
+   "of_checkable_unscored_value": 0,
+   "contradiction_rate": 0.5385,
+   "examples_contradicted": [
+    {
+     "ticker": "ADI",
+     "value": "CHALLENGER",
+     "quote": "Our product offerings include more than 75,000 stock keeping units (SKUs) that can be aggregated into the following general categories: \u2022 Analog and Mixed Signal \u2014We are a leading supplier of data con"
+    },
+    {
+     "ticker": "AIR",
+     "value": "CHALLENGER",
+     "quote": "AAR was incorporated in 1955 and we are a leading independent provider of solutions to the global aviation aftermarket."
+    },
+    {
+     "ticker": "ALLE",
+     "value": "LAGGARD",
+     "quote": "Overview Organization We are a leading global provider of security products and solutions operating in two segments: Allegion Americas and Allegion International."
+    },
+    {
+     "ticker": "ALLY",
+     "value": "LAGGARD",
+     "quote": "We are a market leading provider of dealer insurance products and have approximately 5,100 dealer relationships to whom we offer a variety of commercial products and levels of coverage."
+    },
+    {
+     "ticker": "ARMK",
+     "value": "CHALLENGER",
+     "quote": "Overview We are a leading global provider of food and facilities services to education, healthcare, business & industry and sports, leisure & corrections clients."
+    },
+    {
+     "ticker": "ATEN",
+     "value": "CHALLENGER",
+     "quote": "We are a leading provider of secure application solutions and services that enable a new generation of intelligently connected companies with the ability to continuously improve cyber protection and d"
+    },
+    {
+     "ticker": "ATR",
+     "value": "CHALLENGER",
+     "quote": "We believe we are a leading supplier for the majority of the products we sell primarily to the beauty markets."
+    },
+    {
+     "ticker": "AYI",
+     "value": "CHALLENGER",
+     "quote": "We are a leading provider of integrated lighting, audio-video, and building technology solutions that utilize internally developed, licensed, or acquired intellectual property."
+    }
+   ]
+  },
+  "litigation_framed_quotes": {
+   "current_moat_strength": {
+    "claims": 574,
+    "litigation_framed": 35,
+    "share": 0.061
+   },
+   "moat_trajectory": {
+    "claims": 561,
+    "litigation_framed": 5,
+    "share": 0.0089
+   },
+   "regulatory_risk": {
+    "claims": 617,
+    "litigation_framed": 23,
+    "share": 0.0373
+   },
+   "competitive_position": {
+    "claims": 268,
+    "litigation_framed": 0,
+    "share": 0.0
+   },
+   "technology_risk": {
+    "claims": 584,
+    "litigation_framed": 4,
+    "share": 0.0068
+   },
+   "pricing_power": {
+    "claims": 445,
+    "litigation_framed": 1,
+    "share": 0.0022
+   }
+  }
+ }
+}

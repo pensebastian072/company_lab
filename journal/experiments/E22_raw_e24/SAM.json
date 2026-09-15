@@ -1,0 +1,70 @@
+{
+  "ticker": "SAM",
+  "cik": "0000949870",
+  "sector": "Consumer Staples",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000950170-24-021189",
+        "form": "10-K",
+        "filed": "2024-02-27",
+        "chars": null
+      },
+      "pack_secs": 27.0,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001308179-24-000337",
+        "form": "DEF 14A",
+        "filed": "2024-03-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.7
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000950170-25-026756",
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "chars": null
+      },
+      "pack_secs": 26.7,
+      "components": {
+        "MG": {
+          "secs": 12.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001308179-25-000378",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.8
+    }
+  }
+}

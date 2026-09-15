@@ -1,0 +1,70 @@
+{
+  "ticker": "LSTR",
+  "cik": "0000853816",
+  "sector": "Industrials",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001193125-24-044902",
+        "form": "10-K",
+        "filed": "2024-02-26",
+        "chars": 315896
+      },
+      "pack_secs": 20.7,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-077191",
+        "form": "DEF 14A",
+        "filed": "2024-03-26",
+        "error": null,
+        "n_chunks": 102
+      },
+      "total_secs": 34.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001193125-25-033543",
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "chars": 314145
+      },
+      "pack_secs": 20.9,
+      "components": {
+        "MG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-072935",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 110
+      },
+      "total_secs": 34.0
+    }
+  }
+}

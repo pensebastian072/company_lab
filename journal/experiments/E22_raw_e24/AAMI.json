@@ -1,0 +1,70 @@
+{
+  "ticker": "AAMI",
+  "cik": "0001748824",
+  "sector": "Financials",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001748824-24-000010",
+        "form": "10-K",
+        "filed": "2024-02-28",
+        "chars": null
+      },
+      "pack_secs": 19.1,
+      "components": {
+        "MG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001748824-24-000016",
+        "form": "DEF 14A",
+        "filed": "2024-04-25",
+        "error": null,
+        "n_chunks": 117
+      },
+      "total_secs": 32.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001748824-25-000016",
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "chars": null
+      },
+      "pack_secs": 18.3,
+      "components": {
+        "MG": {
+          "secs": 12.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001748824-25-000024",
+        "form": "DEF 14A",
+        "filed": "2025-03-31",
+        "error": null,
+        "n_chunks": 114
+      },
+      "total_secs": 30.6
+    }
+  }
+}

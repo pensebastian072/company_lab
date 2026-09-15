@@ -1,0 +1,65 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": 3,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 4,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "economies_of_scale": {
+      "score": 2,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    }
+  },
+  "ticker": "ADSK",
+  "cik": "0000769397",
+  "sector": "Information Technology",
+  "arm": "under",
+  "base_scored": [
+    "brand",
+    "customer_relationships",
+    "intellectual_property",
+    "switching_costs",
+    "technological_advantage"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 8,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

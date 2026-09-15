@@ -1,0 +1,70 @@
+{
+  "ticker": "SITM",
+  "cik": "0001451809",
+  "sector": "Information Technology",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001451809-24-000052",
+        "form": "10-K",
+        "filed": "2024-02-26",
+        "chars": null
+      },
+      "pack_secs": 20.4,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001451809-24-000095",
+        "form": "DEF 14A",
+        "filed": "2024-04-16",
+        "error": null,
+        "n_chunks": 104
+      },
+      "total_secs": 33.1
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001451809-25-000034",
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "chars": null
+      },
+      "pack_secs": 20.7,
+      "components": {
+        "MG": {
+          "secs": 14.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001451809-25-000074",
+        "form": "DEF 14A",
+        "filed": "2025-04-15",
+        "error": null,
+        "n_chunks": 114
+      },
+      "total_secs": 35.2
+    }
+  }
+}

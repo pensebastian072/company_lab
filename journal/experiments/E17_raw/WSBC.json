@@ -1,0 +1,67 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 1,
+      "quote": "Auditing the Company\u2019s estimate of the fair value of acquired loans was complex due to the significant judgment required by management in developing the credit loss and prepayment expectations, along with the discount rates used in the discounted cash flow methodology.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": 3,
+      "quote": "Quarterly revenue YoY, last four: ['59.3%', '53.1%', '27.6%', '1.7%']",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    }
+  },
+  "ticker": "WSBC",
+  "cik": "0000203596",
+  "sector": "Financials",
+  "arm": "under",
+  "base_scored": [
+    "brand",
+    "customer_relationships",
+    "distribution",
+    "regulatory_barriers",
+    "switching_costs"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 6,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

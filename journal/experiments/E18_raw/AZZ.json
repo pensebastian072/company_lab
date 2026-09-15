@@ -1,0 +1,151 @@
+{
+  "ticker": "AZZ",
+  "cik": "0000008947",
+  "sector": "Industrials",
+  "arm": "under",
+  "components": {
+    "SG": {
+      "base_scored": [
+        "demand_drivers_3_5yr",
+        "revenue_growth_sustainable",
+        "secular_not_cyclical"
+      ],
+      "nulls": [
+        "tam_expanding",
+        "capacity_backlog_contracts",
+        "multiple_independent_drivers"
+      ],
+      "secs": 14.2,
+      "parse_ok": true,
+      "items": {
+        "tam_expanding": {
+          "score": null,
+          "max": 4,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "capacity_backlog_contracts": {
+          "score": null,
+          "max": 3,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "multiple_independent_drivers": {
+          "score": 1,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        }
+      },
+      "targeted_meta": {
+        "n_chunks_picked": 5,
+        "methods": {
+          "tam_expanding": "embedding",
+          "capacity_backlog_contracts": "embedding",
+          "multiple_independent_drivers": "embedding"
+        }
+      },
+      "gain_strict": 0,
+      "gain_no_gate": 0
+    },
+    "MG": {
+      "base_scored": [],
+      "nulls": [
+        "founder_led",
+        "tenure",
+        "ownership",
+        "execution_history",
+        "industry_expertise"
+      ],
+      "secs": 22.7,
+      "parse_ok": true,
+      "items": {
+        "founder_led": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "tenure": {
+          "score": 2,
+          "max": 2,
+          "quote": "Thomas E. Ferguson 69 President and Chief Executive Officer 2013",
+          "gates": {
+            "has_quote": true,
+            "strict": true,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        },
+        "ownership": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "execution_history": {
+          "score": 2,
+          "max": 2,
+          "quote": "Thomas E. Ferguson 69 President and Chief Executive Officer 2013",
+          "gates": {
+            "has_quote": true,
+            "strict": true,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        },
+        "industry_expertise": {
+          "score": 2,
+          "max": 2,
+          "quote": "Thomas E. Ferguson 69 President and Chief Executive Officer 2013",
+          "gates": {
+            "has_quote": true,
+            "strict": true,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        }
+      },
+      "targeted_meta": {
+        "n_chunks_picked": 7,
+        "methods": {
+          "founder_led": "embedding",
+          "tenure": "embedding",
+          "ownership": "embedding",
+          "execution_history": "embedding",
+          "industry_expertise": "embedding"
+        }
+      },
+      "gain_strict": 0,
+      "gain_no_gate": 0
+    }
+  }
+}

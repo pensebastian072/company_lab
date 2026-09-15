@@ -1,0 +1,34 @@
+{
+  "ticker": "NXST",
+  "cik": "0001142417",
+  "sector": "Communication Services",
+  "arm": "control",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 17.2,
+    "parse_ok": true
+  },
+  "repaired": null,
+  "repair_ran": false,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs"
+    ]
+  }
+}

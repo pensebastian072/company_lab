@@ -1,0 +1,70 @@
+{
+  "ticker": "DTE",
+  "cik": "0000936340",
+  "sector": "Utilities",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000936340-24-000076",
+        "form": "10-K",
+        "filed": "2024-02-08",
+        "chars": 671272
+      },
+      "pack_secs": 21.4,
+      "components": {
+        "MG": {
+          "secs": 12.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000936340-24-000100",
+        "form": "DEF 14A",
+        "filed": "2024-03-07",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 33.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000936340-25-000065",
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "chars": 646250
+      },
+      "pack_secs": 21.4,
+      "components": {
+        "MG": {
+          "secs": 12.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000936340-25-000081",
+        "form": "DEF 14A",
+        "filed": "2025-03-13",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 33.7
+    }
+  }
+}

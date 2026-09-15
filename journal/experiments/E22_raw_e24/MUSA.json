@@ -1,0 +1,70 @@
+{
+  "ticker": "MUSA",
+  "cik": "0001573516",
+  "sector": "Consumer Discretionary",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001573516-24-000007",
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "chars": 354750
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 12.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001573516-24-000026",
+        "form": "DEF 14A",
+        "filed": "2024-03-28",
+        "error": null,
+        "n_chunks": 143
+      },
+      "total_secs": 36.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001573516-25-000010",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": 346533
+      },
+      "pack_secs": 23.6,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001573516-25-000021",
+        "form": "DEF 14A",
+        "filed": "2025-03-18",
+        "error": null,
+        "n_chunks": 132
+      },
+      "total_secs": 36.3
+    }
+  }
+}

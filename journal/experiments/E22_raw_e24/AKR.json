@@ -1,0 +1,70 @@
+{
+  "ticker": "AKR",
+  "cik": "0000899629",
+  "sector": "Real Estate",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-016567",
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "chars": 578410
+      },
+      "pack_secs": 29.3,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-24-035367",
+        "form": "DEF 14A",
+        "filed": "2024-03-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 42.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-021145",
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "chars": 582250
+      },
+      "pack_secs": 27.7,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 0,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-25-044420",
+        "form": "DEF 14A",
+        "filed": "2025-03-25",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.0
+    }
+  }
+}

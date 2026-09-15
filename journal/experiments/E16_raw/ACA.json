@@ -1,0 +1,48 @@
+{
+  "ticker": "ACA",
+  "cik": "0001739445",
+  "sector": "Industrials",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "intellectual_property",
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.7,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "economies_of_scale",
+      "manufacturing_complexity"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 22.8,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 7,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers"
+    ]
+  }
+}

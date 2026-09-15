@@ -1,0 +1,70 @@
+{
+  "ticker": "SBUX",
+  "cik": "0000829224",
+  "sector": "Consumer Discretionary",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000829224-23-000058",
+        "form": "10-K",
+        "filed": "2023-11-17",
+        "chars": 405099
+      },
+      "pack_secs": 25.2,
+      "components": {
+        "MG": {
+          "secs": 13.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000829224-23-000007",
+        "form": "DEF 14A",
+        "filed": "2023-01-27",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.7
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000829224-24-000057",
+        "form": "10-K",
+        "filed": "2024-11-20",
+        "chars": 442973
+      },
+      "pack_secs": 24.0,
+      "components": {
+        "MG": {
+          "secs": 12.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001213900-25-006516",
+        "form": "DEF 14A",
+        "filed": "2025-01-24",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.2
+    }
+  }
+}

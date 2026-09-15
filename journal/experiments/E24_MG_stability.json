@@ -1,0 +1,22 @@
+{
+  "component": "MG",
+  "n_common": 73,
+  "baseline_spearman": 0.3316,
+  "variant_spearman": 0.4053,
+  "P2_bar": 0.5,
+  "P2_pass": false,
+  "median_subtests_scored_baseline": 1,
+  "median_subtests_scored_variant": 4,
+  "companies_only_in_variant": [
+    "ADAM",
+    "AESI",
+    "AKR",
+    "ALLY",
+    "AM",
+    "AMKR",
+    "ANDE",
+    "AOS",
+    "APAM",
+    "AROC"
+  ]
+}

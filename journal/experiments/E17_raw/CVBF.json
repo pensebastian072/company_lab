@@ -1,0 +1,65 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 1,
+      "quote": "We are subject to extensive laws and regulations at the federal and state levels regarding the protection and security of our customers\u2019 and employees\u2019 personal information and data.",
+      "gates": {
+        "has_quote": true,
+        "strict": false,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": 3,
+      "quote": "FCF margin: 80.3%",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    }
+  },
+  "ticker": "CVBF",
+  "cik": "0000354647",
+  "sector": "Financials",
+  "arm": "under",
+  "base_scored": [
+    "brand",
+    "customer_relationships",
+    "regulatory_barriers"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 6,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

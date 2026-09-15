@@ -1,0 +1,67 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 2,
+      "quote": "The structure unifies consumer capabilities into a single division and integrates the strength of our agent sales forces with one of the largest direct-to-consumer insurance businesses with proven experience in advertising, web/digital and call center support.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": 3,
+      "quote": "Revenue growth accelerating (measured): True",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    }
+  },
+  "ticker": "CNO",
+  "cik": "0001224608",
+  "sector": "Financials",
+  "arm": "under",
+  "base_scored": [
+    "brand",
+    "customer_relationships",
+    "distribution",
+    "regulatory_barriers",
+    "switching_costs"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 7,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

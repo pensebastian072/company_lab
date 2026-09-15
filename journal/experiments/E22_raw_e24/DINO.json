@@ -1,0 +1,70 @@
+{
+  "ticker": "DINO",
+  "cik": "0001915657",
+  "sector": "Energy",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001915657-24-000040",
+        "form": "10-K",
+        "filed": "2024-02-21",
+        "chars": null
+      },
+      "pack_secs": 26.8,
+      "components": {
+        "MG": {
+          "secs": 12.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-087262",
+        "form": "DEF 14A",
+        "filed": "2024-04-04",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001915657-25-000019",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": null
+      },
+      "pack_secs": 26.9,
+      "components": {
+        "MG": {
+          "secs": 15.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-070418",
+        "form": "DEF 14A",
+        "filed": "2025-04-01",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 42.3
+    }
+  }
+}

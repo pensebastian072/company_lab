@@ -1,0 +1,70 @@
+{
+  "ticker": "CUBE",
+  "cik": "0001298675",
+  "sector": "Real Estate",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001298675-24-000011",
+        "form": "10-K",
+        "filed": "2024-02-29",
+        "chars": null
+      },
+      "pack_secs": 20.2,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-24-043951",
+        "form": "DEF 14A",
+        "filed": "2024-04-05",
+        "error": null,
+        "n_chunks": 73
+      },
+      "total_secs": 33.8
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001298675-25-000011",
+        "form": "10-K",
+        "filed": "2025-02-28",
+        "chars": null
+      },
+      "pack_secs": 20.7,
+      "components": {
+        "MG": {
+          "secs": 13.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-032007",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 105
+      },
+      "total_secs": 34.2
+    }
+  }
+}

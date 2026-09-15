@@ -1,0 +1,51 @@
+{
+  "as_of": "2026-08-22T18:00:09.786467+00:00",
+  "companies": 203,
+  "components": {
+    "SG": {
+      "n_pairs": 199,
+      "R1_spearman": 0.6033,
+      "R1_pass": true,
+      "median_abs_change": 2.0,
+      "share_unchanged": 0.206,
+      "R2_share_moving_more_than_bar": 0.151,
+      "R2_bar": 4,
+      "median_subtests_scored_t2": 4,
+      "median_subtests_scored_t1": 4,
+      "median_abs_change_in_count": 0,
+      "parse_failures": 0
+    },
+    "BQ": {
+      "n_pairs": 197,
+      "R1_spearman": 0.6276,
+      "R1_pass": true,
+      "median_abs_change": 0.318,
+      "share_unchanged": 0.137,
+      "R2_share_moving_more_than_bar": 0.0,
+      "R2_bar": 2,
+      "median_subtests_scored_t2": 6,
+      "median_subtests_scored_t1": 7,
+      "median_abs_change_in_count": 1,
+      "parse_failures": 0
+    },
+    "MG": {
+      "n_pairs": 165,
+      "R1_spearman": 0.2907,
+      "R1_pass": false,
+      "median_abs_change": 0.0,
+      "share_unchanged": 0.515,
+      "R2_share_moving_more_than_bar": 0.0,
+      "R2_bar": 2,
+      "median_subtests_scored_t2": 1,
+      "median_subtests_scored_t1": 1,
+      "median_abs_change_in_count": 0,
+      "parse_failures": 0
+    }
+  },
+  "readings_failed": 4,
+  "R3_judgement_vs_measured": {
+    "n": 202,
+    "spearman": 0.2924,
+    "note": "measured half is TODAY's quant_normalized, not point-in-time - an approximation, stated rather than hidden"
+  }
+}

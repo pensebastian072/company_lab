@@ -1,0 +1,70 @@
+{
+  "ticker": "SIRI",
+  "cik": "0000908937",
+  "sector": "Communication Services",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000908937-24-000008",
+        "form": "10-K",
+        "filed": "2024-02-01",
+        "chars": null
+      },
+      "pack_secs": 26.4,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000930413-24-001249",
+        "form": "DEF 14A",
+        "filed": "2024-04-08",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000908937-25-000005",
+        "form": "10-K",
+        "filed": "2025-01-30",
+        "chars": null
+      },
+      "pack_secs": 26.6,
+      "components": {
+        "MG": {
+          "secs": 13.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-034663",
+        "form": "DEF 14A",
+        "filed": "2025-04-14",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.6
+    }
+  }
+}

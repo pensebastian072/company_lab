@@ -1,0 +1,130 @@
+{
+  "experiment": "E41",
+  "arithmetic_only": true,
+  "sg_only": true,
+  "n_companies": 1472,
+  "candidate_dir": "D:\\company_lab_data\\qual_lfm25",
+  "coverage_gate": 0.8,
+  "H1_fill_verification": {
+    "n_fills": 2030,
+    "n_verified": 1766,
+    "share_verified": 0.87
+  },
+  "H2_gate_clearing": {
+    "v1": 1184,
+    "hybrid_verified_fills_only": 1321,
+    "all_candidate_fills": 1337,
+    "n_companies": 1472,
+    "new_crossers": [
+      "ACGL",
+      "ADP",
+      "AFG",
+      "AKR",
+      "AMP",
+      "AMSF",
+      "ANDE",
+      "ANF",
+      "ANIP",
+      "AORT",
+      "APD",
+      "APLE",
+      "APO",
+      "ARMK",
+      "AZZ",
+      "BA",
+      "BANR",
+      "BNL",
+      "BYD",
+      "CALX",
+      "CFR",
+      "CHCO",
+      "CNO",
+      "CNXN",
+      "CRC",
+      "CRVL",
+      "CSL",
+      "CSR",
+      "CTVA",
+      "CWT",
+      "DCOM",
+      "DHI",
+      "DINO",
+      "DRH",
+      "DRI",
+      "EGBN",
+      "EPC",
+      "EPR",
+      "EVR",
+      "FCF"
+    ],
+    "n_new_crossers": 137
+  },
+  "H3_points_added": {
+    "mean": 4.2,
+    "median": 4.0,
+    "max_possible": 20,
+    "n_with_any": 1124
+  },
+  "H4_rejected_concentration": {
+    "n_rejected": 264,
+    "by_key": [
+      [
+        "sg_tam_expanding",
+        125
+      ],
+      [
+        "sg_capacity_backlog_contracts",
+        116
+      ],
+      [
+        "sg_multiple_independent_drivers",
+        18
+      ],
+      [
+        "sg_secular_not_cyclical",
+        3
+      ],
+      [
+        "sg_revenue_growth_sustainable",
+        1
+      ],
+      [
+        "sg_demand_drivers_3_5yr",
+        1
+      ]
+    ],
+    "rate_by_key": {
+      "sg_tam_expanding": {
+        "fills": 992,
+        "rejected": 125,
+        "rate": 0.126
+      },
+      "sg_capacity_backlog_contracts": {
+        "fills": 832,
+        "rejected": 116,
+        "rate": 0.139
+      },
+      "sg_multiple_independent_drivers": {
+        "fills": 94,
+        "rejected": 18,
+        "rate": 0.191
+      },
+      "sg_revenue_growth_sustainable": {
+        "fills": 87,
+        "rejected": 1,
+        "rate": 0.011
+      },
+      "sg_secular_not_cyclical": {
+        "fills": 22,
+        "rejected": 3,
+        "rate": 0.136
+      },
+      "sg_demand_drivers_3_5yr": {
+        "fills": 3,
+        "rejected": 1,
+        "rate": 0.333
+      }
+    },
+    "top2_share": 0.913
+  }
+}

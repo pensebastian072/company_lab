@@ -1,0 +1,70 @@
+{
+  "ticker": "RYN",
+  "cik": "0000052827",
+  "sector": "Real Estate",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000052827-24-000014",
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "chars": null
+      },
+      "pack_secs": 34.3,
+      "components": {
+        "MG": {
+          "secs": 21.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000052827-24-000052",
+        "form": "DEF 14A",
+        "filed": "2024-04-03",
+        "error": null,
+        "n_chunks": 147
+      },
+      "total_secs": 56.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000052827-25-000018",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": null
+      },
+      "pack_secs": 27.0,
+      "components": {
+        "MG": {
+          "secs": 13.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000052827-25-000035",
+        "form": "DEF 14A",
+        "filed": "2025-04-02",
+        "error": null,
+        "n_chunks": 150
+      },
+      "total_secs": 40.4
+    }
+  }
+}

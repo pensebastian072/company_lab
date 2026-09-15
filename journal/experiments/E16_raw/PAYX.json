@@ -1,0 +1,40 @@
+{
+  "ticker": "PAYX",
+  "cik": "0000723531",
+  "sector": "Industrials",
+  "arm": "control",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "data_advantages",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 15.8,
+    "parse_ok": true
+  },
+  "repaired": null,
+  "repair_ran": false,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "data_advantages",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ]
+  }
+}

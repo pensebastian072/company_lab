@@ -1,0 +1,138 @@
+{
+  "ticker": "CVBF",
+  "cik": "0000354647",
+  "sector": "Financials",
+  "arm": "under",
+  "components": {
+    "SG": {
+      "base_scored": [
+        "demand_drivers_3_5yr",
+        "multiple_independent_drivers",
+        "revenue_growth_sustainable",
+        "secular_not_cyclical"
+      ],
+      "nulls": [
+        "tam_expanding",
+        "capacity_backlog_contracts"
+      ],
+      "secs": 10.6,
+      "parse_ok": true,
+      "items": {
+        "tam_expanding": {
+          "score": null,
+          "max": 4,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "capacity_backlog_contracts": {
+          "score": null,
+          "max": 3,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        }
+      },
+      "targeted_meta": {
+        "n_chunks_picked": 4,
+        "methods": {
+          "tam_expanding": "embedding",
+          "capacity_backlog_contracts": "embedding"
+        }
+      },
+      "gain_strict": 0,
+      "gain_no_gate": 0
+    },
+    "MG": {
+      "base_scored": [],
+      "nulls": [
+        "founder_led",
+        "tenure",
+        "ownership",
+        "execution_history",
+        "industry_expertise"
+      ],
+      "secs": 25.2,
+      "parse_ok": true,
+      "items": {
+        "founder_led": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "tenure": {
+          "score": 2,
+          "max": 2,
+          "quote": "David A. Brager was appointed Chief Executive Officer of the Company and the Bank on March 16, 2020. Effective November 19, 2021, Mr. Brager was also named President of the Company and the Bank.",
+          "gates": {
+            "has_quote": true,
+            "strict": false,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        },
+        "ownership": {
+          "score": null,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "execution_history": {
+          "score": 2,
+          "max": 2,
+          "quote": null,
+          "gates": {
+            "strict": false,
+            "tight": false,
+            "production": false,
+            "has_quote": false
+          }
+        },
+        "industry_expertise": {
+          "score": 2,
+          "max": 2,
+          "quote": "Mr. Brager assumed the position of Executive Vice President and Sales Division Manager of the Bank on November 22, 2010. From 2007 to 2010, he served as Senior Vice President and Regional Manager of the Central Valley Region for the Bank.",
+          "gates": {
+            "has_quote": true,
+            "strict": true,
+            "tight": true,
+            "production": true,
+            "overlap": 1.0
+          }
+        }
+      },
+      "targeted_meta": {
+        "n_chunks_picked": 8,
+        "methods": {
+          "founder_led": "embedding",
+          "tenure": "embedding",
+          "ownership": "embedding",
+          "execution_history": "embedding",
+          "industry_expertise": "embedding"
+        }
+      },
+      "gain_strict": 0,
+      "gain_no_gate": 0
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "FOXA",
+  "cik": "0001754301",
+  "sector": "Communication Services",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001628280-24-036123",
+        "form": "10-K",
+        "filed": "2024-08-08",
+        "chars": 431256
+      },
+      "pack_secs": 24.4,
+      "components": {
+        "MG": {
+          "secs": 14.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-23-240490",
+        "form": "DEF 14A",
+        "filed": "2023-09-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001628280-25-038077",
+        "form": "10-K",
+        "filed": "2025-08-06",
+        "chars": 401516
+      },
+      "pack_secs": 24.4,
+      "components": {
+        "MG": {
+          "secs": 15.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-226930",
+        "form": "DEF 14A",
+        "filed": "2024-09-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.9
+    }
+  }
+}

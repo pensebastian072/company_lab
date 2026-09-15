@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Rank &middot; company_lab{% endblock %}
+{% block body %}
+
+<div class="card" id="banner" hidden></div>
+
+<div class="card">
+  <h2>S&amp;P 500 quality + valuation ranking</h2>
+  <p class="muted" style="margin:0 0 4px">
+    <b>Measured /{{ MEASURED_POINTS }}</b> is Financial Engine, Balance Sheet, Valuation, Expectations and
+    Entry &mdash; every point computed from SEC EDGAR filings and market data, with no
+    model opinion in it. <b>/{{ TOTAL_POINTS }}</b> adds Structural Growth, Business Quality and
+    Management, which are scored by a local LLM without human review and are marked
+    <span class="llm">LLM</span> wherever they appear.
+    A company scored on less than 80% of the applicable framework gets no band at
+    all rather than a flattering one.
+  </p>
+  <p class="muted" style="margin:0">Tap a row for the breakdown. Sort any column.</p>
+</div>
+
+<div id="table"></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+/* Component maxima come from the rubric, not from literals in table.js. The
+   reweighting on 2026-08-10 (FE 15->18, EN 5->2) left the old headers saying FE/15
+   and EN/5; deriving them means the next change cannot desynchronise the UI. */
+window.COMPONENT_MAX = {
+  {% for c in COMPONENTS %}"{{ c.code|lower }}": {{ c.max }}{{ "," if not loop.last }}{% endfor %}
+};
+</script>
+<script src="/static/table.js"></script>
+<script>
+(async function () {
+  const st = await getJSON('/api/state');
+  headline(st);
+  if (!st.ok) {
+    const b = $('banner');
+    b.hidden = false;
+    b.innerHTML = '<h2 class="err">No scores yet</h2><p class="muted">' + esc(st.reason) +
+      '</p><p class="muted">Run <code>.venv\\Scripts\\python.exe -m clab.runner.batch ' +
+      '--limit 50 --skip-qual</code> to produce the first ranked table.</p>';
+  }
+  const t = new CompanyTable($('table'));
+  t.setItems(st.rows || []);
+  t.render();
+})();
+</script>
+{% endblock %}

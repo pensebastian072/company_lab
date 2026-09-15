@@ -1,0 +1,70 @@
+{
+  "ticker": "JAZZ",
+  "cik": "0001232524",
+  "sector": "Health Care",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001232524-24-000022",
+        "form": "10-K/A",
+        "filed": "2024-04-26",
+        "chars": 298038
+      },
+      "pack_secs": 27.2,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001232524-24-000049",
+        "form": "DEF 14A",
+        "filed": "2024-06-14",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.7
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001232524-25-000014",
+        "form": "10-K/A",
+        "filed": "2025-04-25",
+        "chars": 302301
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001232524-25-000043",
+        "form": "DEF 14A",
+        "filed": "2025-06-06",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.0
+    }
+  }
+}

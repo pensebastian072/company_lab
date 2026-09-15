@@ -1,0 +1,51 @@
+{
+  "ticker": "SYNA",
+  "cik": "0000817720",
+  "sector": "Information Technology",
+  "arm": "under",
+  "targeted_meta": {
+    "n_chunks_picked": 7,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  },
+  "A": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "intellectual_property",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.8,
+    "parse_ok": true
+  },
+  "B": {
+    "scored": [
+      "customer_relationships",
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      2
+    ],
+    "secs": 18.4,
+    "parse_ok": true,
+    "weak_scored": [
+      "economies_of_scale",
+      "manufacturing_complexity"
+    ]
+  }
+}

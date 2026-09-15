@@ -1,0 +1,38 @@
+{
+  "ticker": "HIMS",
+  "cik": "0001773751",
+  "sector": "Health Care",
+  "arm": "control",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 15.4,
+    "parse_ok": true
+  },
+  "repaired": null,
+  "repair_ran": false,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ]
+  }
+}

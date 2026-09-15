@@ -1,0 +1,70 @@
+{
+  "ticker": "ACHC",
+  "cik": "0001520697",
+  "sector": "Health Care",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-022057",
+        "form": "10-K",
+        "filed": "2024-02-28",
+        "chars": null
+      },
+      "pack_secs": 28.9,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-018895",
+        "form": "DEF 14A",
+        "filed": "2024-04-09",
+        "error": null,
+        "n_chunks": 159
+      },
+      "total_secs": 42.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-029095",
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "chars": null
+      },
+      "pack_secs": 27.3,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-013294",
+        "form": "DEF 14A",
+        "filed": "2025-04-10",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.5
+    }
+  }
+}

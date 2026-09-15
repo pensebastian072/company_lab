@@ -1,0 +1,164 @@
+{
+  "companies": 1005,
+  "floor": 6,
+  "below_floor": 254,
+  "dimensions_scored_histogram": {
+    "0": 1,
+    "1": 14,
+    "2": 15,
+    "3": 61,
+    "4": 50,
+    "5": 113,
+    "6": 161,
+    "7": 137,
+    "8": 171,
+    "9": 145,
+    "10": 24,
+    "11": 113
+  },
+  "parse_ok": {
+    "True": 1005
+  },
+  "nulls_total": 3981,
+  "nulls_from_a_rejected_value": 0,
+  "raw_response_chars": {
+    "min": 933,
+    "median": 1616,
+    "max": 2906
+  },
+  "null_rate_by_dimension": {
+    "network_effects": 81.7,
+    "manufacturing_complexity": 71.2,
+    "data_advantages": 70.9,
+    "economies_of_scale": 53.6,
+    "technological_advantage": 25.2,
+    "intellectual_property": 23.9,
+    "distribution": 21.7,
+    "regulatory_barriers": 17.7,
+    "brand": 14.5,
+    "switching_costs": 9.7,
+    "customer_relationships": 6.1
+  },
+  "by_sector": {
+    "Real Estate": {
+      "n": 66,
+      "below_floor_pct": 65.2,
+      "null_rate": {
+        "manufacturing_complexity": 97.0,
+        "network_effects": 93.9,
+        "data_advantages": 90.9,
+        "economies_of_scale": 74.2
+      }
+    },
+    "Energy": {
+      "n": 40,
+      "below_floor_pct": 55.0,
+      "null_rate": {
+        "network_effects": 90.0,
+        "data_advantages": 82.5,
+        "manufacturing_complexity": 72.5,
+        "economies_of_scale": 55.0
+      }
+    },
+    "Financials": {
+      "n": 162,
+      "below_floor_pct": 30.2,
+      "null_rate": {
+        "manufacturing_complexity": 93.2,
+        "network_effects": 81.5,
+        "economies_of_scale": 72.2,
+        "data_advantages": 58.6
+      }
+    },
+    "Utilities": {
+      "n": 54,
+      "below_floor_pct": 25.9,
+      "null_rate": {
+        "manufacturing_complexity": 96.3,
+        "network_effects": 94.4,
+        "data_advantages": 72.2,
+        "intellectual_property": 51.9
+      }
+    },
+    "Information Technology": {
+      "n": 135,
+      "below_floor_pct": 23.0,
+      "null_rate": {
+        "network_effects": 80.0,
+        "data_advantages": 75.6,
+        "economies_of_scale": 68.9,
+        "regulatory_barriers": 61.5
+      }
+    },
+    "Industrials": {
+      "n": 200,
+      "below_floor_pct": 21.5,
+      "null_rate": {
+        "network_effects": 81.0,
+        "data_advantages": 71.0,
+        "manufacturing_complexity": 56.5,
+        "economies_of_scale": 52.0
+      }
+    },
+    "Consumer Discretionary": {
+      "n": 103,
+      "below_floor_pct": 21.4,
+      "null_rate": {
+        "network_effects": 75.7,
+        "manufacturing_complexity": 72.8,
+        "data_advantages": 64.1,
+        "economies_of_scale": 47.6
+      }
+    },
+    "Health Care": {
+      "n": 108,
+      "below_floor_pct": 15.7,
+      "null_rate": {
+        "network_effects": 84.3,
+        "data_advantages": 75.9,
+        "manufacturing_complexity": 63.0,
+        "economies_of_scale": 51.9
+      }
+    },
+    "Communication Services": {
+      "n": 35,
+      "below_floor_pct": 14.3,
+      "null_rate": {
+        "manufacturing_complexity": 74.3,
+        "economies_of_scale": 42.9,
+        "network_effects": 40.0,
+        "data_advantages": 40.0
+      }
+    },
+    "Materials": {
+      "n": 58,
+      "below_floor_pct": 8.6,
+      "null_rate": {
+        "network_effects": 79.3,
+        "data_advantages": 74.1,
+        "manufacturing_complexity": 41.4,
+        "economies_of_scale": 22.4
+      }
+    },
+    "Consumer Staples": {
+      "n": 43,
+      "below_floor_pct": 7.0,
+      "null_rate": {
+        "network_effects": 93.0,
+        "data_advantages": 81.4,
+        "manufacturing_complexity": 74.4,
+        "technological_advantage": 20.9
+      }
+    },
+    "?": {
+      "n": 1,
+      "below_floor_pct": 0.0,
+      "null_rate": {
+        "economies_of_scale": 100.0,
+        "network_effects": 100.0,
+        "manufacturing_complexity": 100.0,
+        "data_advantages": 100.0
+      }
+    }
+  }
+}

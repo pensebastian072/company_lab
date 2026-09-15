@@ -1,0 +1,70 @@
+{
+  "ticker": "PPLI",
+  "cik": "0001800227",
+  "sector": "Communication Services",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001800227-24-000011",
+        "form": "10-K",
+        "filed": "2024-02-29",
+        "chars": null
+      },
+      "pack_secs": 26.7,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-24-052985",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001104659-25-041418",
+        "form": "10-K/A",
+        "filed": "2025-04-29",
+        "chars": null
+      },
+      "pack_secs": 26.8,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-045049",
+        "form": "DEF 14A",
+        "filed": "2025-05-06",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.2
+    }
+  }
+}

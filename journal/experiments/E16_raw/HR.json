@@ -1,0 +1,44 @@
+{
+  "ticker": "HR",
+  "cik": "0001360604",
+  "sector": "Real Estate",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 15.4,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "economies_of_scale"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 22.6,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 4,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "economies_of_scale",
+      "regulatory_barriers"
+    ]
+  }
+}

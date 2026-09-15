@@ -1,0 +1,219 @@
+{
+  "study": "E01_entry_timing",
+  "as_of": "2026-08-10T15:36:53.065324+00:00",
+  "preregistration": "journal/experiments/E01_entry_timing_preregistration.md",
+  "watchlist_size": 100,
+  "threshold_en": 4,
+  "cooldown_trading_days": 60,
+  "cost_bps_per_side": 5.0,
+  "random_draws_per_symbol": 200,
+  "n_signals": 958,
+  "n_random": 19800,
+  "skipped": {
+    "V": "no P/E series"
+  },
+  "caveats": [
+    "Watchlist chosen with today's knowledge - survivorship and selection bias are present by construction.",
+    "No LLM score used; SG/BQ/MG excluded entirely.",
+    "Delisted and removed constituents absent from the price store."
+  ],
+  "pooled": {
+    "1y": {
+      "n_signals": 951,
+      "signal_mean": 0.22327735193048956,
+      "random_mean": 0.5690446163960861,
+      "edge_vs_random": -0.34576726446559647,
+      "signal_mean_percentile_vs_random_draws": 0.0,
+      "spy_mean": 0.18182184864276044,
+      "excess_vs_spy": 0.04145550328772912,
+      "signal_median": 0.1867,
+      "signal_hit_rate": 0.7328,
+      "random_hit_rate": 0.7429
+    },
+    "3y": {
+      "n_signals": 702,
+      "signal_mean": 0.857696158190449,
+      "random_mean": 1.036837790440531,
+      "edge_vs_random": -0.17914163225008206,
+      "signal_mean_percentile_vs_random_draws": 0.014,
+      "spy_mean": 0.5590649846999798,
+      "excess_vs_spy": 0.2986311734904692,
+      "signal_median": 0.5513,
+      "signal_hit_rate": 0.6503,
+      "random_hit_rate": 0.6667
+    },
+    "5y": {
+      "n_signals": 411,
+      "signal_mean": 1.6598265306548117,
+      "random_mean": 1.742225666751174,
+      "edge_vs_random": -0.08239913609636229,
+      "signal_mean_percentile_vs_random_draws": 0.299,
+      "spy_mean": 0.9550031853569764,
+      "excess_vs_spy": 0.7048233452978353,
+      "signal_median": 0.9696,
+      "signal_hit_rate": 0.4008,
+      "random_hit_rate": 0.4882
+    }
+  },
+  "correction_2026_09_07": {
+    "reason": "The original hit rates counted unavailable forward returns as losses.",
+    "signal": {
+      "1y": {
+        "original_rate": 0.7328,
+        "wins": 702,
+        "observed_n": 951,
+        "corrected_rate": 0.7381703470031545
+      },
+      "3y": {
+        "original_rate": 0.6503,
+        "wins": 623,
+        "observed_n": 702,
+        "corrected_rate": 0.8874643874643875
+      },
+      "5y": {
+        "original_rate": 0.4008,
+        "wins": 384,
+        "observed_n": 411,
+        "corrected_rate": 0.9343065693430657
+      }
+    },
+    "random": {
+      "generated_rows": 19800,
+      "observed_n": null,
+      "corrected_rate": null,
+      "note": "Historical random rows and observed-horizon counts were not saved; a corrected rate cannot be recovered from the aggregate."
+    },
+    "verdict_change": false
+  },
+  "per_year_1y": {
+    "2017": {
+      "n_signals": 30,
+      "signal_mean_1y": 0.2116807539540556,
+      "random_mean_1y": 0.29810393812197616,
+      "edge": -0.08642318416792055,
+      "signal_median_1y": 0.0776,
+      "random_median_1y": 0.2625,
+      "edge_median": -0.1849
+    },
+    "2018": {
+      "n_signals": 99,
+      "signal_mean_1y": 0.16741675127639696,
+      "random_mean_1y": 0.19541166338583651,
+      "edge": -0.02799491210943955,
+      "signal_median_1y": 0.181,
+      "random_median_1y": 0.1787,
+      "edge_median": 0.0022999999999999965
+    },
+    "2019": {
+      "n_signals": 120,
+      "signal_mean_1y": 0.16159234128727593,
+      "random_mean_1y": 0.22390059569644247,
+      "edge": -0.06230825440916654,
+      "signal_median_1y": 0.1297,
+      "random_median_1y": 0.1632,
+      "edge_median": -0.0335
+    },
+    "2020": {
+      "n_signals": 135,
+      "signal_mean_1y": 0.5259379316475788,
+      "random_mean_1y": 0.46159101700038835,
+      "edge": 0.0643469146471905,
+      "signal_median_1y": 0.4658,
+      "random_median_1y": 0.4082,
+      "edge_median": 0.057599999999999985
+    },
+    "2021": {
+      "n_signals": 76,
+      "signal_mean_1y": 0.014933956523895356,
+      "random_mean_1y": -0.048920875496552364,
+      "edge": 0.06385483202044773,
+      "signal_median_1y": 0.0134,
+      "random_median_1y": -0.0588,
+      "edge_median": 0.0722
+    },
+    "2022": {
+      "n_signals": 170,
+      "signal_mean_1y": 0.20011502580415205,
+      "random_mean_1y": 0.19334258045809471,
+      "edge": 0.0067724453460573375,
+      "signal_median_1y": 0.1764,
+      "random_median_1y": 0.1093,
+      "edge_median": 0.0671
+    },
+    "2023": {
+      "n_signals": 143,
+      "signal_mean_1y": 0.33465627172220713,
+      "random_mean_1y": 0.4853653415485311,
+      "edge": -0.15070906982632398,
+      "signal_median_1y": 0.2688,
+      "random_median_1y": 0.3003,
+      "edge_median": -0.03150000000000003
+    },
+    "2024": {
+      "n_signals": 104,
+      "signal_mean_1y": 0.10961788017045702,
+      "random_mean_1y": 0.32382663571449505,
+      "edge": -0.214208755544038,
+      "signal_median_1y": 0.0907,
+      "random_median_1y": 0.1427,
+      "edge_median": -0.05199999999999999
+    },
+    "2025": {
+      "n_signals": 74,
+      "signal_mean_1y": 0.062280236317422986,
+      "random_mean_1y": 4.4440977284041745,
+      "edge": -4.381817492086752,
+      "signal_median_1y": -0.0239,
+      "random_median_1y": 0.1371,
+      "edge_median": -0.161
+    }
+  },
+  "years_with_positive_edge": "3/9",
+  "years_with_positive_edge_median": "4/9",
+  "by_en_score": {
+    "4": {
+      "n": 237,
+      "mean_1y": 0.20973278958786223
+    },
+    "5": {
+      "n": 714,
+      "mean_1y": 0.22777323606942884
+    }
+  },
+  "confluence": {
+    "n_confluence": 951,
+    "mean_1y_confluence": 0.22327735193048956,
+    "n_no_confluence": 0,
+    "mean_1y_no_confluence": null
+  },
+  "ten_k_per_signal": {
+    "1y": {
+      "n_trades": 951,
+      "total_staked": 9510000.0,
+      "signal_profit": 2123367.6168589555,
+      "signal_profit_per_trade": 2232.773519304895,
+      "random_profit_per_trade": 5690.446163960861
+    },
+    "3y": {
+      "n_trades": 702,
+      "total_staked": 7020000.0,
+      "signal_profit": 6021027.030496951,
+      "signal_profit_per_trade": 8576.961581904488,
+      "random_profit_per_trade": 10368.37790440531
+    },
+    "5y": {
+      "n_trades": 411,
+      "total_staked": 4110000.0,
+      "signal_profit": 6821887.040991275,
+      "signal_profit_per_trade": 16598.265306548114,
+      "random_profit_per_trade": 17422.256667511738
+    }
+  },
+  "hypotheses": {
+    "H1_beats_random_1y": false,
+    "H2_positive_in_6_of_9_years": false,
+    "H3_confluence_beats_partial": true,
+    "H4_beats_spy_1y_and_3y": true
+  },
+  "verdict": "entry rule does NOT clear its pre-registered tests - it should stay a 5-of-100 tiebreaker, not a gate"
+}

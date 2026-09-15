@@ -1,0 +1,70 @@
+{
+  "ticker": "NSIT",
+  "cik": "0000932696",
+  "sector": "Industrials",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001628280-24-006391",
+        "form": "10-K",
+        "filed": "2024-02-22",
+        "chars": 361619
+      },
+      "pack_secs": 25.0,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001628280-24-014836",
+        "form": "DEF 14A",
+        "filed": "2024-04-04",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001628280-25-005817",
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "chars": 368038
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 0,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001628280-25-016453",
+        "form": "DEF 14A",
+        "filed": "2025-04-03",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.8
+    }
+  }
+}

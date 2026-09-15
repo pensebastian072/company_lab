@@ -1,0 +1,70 @@
+{
+  "ticker": "EFX",
+  "cik": "0000033185",
+  "sector": "Industrials",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000033185-24-000017",
+        "form": "10-K",
+        "filed": "2024-02-22",
+        "chars": 503011
+      },
+      "pack_secs": 27.6,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001308179-24-000243",
+        "form": "DEF 14A",
+        "filed": "2024-03-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000033185-25-000025",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": 493808
+      },
+      "pack_secs": 27.5,
+      "components": {
+        "MG": {
+          "secs": 13.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-029348",
+        "form": "DEF 14A",
+        "filed": "2025-03-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.1
+    }
+  }
+}

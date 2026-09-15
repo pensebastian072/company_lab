@@ -1,0 +1,70 @@
+{
+  "ticker": "CTAS",
+  "cik": "0000723254",
+  "sector": "Industrials",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000723254-24-000036",
+        "form": "10-K",
+        "filed": "2024-07-25",
+        "chars": null
+      },
+      "pack_secs": 23.6,
+      "components": {
+        "MG": {
+          "secs": 14.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000723254-23-000030",
+        "form": "DEF 14A",
+        "filed": "2023-09-12",
+        "error": null,
+        "n_chunks": 138
+      },
+      "total_secs": 38.1
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000723254-25-000017",
+        "form": "10-K",
+        "filed": "2025-07-28",
+        "chars": null
+      },
+      "pack_secs": 24.0,
+      "components": {
+        "MG": {
+          "secs": 16.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000723254-24-000047",
+        "form": "DEF 14A",
+        "filed": "2024-09-19",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.0
+    }
+  }
+}

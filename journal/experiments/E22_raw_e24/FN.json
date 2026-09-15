@@ -1,0 +1,70 @@
+{
+  "ticker": "FN",
+  "cik": "0001408710",
+  "sector": "Information Technology",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001408710-24-000032",
+        "form": "10-K",
+        "filed": "2024-08-20",
+        "chars": 406635
+      },
+      "pack_secs": 24.7,
+      "components": {
+        "MG": {
+          "secs": 14.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-23-049314",
+        "form": "DEF 14A",
+        "filed": "2023-10-24",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001408710-25-000039",
+        "form": "10-K",
+        "filed": "2025-08-19",
+        "chars": null
+      },
+      "pack_secs": 24.0,
+      "components": {
+        "MG": {
+          "secs": 15.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-043972",
+        "form": "DEF 14A",
+        "filed": "2024-10-23",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.0
+    }
+  }
+}

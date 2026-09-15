@@ -1,0 +1,70 @@
+{
+  "ticker": "ANDE",
+  "cik": "0000821026",
+  "sector": "Consumer Staples",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000821026-24-000071",
+        "form": "10-K",
+        "filed": "2024-02-21",
+        "chars": 309650
+      },
+      "pack_secs": 22.5,
+      "components": {
+        "MG": {
+          "secs": 14.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000821026-24-000108",
+        "form": "DEF 14A",
+        "filed": "2024-03-13",
+        "error": null,
+        "n_chunks": 118
+      },
+      "total_secs": 37.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000821026-25-000050",
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "chars": 319426
+      },
+      "pack_secs": 20.9,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000821026-25-000080",
+        "form": "DEF 14A",
+        "filed": "2025-03-12",
+        "error": null,
+        "n_chunks": 127
+      },
+      "total_secs": 33.6
+    }
+  }
+}

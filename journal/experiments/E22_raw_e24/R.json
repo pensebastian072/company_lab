@@ -1,0 +1,70 @@
+{
+  "ticker": "R",
+  "cik": "0000085961",
+  "sector": "Industrials",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000085961-24-000030",
+        "form": "10-K",
+        "filed": "2024-02-20",
+        "chars": 462766
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 14.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000085961-24-000051",
+        "form": "DEF 14A",
+        "filed": "2024-03-13",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000085961-25-000032",
+        "form": "10-K",
+        "filed": "2025-02-12",
+        "chars": 427704
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 15.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000085961-25-000043",
+        "form": "DEF 14A",
+        "filed": "2025-03-12",
+        "error": null,
+        "n_chunks": 152
+      },
+      "total_secs": 39.0
+    }
+  }
+}

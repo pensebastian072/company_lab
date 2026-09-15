@@ -1,0 +1,67 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": 3,
+      "quote": "are provided reciprocal benefits when flying other one world members, including upgrades, lounge access, and priority boarding.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 2,
+      "quote": "We heavily depend on automated systems to operate our business.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    }
+  },
+  "ticker": "ALK",
+  "cik": "0000766421",
+  "sector": "Industrials",
+  "arm": "under",
+  "base_scored": [
+    "brand",
+    "customer_relationships",
+    "distribution",
+    "regulatory_barriers",
+    "switching_costs"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 8,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

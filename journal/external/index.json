@@ -1,0 +1,3039 @@
+{
+  "total_candidates": 154,
+  "batch_size": 10,
+  "batches_written": [
+    "batch_001.md",
+    "batch_002.md",
+    "batch_003.md",
+    "batch_004.md",
+    "batch_005.md",
+    "batch_006.md",
+    "batch_007.md",
+    "batch_008.md",
+    "batch_009.md",
+    "batch_010.md",
+    "batch_011.md",
+    "batch_012.md",
+    "batch_013.md",
+    "batch_014.md",
+    "batch_015.md",
+    "batch_016.md"
+  ],
+  "companies": [
+    {
+      "ticker": "CSL",
+      "cik": "0000790051",
+      "name": "Carlisle Companies",
+      "sector": "Industrials",
+      "sub_industry": "Industrial Conglomerates",
+      "coverage": 0.77,
+      "dimensions_scored": 0,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MPT",
+      "cik": "0001287865",
+      "name": "Medical Properties Trust",
+      "sector": "Real Estate",
+      "sub_industry": "Health Care REITs",
+      "coverage": 0.679,
+      "dimensions_scored": 0,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "PK",
+      "cik": "0001617406",
+      "name": "Park Hotels & Resorts",
+      "sector": "Real Estate",
+      "sub_industry": "Hotel & Resort REITs",
+      "coverage": 0.643,
+      "dimensions_scored": 0,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "FCPT",
+      "cik": "0001650132",
+      "name": "Four Corners Property Trust, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Other Specialized REITs",
+      "coverage": 0.469,
+      "dimensions_scored": 0,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MFP",
+      "cik": "0002088281",
+      "name": "Midera Food Processing, Inc.",
+      "sector": "Industrials",
+      "sub_industry": "Industrial Machinery & Supplies & Components",
+      "coverage": 0.1,
+      "dimensions_scored": 0,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "PWR",
+      "cik": "0001050915",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "sub_industry": "Construction & Engineering",
+      "coverage": 0.79,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "TPL",
+      "cik": "0001811074",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.701,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "HASI",
+      "cik": "0001561894",
+      "name": "Hannon Armstrong Sustainable Infrastructure Capital, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Specialized Finance",
+      "coverage": 0.694,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "NJR",
+      "cik": "0000356309",
+      "name": "New Jersey Resources",
+      "sector": "Utilities",
+      "sub_industry": "Gas Utilities",
+      "coverage": 0.667,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "AMRX",
+      "cik": "0001723128",
+      "name": "Amneal Pharmaceuticals, Inc.",
+      "sector": "Health Care",
+      "sub_industry": "Pharmaceuticals",
+      "coverage": 0.66,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "AR",
+      "cik": "0001433270",
+      "name": "Antero Resources",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.66,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "IIPR",
+      "cik": "0001677576",
+      "name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
+      "sector": "Real Estate",
+      "sub_industry": "Real Estate",
+      "coverage": 0.653,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "BFS",
+      "cik": "0000907254",
+      "name": "SAUL CENTERS, INC.",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.628,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "TALO",
+      "cik": "0001724965",
+      "name": "Talos Energy, Inc.",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.59,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CURB",
+      "cik": "0002027317",
+      "name": "Curbline Properties Corp.",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.583,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CNX",
+      "cik": "0001070412",
+      "name": "CNX Resources",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.58,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CHRD",
+      "cik": "0001486159",
+      "name": "Chord Energy",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.54,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EOG",
+      "cik": "0000821189",
+      "name": "EOG Resources",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.54,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "AES",
+      "cik": "0000874761",
+      "name": "AES Corporation",
+      "sector": "Utilities",
+      "sub_industry": "Independent Power Producers & Energy Traders",
+      "coverage": 0.54,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CRGY",
+      "cik": "0001866175",
+      "name": "Crescent Energy Company",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.47,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SM",
+      "cik": "0000893538",
+      "name": "SM Energy Company",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.47,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MGEE",
+      "cik": "0001161728",
+      "name": "MGE Energy, Inc.",
+      "sector": "Utilities",
+      "sub_industry": "Electric Utilities",
+      "coverage": 0.447,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "FBRT",
+      "cik": "0001562528",
+      "name": "Franklin BSP Realty Trust, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.441,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "APA",
+      "cik": "0001841666",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.44,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ARR",
+      "cik": "0001428205",
+      "name": "Armour Residential REIT",
+      "sector": "Real Estate",
+      "sub_industry": "Mortgage REITs",
+      "coverage": 0.412,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "VNOM",
+      "cik": "0002074176",
+      "name": "Viper Energy",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Storage & Transportation",
+      "coverage": 0.37,
+      "dimensions_scored": 1,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CXW",
+      "cik": "0001070985",
+      "name": "CoreCivic",
+      "sector": "Industrials",
+      "sub_industry": "Diversified Support Services",
+      "coverage": 0.778,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "LTC",
+      "cik": "0000887905",
+      "name": "LTC Properties, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Health Care REITs",
+      "coverage": 0.775,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "GFF",
+      "cik": "0000050725",
+      "name": "Griffon Corporation",
+      "sector": "Industrials",
+      "sub_industry": "Building Products",
+      "coverage": 0.77,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EHC",
+      "cik": "0000785161",
+      "name": "Encompass Health",
+      "sector": "Health Care",
+      "sub_industry": "Health Care Facilities",
+      "coverage": 0.74,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "DRH",
+      "cik": "0001298946",
+      "name": "DiamondRock Hospitality Company",
+      "sector": "Real Estate",
+      "sub_industry": "Hotel & Resort REITs",
+      "coverage": 0.735,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MTDR",
+      "cik": "0001520006",
+      "name": "Matador Resources",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.71,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CUZ",
+      "cik": "0000025232",
+      "name": "Cousins Properties",
+      "sector": "Real Estate",
+      "sub_industry": "Office REITs",
+      "coverage": 0.707,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "NNN",
+      "cik": "0000751364",
+      "name": "NNN Reit",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.691,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MIDD",
+      "cik": "0000769520",
+      "name": "Middleby",
+      "sector": "Industrials",
+      "sub_industry": "Industrial Machinery & Supplies & Components",
+      "coverage": 0.69,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "FBK",
+      "cik": "0001649749",
+      "name": "FB Financial Corp.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.688,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "IVT",
+      "cik": "0001307748",
+      "name": "InvenTrust Properties",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.684,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "AHR",
+      "cik": "0001632970",
+      "name": "American Healthcare REIT",
+      "sector": "Real Estate",
+      "sub_industry": "Health Care REITs",
+      "coverage": 0.677,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SBCF",
+      "cik": "0000730708",
+      "name": "Seacoast Banking Corporation of Florida",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.671,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "OLN",
+      "cik": "0000074303",
+      "name": "OLIN Corp",
+      "sector": "Materials",
+      "sub_industry": "Chemicals & Allied Products",
+      "coverage": 0.67,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SCL",
+      "cik": "0000094049",
+      "name": "STEPAN CO",
+      "sector": "Materials",
+      "sub_industry": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",
+      "coverage": 0.66,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "AZZ",
+      "cik": "0000008947",
+      "name": "AZZ, Inc.",
+      "sector": "Industrials",
+      "sub_industry": "Heavy Electrical Equipment",
+      "coverage": 0.65,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "RDN",
+      "cik": "0000890926",
+      "name": "Radian Group, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Property & Casualty Insurance",
+      "coverage": 0.649,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EGBN",
+      "cik": "0001050441",
+      "name": "EAGLE BANCORP INC",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.642,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "NPK",
+      "cik": "0000080172",
+      "name": "NATIONAL PRESTO INDUSTRIES INC",
+      "sector": "Industrials",
+      "sub_industry": "Ordnance & Accessories, (No Vehicles/Guided Missiles)",
+      "coverage": 0.64,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "BXMT",
+      "cik": "0001061630",
+      "name": "Blackstone Mortgage Trust, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Mortgage REITs",
+      "coverage": 0.627,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CTRE",
+      "cik": "0001590717",
+      "name": "CareTrust REIT",
+      "sector": "Real Estate",
+      "sub_industry": "Health Care REITs",
+      "coverage": 0.613,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "RRC",
+      "cik": "0000315852",
+      "name": "Range Resources",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.61,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "DEA",
+      "cik": "0001622194",
+      "name": "Easterly Government Properties, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.588,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "KRC",
+      "cik": "0001025996",
+      "name": "Kilroy Realty Corp",
+      "sector": "Real Estate",
+      "sub_industry": "Office REITs",
+      "coverage": 0.587,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "NHI",
+      "cik": "0000877860",
+      "name": "National Health Investors, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Health Care REITs",
+      "coverage": 0.577,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "NXRT",
+      "cik": "0001620393",
+      "name": "NexPoint Residential Trust, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.571,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "HCC",
+      "cik": "0001691303",
+      "name": "Warrior Met Coal, Inc.",
+      "sector": "Materials",
+      "sub_industry": "Steel",
+      "coverage": 0.55,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "HTH",
+      "cik": "0001265131",
+      "name": "Hilltop Holdings Inc.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.531,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "AMR",
+      "cik": "0001704715",
+      "name": "Alpha Metallurgical Resources, Inc.",
+      "sector": "Materials",
+      "sub_industry": "Steel",
+      "coverage": 0.52,
+      "dimensions_scored": 2,
+      "missing": [
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "NLY",
+      "cik": "0001043219",
+      "name": "Annaly Capital Management",
+      "sector": "Financials",
+      "sub_industry": "Mortgage REITs",
+      "coverage": 0.473,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "VGNT",
+      "cik": "0002078008",
+      "name": "Versigent PLC",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Other Specialty Retail",
+      "coverage": 0.26,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ADIG",
+      "cik": "0002105139",
+      "name": "ADI Global Distribution",
+      "sector": "Information Technology",
+      "sub_industry": "Electronic Equipment & Instruments",
+      "coverage": 0.17,
+      "dimensions_scored": 2,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "IESC",
+      "cik": "0001048268",
+      "name": "IES Holdings",
+      "sector": "Industrials",
+      "sub_industry": "Construction & Engineering",
+      "coverage": 0.84,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "FIX",
+      "cik": "0001035983",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "sub_industry": "Construction & Engineering",
+      "coverage": 0.82,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "OLED",
+      "cik": "0001005284",
+      "name": "Universal Display",
+      "sector": "Information Technology",
+      "sub_industry": "Semiconductors",
+      "coverage": 0.81,
+      "dimensions_scored": 3,
+      "missing": [
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "PRIM",
+      "cik": "0001361538",
+      "name": "Primoris Services Corporation",
+      "sector": "Industrials",
+      "sub_industry": "Construction & Engineering",
+      "coverage": 0.81,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "DTM",
+      "cik": "0001842022",
+      "name": "DT Midstream",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Storage & Transportation",
+      "coverage": 0.808,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ACA",
+      "cik": "0001739445",
+      "name": "Arcosa, Inc.",
+      "sector": "Industrials",
+      "sub_industry": "Construction & Engineering",
+      "coverage": 0.8,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EQT",
+      "cik": "0000033213",
+      "name": "EQT Corporation",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.79,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "STWD",
+      "cik": "0001465128",
+      "name": "Starwood Property Trust",
+      "sector": "Financials",
+      "sub_industry": "Mortgage REITs",
+      "coverage": 0.785,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "BXP",
+      "cik": "0001037540",
+      "name": "BXP, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Office REITs",
+      "coverage": 0.783,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ENSG",
+      "cik": "0001125376",
+      "name": "Ensign Group",
+      "sector": "Health Care",
+      "sub_industry": "Health Care Facilities",
+      "coverage": 0.78,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "DRI",
+      "cik": "0000940944",
+      "name": "Darden Restaurants",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Restaurants",
+      "coverage": 0.78,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "KTB",
+      "cik": "0001760965",
+      "name": "Kontoor Brands",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Apparel, Accessories & Luxury Goods",
+      "coverage": 0.78,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CENT",
+      "cik": "0000887733",
+      "name": "Central Garden & Pet Company",
+      "sector": "Consumer Staples",
+      "sub_industry": "Household Products",
+      "coverage": 0.78,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ALG",
+      "cik": "0000897077",
+      "name": "Alamo Group",
+      "sector": "Industrials",
+      "sub_industry": "Construction Machinery & Heavy Transportation Equipment",
+      "coverage": 0.78,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MGM",
+      "cik": "0000789570",
+      "name": "MGM Resorts",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Casinos & Gaming",
+      "coverage": 0.78,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "WELL",
+      "cik": "0000766704",
+      "name": "Welltower",
+      "sector": "Real Estate",
+      "sub_industry": "Health Care REITs",
+      "coverage": 0.778,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "UBSI",
+      "cik": "0000729986",
+      "name": "United Bankshares",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.771,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "KEX",
+      "cik": "0000056047",
+      "name": "Kirby Corporation",
+      "sector": "Industrials",
+      "sub_industry": "Marine Transportation",
+      "coverage": 0.77,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "TRN",
+      "cik": "0000099780",
+      "name": "Trinity Industries, Inc.",
+      "sector": "Industrials",
+      "sub_industry": "Construction Machinery & Heavy Transportation Equipment",
+      "coverage": 0.77,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships"
+      ]
+    },
+    {
+      "ticker": "BRX",
+      "cik": "0001581068",
+      "name": "Brixmor Property Group",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.762,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "VLY",
+      "cik": "0000714310",
+      "name": "Valley Bank",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.76,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "FCF",
+      "cik": "0000712537",
+      "name": "First Commonwealth Financial, Corp.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.76,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "UDR",
+      "cik": "0000074208",
+      "name": "UDR, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Multi-Family Residential REITs",
+      "coverage": 0.755,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "WABC",
+      "cik": "0000311094",
+      "name": "WESTAMERICA BANCORPORATION",
+      "sector": "Financials",
+      "sub_industry": "Diversified Banks",
+      "coverage": 0.755,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ACGL",
+      "cik": "0000947484",
+      "name": "Arch Capital Group",
+      "sector": "Financials",
+      "sub_industry": "Property & Casualty Insurance",
+      "coverage": 0.753,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "DINO",
+      "cik": "0001915657",
+      "name": "HF Sinclair",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Refining & Marketing",
+      "coverage": 0.75,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "AAT",
+      "cik": "0001500217",
+      "name": "American Assets Trust, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.742,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "REG",
+      "cik": "0000910606",
+      "name": "Regency Centers",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.738,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "OHI",
+      "cik": "0000888491",
+      "name": "Omega Healthcare Investors",
+      "sector": "Real Estate",
+      "sub_industry": "Health Care REITs",
+      "coverage": 0.735,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ECG",
+      "cik": "0002015845",
+      "name": "Everus Construction Group, Inc.",
+      "sector": "Industrials",
+      "sub_industry": "Construction & Engineering",
+      "coverage": 0.73,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SXI",
+      "cik": "0000310354",
+      "name": "Standex International Corporation",
+      "sector": "Industrials",
+      "sub_industry": "Industrial Machinery & Supplies & Components",
+      "coverage": 0.73,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "PATK",
+      "cik": "0000076605",
+      "name": "Patrick Industries, Inc.",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Automotive Parts & Equipment",
+      "coverage": 0.73,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "PLMR",
+      "cik": "0001761312",
+      "name": "Palomar Holdings, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Property & Casualty Insurance",
+      "coverage": 0.725,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "STC",
+      "cik": "0000094344",
+      "name": "Stewart Information Services Corporation",
+      "sector": "Financials",
+      "sub_industry": "Property & Casualty Insurance",
+      "coverage": 0.725,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "VICI",
+      "cik": "0001705696",
+      "name": "Vici Properties",
+      "sector": "Real Estate",
+      "sub_industry": "Hotel & Resort REITs",
+      "coverage": 0.722,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MSEX",
+      "cik": "0000066004",
+      "name": "MIDDLESEX WATER CO",
+      "sector": "Utilities",
+      "sub_industry": "Water Supply",
+      "coverage": 0.721,
+      "dimensions_scored": 3,
+      "missing": [
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MUR",
+      "cik": "0000717423",
+      "name": "Murphy Oil",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.72,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "BYD",
+      "cik": "0000906553",
+      "name": "Boyd Gaming",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Casinos & Gaming",
+      "coverage": 0.72,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "HTO",
+      "cik": "0000766829",
+      "name": "H2O America",
+      "sector": "Utilities",
+      "sub_industry": "Water Utilities",
+      "coverage": 0.718,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "APLE",
+      "cik": "0001418121",
+      "name": "Apple Hospitality REIT, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Hotel & Resort REITs",
+      "coverage": 0.717,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SAFE",
+      "cik": "0001095651",
+      "name": "Safehold Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.709,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EPR",
+      "cik": "0001045450",
+      "name": "EPR Properties",
+      "sector": "Real Estate",
+      "sub_industry": "Other Specialized REITs",
+      "coverage": 0.706,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "RGLD",
+      "cik": "0000085535",
+      "name": "Royal Gold",
+      "sector": "Materials",
+      "sub_industry": "Gold",
+      "coverage": 0.698,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CASH",
+      "cik": "0000907471",
+      "name": "PATHWARD FINANCIAL, INC.",
+      "sector": "Financials",
+      "sub_industry": "Diversified Banks",
+      "coverage": 0.695,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "KRG",
+      "cik": "0001286043",
+      "name": "Kite Realty Group Trust",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.694,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "RRR",
+      "cik": "0001653653",
+      "name": "Red Rock Resorts, Inc.",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Casinos & Gaming",
+      "coverage": 0.69,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "GTY",
+      "cik": "0001052752",
+      "name": "Getty Realty Corp.",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.688,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CVBF",
+      "cik": "0000354647",
+      "name": "CVB Financial Corp.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.688,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "FHN",
+      "cik": "0000036966",
+      "name": "First Horizon",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.688,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "XHR",
+      "cik": "0001616000",
+      "name": "Xenia Hotels & Resorts, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Hotel & Resort REITs",
+      "coverage": 0.687,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ADC",
+      "cik": "0000917251",
+      "name": "Agree Realty",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.682,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "WS",
+      "cik": "0001968487",
+      "name": "Worthington Steel",
+      "sector": "Materials",
+      "sub_industry": "Steel",
+      "coverage": 0.68,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SPNT",
+      "cik": "0001576018",
+      "name": "SiriusPoint Ltd.",
+      "sector": "Financials",
+      "sub_industry": "Reinsurance",
+      "coverage": 0.679,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "HFWA",
+      "cik": "0001046025",
+      "name": "HERITAGE FINANCIAL CORP /WA/",
+      "sector": "Financials",
+      "sub_industry": "Savings Institutions, Not Federally Chartered",
+      "coverage": 0.674,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "HR",
+      "cik": "0001360604",
+      "name": "Healthcare Realty Trust",
+      "sector": "Real Estate",
+      "sub_industry": "Health Care REITs",
+      "coverage": 0.673,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SFNC",
+      "cik": "0000090498",
+      "name": "Simmons First National Corporation",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.671,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MTZ",
+      "cik": "0000015615",
+      "name": "MasTec",
+      "sector": "Industrials",
+      "sub_industry": "Construction & Engineering",
+      "coverage": 0.67,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "WWW",
+      "cik": "0000110471",
+      "name": "WOLVERINE WORLD WIDE INC /DE/",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Footwear, (No Rubber)",
+      "coverage": 0.67,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ARES",
+      "cik": "0001176948",
+      "name": "Ares Management",
+      "sector": "Financials",
+      "sub_industry": "Asset Management & Custody Banks",
+      "coverage": 0.67,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ROCK",
+      "cik": "0000912562",
+      "name": "GIBRALTAR INDUSTRIES, INC.",
+      "sector": "Materials",
+      "sub_industry": "Steel Works, Blast Furnaces & Rolling & Finishing Mills",
+      "coverage": 0.66,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EPC",
+      "cik": "0001096752",
+      "name": "EDGEWELL PERSONAL CARE Co",
+      "sector": "Materials",
+      "sub_industry": "Perfumes, Cosmetics & Other Toilet Preparations",
+      "coverage": 0.66,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "GNL",
+      "cik": "0001526113",
+      "name": "Global Net Lease, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.657,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "IART",
+      "cik": "0000917520",
+      "name": "INTEGRA LIFESCIENCES HOLDINGS CORP",
+      "sector": "Health Care",
+      "sub_industry": "Health Care Equipment",
+      "coverage": 0.65,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CSR",
+      "cik": "0000798359",
+      "name": "CENTERSPACE",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.646,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "AKR",
+      "cik": "0000899629",
+      "name": "Acadia Realty Trust",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.643,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "UE",
+      "cik": "0001611547",
+      "name": "Urban Edge Properties",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.643,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EG",
+      "cik": "0001095073",
+      "name": "Everest Group",
+      "sector": "Financials",
+      "sub_industry": "Reinsurance",
+      "coverage": 0.642,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "BKE",
+      "cik": "0000885245",
+      "name": "BUCKLE INC",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Retail-Family Clothing Stores",
+      "coverage": 0.64,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "JOE",
+      "cik": "0000745308",
+      "name": "St. Joe Company",
+      "sector": "Real Estate",
+      "sub_industry": "Real Estate Development",
+      "coverage": 0.636,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "STAG",
+      "cik": "0001479094",
+      "name": "STAG Industrial",
+      "sector": "Real Estate",
+      "sub_industry": "Industrial REITs",
+      "coverage": 0.633,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CMC",
+      "cik": "0000022444",
+      "name": "COMMERCIAL METALS Co",
+      "sector": "Materials",
+      "sub_industry": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",
+      "coverage": 0.63,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "DCOM",
+      "cik": "0000846617",
+      "name": "Dime Community Bancshares, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.626,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SLG",
+      "cik": "0001040971",
+      "name": "SL Green Realty",
+      "sector": "Real Estate",
+      "sub_industry": "Office REITs",
+      "coverage": 0.624,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "CHCO",
+      "cik": "0000726854",
+      "name": "City Holding Company",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.621,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EQH",
+      "cik": "0001333986",
+      "name": "Equitable Holdings",
+      "sector": "Financials",
+      "sub_industry": "Diversified Financial Services",
+      "coverage": 0.619,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "KRMN",
+      "cik": "0002040127",
+      "name": "Karman Holdings",
+      "sector": "Industrials",
+      "sub_industry": "Aerospace & Defense",
+      "coverage": 0.61,
+      "dimensions_scored": 3,
+      "missing": [
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "PSKY",
+      "cik": "0002041610",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "sub_industry": "Movies & Entertainment",
+      "coverage": 0.61,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "JBGS",
+      "cik": "0001689796",
+      "name": "JBG SMITH Properties",
+      "sector": "Real Estate",
+      "sub_industry": "Diversified REITs",
+      "coverage": 0.607,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "GBCI",
+      "cik": "0000868671",
+      "name": "Glacier Bancorp",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.604,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "VNO",
+      "cik": "0000899689",
+      "name": "Vornado Realty Trust",
+      "sector": "Real Estate",
+      "sub_industry": "Office REITs",
+      "coverage": 0.602,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MTH",
+      "cik": "0000833079",
+      "name": "Meritage Homes Corporation",
+      "sector": "Consumer Discretionary",
+      "sub_industry": "Homebuilding",
+      "coverage": 0.58,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "WAL",
+      "cik": "0001212545",
+      "name": "Western Alliance Bancorporation",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "coverage": 0.571,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "PR",
+      "cik": "0001658566",
+      "name": "Permian Resources",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.57,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "GATX",
+      "cik": "0000040211",
+      "name": "GATX",
+      "sector": "Industrials",
+      "sub_industry": "Construction Machinery & Heavy Transportation Equipment",
+      "coverage": 0.55,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ARE",
+      "cik": "0001035443",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "sub_industry": "Office REITs",
+      "coverage": 0.55,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "RNR",
+      "cik": "0000913144",
+      "name": "RenaissanceRe",
+      "sector": "Financials",
+      "sub_industry": "Reinsurance",
+      "coverage": 0.548,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MGY",
+      "cik": "0001698990",
+      "name": "Magnolia Oil & Gas, Corp.",
+      "sector": "Energy",
+      "sub_industry": "Oil & Gas Exploration & Production",
+      "coverage": 0.52,
+      "dimensions_scored": 3,
+      "missing": [
+        "economies_of_scale",
+        "network_effects",
+        "intellectual_property",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "LNC",
+      "cik": "0000059558",
+      "name": "Lincoln Financial",
+      "sector": "Financials",
+      "sub_industry": "Multi-line Insurance",
+      "coverage": 0.519,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "FR",
+      "cik": "0000921825",
+      "name": "First Industrial Realty Trust",
+      "sector": "Real Estate",
+      "sub_industry": "Industrial REITs",
+      "coverage": 0.512,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "manufacturing_complexity",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "OGN",
+      "cik": "0001821825",
+      "name": "Organon & Co.",
+      "sector": "Health Care",
+      "sub_industry": "Pharmaceuticals",
+      "coverage": 0.5,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "ARWR",
+      "cik": "0000879407",
+      "name": "ARROWHEAD PHARMACEUTICALS, INC.",
+      "sector": "Health Care",
+      "sub_industry": "Pharmaceuticals",
+      "coverage": 0.46,
+      "dimensions_scored": 3,
+      "missing": [
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "JXN",
+      "cik": "0001822993",
+      "name": "Jackson Financial, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Life & Health Insurance",
+      "coverage": 0.46,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "RCUS",
+      "cik": "0001724521",
+      "name": "Arcus Biosciences, Inc.",
+      "sector": "Health Care",
+      "sub_industry": "Pharmaceuticals",
+      "coverage": 0.44,
+      "dimensions_scored": 3,
+      "missing": [
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "customer_relationships",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "SKT",
+      "cik": "0000899715",
+      "name": "Tanger Factory Outlet Centers, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Retail REITs",
+      "coverage": 0.388,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "intellectual_property",
+        "regulatory_barriers",
+        "manufacturing_complexity",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "MRP",
+      "cik": "0002017206",
+      "name": "Millrose Properties, Inc.",
+      "sector": "Real Estate",
+      "sub_industry": "Single-Family Residential REITs",
+      "coverage": 0.375,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    },
+    {
+      "ticker": "EFC",
+      "cik": "0001411342",
+      "name": "Ellington Financial, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Specialized Finance",
+      "coverage": 0.375,
+      "dimensions_scored": 3,
+      "missing": [
+        "technological_advantage",
+        "economies_of_scale",
+        "switching_costs",
+        "network_effects",
+        "brand",
+        "manufacturing_complexity",
+        "distribution",
+        "data_advantages"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "study": "E14_sector_neutral_portfolio",
+  "as_of": "2026-08-17T16:49:47.147475+00:00",
+  "preregistration": "journal/experiments/E14_sector_neutral_preregistration.md",
+  "panel": "C:\\Users\\penas\\company_lab\\journal\\experiments\\E14_panel_v2.parquet",
+  "grades": "the MEASURED HALF (FE+BS+VA+EN) only, as E13 does",
+  "coverage": {
+    "panel_rows": 178388,
+    "rows_after_coverage_filter": 131037,
+    "symbols": 1449
+  },
+  "construction": {
+    "hold_months": 12,
+    "cost_round_trip": 0.004,
+    "n_trials_registered": 6,
+    "percentile_scope": "within each month, never pooled"
+  },
+  "variants": {
+    "raw_top20": {
+      "ranking": "measured_pct",
+      "n": 20,
+      "months": 120,
+      "annualised_excess_net": -0.005318076981259643,
+      "annualised_excess_net_ex2020": -0.008561004396666766,
+      "breakeven_cost_bps": -13.18076981259643,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": -0.00044317308177163687,
+        "median": -0.00022902619572801242,
+        "std": 0.030724492792404356,
+        "share_positive": 0.49166666666666664,
+        "p05": -0.05452988173629941,
+        "p25": -0.01750818869899672,
+        "p75": 0.01851338680531943,
+        "p95": 0.05425102479108656,
+        "min": -0.08440847660065456,
+        "max": 0.08840828546405387
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 59,
+        "p_value_two_sided": 0.9273150210898833,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "composition": {
+        "mean_distinct_sectors": 7.15,
+        "min_distinct_sectors": 1,
+        "mean_largest_sector_weight": 0.333,
+        "max_largest_sector_weight": 1.0
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": -0.0144,
+          "ratio": -1.4574,
+          "prob": 0.0725,
+          "n": 120,
+          "n_trials": 6,
+          "psr_z": -0.1573,
+          "bracket": 1.3001,
+          "sr_star": 0.119233,
+          "sigma_sr": 0.091708
+        },
+        "pbo": 0.4484,
+        "profit_factor": 0.9631,
+        "sharpe": -0.014424097568217536,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -1.4574 <= 1.645"
+        ],
+        "available": true
+      }
+    },
+    "raw_top40": {
+      "ranking": "measured_pct",
+      "n": 40,
+      "months": 120,
+      "annualised_excess_net": 0.0009353626966907599,
+      "annualised_excess_net_ex2020": 0.0019602502089159117,
+      "breakeven_cost_bps": 49.35362696690773,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 7.794689139089666e-05,
+        "median": 0.002196925179497223,
+        "std": 0.02958979566297247,
+        "share_positive": 0.5166666666666667,
+        "p05": -0.0491239863803043,
+        "p25": -0.021655603886542585,
+        "p75": 0.018323818843683316,
+        "p95": 0.0517086163625494,
+        "min": -0.07767516697878582,
+        "max": 0.07088573619253592
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 62,
+        "p_value_two_sided": 0.7843281773322767,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "composition": {
+        "mean_distinct_sectors": 8.48,
+        "min_distinct_sectors": 1,
+        "mean_largest_sector_weight": 0.3,
+        "max_largest_sector_weight": 1.0
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.0026,
+          "ratio": -1.2714,
+          "prob": 0.1018,
+          "n": 120,
+          "n_trials": 6,
+          "psr_z": 0.0287,
+          "bracket": 1.3001,
+          "sr_star": 0.119174,
+          "sigma_sr": 0.091662
+        },
+        "pbo": 0.4802,
+        "profit_factor": 1.0067,
+        "sharpe": 0.002634249059328125,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -1.2714 <= 1.645"
+        ],
+        "available": true
+      }
+    },
+    "raw_top80": {
+      "ranking": "measured_pct",
+      "n": 80,
+      "months": 120,
+      "annualised_excess_net": 0.0036940606610080884,
+      "annualised_excess_net_ex2020": 0.003377185530412605,
+      "breakeven_cost_bps": 76.94060661008096,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.0003078383884173407,
+        "median": 0.0021072623454022987,
+        "std": 0.027575845841462252,
+        "share_positive": 0.5416666666666666,
+        "p05": -0.044713254064016994,
+        "p25": -0.01646110223221011,
+        "p75": 0.015848591690156406,
+        "p95": 0.049849261768731036,
+        "min": -0.06923825338426266,
+        "max": 0.06376420279109121
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 65,
+        "p_value_two_sided": 0.41142322026393763,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "composition": {
+        "mean_distinct_sectors": 9.62,
+        "min_distinct_sectors": 1,
+        "mean_largest_sector_weight": 0.278,
+        "max_largest_sector_weight": 1.0
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.0112,
+          "ratio": -1.1783,
+          "prob": 0.1193,
+          "n": 120,
+          "n_trials": 6,
+          "psr_z": 0.1218,
+          "bracket": 1.3001,
+          "sr_star": 0.119152,
+          "sigma_sr": 0.091646
+        },
+        "pbo": 0.4405,
+        "profit_factor": 1.0289,
+        "sharpe": 0.011163334397325492,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -1.1783 <= 1.645"
+        ],
+        "available": true
+      }
+    },
+    "neutral_top20": {
+      "ranking": "measured_pct_sector_neutral",
+      "n": 20,
+      "months": 120,
+      "annualised_excess_net": 0.02205701934142255,
+      "annualised_excess_net_ex2020": 0.0122426200341385,
+      "breakeven_cost_bps": 260.5701934142256,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.001838084945118546,
+        "median": 0.0011606619421353885,
+        "std": 0.025362479419927593,
+        "share_positive": 0.5166666666666667,
+        "p05": -0.042014759917193445,
+        "p25": -0.012062809852358431,
+        "p75": 0.0138590071699913,
+        "p95": 0.04392171507870921,
+        "min": -0.06456228144253441,
+        "max": 0.0763816810333416
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 62,
+        "p_value_two_sided": 0.7843281773322767,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "composition": {
+        "mean_distinct_sectors": 8.07,
+        "min_distinct_sectors": 6,
+        "mean_largest_sector_weight": 0.235,
+        "max_largest_sector_weight": 0.4
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.0725,
+          "ratio": -0.5073,
+          "prob": 0.306,
+          "n": 120,
+          "n_trials": 6,
+          "psr_z": 0.7929,
+          "bracket": 1.3001,
+          "sr_star": 0.118838,
+          "sigma_sr": 0.091404
+        },
+        "pbo": 0.1825,
+        "profit_factor": 1.213,
+        "sharpe": 0.07247260469630352,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -0.5073 <= 1.645"
+        ],
+        "available": true
+      }
+    },
+    "neutral_top40": {
+      "ranking": "measured_pct_sector_neutral",
+      "n": 40,
+      "months": 120,
+      "annualised_excess_net": 0.012897786047513515,
+      "annualised_excess_net_ex2020": 0.011409692861013,
+      "breakeven_cost_bps": 168.97786047513532,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.0010748155039594597,
+        "median": 0.0019385401156848995,
+        "std": 0.02473163487462758,
+        "share_positive": 0.55,
+        "p05": -0.042393541262688975,
+        "p25": -0.011003817194917458,
+        "p75": 0.016658873983950773,
+        "p95": 0.0400445459081885,
+        "min": -0.06571394462391252,
+        "max": 0.07354395168516935
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 66,
+        "p_value_two_sided": 0.3153033008322578,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "composition": {
+        "mean_distinct_sectors": 9.66,
+        "min_distinct_sectors": 8,
+        "mean_largest_sector_weight": 0.215,
+        "max_largest_sector_weight": 0.3
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.0435,
+          "ratio": -0.8263,
+          "prob": 0.2043,
+          "n": 120,
+          "n_trials": 6,
+          "psr_z": 0.4739,
+          "bracket": 1.3001,
+          "sr_star": 0.119234,
+          "sigma_sr": 0.091709
+        },
+        "pbo": 0.3135,
+        "profit_factor": 1.1227,
+        "sharpe": 0.04345913682649921,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -0.8263 <= 1.645"
+        ],
+        "available": true
+      }
+    },
+    "neutral_top80": {
+      "ranking": "measured_pct_sector_neutral",
+      "n": 80,
+      "months": 120,
+      "annualised_excess_net": 0.011644342308623677,
+      "annualised_excess_net_ex2020": 0.011162411581912932,
+      "breakeven_cost_bps": 156.4434230862368,
+      "monthly_excess_net": {
+        "n": 120,
+        "mean": 0.0009703618590519731,
+        "median": 0.0010284452079781755,
+        "std": 0.023344924895796988,
+        "share_positive": 0.5166666666666667,
+        "p05": -0.0427986234546452,
+        "p25": -0.012850547808378694,
+        "p75": 0.014831001862947413,
+        "p95": 0.03781983193820667,
+        "min": -0.05900174166878059,
+        "max": 0.0660985728515953
+      },
+      "sign_test_post_hoc": {
+        "n_months": 120,
+        "n_positive": 62,
+        "p_value_two_sided": 0.7843281773322767,
+        "note": "post-hoc diagnostic, NOT a pre-registered criterion"
+      },
+      "composition": {
+        "mean_distinct_sectors": 10.95,
+        "min_distinct_sectors": 10,
+        "mean_largest_sector_weight": 0.202,
+        "max_largest_sector_weight": 0.287
+      },
+      "gate": {
+        "passes": false,
+        "deflated_sharpe": {
+          "sr": 0.0416,
+          "ratio": -0.8464,
+          "prob": 0.1987,
+          "n": 120,
+          "n_trials": 6,
+          "psr_z": 0.4538,
+          "bracket": 1.3001,
+          "sr_star": 0.119101,
+          "sigma_sr": 0.091606
+        },
+        "pbo": 0.3294,
+        "profit_factor": 1.1115,
+        "sharpe": 0.04156628746433349,
+        "n_trades": 120,
+        "thresholds": {
+          "deflated_sharpe_min": 1.645,
+          "pbo_max": 0.5
+        },
+        "reasons": [
+          "deflated_sharpe_ratio -0.8464 <= 1.645"
+        ],
+        "available": true
+      }
+    }
+  },
+  "criteria": {
+    "P1_neutral_top20_positive_ex2020": true,
+    "P2_beats_raw_top20": true,
+    "P3_survives_the_diversification_control": true,
+    "P4_median_month_above_zero": true,
+    "P5_deflated_sharpe_and_pbo": false
+  },
+  "overall_registered": "PASS",
+  "status": "SHADOW",
+  "promoted": false,
+  "headline": ""
+}

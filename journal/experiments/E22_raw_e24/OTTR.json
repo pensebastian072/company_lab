@@ -1,0 +1,70 @@
+{
+  "ticker": "OTTR",
+  "cik": "0001466593",
+  "sector": "Utilities",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001466593-24-000039",
+        "form": "10-K",
+        "filed": "2024-02-14",
+        "chars": null
+      },
+      "pack_secs": 20.9,
+      "components": {
+        "MG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001466593-24-000055",
+        "form": "DEF 14A",
+        "filed": "2024-02-28",
+        "error": null,
+        "n_chunks": 116
+      },
+      "total_secs": 34.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001466593-25-000034",
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "chars": null
+      },
+      "pack_secs": 20.9,
+      "components": {
+        "MG": {
+          "secs": 12.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001466593-25-000049",
+        "form": "DEF 14A",
+        "filed": "2025-03-03",
+        "error": null,
+        "n_chunks": 115
+      },
+      "total_secs": 33.3
+    }
+  }
+}

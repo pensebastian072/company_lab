@@ -1,0 +1,25 @@
+# company_lab deps. Install with:
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+# The TLS-intercepting proxy died with the Norton removal (2026-08-28, verified:
+# pypi.org now presents a public CA), so --use-feature=truststore is no longer needed.
+# `truststore` stays pinned below because clab/net.py still imports it defensively.
+# NEVER --trusted-host, then or now.
+flask>=3.0
+pandas>=2.0
+pyarrow>=14
+yfinance>=1.4
+openpyxl>=3.1
+# Canonical store for the V3 external-intelligence layer. A manifest/catalog over
+# parquet + JSON, not a second copy of the data - same idiom as futures_intelligence.
+duckdb>=1.3
+lxml>=5.0
+truststore>=0.9
+certifi
+pytest>=8.0
+# Only for E11's overfit gate, which imports copper_brain's validate.py rather than
+# making a third copy of the PBO/Deflated-Sharpe math. copper_brain.config reads a .env,
+# so its import needs this even though company_lab itself has no .env and no secrets.
+python-dotenv>=1.0
+# PDF text extraction for clab/external/verify.py - 12 of the 56 Phase 0 sources are
+# PDFs, and a source that cannot be read is a claim that cannot be verified.
+pypdf>=5.0

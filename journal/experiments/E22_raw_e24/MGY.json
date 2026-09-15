@@ -1,0 +1,70 @@
+{
+  "ticker": "MGY",
+  "cik": "0001698990",
+  "sector": "Energy",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001698990-24-000011",
+        "form": "10-K",
+        "filed": "2024-02-15",
+        "chars": null
+      },
+      "pack_secs": 23.6,
+      "components": {
+        "MG": {
+          "secs": 11.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001558370-24-003700",
+        "form": "DEF 14A",
+        "filed": "2024-03-21",
+        "error": null,
+        "n_chunks": 148
+      },
+      "total_secs": 35.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001698990-25-000006",
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "chars": null
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001558370-25-003377",
+        "form": "DEF 14A",
+        "filed": "2025-03-20",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.9
+    }
+  }
+}

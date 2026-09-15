@@ -1,0 +1,66 @@
+{
+  "parse_ok": true,
+  "dimensions": {
+    "network_effects": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "manufacturing_complexity": {
+      "score": null,
+      "quote": null,
+      "gates": {
+        "strict": false,
+        "tight": false,
+        "production": false,
+        "has_quote": false
+      }
+    },
+    "data_advantages": {
+      "score": 2,
+      "quote": "The Company manages highly-customized data and materials to enable filings with the SEC on behalf of its customers related to the Exchange Act, the Securities Act and the Investment Company Act as well as performs iXBRL and other services.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    },
+    "economies_of_scale": {
+      "score": 3,
+      "quote": "Segment Adjusted EBITDA margin increased by approximately 500 bps from 34.2% for the year ended December 31, 2024 to 39.2% for the year ended December 31, 2025, primarily due to an approximately 370 bps and 130 bps decrease in SG&A expenses and cost of sales as a percentage of net sales, respectively, largely driven by price increases.",
+      "gates": {
+        "has_quote": true,
+        "strict": true,
+        "tight": true,
+        "production": true,
+        "overlap": 1.0
+      }
+    }
+  },
+  "ticker": "DFIN",
+  "cik": "0001669811",
+  "sector": "Industrials",
+  "arm": "under",
+  "base_scored": [
+    "customer_relationships",
+    "intellectual_property",
+    "regulatory_barriers",
+    "switching_costs"
+  ],
+  "targeted_meta": {
+    "n_chunks_picked": 8,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "load_error": null,
+  "generations": 135,
+  "M1_mean_spread": 0.12322274881516587,
+  "M1_max_spread": 2,
+  "M1_share_unstable": 0.10426540284360189,
+  "M2_parse_failure_rate": 0.0,
+  "M2_parse_failures": 0,
+  "M3_unverified_rate": 0.016666666666666666,
+  "M4_null_rate": 0.36262626262626263,
+  "M5_median_s_per_generation": 42.74712829999771,
+  "M5_projected_hours_for_1500": 53.43391037499714,
+  "companies_done": 15,
+  "companies_total": 15,
+  "budget_exhausted": false,
+  "failed_generations": 0,
+  "E12_bq_null_by_dimension": {
+    "brand": 0.133,
+    "customer_relationships": 0.133,
+    "data_advantages": 0.444,
+    "distribution": 0.089,
+    "economies_of_scale": 0.067,
+    "intellectual_property": 0.067,
+    "manufacturing_complexity": 0.4,
+    "network_effects": 0.444,
+    "regulatory_barriers": 0.689,
+    "switching_costs": 0.156,
+    "technological_advantage": 0.0
+  },
+  "E12_watched_mean_null": 0.3388888888888889
+}

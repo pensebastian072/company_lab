@@ -1,0 +1,70 @@
+{
+  "ticker": "FIVE",
+  "cik": "0001177609",
+  "sector": "Consumer Discretionary",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001177609-24-000008",
+        "form": "10-K",
+        "filed": "2024-03-21",
+        "chars": 308946
+      },
+      "pack_secs": 21.4,
+      "components": {
+        "MG": {
+          "secs": 14.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-128057",
+        "form": "DEF 14A",
+        "filed": "2024-05-02",
+        "error": null,
+        "n_chunks": 124
+      },
+      "total_secs": 35.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001177609-25-000009",
+        "form": "10-K",
+        "filed": "2025-03-20",
+        "chars": 314061
+      },
+      "pack_secs": 24.2,
+      "components": {
+        "MG": {
+          "secs": 13.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-110746",
+        "form": "DEF 14A",
+        "filed": "2025-05-02",
+        "error": null,
+        "n_chunks": 143
+      },
+      "total_secs": 38.1
+    }
+  }
+}

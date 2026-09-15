@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}{{ ticker }} &middot; company_lab{% endblock %}
+{% block body %}
+<div id="page"><p class="muted">Loading {{ ticker }}&hellip;</p></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const TICKER = {{ ticker|tojson }};
+
+function subtestHtml(st) {
+  const isLlm = (st.provenance || {}).source === 'llm';
+  const cls = ['st', st.status, isLlm ? 'is-llm' : ''].filter(Boolean).join(' ');
+  const pts = st.status === 'scored' ? (st.effective + '/' + st.max_points)
+            : (st.status === 'not_applicable' ? 'n/a' : DASH + '/' + st.max_points);
+  let h = '<div class="' + cls + '"><div class="hd">' +
+    '<span class="pts">' + esc(pts) + '</span><span>' + esc(st.label) + '</span>' +
+    (isLlm ? '<span class="llm">LLM</span>' : '') +
+    (st.evidence_unverified ? '<span class="llm warn" style="border-color:currentColor">unverified quote</span>' : '') +
+    '</div>';
+  const why = st.threshold_note || st.rationale;
+  if (why) h += '<div class="why">' + esc(why) + '</div>';
+  if (st.rationale && st.threshold_note && st.rationale !== st.threshold_note) {
+    h += '<div class="why">' + esc(st.rationale) + '</div>';
+  }
+  if (st.evidence) h += '<div class="ev">&ldquo;' + esc(st.evidence) + '&rdquo;</div>';
+  const tags = (st.provenance || {}).tags_used;
+  if (tags && Object.keys(tags).length) {
+    h += '<div class="why muted">via ' + esc(Object.entries(tags)
+      .map(([k, v]) => k + ' = ' + v).join('; ')) + '</div>';
+  }
+  return h + '</div>';
+}
+
+function componentHtml(code, c) {
+  return '<div class="card"><h2>' + esc(code) + ' &middot; ' + esc(c.label) + ' &mdash; ' +
+    c.earned_points + '/' + c.max_points +
+    (c.not_applicable_points ? ' <span class="muted">(' + c.not_applicable_points +
+      ' pts not applicable to this filer)</span>' : '') +
+    (c.is_llm ? '<span class="llm">LLM</span>' : '') + '</h2>' +
+    (c.note ? '<p class="muted" style="margin:0 0 8px">' + esc(c.note) + '</p>' : '') +
+    (c.subtests || []).map(subtestHtml).join('') + '</div>';
+}
+
+(async function () {
+  const st = await getJSON('/api/state');
+  headline(st);
+  const res = await getJSON('/api/company/' + encodeURIComponent(TICKER));
+  const el = $('page');
+  if (!res.ok) {
+    el.innerHTML = '<div class="card"><h2 class="err">Not scored</h2><p class="muted">' +
+      esc(res.reason || 'unknown') + '</p><p><a href="/">&larr; back to the ranking</a></p></div>';
+    return;
+  }
+  const d = res.scorecard;
+  const comps = d.components || {};
+  const bars = ['SG', 'BQ', 'FE', 'MG', 'BS', 'VA', 'ER', 'EN'].map(code => {
+    const c = comps[code]; if (!c) return '';
+    return barHtml(code + ' ' + c.label, c.earned_points, c.available_points,
+                   c.max_points, c.is_llm);
+  }).join('');
+
+  const llmStrip = d.qual_available
+    ? '<p class="muted">LLM-scored: ' + esc(Object.keys(comps).filter(k => comps[k].is_llm).join(', ')) +
+      ' &middot; generated without human review</p>'
+    : '<p class="muted">No LLM qualitative half for this company yet. Structural Growth, ' +
+      'Business Quality and Management are unscored, so the full-framework band is ' +
+      'withheld. The measured half below is complete.</p>';
+
+  el.innerHTML =
+    '<div class="card"><div class="hero">' +
+      '<span class="big">' + int(d.quant_only_50) + '<span class="sub">/{{ MEASURED_POINTS }} measured</span></span>' +
+      '<span class="big">' + int(d.composite_strict) + '<span class="sub">/{{ TOTAL_POINTS }} full</span></span>' +
+      '<span>' + bandHtml(d.qual_available ? d.band : d.quant_band) + '</span>' +
+      '<span class="sub"><b>' + esc(d.ticker) + '</b> ' + esc(d.name || '') + '</span>' +
+    '</div>' +
+    '<dl class="kv" style="margin-top:10px">' +
+      kv('Coverage', pct(d.coverage) + ' of ' + d.applicable_points + ' applicable points') +
+      kv('Measured-half coverage', pct(d.quant_coverage)) +
+      kv('Normalized /100', num(d.composite_normalized)) +
+      kv('Excluding Entry', d.composite_ex_entry + '/{{ EX_ENTRY_POINTS }}') +
+      kv('Sector', esc(d.sector || DASH) + (d.sub_industry ? ' &middot; ' + esc(d.sub_industry) : '')) +
+      kv('Filer profile', esc(d.profile)) +
+      kv('Fundamentals through', esc(d.data_through || DASH)) +
+      kv('Price as of', esc(d.price_as_of || DASH)) +
+      kv('Sub-tests with no data', d.n_subtests_no_data) +
+    '</dl>' + llmStrip +
+    '<div class="bars" style="margin-top:10px">' + bars + '</div>' +
+    ((d.warnings || []).length ? '<p class="warn">' +
+      (d.warnings || []).map(esc).join('<br>') + '</p>' : '') +
+    '<p><a href="/export/company/' + esc(d.ticker) + '.csv">Download this scorecard as CSV</a>' +
+    ' &middot; <a href="/">&larr; back to the ranking</a></p></div>' +
+    ['SG', 'BQ', 'FE', 'MG', 'BS', 'VA', 'ER', 'EN']
+      .filter(c => comps[c]).map(c => componentHtml(c, comps[c])).join('');
+})();
+</script>
+{% endblock %}

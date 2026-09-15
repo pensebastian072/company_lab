@@ -1,0 +1,143 @@
+{
+  "version_a": "2026-09-02",
+  "version_b": "2026-09-02+E42-cited",
+  "n": 3,
+  "rows": [
+    {
+      "ticker": "FICO",
+      "in_a": true,
+      "in_b": true,
+      "a_external_score": 21.0,
+      "b_external_score": 43.9,
+      "d_external_score": 22.9,
+      "a_coverage": 0.38,
+      "b_coverage": 0.8,
+      "d_coverage": 0.42,
+      "a_external_confidence": 0.845,
+      "b_external_confidence": 0.923,
+      "d_external_confidence": 0.078,
+      "a_conviction_score": 47.73,
+      "b_conviction_score": 41.73,
+      "d_conviction_score": -6.0,
+      "a_conviction_band": "WATCH",
+      "b_conviction_band": "WATCH",
+      "a_claims": 4,
+      "b_claims": 11,
+      "a_verified": 4,
+      "b_verified": 11,
+      "a_domains": 4,
+      "b_domains": 4,
+      "a_scored_fields": 4,
+      "b_scored_fields": 10,
+      "a_unbacked_fields": 7,
+      "b_unbacked_fields": 0,
+      "flags_gained": [
+        "TECHNOLOGY_DISRUPTION"
+      ],
+      "flags_lost": []
+    },
+    {
+      "ticker": "NVDA",
+      "in_a": true,
+      "in_b": true,
+      "a_external_score": 29.8,
+      "b_external_score": 76.2,
+      "d_external_score": 46.4,
+      "a_coverage": 0.36,
+      "b_coverage": 0.95,
+      "d_coverage": 0.59,
+      "a_external_confidence": 0.765,
+      "b_external_confidence": 0.987,
+      "d_external_confidence": 0.222,
+      "a_conviction_score": 82.52,
+      "b_conviction_score": 84.52,
+      "d_conviction_score": 2.0,
+      "a_conviction_band": "SUPPORTED",
+      "b_conviction_band": "SUPPORTED",
+      "a_claims": 5,
+      "b_claims": 11,
+      "a_verified": 5,
+      "b_verified": 11,
+      "a_domains": 3,
+      "b_domains": 5,
+      "a_scored_fields": 4,
+      "b_scored_fields": 11,
+      "a_unbacked_fields": 8,
+      "b_unbacked_fields": 0,
+      "flags_gained": [
+        "REGULATORY_IMPAIRMENT"
+      ],
+      "flags_lost": []
+    },
+    {
+      "ticker": "VRT",
+      "in_a": true,
+      "in_b": true,
+      "a_external_score": 28.1,
+      "b_external_score": 69.3,
+      "d_external_score": 41.2,
+      "a_coverage": 0.3,
+      "b_coverage": 0.85,
+      "d_coverage": 0.55,
+      "a_external_confidence": 0.69,
+      "b_external_confidence": 0.955,
+      "d_external_confidence": 0.265,
+      "a_conviction_score": 65.35,
+      "b_conviction_score": 89.75,
+      "d_conviction_score": 24.4,
+      "a_conviction_band": "QUALIFIED",
+      "b_conviction_band": "VERIFIED_HIGH",
+      "a_claims": 5,
+      "b_claims": 10,
+      "a_verified": 4,
+      "b_verified": 10,
+      "a_domains": 3,
+      "b_domains": 4,
+      "a_scored_fields": 2,
+      "b_scored_fields": 10,
+      "a_unbacked_fields": 8,
+      "b_unbacked_fields": 0,
+      "flags_gained": [],
+      "flags_lost": [
+        "UNVERIFIED_CORE_THESIS"
+      ]
+    }
+  ],
+  "directions": {
+    "external_score": {
+      "up": 3,
+      "down": 0,
+      "unchanged": 0
+    },
+    "coverage": {
+      "up": 3,
+      "down": 0,
+      "unchanged": 0
+    },
+    "external_confidence": {
+      "up": 3,
+      "down": 0,
+      "unchanged": 0
+    },
+    "conviction_score": {
+      "up": 2,
+      "down": 1,
+      "unchanged": 0
+    }
+  },
+  "flags_gained": [
+    "REGULATORY_IMPAIRMENT",
+    "TECHNOLOGY_DISRUPTION"
+  ],
+  "flags_lost": [
+    "UNVERIFIED_CORE_THESIS"
+  ],
+  "totals": {
+    "a_claims": 14,
+    "b_claims": 32,
+    "a_scored_fields": 10,
+    "b_scored_fields": 31,
+    "a_unbacked_fields": 23,
+    "b_unbacked_fields": 0
+  }
+}

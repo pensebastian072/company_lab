@@ -1,0 +1,70 @@
+{
+  "ticker": "FRPT",
+  "cik": "0001611647",
+  "sector": "Consumer Staples",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001437749-24-013821",
+        "form": "10-K/A",
+        "filed": "2024-04-30",
+        "chars": 144996
+      },
+      "pack_secs": 22.4,
+      "components": {
+        "MG": {
+          "secs": 13.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-038217",
+        "form": "DEF 14A",
+        "filed": "2024-08-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001611647-25-000007",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": 283653
+      },
+      "pack_secs": 24.2,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-016477",
+        "form": "DEF 14A",
+        "filed": "2025-04-30",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.6
+    }
+  }
+}

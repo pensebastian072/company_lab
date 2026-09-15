@@ -1,0 +1,70 @@
+{
+  "ticker": "UNH",
+  "cik": "0000731766",
+  "sector": "Health Care",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0000731766-24-000081",
+        "form": "10-K",
+        "filed": "2024-02-28",
+        "chars": 355780
+      },
+      "pack_secs": 25.1,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-24-050055",
+        "form": "DEF 14A",
+        "filed": "2024-04-22",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0000731766-25-000063",
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "chars": 361454
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-036829",
+        "form": "DEF 14A",
+        "filed": "2025-04-21",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.9
+    }
+  }
+}

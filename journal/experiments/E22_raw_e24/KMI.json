@@ -1,0 +1,70 @@
+{
+  "ticker": "KMI",
+  "cik": "0001506307",
+  "sector": "Energy",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001506307-24-000011",
+        "form": "10-K",
+        "filed": "2024-02-20",
+        "chars": null
+      },
+      "pack_secs": 24.2,
+      "components": {
+        "MG": {
+          "secs": 14.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001506307-24-000022",
+        "form": "DEF 14A",
+        "filed": "2024-03-29",
+        "error": null,
+        "n_chunks": 125
+      },
+      "total_secs": 39.1
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001506307-25-000008",
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "chars": null
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001506307-25-000017",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 98
+      },
+      "total_secs": 37.1
+    }
+  }
+}

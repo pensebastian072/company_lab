@@ -1,0 +1,70 @@
+{
+  "ticker": "HWM",
+  "cik": "0000004281",
+  "sector": "Industrials",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000004281-24-000007",
+        "form": "10-K",
+        "filed": "2024-02-13",
+        "chars": 419853
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 13.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-24-044630",
+        "form": "DEF 14A",
+        "filed": "2024-04-08",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 37.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000004281-25-000011",
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "chars": 420640
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 12.5,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-035530",
+        "form": "DEF 14A",
+        "filed": "2025-04-16",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.2
+    }
+  }
+}

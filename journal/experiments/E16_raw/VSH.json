@@ -1,0 +1,44 @@
+{
+  "ticker": "VSH",
+  "cik": "0000103730",
+  "sector": "Information Technology",
+  "arm": "control",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "data_advantages",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "network_effects",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.9,
+    "parse_ok": true
+  },
+  "repaired": null,
+  "repair_ran": false,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "data_advantages",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "network_effects",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ]
+  }
+}

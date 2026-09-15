@@ -1,0 +1,304 @@
+{
+  "NVDA|MG|founder_led": [
+    null,
+    null
+  ],
+  "NVDA|MG|tenure": [
+    null,
+    null
+  ],
+  "NVDA|MG|ownership": [
+    null,
+    null
+  ],
+  "NVDA|MG|execution_history": [
+    2,
+    2
+  ],
+  "NVDA|MG|industry_expertise": [
+    2,
+    2
+  ],
+  "CVNA|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "CVNA|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "CVNA|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "CVNA|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "CVNA|MG|industry_expertise": [
+    2,
+    2,
+    2
+  ],
+  "D|SG|tam_expanding": [
+    null
+  ],
+  "D|SG|revenue_growth_sustainable": [
+    4
+  ],
+  "D|BQ|technological_advantage": [
+    null,
+    null,
+    null
+  ],
+  "D|BQ|economies_of_scale": [
+    4,
+    null,
+    null
+  ],
+  "D|BQ|switching_costs": [
+    3,
+    null,
+    null
+  ],
+  "D|BQ|network_effects": [
+    0,
+    null,
+    null
+  ],
+  "D|BQ|intellectual_property": [
+    null,
+    null,
+    null
+  ],
+  "D|BQ|brand": [
+    null,
+    null,
+    null
+  ],
+  "D|BQ|regulatory_barriers": [
+    5,
+    5,
+    5
+  ],
+  "D|BQ|manufacturing_complexity": [
+    4,
+    4
+  ],
+  "D|MG|founder_led": [
+    null
+  ],
+  "D|MG|tenure": [
+    null
+  ],
+  "D|MG|ownership": [
+    null
+  ],
+  "D|MG|execution_history": [
+    2
+  ],
+  "D|MG|industry_expertise": [
+    null
+  ],
+  "CFG|MG|founder_led": [
+    null,
+    null
+  ],
+  "CFG|MG|tenure": [
+    null,
+    null
+  ],
+  "CFG|MG|ownership": [
+    null,
+    null
+  ],
+  "CFG|MG|execution_history": [
+    2,
+    2
+  ],
+  "CFG|MG|industry_expertise": [
+    2,
+    2
+  ],
+  "IFF|BQ|technological_advantage": [
+    4,
+    4,
+    4
+  ],
+  "IFF|BQ|economies_of_scale": [
+    null,
+    3,
+    3
+  ],
+  "IFF|BQ|switching_costs": [
+    null,
+    null
+  ],
+  "IFF|BQ|network_effects": [
+    null,
+    null
+  ],
+  "IFF|MG|founder_led": [
+    0
+  ],
+  "LII|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "LII|MG|tenure": [
+    null
+  ],
+  "LII|MG|ownership": [
+    null
+  ],
+  "LII|MG|execution_history": [
+    2
+  ],
+  "LII|MG|industry_expertise": [
+    null
+  ],
+  "CGNX|SG|tam_expanding": [
+    4,
+    4,
+    4
+  ],
+  "CGNX|SG|revenue_growth_sustainable": [
+    3
+  ],
+  "CGNX|SG|demand_drivers_3_5yr": [
+    4
+  ],
+  "CGNX|SG|capacity_backlog_contracts": [
+    null
+  ],
+  "CGNX|SG|secular_not_cyclical": [
+    3
+  ],
+  "CGNX|BQ|technological_advantage": [
+    4,
+    4,
+    4
+  ],
+  "CGNX|BQ|economies_of_scale": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|BQ|switching_costs": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|BQ|network_effects": [
+    null,
+    0,
+    0
+  ],
+  "CGNX|BQ|intellectual_property": [
+    3
+  ],
+  "CGNX|BQ|brand": [
+    null
+  ],
+  "CGNX|BQ|regulatory_barriers": [
+    2
+  ],
+  "CGNX|BQ|manufacturing_complexity": [
+    3
+  ],
+  "CGNX|BQ|distribution": [
+    2
+  ],
+  "CGNX|BQ|customer_relationships": [
+    4
+  ],
+  "CGNX|MG|founder_led": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|MG|tenure": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|MG|ownership": [
+    null,
+    null,
+    null
+  ],
+  "CGNX|MG|execution_history": [
+    2,
+    2,
+    2
+  ],
+  "CGNX|MG|industry_expertise": [
+    2,
+    2,
+    2
+  ],
+  "ALGM|BQ|technological_advantage": [
+    3,
+    3
+  ],
+  "ALGM|MG|founder_led": [
+    null,
+    null
+  ],
+  "ALGM|MG|tenure": [
+    null,
+    null
+  ],
+  "ALGM|MG|ownership": [
+    null,
+    null
+  ],
+  "ALGM|MG|execution_history": [
+    2,
+    2
+  ],
+  "LYFT|BQ|technological_advantage": [
+    4,
+    4
+  ],
+  "LYFT|BQ|economies_of_scale": [
+    3,
+    3
+  ],
+  "LYFT|BQ|switching_costs": [
+    2,
+    2
+  ],
+  "LYFT|BQ|network_effects": [
+    3,
+    3
+  ],
+  "LYFT|BQ|intellectual_property": [
+    4,
+    4
+  ],
+  "LYFT|BQ|brand": [
+    2,
+    2
+  ],
+  "LYFT|MG|founder_led": [
+    null
+  ],
+  "LYFT|MG|tenure": [
+    null
+  ],
+  "LYFT|MG|ownership": [
+    null
+  ],
+  "LYFT|MG|execution_history": [
+    2
+  ],
+  "LYFT|MG|industry_expertise": [
+    2
+  ]
+}

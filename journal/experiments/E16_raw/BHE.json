@@ -1,0 +1,34 @@
+{
+  "ticker": "BHE",
+  "cik": "0000863436",
+  "sector": "Information Technology",
+  "arm": "control",
+  "base": {
+    "scored": [
+      "customer_relationships",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.9,
+    "parse_ok": true
+  },
+  "repaired": null,
+  "repair_ran": false,
+  "final": {
+    "scored": [
+      "customer_relationships",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs",
+      "technological_advantage"
+    ]
+  }
+}

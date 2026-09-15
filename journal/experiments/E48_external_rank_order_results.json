@@ -1,0 +1,3692 @@
+{
+  "as_of": "2026-09-05",
+  "experiment": "E48_external_rank_order",
+  "neutral_basis": {
+    "decision": "ADOPT_INDUSTRY_ID_WITH_MINIMUM_SIZE_FALLBACK",
+    "hierarchy": [
+      "industry_id if n >= 4",
+      "sub_industry if n >= 5",
+      "sector otherwise"
+    ],
+    "implemented_in_production": false,
+    "peer_key_changes": 56,
+    "rows": [
+      {
+        "composite_strict": 36.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 70.6,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 70.6,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "AEE"
+      },
+      {
+        "composite_strict": 46.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 95.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 86.4,
+        "peer_key_changed": true,
+        "percentile_change": 8.6,
+        "ticker": "AEP"
+      },
+      {
+        "composite_strict": 29.0,
+        "industry_id": "independent_power_producers_energy_traders",
+        "new_basis": "sector",
+        "new_key": "Utilities",
+        "new_n": 59,
+        "new_percentile": 23.7,
+        "old_basis": "sector",
+        "old_key": "Utilities",
+        "old_n": 59,
+        "old_percentile": 23.7,
+        "peer_key_changed": false,
+        "percentile_change": 0.0,
+        "ticker": "AES"
+      },
+      {
+        "composite_strict": 39.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 66.7,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 66.7,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "ATO"
+      },
+      {
+        "composite_strict": 40.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 94.1,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 94.1,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "AVA"
+      },
+      {
+        "composite_strict": 42.0,
+        "industry_id": "water_utilities",
+        "new_basis": "industry_id",
+        "new_key": "water_utilities",
+        "new_n": 6,
+        "new_percentile": 83.3,
+        "old_basis": "sub_industry",
+        "old_key": "Water Utilities",
+        "old_n": 6,
+        "old_percentile": 83.3,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "AWK"
+      },
+      {
+        "composite_strict": 41.0,
+        "industry_id": "water_utilities",
+        "new_basis": "industry_id",
+        "new_key": "water_utilities",
+        "new_n": 6,
+        "new_percentile": 66.7,
+        "old_basis": "sub_industry",
+        "old_key": "Water Utilities",
+        "old_n": 6,
+        "old_percentile": 66.7,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "AWR"
+      },
+      {
+        "composite_strict": 34.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 47.1,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 47.1,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "BKH"
+      },
+      {
+        "composite_strict": 48.0,
+        "industry_id": "competitive_power_generation",
+        "new_basis": "industry_id",
+        "new_key": "competitive_power_generation",
+        "new_n": 4,
+        "new_percentile": 75.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 90.9,
+        "peer_key_changed": true,
+        "percentile_change": -15.9,
+        "ticker": "CEG"
+      },
+      {
+        "composite_strict": 35.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 52.9,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 52.9,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "CMS"
+      },
+      {
+        "composite_strict": 33.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 41.2,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 41.2,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "CNP"
+      },
+      {
+        "composite_strict": 37.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 55.6,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 55.6,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "CPK"
+      },
+      {
+        "composite_strict": 42.0,
+        "industry_id": "renewable_electricity",
+        "new_basis": "sector",
+        "new_key": "Utilities",
+        "new_n": 59,
+        "new_percentile": 83.1,
+        "old_basis": "sector",
+        "old_key": "Utilities",
+        "old_n": 59,
+        "old_percentile": 83.0,
+        "peer_key_changed": false,
+        "percentile_change": 0.1,
+        "ticker": "CWEN"
+      },
+      {
+        "composite_strict": 32.0,
+        "industry_id": "water_utilities",
+        "new_basis": "industry_id",
+        "new_key": "water_utilities",
+        "new_n": 6,
+        "new_percentile": 33.3,
+        "old_basis": "sub_industry",
+        "old_key": "Water Utilities",
+        "old_n": 6,
+        "old_percentile": 33.3,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "CWT"
+      },
+      {
+        "composite_strict": 37.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 76.5,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 76.5,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "D"
+      },
+      {
+        "composite_strict": 36.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 70.6,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 70.6,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "DTE"
+      },
+      {
+        "composite_strict": 44.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 90.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 81.8,
+        "peer_key_changed": true,
+        "percentile_change": 8.2,
+        "ticker": "DUK"
+      },
+      {
+        "composite_strict": 42.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 100.0,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 100.0,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "ED"
+      },
+      {
+        "composite_strict": 52.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 100.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 95.5,
+        "peer_key_changed": true,
+        "percentile_change": 4.5,
+        "ticker": "EIX"
+      },
+      {
+        "composite_strict": 38.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 60.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 54.5,
+        "peer_key_changed": true,
+        "percentile_change": 5.5,
+        "ticker": "ES"
+      },
+      {
+        "composite_strict": 28.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 20.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 18.2,
+        "peer_key_changed": true,
+        "percentile_change": 1.8,
+        "ticker": "ETR"
+      },
+      {
+        "composite_strict": 37.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 55.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 50.0,
+        "peer_key_changed": true,
+        "percentile_change": 5.0,
+        "ticker": "EVRG"
+      },
+      {
+        "composite_strict": 41.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 80.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 72.7,
+        "peer_key_changed": true,
+        "percentile_change": 7.3,
+        "ticker": "EXC"
+      },
+      {
+        "composite_strict": 37.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 55.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 50.0,
+        "peer_key_changed": true,
+        "percentile_change": 5.0,
+        "ticker": "FE"
+      },
+      {
+        "composite_strict": 37.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 55.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 50.0,
+        "peer_key_changed": true,
+        "percentile_change": 5.0,
+        "ticker": "HE"
+      },
+      {
+        "composite_strict": 28.0,
+        "industry_id": "water_utilities",
+        "new_basis": "industry_id",
+        "new_key": "water_utilities",
+        "new_n": 6,
+        "new_percentile": 16.7,
+        "old_basis": "sub_industry",
+        "old_key": "Water Utilities",
+        "old_n": 6,
+        "old_percentile": 16.7,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "HTO"
+      },
+      {
+        "composite_strict": 35.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 35.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 31.8,
+        "peer_key_changed": true,
+        "percentile_change": 3.2,
+        "ticker": "IDA"
+      },
+      {
+        "composite_strict": 34.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 30.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 27.3,
+        "peer_key_changed": true,
+        "percentile_change": 2.7,
+        "ticker": "LNT"
+      },
+      {
+        "composite_strict": 26.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 11.8,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 11.8,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "MDU"
+      },
+      {
+        "composite_strict": 28.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 20.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 18.2,
+        "peer_key_changed": true,
+        "percentile_change": 1.8,
+        "ticker": "MGEE"
+      },
+      {
+        "composite_strict": 36.0,
+        "industry_id": "water_utilities",
+        "new_basis": "industry_id",
+        "new_key": "water_utilities",
+        "new_n": 6,
+        "new_percentile": 50.0,
+        "old_basis": "sub_industry",
+        "old_key": "Water Utilities",
+        "old_n": 6,
+        "old_percentile": 50.0,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "MSEX"
+      },
+      {
+        "composite_strict": 32.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 35.3,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 35.3,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "NEE"
+      },
+      {
+        "composite_strict": 45.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 77.8,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 77.8,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "NFG"
+      },
+      {
+        "composite_strict": 36.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 70.6,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 70.6,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "NI"
+      },
+      {
+        "composite_strict": 48.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 100.0,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 100.0,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "NJR"
+      },
+      {
+        "composite_strict": 37.0,
+        "industry_id": "competitive_power_generation",
+        "new_basis": "industry_id",
+        "new_key": "competitive_power_generation",
+        "new_n": 4,
+        "new_percentile": 50.0,
+        "old_basis": "sector",
+        "old_key": "Utilities",
+        "old_n": 59,
+        "old_percentile": 61.0,
+        "peer_key_changed": true,
+        "percentile_change": -11.0,
+        "ticker": "NRG"
+      },
+      {
+        "composite_strict": 21.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 5.9,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 5.9,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "NWE"
+      },
+      {
+        "composite_strict": 28.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 33.3,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 33.3,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "NWN"
+      },
+      {
+        "composite_strict": 28.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 17.6,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 17.6,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "OGE"
+      },
+      {
+        "composite_strict": 29.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 44.4,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 44.4,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "OGS"
+      },
+      {
+        "composite_strict": 37.0,
+        "industry_id": "renewable_electricity",
+        "new_basis": "sector",
+        "new_key": "Utilities",
+        "new_n": 59,
+        "new_percentile": 61.0,
+        "old_basis": "sector",
+        "old_key": "Utilities",
+        "old_n": 59,
+        "old_percentile": 61.0,
+        "peer_key_changed": false,
+        "percentile_change": 0.0,
+        "ticker": "ORA"
+      },
+      {
+        "composite_strict": 36.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 40.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 36.4,
+        "peer_key_changed": true,
+        "percentile_change": 3.6,
+        "ticker": "OTTR"
+      },
+      {
+        "composite_strict": 40.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 94.1,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 94.1,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "PCG"
+      },
+      {
+        "composite_strict": 39.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 65.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 59.1,
+        "peer_key_changed": true,
+        "percentile_change": 5.9,
+        "ticker": "PEG"
+      },
+      {
+        "composite_strict": 40.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 94.1,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 94.1,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "PNW"
+      },
+      {
+        "composite_strict": 33.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 25.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 22.7,
+        "peer_key_changed": true,
+        "percentile_change": 2.3,
+        "ticker": "POR"
+      },
+      {
+        "composite_strict": 44.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 90.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 81.8,
+        "peer_key_changed": true,
+        "percentile_change": 8.2,
+        "ticker": "PPL"
+      },
+      {
+        "composite_strict": 40.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 70.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 63.6,
+        "peer_key_changed": true,
+        "percentile_change": 6.4,
+        "ticker": "SO"
+      },
+      {
+        "composite_strict": 28.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 33.3,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 33.3,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "SR"
+      },
+      {
+        "composite_strict": 31.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 29.4,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 29.4,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "SRE"
+      },
+      {
+        "composite_strict": 46.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 88.9,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 88.9,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "SWX"
+      },
+      {
+        "composite_strict": 32.0,
+        "industry_id": "competitive_power_generation",
+        "new_basis": "industry_id",
+        "new_key": "competitive_power_generation",
+        "new_n": 4,
+        "new_percentile": 25.0,
+        "old_basis": "sector",
+        "old_key": "Utilities",
+        "old_n": 59,
+        "old_percentile": 30.5,
+        "peer_key_changed": true,
+        "percentile_change": -5.5,
+        "ticker": "TLN"
+      },
+      {
+        "composite_strict": 22.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 5.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 4.5,
+        "peer_key_changed": true,
+        "percentile_change": 0.5,
+        "ticker": "TXNM"
+      },
+      {
+        "composite_strict": 28.0,
+        "industry_id": "gas_utilities",
+        "new_basis": "industry_id",
+        "new_key": "gas_utilities",
+        "new_n": 9,
+        "new_percentile": 33.3,
+        "old_basis": "sub_industry",
+        "old_key": "Gas Utilities",
+        "old_n": 9,
+        "old_percentile": 33.3,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "UGI"
+      },
+      {
+        "composite_strict": 27.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 10.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 9.1,
+        "peer_key_changed": true,
+        "percentile_change": 0.9,
+        "ticker": "UTL"
+      },
+      {
+        "composite_strict": 55.0,
+        "industry_id": "competitive_power_generation",
+        "new_basis": "industry_id",
+        "new_key": "competitive_power_generation",
+        "new_n": 4,
+        "new_percentile": 100.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 100.0,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "VST"
+      },
+      {
+        "composite_strict": 41.0,
+        "industry_id": "electric_utilities",
+        "new_basis": "industry_id",
+        "new_key": "electric_utilities",
+        "new_n": 20,
+        "new_percentile": 80.0,
+        "old_basis": "sub_industry",
+        "old_key": "Electric Utilities",
+        "old_n": 22,
+        "old_percentile": 72.7,
+        "peer_key_changed": true,
+        "percentile_change": 7.3,
+        "ticker": "WEC"
+      },
+      {
+        "composite_strict": 45.0,
+        "industry_id": "water_utilities",
+        "new_basis": "industry_id",
+        "new_key": "water_utilities",
+        "new_n": 6,
+        "new_percentile": 100.0,
+        "old_basis": "sub_industry",
+        "old_key": "Water Utilities",
+        "old_n": 6,
+        "old_percentile": 100.0,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "WTRG"
+      },
+      {
+        "composite_strict": 29.0,
+        "industry_id": "multi_utilities",
+        "new_basis": "industry_id",
+        "new_key": "multi_utilities",
+        "new_n": 17,
+        "new_percentile": 23.5,
+        "old_basis": "sub_industry",
+        "old_key": "Multi-Utilities",
+        "old_n": 17,
+        "old_percentile": 23.5,
+        "peer_key_changed": true,
+        "percentile_change": 0.0,
+        "ticker": "XEL"
+      }
+    ],
+    "score_column": "composite_strict",
+    "utilities_companies": 59
+  },
+  "preregistered": true,
+  "promoted": false,
+  "rank_order": {
+    "companies": {
+      "AESI": {
+        "A_local": 17.0,
+        "B_evidence": 62.2727,
+        "C_full": 48.6,
+        "C_moat_no_flags": 56.6,
+        "confidence_detail": {
+          "coverage": 0.83,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.882,
+        "external_coverage": 0.83,
+        "flag_penalty": 8,
+        "flags": [
+          "COMPETITIVE_POSITION_DETERIORATING"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "WEAKENING",
+        "moat_trajectory_points": 1.8,
+        "ranks": {
+          "A_local": 58,
+          "B_evidence": 28,
+          "C_full": 32,
+          "C_moat_no_flags": 35
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "AM": {
+        "A_local": 34.825,
+        "B_evidence": 65.8295,
+        "C_full": 59.93,
+        "C_moat_no_flags": 69.93,
+        "confidence_detail": {
+          "coverage": 0.7,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.775,
+        "external_coverage": 0.7,
+        "flag_penalty": 10,
+        "flags": [
+          "REGULATORY_IMPAIRMENT"
+        ],
+        "industry_id": "midstream",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 27,
+          "B_evidence": 23,
+          "C_full": 19,
+          "C_moat_no_flags": 18
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "APA": {
+        "A_local": 10.0,
+        "B_evidence": 31.8182,
+        "C_full": 32.8,
+        "C_moat_no_flags": 32.8,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 65,
+          "B_evidence": 67,
+          "C_full": 66,
+          "C_moat_no_flags": 67
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "AR": {
+        "A_local": 33.975,
+        "B_evidence": 42.7159,
+        "C_full": 42.39,
+        "C_moat_no_flags": 42.39,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 30,
+          "B_evidence": 47,
+          "C_full": 45,
+          "C_moat_no_flags": 47
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "AROC": {
+        "A_local": 31.675,
+        "B_evidence": 68.9432,
+        "C_full": 72.67,
+        "C_moat_no_flags": 72.67,
+        "confidence_detail": {
+          "coverage": 0.95,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.837,
+        "external_coverage": 0.95,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 35,
+          "B_evidence": 18,
+          "C_full": 8,
+          "C_moat_no_flags": 13
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "BKR": {
+        "A_local": 63.125,
+        "B_evidence": 61.4205,
+        "C_full": 58.85,
+        "C_moat_no_flags": 58.85,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 2,
+          "B_evidence": 30,
+          "C_full": 22,
+          "C_moat_no_flags": 33
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "BTU": {
+        "A_local": 19.8,
+        "B_evidence": 36.2727,
+        "C_full": 36.72,
+        "C_moat_no_flags": 36.72,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "coal_consumable_fuels",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 57,
+          "B_evidence": 63,
+          "C_full": 61,
+          "C_moat_no_flags": 63
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "CHRD": {
+        "A_local": 16.8,
+        "B_evidence": 34.9091,
+        "C_full": 35.52,
+        "C_moat_no_flags": 35.52,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 59,
+          "B_evidence": 64,
+          "C_full": 62,
+          "C_moat_no_flags": 64
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "CNR": {
+        "A_local": 26.5,
+        "B_evidence": 39.3182,
+        "C_full": 39.4,
+        "C_moat_no_flags": 39.4,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "coal_consumable_fuels",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 41,
+          "B_evidence": 54,
+          "C_full": 52,
+          "C_moat_no_flags": 54
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "CNX": {
+        "A_local": 10.0,
+        "B_evidence": 31.8182,
+        "C_full": 32.8,
+        "C_moat_no_flags": 32.8,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 66,
+          "B_evidence": 68,
+          "C_full": 67,
+          "C_moat_no_flags": 68
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "COP": {
+        "A_local": 22.65,
+        "B_evidence": 43.0227,
+        "C_full": 42.66,
+        "C_moat_no_flags": 42.66,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 52,
+          "B_evidence": 45,
+          "C_full": 43,
+          "C_moat_no_flags": 45
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "CRC": {
+        "A_local": 34.525,
+        "B_evidence": 42.9659,
+        "C_full": 42.61,
+        "C_moat_no_flags": 42.61,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 28,
+          "B_evidence": 46,
+          "C_full": 44,
+          "C_moat_no_flags": 46
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "CRGY": {
+        "A_local": 10.0,
+        "B_evidence": 31.8182,
+        "C_full": 32.8,
+        "C_moat_no_flags": 32.8,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 67,
+          "B_evidence": 69,
+          "C_full": 68,
+          "C_moat_no_flags": 69
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "CRK": {
+        "A_local": 16.075,
+        "B_evidence": 34.5795,
+        "C_full": 35.23,
+        "C_moat_no_flags": 35.23,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 60,
+          "B_evidence": 65,
+          "C_full": 63,
+          "C_moat_no_flags": 65
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "CVI": {
+        "A_local": 26.5,
+        "B_evidence": 64.3182,
+        "C_full": 48.6,
+        "C_moat_no_flags": 68.6,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 20,
+        "flags": [
+          "REGULATORY_IMPAIRMENT",
+          "TECHNOLOGY_DISRUPTION"
+        ],
+        "industry_id": "refining",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 42,
+          "B_evidence": 26,
+          "C_full": 33,
+          "C_moat_no_flags": 21
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "CVX": {
+        "A_local": 26.5,
+        "B_evidence": 56.1364,
+        "C_full": 59.0,
+        "C_moat_no_flags": 59.0,
+        "confidence_detail": {
+          "coverage": 0.77,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.792,
+        "external_coverage": 0.77,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "integrated_oil_gas",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 43,
+          "B_evidence": 34,
+          "C_full": 21,
+          "C_moat_no_flags": 32
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "DINO": {
+        "A_local": 34.525,
+        "B_evidence": 67.9659,
+        "C_full": 53.61,
+        "C_moat_no_flags": 61.61,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 8,
+        "flags": [
+          "COMPETITIVE_POSITION_DETERIORATING"
+        ],
+        "industry_id": "refining",
+        "moat_trajectory": "WEAKENING",
+        "moat_trajectory_points": 1.8,
+        "ranks": {
+          "A_local": 29,
+          "B_evidence": 19,
+          "C_full": 27,
+          "C_moat_no_flags": 28
+        },
+        "request_id": "71245bc7adbc298fd13e",
+        "research_version": "2026-09-02+E45-rest"
+      },
+      "DTM": {
+        "A_local": 48.075,
+        "B_evidence": 74.125,
+        "C_full": 77.23,
+        "C_moat_no_flags": 77.23,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "midstream",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 12,
+          "B_evidence": 10,
+          "C_full": 7,
+          "C_moat_no_flags": 9
+        },
+        "request_id": "71245bc7adbc298fd13e",
+        "research_version": "2026-09-02+E45-rest"
+      },
+      "DVN": {
+        "A_local": 37.5,
+        "B_evidence": 44.3182,
+        "C_full": 43.8,
+        "C_moat_no_flags": 43.8,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 20,
+          "B_evidence": 42,
+          "C_full": 39,
+          "C_moat_no_flags": 42
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "EOG": {
+        "A_local": 14.175,
+        "B_evidence": 39.1705,
+        "C_full": 39.27,
+        "C_moat_no_flags": 39.27,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 62,
+          "B_evidence": 56,
+          "C_full": 54,
+          "C_moat_no_flags": 56
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "EQT": {
+        "A_local": 55.625,
+        "B_evidence": 79.8295,
+        "C_full": 79.85,
+        "C_moat_no_flags": 79.85,
+        "confidence_detail": {
+          "coverage": 0.8,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.8,
+        "external_coverage": 0.8,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 5,
+          "B_evidence": 4,
+          "C_full": 2,
+          "C_moat_no_flags": 4
+        },
+        "request_id": "1358af92f8227af46c5d",
+        "research_version": "2026-09-02+E43-batch1"
+      },
+      "EXE": {
+        "A_local": 53.55,
+        "B_evidence": 78.8864,
+        "C_full": 79.02,
+        "C_moat_no_flags": 79.02,
+        "confidence_detail": {
+          "coverage": 0.87,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.817,
+        "external_coverage": 0.87,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 7,
+          "B_evidence": 5,
+          "C_full": 3,
+          "C_moat_no_flags": 5
+        },
+        "request_id": "1358af92f8227af46c5d",
+        "research_version": "2026-09-02+E43-batch1"
+      },
+      "FANG": {
+        "A_local": 11.475,
+        "B_evidence": 37.9432,
+        "C_full": 38.19,
+        "C_moat_no_flags": 38.19,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 64,
+          "B_evidence": 59,
+          "C_full": 57,
+          "C_moat_no_flags": 59
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "FTI": {
+        "A_local": 69.375,
+        "B_evidence": 86.0795,
+        "C_full": 85.35,
+        "C_moat_no_flags": 85.35,
+        "confidence_detail": {
+          "coverage": 0.95,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.912,
+        "external_coverage": 0.95,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 1,
+          "B_evidence": 1,
+          "C_full": 1,
+          "C_moat_no_flags": 1
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "GPOR": {
+        "A_local": 21.475,
+        "B_evidence": 37.0341,
+        "C_full": 37.39,
+        "C_moat_no_flags": 37.39,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 55,
+          "B_evidence": 62,
+          "C_full": 60,
+          "C_moat_no_flags": 62
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "HAL": {
+        "A_local": 43.125,
+        "B_evidence": 52.3295,
+        "C_full": 50.85,
+        "C_moat_no_flags": 50.85,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 15,
+          "B_evidence": 37,
+          "C_full": 31,
+          "C_moat_no_flags": 38
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "HLX": {
+        "A_local": 32.125,
+        "B_evidence": 69.1477,
+        "C_full": 54.65,
+        "C_moat_no_flags": 62.65,
+        "confidence_detail": {
+          "coverage": 0.83,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.882,
+        "external_coverage": 0.83,
+        "flag_penalty": 8,
+        "flags": [
+          "COMPETITIVE_POSITION_DETERIORATING"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "WEAKENING",
+        "moat_trajectory_points": 1.8,
+        "ranks": {
+          "A_local": 34,
+          "B_evidence": 16,
+          "C_full": 26,
+          "C_moat_no_flags": 27
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "HP": {
+        "A_local": 26.5,
+        "B_evidence": 44.7727,
+        "C_full": 44.2,
+        "C_moat_no_flags": 44.2,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_drilling",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 44,
+          "B_evidence": 41,
+          "C_full": 38,
+          "C_moat_no_flags": 41
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "INSW": {
+        "A_local": 42.625,
+        "B_evidence": 71.6477,
+        "C_full": 72.65,
+        "C_moat_no_flags": 72.65,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "midstream",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 16,
+          "B_evidence": 13,
+          "C_full": 9,
+          "C_moat_no_flags": 14
+        },
+        "request_id": "71245bc7adbc298fd13e",
+        "research_version": "2026-09-02+E45-rest"
+      },
+      "INVX": {
+        "A_local": 56.875,
+        "B_evidence": 80.3977,
+        "C_full": 70.75,
+        "C_moat_no_flags": 82.75,
+        "confidence_detail": {
+          "coverage": 0.83,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.882,
+        "external_coverage": 0.83,
+        "flag_penalty": 12,
+        "flags": [
+          "UNVERIFIED_CORE_THESIS"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 3,
+          "B_evidence": 2,
+          "C_full": 10,
+          "C_moat_no_flags": 2
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "KGS": {
+        "A_local": 42.55,
+        "B_evidence": 73.8864,
+        "C_full": 65.02,
+        "C_moat_no_flags": 77.02,
+        "confidence_detail": {
+          "coverage": 0.95,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.912,
+        "external_coverage": 0.95,
+        "flag_penalty": 12,
+        "flags": [
+          "UNVERIFIED_CORE_THESIS"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 17,
+          "B_evidence": 11,
+          "C_full": 15,
+          "C_moat_no_flags": 10
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "KMI": {
+        "A_local": 30.675,
+        "B_evidence": 58.0341,
+        "C_full": 60.67,
+        "C_moat_no_flags": 60.67,
+        "confidence_detail": {
+          "coverage": 0.77,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.792,
+        "external_coverage": 0.77,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "midstream",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 36,
+          "B_evidence": 33,
+          "C_full": 18,
+          "C_moat_no_flags": 30
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "KNTK": {
+        "A_local": 28.575,
+        "B_evidence": 65.2614,
+        "C_full": 69.43,
+        "C_moat_no_flags": 69.43,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "midstream",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 38,
+          "B_evidence": 25,
+          "C_full": 13,
+          "C_moat_no_flags": 20
+        },
+        "request_id": "71245bc7adbc298fd13e",
+        "research_version": "2026-09-02+E45-rest"
+      },
+      "LBRT": {
+        "A_local": 26.5,
+        "B_evidence": 66.5909,
+        "C_full": 52.4,
+        "C_moat_no_flags": 60.4,
+        "confidence_detail": {
+          "coverage": 0.83,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.882,
+        "external_coverage": 0.83,
+        "flag_penalty": 8,
+        "flags": [
+          "COMPETITIVE_POSITION_DETERIORATING"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "WEAKENING",
+        "moat_trajectory_points": 1.8,
+        "ranks": {
+          "A_local": 45,
+          "B_evidence": 21,
+          "C_full": 28,
+          "C_moat_no_flags": 31
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "LEU": {
+        "A_local": 26.5,
+        "B_evidence": 66.5909,
+        "C_full": 70.6,
+        "C_moat_no_flags": 70.6,
+        "confidence_detail": {
+          "coverage": 0.87,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.817,
+        "external_coverage": 0.87,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "uranium_enrichment",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 46,
+          "B_evidence": 22,
+          "C_full": 11,
+          "C_moat_no_flags": 16
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "LPG": {
+        "A_local": 55.625,
+        "B_evidence": 77.5568,
+        "C_full": 77.85,
+        "C_moat_no_flags": 77.85,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "midstream",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 6,
+          "B_evidence": 7,
+          "C_full": 6,
+          "C_moat_no_flags": 8
+        },
+        "request_id": "71245bc7adbc298fd13e",
+        "research_version": "2026-09-02+E45-rest"
+      },
+      "MGY": {
+        "A_local": 14.175,
+        "B_evidence": 33.7159,
+        "C_full": 34.47,
+        "C_moat_no_flags": 34.47,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 63,
+          "B_evidence": 66,
+          "C_full": 64,
+          "C_moat_no_flags": 66
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "MPC": {
+        "A_local": 52.7,
+        "B_evidence": 76.2273,
+        "C_full": 44.68,
+        "C_moat_no_flags": 76.68,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 32,
+        "flags": [
+          "REGULATORY_IMPAIRMENT",
+          "TECHNOLOGY_DISRUPTION",
+          "UNVERIFIED_CORE_THESIS"
+        ],
+        "industry_id": "refining",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 8,
+          "B_evidence": 8,
+          "C_full": 36,
+          "C_moat_no_flags": 11
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "MTDR": {
+        "A_local": 33.5,
+        "B_evidence": 42.5,
+        "C_full": 42.2,
+        "C_moat_no_flags": 42.2,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 31,
+          "B_evidence": 49,
+          "C_full": 47,
+          "C_moat_no_flags": 49
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "MUR": {
+        "A_local": 33.5,
+        "B_evidence": 42.5,
+        "C_full": 42.2,
+        "C_moat_no_flags": 42.2,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 32,
+          "B_evidence": 50,
+          "C_full": 48,
+          "C_moat_no_flags": 50
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "NE": {
+        "A_local": 27.5,
+        "B_evidence": 45.2273,
+        "C_full": 44.6,
+        "C_moat_no_flags": 44.6,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_drilling",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 39,
+          "B_evidence": 40,
+          "C_full": 37,
+          "C_moat_no_flags": 40
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "NOG": {
+        "A_local": 26.325,
+        "B_evidence": 39.2386,
+        "C_full": 39.33,
+        "C_moat_no_flags": 39.33,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 48,
+          "B_evidence": 55,
+          "C_full": 53,
+          "C_moat_no_flags": 55
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "NOV": {
+        "A_local": 33.5,
+        "B_evidence": 69.7727,
+        "C_full": 55.2,
+        "C_moat_no_flags": 63.2,
+        "confidence_detail": {
+          "coverage": 0.83,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.882,
+        "external_coverage": 0.83,
+        "flag_penalty": 8,
+        "flags": [
+          "COMPETITIVE_POSITION_DETERIORATING"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "WEAKENING",
+        "moat_trajectory_points": 1.8,
+        "ranks": {
+          "A_local": 33,
+          "B_evidence": 15,
+          "C_full": 25,
+          "C_moat_no_flags": 26
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "OII": {
+        "A_local": 56.875,
+        "B_evidence": 80.3977,
+        "C_full": 68.35,
+        "C_moat_no_flags": 80.35,
+        "confidence_detail": {
+          "coverage": 0.83,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.882,
+        "external_coverage": 0.83,
+        "flag_penalty": 12,
+        "flags": [
+          "UNVERIFIED_CORE_THESIS"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 4,
+          "B_evidence": 3,
+          "C_full": 14,
+          "C_moat_no_flags": 3
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "OKE": {
+        "A_local": 38.375,
+        "B_evidence": 67.4432,
+        "C_full": 43.15,
+        "C_moat_no_flags": 61.15,
+        "confidence_detail": {
+          "coverage": 0.7,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.775,
+        "external_coverage": 0.7,
+        "flag_penalty": 18,
+        "flags": [
+          "REGULATORY_IMPAIRMENT",
+          "COMPETITIVE_POSITION_DETERIORATING"
+        ],
+        "industry_id": "midstream",
+        "moat_trajectory": "WEAKENING",
+        "moat_trajectory_points": 1.8,
+        "ranks": {
+          "A_local": 19,
+          "B_evidence": 20,
+          "C_full": 41,
+          "C_moat_no_flags": 29
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "OVV": {
+        "A_local": 24.45,
+        "B_evidence": 38.3864,
+        "C_full": 38.58,
+        "C_moat_no_flags": 38.58,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 49,
+          "B_evidence": 57,
+          "C_full": 55,
+          "C_moat_no_flags": 57
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "OXY": {
+        "A_local": 37.5,
+        "B_evidence": 65.6818,
+        "C_full": 59.8,
+        "C_moat_no_flags": 69.8,
+        "confidence_detail": {
+          "coverage": 0.67,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.767,
+        "external_coverage": 0.67,
+        "flag_penalty": 10,
+        "flags": [
+          "REGULATORY_IMPAIRMENT"
+        ],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 21,
+          "B_evidence": 24,
+          "C_full": 20,
+          "C_moat_no_flags": 19
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "PARR": {
+        "A_local": 49.375,
+        "B_evidence": 61.0795,
+        "C_full": 43.35,
+        "C_moat_no_flags": 63.35,
+        "confidence_detail": {
+          "coverage": 0.65,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.762,
+        "external_coverage": 0.65,
+        "flag_penalty": 20,
+        "flags": [
+          "REGULATORY_IMPAIRMENT",
+          "TECHNOLOGY_DISRUPTION"
+        ],
+        "industry_id": "refining",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 11,
+          "B_evidence": 32,
+          "C_full": 40,
+          "C_moat_no_flags": 25
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "PBF": {
+        "A_local": 37.5,
+        "B_evidence": 71.1364,
+        "C_full": 52.2,
+        "C_moat_no_flags": 72.2,
+        "confidence_detail": {
+          "coverage": 0.79,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.797,
+        "external_coverage": 0.79,
+        "flag_penalty": 20,
+        "flags": [
+          "REGULATORY_IMPAIRMENT",
+          "TECHNOLOGY_DISRUPTION"
+        ],
+        "industry_id": "refining",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 22,
+          "B_evidence": 14,
+          "C_full": 30,
+          "C_moat_no_flags": 15
+        },
+        "request_id": "1358af92f8227af46c5d",
+        "research_version": "2026-09-02+E43-batch1"
+      },
+      "PR": {
+        "A_local": 21.9,
+        "B_evidence": 42.6818,
+        "C_full": 42.36,
+        "C_moat_no_flags": 42.36,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 53,
+          "B_evidence": 48,
+          "C_full": 46,
+          "C_moat_no_flags": 48
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "PSX": {
+        "A_local": 20.8,
+        "B_evidence": 42.1818,
+        "C_full": 41.92,
+        "C_moat_no_flags": 41.92,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "refining",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 56,
+          "B_evidence": 51,
+          "C_full": 49,
+          "C_moat_no_flags": 51
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "PTEN": {
+        "A_local": 23.6,
+        "B_evidence": 43.4545,
+        "C_full": 43.04,
+        "C_moat_no_flags": 43.04,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_drilling",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 50,
+          "B_evidence": 44,
+          "C_full": 42,
+          "C_moat_no_flags": 44
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "RES": {
+        "A_local": 37.5,
+        "B_evidence": 44.3182,
+        "C_full": 33.8,
+        "C_moat_no_flags": 43.8,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 10,
+        "flags": [
+          "TECHNOLOGY_DISRUPTION"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 23,
+          "B_evidence": 43,
+          "C_full": 65,
+          "C_moat_no_flags": 43
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "REX": {
+        "A_local": 27.5,
+        "B_evidence": 39.7727,
+        "C_full": 39.8,
+        "C_moat_no_flags": 39.8,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "refining",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 40,
+          "B_evidence": 53,
+          "C_full": 51,
+          "C_moat_no_flags": 53
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "RRC": {
+        "A_local": 40.975,
+        "B_evidence": 53.625,
+        "C_full": 46.79,
+        "C_moat_no_flags": 56.79,
+        "confidence_detail": {
+          "coverage": 0.57,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.742,
+        "external_coverage": 0.57,
+        "flag_penalty": 10,
+        "flags": [
+          "REGULATORY_IMPAIRMENT"
+        ],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 18,
+          "B_evidence": 36,
+          "C_full": 35,
+          "C_moat_no_flags": 34
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "SEI": {
+        "A_local": 30.675,
+        "B_evidence": 41.2159,
+        "C_full": 29.07,
+        "C_moat_no_flags": 41.07,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 12,
+        "flags": [
+          "UNVERIFIED_CORE_THESIS"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 37,
+          "B_evidence": 52,
+          "C_full": 71,
+          "C_moat_no_flags": 52
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "SLB": {
+        "A_local": 50.625,
+        "B_evidence": 55.7386,
+        "C_full": 41.85,
+        "C_moat_no_flags": 53.85,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 12,
+        "flags": [
+          "UNVERIFIED_CORE_THESIS"
+        ],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 10,
+          "B_evidence": 35,
+          "C_full": 50,
+          "C_moat_no_flags": 36
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "SM": {
+        "A_local": 10.0,
+        "B_evidence": 31.8182,
+        "C_full": 32.8,
+        "C_moat_no_flags": 32.8,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 68,
+          "B_evidence": 70,
+          "C_full": 69,
+          "C_moat_no_flags": 70
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "TALO": {
+        "A_local": 10.0,
+        "B_evidence": 31.8182,
+        "C_full": 32.8,
+        "C_moat_no_flags": 32.8,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 69,
+          "B_evidence": 71,
+          "C_full": 70,
+          "C_moat_no_flags": 71
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "TDW": {
+        "A_local": 51.625,
+        "B_evidence": 78.0114,
+        "C_full": 78.25,
+        "C_moat_no_flags": 78.25,
+        "confidence_detail": {
+          "coverage": 0.95,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.912,
+        "external_coverage": 0.95,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 9,
+          "B_evidence": 6,
+          "C_full": 5,
+          "C_moat_no_flags": 7
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "TPL": {
+        "A_local": 47.475,
+        "B_evidence": 76.125,
+        "C_full": 78.99,
+        "C_moat_no_flags": 78.99,
+        "confidence_detail": {
+          "coverage": 0.92,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.83,
+        "external_coverage": 0.92,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "upstream_oil_gas",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 13,
+          "B_evidence": 9,
+          "C_full": 4,
+          "C_moat_no_flags": 6
+        },
+        "request_id": "1358af92f8227af46c5d",
+        "research_version": "2026-09-02+E43-batch1"
+      },
+      "TRGP": {
+        "A_local": 36.925,
+        "B_evidence": 69.0568,
+        "C_full": 70.37,
+        "C_moat_no_flags": 70.37,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "midstream",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 26,
+          "B_evidence": 17,
+          "C_full": 12,
+          "C_moat_no_flags": 17
+        },
+        "request_id": "71245bc7adbc298fd13e",
+        "research_version": "2026-09-02+E45-rest"
+      },
+      "VAL": {
+        "A_local": 10.0,
+        "B_evidence": 37.2727,
+        "C_full": 37.6,
+        "C_moat_no_flags": 37.6,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_drilling",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 70,
+          "B_evidence": 60,
+          "C_full": 58,
+          "C_moat_no_flags": 60
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "VLO": {
+        "A_local": 45.2,
+        "B_evidence": 72.8182,
+        "C_full": 56.08,
+        "C_moat_no_flags": 76.08,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 20,
+        "flags": [
+          "REGULATORY_IMPAIRMENT",
+          "TECHNOLOGY_DISRUPTION"
+        ],
+        "industry_id": "refining",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 14,
+          "B_evidence": 12,
+          "C_full": 24,
+          "C_moat_no_flags": 12
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "VNOM": {
+        "A_local": 10.0,
+        "B_evidence": 48.6364,
+        "C_full": 52.4,
+        "C_moat_no_flags": 52.4,
+        "confidence_detail": {
+          "coverage": 0.77,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.792,
+        "external_coverage": 0.77,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "midstream",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 71,
+          "B_evidence": 39,
+          "C_full": 29,
+          "C_moat_no_flags": 37
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "VTOL": {
+        "A_local": 21.65,
+        "B_evidence": 37.1136,
+        "C_full": 37.46,
+        "C_moat_no_flags": 37.46,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 54,
+          "B_evidence": 61,
+          "C_full": 59,
+          "C_moat_no_flags": 61
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "WFRD": {
+        "A_local": 37.5,
+        "B_evidence": 49.7727,
+        "C_full": 48.6,
+        "C_moat_no_flags": 48.6,
+        "confidence_detail": {
+          "coverage": 0.62,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.755,
+        "external_coverage": 0.62,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 24,
+          "B_evidence": 38,
+          "C_full": 34,
+          "C_moat_no_flags": 39
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "WHD": {
+        "A_local": 15.425,
+        "B_evidence": 61.5568,
+        "C_full": 63.77,
+        "C_moat_no_flags": 63.77,
+        "confidence_detail": {
+          "coverage": 0.95,
+          "depth": 1.0,
+          "domains": 0.75,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.912,
+        "external_coverage": 0.95,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "oil_gas_equipment_services",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 61,
+          "B_evidence": 29,
+          "C_full": 16,
+          "C_moat_no_flags": 23
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "WKC": {
+        "A_local": 23.525,
+        "B_evidence": 37.9659,
+        "C_full": 38.21,
+        "C_moat_no_flags": 38.21,
+        "confidence_detail": {
+          "coverage": 0.5,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.725,
+        "external_coverage": 0.5,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "refining",
+        "moat_trajectory": "UNKNOWN",
+        "moat_trajectory_points": 4.8,
+        "ranks": {
+          "A_local": 51,
+          "B_evidence": 58,
+          "C_full": 56,
+          "C_moat_no_flags": 58
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      },
+      "WMB": {
+        "A_local": 26.5,
+        "B_evidence": 64.3182,
+        "C_full": 58.6,
+        "C_moat_no_flags": 68.6,
+        "confidence_detail": {
+          "coverage": 0.75,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.787,
+        "external_coverage": 0.75,
+        "flag_penalty": 10,
+        "flags": [
+          "REGULATORY_IMPAIRMENT"
+        ],
+        "industry_id": "midstream",
+        "moat_trajectory": "STRENGTHENING",
+        "moat_trajectory_points": 12.0,
+        "ranks": {
+          "A_local": 47,
+          "B_evidence": 27,
+          "C_full": 23,
+          "C_moat_no_flags": 22
+        },
+        "request_id": "1d7df1eb255e193553a5",
+        "research_version": "2026-09-02+E44-matched"
+      },
+      "XOM": {
+        "A_local": 37.5,
+        "B_evidence": 61.1364,
+        "C_full": 63.4,
+        "C_moat_no_flags": 63.4,
+        "confidence_detail": {
+          "coverage": 0.77,
+          "depth": 1.0,
+          "domains": 0.5,
+          "freshness": 1.0,
+          "verified": 1.0
+        },
+        "external_confidence": 0.792,
+        "external_coverage": 0.77,
+        "flag_penalty": 0,
+        "flags": [],
+        "industry_id": "integrated_oil_gas",
+        "moat_trajectory": "STABLE",
+        "moat_trajectory_points": 9.6,
+        "ranks": {
+          "A_local": 25,
+          "B_evidence": 31,
+          "C_full": 17,
+          "C_moat_no_flags": 24
+        },
+        "request_id": "9e32692a515262b68bfd",
+        "research_version": "2026-09-04+E46-energy"
+      }
+    },
+    "cutoff": "2026-09-04",
+    "headline": "EVIDENCE_AVAILABILITY_ORDER_CHANGE",
+    "scores_snapshot": "C:\\Users\\penas\\company_lab\\data\\scores.parquet",
+    "status": "COMPLETE_PRIMARY",
+    "transitions": {
+      "A_to_B": {
+        "decision": "ORDER_CHANGING",
+        "kendall_tau": 0.6451,
+        "median_absolute_rank_move": 7.0,
+        "moves_at_least_5": [
+          {
+            "from_rank": 71,
+            "places_up": 32,
+            "ticker": "VNOM",
+            "to_rank": 39
+          },
+          {
+            "from_rank": 61,
+            "places_up": 32,
+            "ticker": "WHD",
+            "to_rank": 29
+          },
+          {
+            "from_rank": 58,
+            "places_up": 30,
+            "ticker": "AESI",
+            "to_rank": 28
+          },
+          {
+            "from_rank": 2,
+            "places_up": -28,
+            "ticker": "BKR",
+            "to_rank": 30
+          },
+          {
+            "from_rank": 10,
+            "places_up": -25,
+            "ticker": "SLB",
+            "to_rank": 35
+          },
+          {
+            "from_rank": 45,
+            "places_up": 24,
+            "ticker": "LBRT",
+            "to_rank": 21
+          },
+          {
+            "from_rank": 46,
+            "places_up": 24,
+            "ticker": "LEU",
+            "to_rank": 22
+          },
+          {
+            "from_rank": 20,
+            "places_up": -22,
+            "ticker": "DVN",
+            "to_rank": 42
+          },
+          {
+            "from_rank": 15,
+            "places_up": -22,
+            "ticker": "HAL",
+            "to_rank": 37
+          },
+          {
+            "from_rank": 11,
+            "places_up": -21,
+            "ticker": "PARR",
+            "to_rank": 32
+          },
+          {
+            "from_rank": 23,
+            "places_up": -20,
+            "ticker": "RES",
+            "to_rank": 43
+          },
+          {
+            "from_rank": 47,
+            "places_up": 20,
+            "ticker": "WMB",
+            "to_rank": 27
+          },
+          {
+            "from_rank": 28,
+            "places_up": -18,
+            "ticker": "CRC",
+            "to_rank": 46
+          },
+          {
+            "from_rank": 34,
+            "places_up": 18,
+            "ticker": "HLX",
+            "to_rank": 16
+          },
+          {
+            "from_rank": 31,
+            "places_up": -18,
+            "ticker": "MTDR",
+            "to_rank": 49
+          },
+          {
+            "from_rank": 32,
+            "places_up": -18,
+            "ticker": "MUR",
+            "to_rank": 50
+          },
+          {
+            "from_rank": 33,
+            "places_up": 18,
+            "ticker": "NOV",
+            "to_rank": 15
+          },
+          {
+            "from_rank": 18,
+            "places_up": -18,
+            "ticker": "RRC",
+            "to_rank": 36
+          },
+          {
+            "from_rank": 30,
+            "places_up": -17,
+            "ticker": "AR",
+            "to_rank": 47
+          },
+          {
+            "from_rank": 35,
+            "places_up": 17,
+            "ticker": "AROC",
+            "to_rank": 18
+          },
+          {
+            "from_rank": 42,
+            "places_up": 16,
+            "ticker": "CVI",
+            "to_rank": 26
+          },
+          {
+            "from_rank": 37,
+            "places_up": -15,
+            "ticker": "SEI",
+            "to_rank": 52
+          },
+          {
+            "from_rank": 24,
+            "places_up": -14,
+            "ticker": "WFRD",
+            "to_rank": 38
+          },
+          {
+            "from_rank": 41,
+            "places_up": -13,
+            "ticker": "CNR",
+            "to_rank": 54
+          },
+          {
+            "from_rank": 38,
+            "places_up": 13,
+            "ticker": "KNTK",
+            "to_rank": 25
+          },
+          {
+            "from_rank": 40,
+            "places_up": -13,
+            "ticker": "REX",
+            "to_rank": 53
+          },
+          {
+            "from_rank": 29,
+            "places_up": 10,
+            "ticker": "DINO",
+            "to_rank": 19
+          },
+          {
+            "from_rank": 70,
+            "places_up": 10,
+            "ticker": "VAL",
+            "to_rank": 60
+          },
+          {
+            "from_rank": 43,
+            "places_up": 9,
+            "ticker": "CVX",
+            "to_rank": 34
+          },
+          {
+            "from_rank": 26,
+            "places_up": 9,
+            "ticker": "TRGP",
+            "to_rank": 17
+          },
+          {
+            "from_rank": 49,
+            "places_up": -8,
+            "ticker": "OVV",
+            "to_rank": 57
+          },
+          {
+            "from_rank": 22,
+            "places_up": 8,
+            "ticker": "PBF",
+            "to_rank": 14
+          },
+          {
+            "from_rank": 52,
+            "places_up": 7,
+            "ticker": "COP",
+            "to_rank": 45
+          },
+          {
+            "from_rank": 55,
+            "places_up": -7,
+            "ticker": "GPOR",
+            "to_rank": 62
+          },
+          {
+            "from_rank": 48,
+            "places_up": -7,
+            "ticker": "NOG",
+            "to_rank": 55
+          },
+          {
+            "from_rank": 54,
+            "places_up": -7,
+            "ticker": "VTOL",
+            "to_rank": 61
+          },
+          {
+            "from_rank": 51,
+            "places_up": -7,
+            "ticker": "WKC",
+            "to_rank": 58
+          },
+          {
+            "from_rank": 57,
+            "places_up": -6,
+            "ticker": "BTU",
+            "to_rank": 63
+          },
+          {
+            "from_rank": 62,
+            "places_up": 6,
+            "ticker": "EOG",
+            "to_rank": 56
+          },
+          {
+            "from_rank": 17,
+            "places_up": 6,
+            "ticker": "KGS",
+            "to_rank": 11
+          },
+          {
+            "from_rank": 50,
+            "places_up": 6,
+            "ticker": "PTEN",
+            "to_rank": 44
+          },
+          {
+            "from_rank": 25,
+            "places_up": -6,
+            "ticker": "XOM",
+            "to_rank": 31
+          },
+          {
+            "from_rank": 59,
+            "places_up": -5,
+            "ticker": "CHRD",
+            "to_rank": 64
+          },
+          {
+            "from_rank": 60,
+            "places_up": -5,
+            "ticker": "CRK",
+            "to_rank": 65
+          },
+          {
+            "from_rank": 64,
+            "places_up": 5,
+            "ticker": "FANG",
+            "to_rank": 59
+          },
+          {
+            "from_rank": 53,
+            "places_up": 5,
+            "ticker": "PR",
+            "to_rank": 48
+          },
+          {
+            "from_rank": 56,
+            "places_up": 5,
+            "ticker": "PSX",
+            "to_rank": 51
+          }
+        ],
+        "name": "A_local to B_evidence",
+        "p90_absolute_rank_move": 22,
+        "spearman_rho": 0.7889,
+        "top_decile_n": 8,
+        "top_decile_overlap": 0.875
+      },
+      "B_to_C": {
+        "decision": "ORDER_PRESERVING",
+        "kendall_tau": 0.7956,
+        "median_absolute_rank_move": 3.0,
+        "moves_at_least_5": [
+          {
+            "from_rank": 8,
+            "places_up": -28,
+            "ticker": "MPC",
+            "to_rank": 36
+          },
+          {
+            "from_rank": 43,
+            "places_up": -22,
+            "ticker": "RES",
+            "to_rank": 65
+          },
+          {
+            "from_rank": 20,
+            "places_up": -21,
+            "ticker": "OKE",
+            "to_rank": 41
+          },
+          {
+            "from_rank": 52,
+            "places_up": -19,
+            "ticker": "SEI",
+            "to_rank": 71
+          },
+          {
+            "from_rank": 14,
+            "places_up": -16,
+            "ticker": "PBF",
+            "to_rank": 30
+          },
+          {
+            "from_rank": 33,
+            "places_up": 15,
+            "ticker": "KMI",
+            "to_rank": 18
+          },
+          {
+            "from_rank": 35,
+            "places_up": -15,
+            "ticker": "SLB",
+            "to_rank": 50
+          },
+          {
+            "from_rank": 31,
+            "places_up": 14,
+            "ticker": "XOM",
+            "to_rank": 17
+          },
+          {
+            "from_rank": 34,
+            "places_up": 13,
+            "ticker": "CVX",
+            "to_rank": 21
+          },
+          {
+            "from_rank": 29,
+            "places_up": 13,
+            "ticker": "WHD",
+            "to_rank": 16
+          },
+          {
+            "from_rank": 25,
+            "places_up": 12,
+            "ticker": "KNTK",
+            "to_rank": 13
+          },
+          {
+            "from_rank": 12,
+            "places_up": -12,
+            "ticker": "VLO",
+            "to_rank": 24
+          },
+          {
+            "from_rank": 22,
+            "places_up": 11,
+            "ticker": "LEU",
+            "to_rank": 11
+          },
+          {
+            "from_rank": 3,
+            "places_up": -11,
+            "ticker": "OII",
+            "to_rank": 14
+          },
+          {
+            "from_rank": 18,
+            "places_up": 10,
+            "ticker": "AROC",
+            "to_rank": 8
+          },
+          {
+            "from_rank": 16,
+            "places_up": -10,
+            "ticker": "HLX",
+            "to_rank": 26
+          },
+          {
+            "from_rank": 15,
+            "places_up": -10,
+            "ticker": "NOV",
+            "to_rank": 25
+          },
+          {
+            "from_rank": 39,
+            "places_up": 10,
+            "ticker": "VNOM",
+            "to_rank": 29
+          },
+          {
+            "from_rank": 30,
+            "places_up": 8,
+            "ticker": "BKR",
+            "to_rank": 22
+          },
+          {
+            "from_rank": 19,
+            "places_up": -8,
+            "ticker": "DINO",
+            "to_rank": 27
+          },
+          {
+            "from_rank": 2,
+            "places_up": -8,
+            "ticker": "INVX",
+            "to_rank": 10
+          },
+          {
+            "from_rank": 32,
+            "places_up": -8,
+            "ticker": "PARR",
+            "to_rank": 40
+          },
+          {
+            "from_rank": 26,
+            "places_up": -7,
+            "ticker": "CVI",
+            "to_rank": 33
+          },
+          {
+            "from_rank": 21,
+            "places_up": -7,
+            "ticker": "LBRT",
+            "to_rank": 28
+          },
+          {
+            "from_rank": 37,
+            "places_up": 6,
+            "ticker": "HAL",
+            "to_rank": 31
+          },
+          {
+            "from_rank": 9,
+            "places_up": 5,
+            "ticker": "TPL",
+            "to_rank": 4
+          },
+          {
+            "from_rank": 17,
+            "places_up": 5,
+            "ticker": "TRGP",
+            "to_rank": 12
+          }
+        ],
+        "name": "B_evidence to C_full",
+        "p90_absolute_rank_move": 14,
+        "spearman_rho": 0.9173,
+        "top_decile_n": 8,
+        "top_decile_overlap": 0.625
+      },
+      "flags_only": {
+        "decision": "ORDER_PRESERVING",
+        "kendall_tau": 0.8366,
+        "median_absolute_rank_move": 2.0,
+        "moves_at_least_5": [
+          {
+            "from_rank": 11,
+            "places_up": -25,
+            "ticker": "MPC",
+            "to_rank": 36
+          },
+          {
+            "from_rank": 43,
+            "places_up": -22,
+            "ticker": "RES",
+            "to_rank": 65
+          },
+          {
+            "from_rank": 52,
+            "places_up": -19,
+            "ticker": "SEI",
+            "to_rank": 71
+          },
+          {
+            "from_rank": 25,
+            "places_up": -15,
+            "ticker": "PARR",
+            "to_rank": 40
+          },
+          {
+            "from_rank": 15,
+            "places_up": -15,
+            "ticker": "PBF",
+            "to_rank": 30
+          },
+          {
+            "from_rank": 36,
+            "places_up": -14,
+            "ticker": "SLB",
+            "to_rank": 50
+          },
+          {
+            "from_rank": 21,
+            "places_up": -12,
+            "ticker": "CVI",
+            "to_rank": 33
+          },
+          {
+            "from_rank": 30,
+            "places_up": 12,
+            "ticker": "KMI",
+            "to_rank": 18
+          },
+          {
+            "from_rank": 29,
+            "places_up": -12,
+            "ticker": "OKE",
+            "to_rank": 41
+          },
+          {
+            "from_rank": 12,
+            "places_up": -12,
+            "ticker": "VLO",
+            "to_rank": 24
+          },
+          {
+            "from_rank": 33,
+            "places_up": 11,
+            "ticker": "BKR",
+            "to_rank": 22
+          },
+          {
+            "from_rank": 32,
+            "places_up": 11,
+            "ticker": "CVX",
+            "to_rank": 21
+          },
+          {
+            "from_rank": 3,
+            "places_up": -11,
+            "ticker": "OII",
+            "to_rank": 14
+          },
+          {
+            "from_rank": 2,
+            "places_up": -8,
+            "ticker": "INVX",
+            "to_rank": 10
+          },
+          {
+            "from_rank": 37,
+            "places_up": 8,
+            "ticker": "VNOM",
+            "to_rank": 29
+          },
+          {
+            "from_rank": 38,
+            "places_up": 7,
+            "ticker": "HAL",
+            "to_rank": 31
+          },
+          {
+            "from_rank": 20,
+            "places_up": 7,
+            "ticker": "KNTK",
+            "to_rank": 13
+          },
+          {
+            "from_rank": 23,
+            "places_up": 7,
+            "ticker": "WHD",
+            "to_rank": 16
+          },
+          {
+            "from_rank": 24,
+            "places_up": 7,
+            "ticker": "XOM",
+            "to_rank": 17
+          },
+          {
+            "from_rank": 13,
+            "places_up": 5,
+            "ticker": "AROC",
+            "to_rank": 8
+          },
+          {
+            "from_rank": 14,
+            "places_up": 5,
+            "ticker": "INSW",
+            "to_rank": 9
+          },
+          {
+            "from_rank": 10,
+            "places_up": -5,
+            "ticker": "KGS",
+            "to_rank": 15
+          },
+          {
+            "from_rank": 16,
+            "places_up": 5,
+            "ticker": "LEU",
+            "to_rank": 11
+          },
+          {
+            "from_rank": 17,
+            "places_up": 5,
+            "ticker": "TRGP",
+            "to_rank": 12
+          },
+          {
+            "from_rank": 39,
+            "places_up": 5,
+            "ticker": "WFRD",
+            "to_rank": 34
+          }
+        ],
+        "name": "C_moat_no_flags to C_full",
+        "p90_absolute_rank_move": 12,
+        "spearman_rho": 0.938,
+        "top_decile_n": 8,
+        "top_decile_overlap": 0.75
+      },
+      "moat_only": {
+        "decision": "ORDER_PRESERVING",
+        "kendall_tau": 0.9412,
+        "median_absolute_rank_move": 0.0,
+        "moves_at_least_5": [
+          {
+            "from_rank": 16,
+            "places_up": -11,
+            "ticker": "HLX",
+            "to_rank": 27
+          },
+          {
+            "from_rank": 15,
+            "places_up": -11,
+            "ticker": "NOV",
+            "to_rank": 26
+          },
+          {
+            "from_rank": 21,
+            "places_up": -10,
+            "ticker": "LBRT",
+            "to_rank": 31
+          },
+          {
+            "from_rank": 19,
+            "places_up": -9,
+            "ticker": "DINO",
+            "to_rank": 28
+          },
+          {
+            "from_rank": 20,
+            "places_up": -9,
+            "ticker": "OKE",
+            "to_rank": 29
+          },
+          {
+            "from_rank": 28,
+            "places_up": -7,
+            "ticker": "AESI",
+            "to_rank": 35
+          },
+          {
+            "from_rank": 32,
+            "places_up": 7,
+            "ticker": "PARR",
+            "to_rank": 25
+          },
+          {
+            "from_rank": 31,
+            "places_up": 7,
+            "ticker": "XOM",
+            "to_rank": 24
+          },
+          {
+            "from_rank": 22,
+            "places_up": 6,
+            "ticker": "LEU",
+            "to_rank": 16
+          },
+          {
+            "from_rank": 29,
+            "places_up": 6,
+            "ticker": "WHD",
+            "to_rank": 23
+          },
+          {
+            "from_rank": 23,
+            "places_up": 5,
+            "ticker": "AM",
+            "to_rank": 18
+          },
+          {
+            "from_rank": 18,
+            "places_up": 5,
+            "ticker": "AROC",
+            "to_rank": 13
+          },
+          {
+            "from_rank": 26,
+            "places_up": 5,
+            "ticker": "CVI",
+            "to_rank": 21
+          },
+          {
+            "from_rank": 25,
+            "places_up": 5,
+            "ticker": "KNTK",
+            "to_rank": 20
+          },
+          {
+            "from_rank": 24,
+            "places_up": 5,
+            "ticker": "OXY",
+            "to_rank": 19
+          },
+          {
+            "from_rank": 27,
+            "places_up": 5,
+            "ticker": "WMB",
+            "to_rank": 22
+          }
+        ],
+        "name": "B_evidence to C_moat_no_flags",
+        "p90_absolute_rank_move": 7,
+        "spearman_rho": 0.9844,
+        "top_decile_n": 8,
+        "top_decile_overlap": 0.875
+      }
+    },
+    "universe": 71
+  },
+  "scores_snapshot_sha256": "c715b66bb8668c333a99e750ccede51f5b862f87f7262346f32fef41f4c3f47c"
+}

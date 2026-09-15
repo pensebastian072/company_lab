@@ -1,0 +1,70 @@
+{
+  "ticker": "NJR",
+  "cik": "0000356309",
+  "sector": "Utilities",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000356309-23-000083",
+        "form": "10-K",
+        "filed": "2023-11-21",
+        "chars": null
+      },
+      "pack_secs": 27.3,
+      "components": {
+        "MG": {
+          "secs": 14.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001308179-23-001081",
+        "form": "DEF 14A",
+        "filed": "2023-12-14",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 42.0
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000356309-24-000083",
+        "form": "10-K",
+        "filed": "2024-11-26",
+        "chars": null
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 14.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000356309-24-000085",
+        "form": "DEF 14A",
+        "filed": "2024-12-11",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.7
+    }
+  }
+}

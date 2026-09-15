@@ -1,0 +1,70 @@
+{
+  "ticker": "BIIB",
+  "cik": "0000875045",
+  "sector": "Health Care",
+  "decile": 6,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000875045-24-000009",
+        "form": "10-K",
+        "filed": "2024-02-14",
+        "chars": 772671
+      },
+      "pack_secs": 27.8,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 0,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-118313",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.7
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000875045-25-000009",
+        "form": "10-K",
+        "filed": "2025-02-12",
+        "chars": 776611
+      },
+      "pack_secs": 27.6,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-097747",
+        "form": "DEF 14A",
+        "filed": "2025-04-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.5
+    }
+  }
+}

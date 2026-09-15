@@ -1,0 +1,1430 @@
+{
+  "request_id": "9e243401d2fb0d1e380e",
+  "spec_fingerprint": "a770ff332c2a037f",
+  "roster_sha1": "10217a00173aca2b1be85cc8754f1ee8a6efef29",
+  "generated_at": "2026-09-11T22:23:55.514115+00:00",
+  "status": "READY",
+  "read_only": true,
+  "depth": 3,
+  "sample": "E59-financials-phaseb-b3",
+  "require_citation": true,
+  "external_schema_version": "1.0.0",
+  "request_spec_version": "1.0.0",
+  "base_book": "C:\\Users\\penas\\company_lab\\data\\scores.parquet",
+  "local_llm_model": "qwen2.5:7b",
+  "pass": "A",
+  "note": "Blind pass. This file deliberately omits what the local model concluded; ask for the conclusions file after pass A is written.",
+  "steps": [
+    "read the sector brief at research/sectors/<sector_id>/sector_state.json",
+    "read the industry object at research/industries/<industry_id>/industry_state.json",
+    "hypothesis-driven external search per company (never 'latest COMPANY news')",
+    "read competitor filings, earnings calls and investor presentations",
+    "write pass A blind, then request the conclusions file and write pass B",
+    "write the payload to external/payloads/<request_id>.json"
+  ],
+  "roster": [
+    {
+      "ticker": "AGO",
+      "cik": "0001273813",
+      "name": "Assured Guaranty Ltd.",
+      "sector": "Financials",
+      "sub_industry": "Property & Casualty Insurance",
+      "sector_id": "financials",
+      "industry_id": "pc_insurance",
+      "subindustry_id": "property_casualty_insurance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 940000000.0,
+        "revenue_cagr_3y": -0.012449427028996318,
+        "operating_margin": 0.5340425531914894,
+        "roic": 0.07398207892870742,
+        "roe": 0.06272337383845604,
+        "interest_coverage": 5.704545454545454,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 3338461952.0,
+        "pe": 10.094416,
+        "fwd_pe": 10.693086,
+        "drawdown_from_ath": 0.20053590624991063
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] operating margin trend: -3,794.78 bps/year",
+          "[sg_demand_drivers_3_5yr] The Company believes that, over time, wider credit spreads may improve demand for bond insurance.",
+          "[sg_secular_not_cyclical] The Company believes that, over time, wider credit spreads may improve demand for bond insurance."
+        ],
+        "BQ": [
+          "[bq_moat] In certain segments of the non-U.S. infrastructure and global structured finance markets, the Company believes its financial guaranty product is competitive with other financing options."
+        ]
+      }
+    },
+    {
+      "ticker": "AIG",
+      "cik": "0000005272",
+      "name": "American International Group",
+      "sector": "Financials",
+      "sub_industry": "Multi-line Insurance",
+      "sector_id": "financials",
+      "industry_id": "multi_line_insurance",
+      "subindustry_id": "multi_line_insurance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 26636000000.0,
+        "revenue_cagr_3y": -0.03882628199862803,
+        "operating_margin": 0.15129899384291937,
+        "fcf_margin": 0.1345171947739901,
+        "roic": 0.0832093805259748,
+        "roe": 0.07222283118369932,
+        "net_debt_ebitda": -0.19098883572567782,
+        "interest_coverage": 9.975247524752476,
+        "stress_verdict": "SURVIVES_COMFORTABLY",
+        "market_cap": 40226172928.0,
+        "pe": 14.0383215,
+        "fwd_pe": 8.76182,
+        "ev_ebitda": 4.773,
+        "p_fcf": 11.226953091822494,
+        "drawdown_from_ath": 0.10388905334761538
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] Our General Insurance business (General Insurance) consists of our three segments and the Net investment income related to our insurance operations."
+        ]
+      }
+    },
+    {
+      "ticker": "ALLY",
+      "cik": "0000040729",
+      "name": "Ally Financial",
+      "sector": "Financials",
+      "sub_industry": "Consumer Finance",
+      "sector_id": "financials",
+      "industry_id": "consumer_finance",
+      "subindustry_id": "consumer_finance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 8679000000.0,
+        "revenue_cagr_3y": 0.011111584359743798,
+        "operating_margin": 0.9223412835580136,
+        "roic": 0.21027834939498186,
+        "roe": 0.09681070643851122,
+        "net_debt_ebitda": 1.5979087452471483,
+        "interest_coverage": 1.297617117847301,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 12940654592.0,
+        "pe": 10.009412,
+        "fwd_pe": 6.6189,
+        "drawdown_from_ath": 0.10638197470764155
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_demand_drivers_3_5yr] risk_factors: ng, the development of autonomous and alternative-energy vehicles, the impact of demographic shifts on attitudes and behaviors toward vehicle ownership and use, changing consumer and regulatory expectations around the vehicle buying experience."
+        ],
+        "BQ": [
+          "[bq_moat] Our share of commercial wholesale financing remains at risk of decreasing in the future as a result of intense competition and other factors."
+        ]
+      }
+    },
+    {
+      "ticker": "AMG",
+      "cik": "0001004434",
+      "name": "Affiliated Managers Group",
+      "sector": "Financials",
+      "sub_industry": "Asset Management & Custody Banks",
+      "sector_id": "financials",
+      "industry_id": "asset_management_custody_banks",
+      "subindustry_id": "asset_management_custody_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 2270200000.0,
+        "revenue_cagr_3y": 0.018583106574950214,
+        "operating_margin": 0.6761959298740199,
+        "fcf_margin": 0.4690776143071095,
+        "roic": 0.20789732908002087,
+        "roe": 0.2728503831631271,
+        "net_debt_ebitda": 1.4770939657760431,
+        "interest_coverage": 10.457084468664851,
+        "stress_verdict": "SURVIVES_COMFORTABLY",
+        "market_cap": 9583431680.0,
+        "pe": 13.007722,
+        "fwd_pe": 8.66214,
+        "ev_ebitda": 21.273,
+        "p_fcf": 8.999372410554981,
+        "drawdown_from_ath": 0.060208776695344565
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] We are focused on investing in areas of secular growth and long-term client demand.",
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True",
+          "[sg_demand_drivers_3_5yr] We are focused on investing in areas of secular growth and long-term client demand. As part of our strategy, we consistently evaluate our forward opportunity set; over the last several years, we have further invested in alternative strategies, including significant capital deployed toward new investments in fast-growing areas within private markets and liquid alternatives aligned with long-term trends.",
+          "[sg_secular_not_cyclical] Through these recent growth investments, we have deliberately evolved our business toward alternatives, with the intention of improving our long-term organic growth and earnings growth prospects as well as further enhancing the stability of our cash flow.",
+          "[sg_multiple_independent_drivers] We are focused on investing in areas of secular growth and long-term client demand. As part of our strategy, we consistently evaluate our forward opportunity set; over the last several years, we have further invested in alternative strategies, including significant capital deployed toward new investments in fast-growing areas within private markets and liquid alternatives aligned with long-term trends."
+        ],
+        "BQ": [
+          "[bq_moat] \u2022 investment performance, investment styles, and reputations of our Affiliates and their management teams; \u2022 depth and continuity of our and our Affiliates\u2019 client relationships and the level of client service offered."
+        ]
+      }
+    },
+    {
+      "ticker": "AON",
+      "cik": "0000315293",
+      "name": "Aon plc",
+      "sector": "Financials",
+      "sub_industry": "Insurance Brokers",
+      "sector_id": "financials",
+      "industry_id": "insurance_brokers",
+      "subindustry_id": "insurance_brokers",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 17577000000.0,
+        "revenue_cagr_3y": 0.1093716994498779,
+        "operating_margin": 0.2647778346703078,
+        "fcf_margin": 0.18478693747510952,
+        "roic": 0.178537823561443,
+        "roe": 0.44882747548879076,
+        "net_debt_ebitda": 2.4182194616977224,
+        "interest_coverage": 6.164238410596027,
+        "stress_verdict": "SURVIVES",
+        "market_cap": 75389378560.0,
+        "pe": 19.592062,
+        "fwd_pe": 16.645535,
+        "ev_ebitda": 15.301,
+        "p_fcf": 23.211015566502464,
+        "drawdown_from_ath": 0.1381827533352735
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] Developing and implementing innovative strategies, efficient business practices, and new solutions to current and emerging client needs is important to our business."
+        ]
+      }
+    },
+    {
+      "ticker": "AUB",
+      "cik": "0000883948",
+      "name": "Atlantic Union Bankshares, Corp.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 2217624000.0,
+        "revenue_cagr_3y": 0.34821229147647204,
+        "operating_margin": 0.5835398606797185,
+        "roic": 0.19481549206838486,
+        "roe": 0.09759291283553172,
+        "net_debt_ebitda": 0.19327519197149495,
+        "interest_coverage": 1.9115562954504832,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 5812566528.0,
+        "pe": 11.86589,
+        "fwd_pe": 10.090918,
+        "drawdown_from_ath": 0.05397878045250205
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] Quarterly revenue YoY, last four: ['54.7%', '57.7%', '57.2%', '-2.5%']",
+          "[sg_demand_drivers_3_5yr] [risk_factors] nts, and successfully integrate any businesses acquired into our organization.",
+          "[sg_secular_not_cyclical] [risk_factors] nts, including changes in economic conditions, such as inflation and recessionary conditions.",
+          "[sg_multiple_independent_drivers] [mdna] by increases in loan-related interest rate swap fees due to higher transaction volumes."
+        ],
+        "BQ": [
+          "[bq_moat] Technology has lowered barriers to entry and made it possible for nonbanks to offer products and services traditionally provided by banks, such as automatic transfer and automatic payment systems. In addition, many of these nonbank competitors are not subject to the same extensive federal regulations that govern bank holding companies and federally insured banks."
+        ]
+      }
+    },
+    {
+      "ticker": "BBT",
+      "cik": "0001108134",
+      "name": "Beacon Financial Corp.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 459910000.0,
+        "revenue_cagr_3y": 0.028135288844814088,
+        "fcf_margin": 0.43629188319453804,
+        "roic": 0.217822364390412,
+        "roe": 0.059973637092784415,
+        "net_debt_ebitda": -0.5790106410625858,
+        "interest_coverage": 1.3922456416872053,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 2657808128.0,
+        "pe": 10.295455,
+        "fwd_pe": 9.538878,
+        "p_fcf": 13.245661099897834,
+        "drawdown_from_ath": 0.06417240011511322
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_demand_drivers_3_5yr] [risk_factors] e environment and customer demand for non-depository investment alternatives suggests further deposit mix migration and increased sensitivity to interest rates.",
+          "[sg_secular_not_cyclical] [risk_factors] e environment and customer demand for non-depository investment alternatives suggests further deposit mix migration and increased sensitivity to interest rates."
+        ],
+        "BQ": [
+          "[bq_moat] The Company\u2019s common stock is traded on the New York Stock Exchange under the symbol \u201cBBT.\u201d"
+        ]
+      }
+    },
+    {
+      "ticker": "BGC",
+      "cik": "0001094831",
+      "name": "BGC Group, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Investment Banking & Brokerage",
+      "sector_id": "financials",
+      "industry_id": "investment_banking_brokerage",
+      "subindustry_id": "investment_banking_brokerage",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 2752642000.0,
+        "revenue_cagr_3y": 0.23098346477614262,
+        "operating_margin": 0.1471295577121907,
+        "fcf_margin": 0.17597566265427905,
+        "roic": 0.13864975563472492,
+        "roe": 0.19537016481238814,
+        "net_debt_ebitda": 1.9674334291786473,
+        "interest_coverage": 3.065496465174016,
+        "stress_verdict": "STRESSED",
+        "market_cap": 5658051584.0,
+        "pe": 29.749998,
+        "fwd_pe": 7.555555,
+        "p_fcf": 11.680584114715586,
+        "drawdown_from_ath": 0.059961688818740595
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] [mdna] technology-based product growth has led to higher margins and greater profits over time for exchanges and wholesale financial intermediaries alike, even if overall revenues remain consistent.",
+          "[sg_demand_drivers_3_5yr] [mdna] we believe that this growth has outpaced the wholesale brokerage industry. We expect this trend to continue as we continue to convert more of our Voice/Hybrid execution into higher-margin, technology-driven execution and continue to grow our Fenics Growth Platforms.",
+          "[sg_secular_not_cyclical] [mdna] technology-based product growth has led to higher margins and greater profits over time for exchanges and wholesale financial intermediaries alike, even if overall revenues remain consistent.",
+          "[sg_multiple_independent_drivers] [mdna] we believe that this growth has outpaced the wholesale brokerage industry. We expect this trend to continue as we continue to convert more of our Voice/Hybrid execution into higher-margin, technology-driven execution and continue to grow our Fenics Growth Platforms."
+        ],
+        "BQ": [
+          "[bq_moat] We hold various trademarks, trade dress and trade names and rely on a combination of patent, copyright, trademark, service mark and trade secret laws, as well as contractual restrictions, to establish and protect our intellectual property rights."
+        ]
+      }
+    },
+    {
+      "ticker": "BLK",
+      "cik": "0002012383",
+      "name": "BlackRock",
+      "sector": "Financials",
+      "sub_industry": "Asset Management & Custody Banks",
+      "sector_id": "financials",
+      "industry_id": "asset_management_custody_banks",
+      "subindustry_id": "asset_management_custody_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 27299000000.0,
+        "revenue_cagr_3y": 0.15163916965593893,
+        "operating_margin": 0.3256895856991099,
+        "fcf_margin": 0.12875929521227883,
+        "roic": 0.12433872731214965,
+        "roe": 0.12319913071172978,
+        "net_debt_ebitda": 0.2171439591167679,
+        "interest_coverage": 16.373848987108655,
+        "stress_verdict": "SURVIVES_COMFORTABLY",
+        "market_cap": 189200269312.0,
+        "pe": 27.93858,
+        "fwd_pe": 18.107883,
+        "ev_ebitda": 16.991,
+        "p_fcf": 53.82653465490754,
+        "drawdown_from_ath": 0.013435190784680784
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] demand for high-performing active strategies; interest in sustainable investment strategies; and a continued focus on income and retirement.",
+          "[sg_secular_not_cyclical] the Company\u2019s longstanding commitment to innovation, technology services and the continued development of, and increased interest in, BlackRock technology products and solutions"
+        ],
+        "BQ": [
+          "[bq_moat] Aladdin\u2019s competitive position is based in part on its ability to combine risk analytics with portfolio management, trading and operations tools on a single platform."
+        ]
+      }
+    },
+    {
+      "ticker": "BNY",
+      "cik": "0001390777",
+      "name": "BNY Mellon",
+      "sector": "Financials",
+      "sub_industry": "Asset Management & Custody Banks",
+      "sector_id": "financials",
+      "industry_id": "custody_banks",
+      "subindustry_id": "asset_management_custody_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 20080000000.0,
+        "revenue_cagr_3y": 0.10333527991819036,
+        "fcf_margin": 0.23665338645418327,
+        "roic": 0.04250425394943895,
+        "roe": 0.14216715191730425,
+        "net_debt_ebitda": 3.5579912935323383,
+        "interest_coverage": 0.24077438106607152,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 110256922624.0,
+        "pe": 18.961494,
+        "fwd_pe": 15.860143,
+        "p_fcf": 23.202214356902356,
+        "drawdown_from_ath": 0.012357696027875458
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] Our competitive position may be affected by institutions that are not similarly subject to extensive regulation, such as financial technology firms."
+        ]
+      }
+    },
+    {
+      "ticker": "BX",
+      "cik": "0001393818",
+      "name": "Blackstone Inc.",
+      "sector": "Financials",
+      "sub_industry": "Asset Management & Custody Banks",
+      "sector_id": "financials",
+      "industry_id": "alternative_asset_management",
+      "subindustry_id": "asset_management_custody_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 16110480000.0,
+        "revenue_cagr_3y": 0.3228987361060227,
+        "operating_margin": 0.5340238155536023,
+        "fcf_margin": 0.3405385190261246,
+        "roic": 0.37340845432598724,
+        "roe": 0.4052582380648409,
+        "net_debt_ebitda": 1.2424954527907919,
+        "interest_coverage": 16.037527984744237,
+        "stress_verdict": "SURVIVES_COMFORTABLY",
+        "market_cap": 170198450176.0,
+        "pe": 31.854588,
+        "fwd_pe": 19.009285,
+        "p_fcf": 31.02279178431709,
+        "drawdown_from_ath": 0.23271850337255
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True",
+          "[sg_demand_drivers_3_5yr] EPS 3Y CAGR: 39.4%   FCF 3Y CAGR: 16.0%",
+          "[sg_multiple_independent_drivers] Operating margin trend: 67.57 bps/year"
+        ],
+        "BQ": [
+          "[bq_moat] Level III \u2014 Pricing inputs are unobservable for the financial instruments and includes situations where there is little, if any, market activity for the financial instrument. The inputs into the determination of fair value require significant management judgment or estimation."
+        ]
+      }
+    },
+    {
+      "ticker": "C",
+      "cik": "0000831001",
+      "name": "Citigroup",
+      "sector": "Financials",
+      "sub_industry": "Diversified Banks",
+      "sector_id": "financials",
+      "industry_id": "diversified_banks",
+      "subindustry_id": "diversified_banks",
+      "data_through": "2025-12-31",
+      "measured": {
+        "revenue_ttm": 85225000000.0,
+        "revenue_cagr_3y": 0.04195982557608935,
+        "fcf_margin": -0.870073335288941,
+        "roic": 0.42455742930096146,
+        "roe": 0.0679799186959032,
+        "net_debt_ebitda": -0.3146364882123181,
+        "interest_coverage": 1.2386845146379044,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 222931337216.0,
+        "pe": 14.336568,
+        "fwd_pe": 10.315687,
+        "drawdown_from_ath": 0.0845433258474615
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_demand_drivers_3_5yr] Net income of $5.9 billion increased 19%. Revenues increased 11%, driven by higher revenues in both Fixed Income Markets and Equity Markets.",
+          "[sg_secular_not_cyclical] Emerging technologies have the potential to accelerate disruption and intensify competition in the financial services industry."
+        ],
+        "BQ": [
+          "[bq_moat] Citi Faces Potential Disruptions from an Evolving Business Environment, Including Competitive Challenges and Emerging Technologies."
+        ]
+      }
+    },
+    {
+      "ticker": "CFR",
+      "cik": "0000039263",
+      "name": "Frost Bank",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 2298982000.0,
+        "revenue_cagr_3y": 0.05580240824249949,
+        "operating_margin": 0.6275655920751011,
+        "fcf_margin": 0.2355233751286439,
+        "roic": -0.5902378354304221,
+        "roe": 0.154977137473134,
+        "interest_coverage": 2.2907274537293576,
+        "stress_verdict": "STRESSED",
+        "market_cap": 10147032064.0,
+        "pe": 15.417375,
+        "fwd_pe": 13.94363,
+        "p_fcf": 18.739993912799374,
+        "drawdown_from_ath": 0.042968006694201505
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True\nQuarterly revenue YoY, last four: ['14.7%', '15.9%', '12.4%', '17.2%']",
+          "[sg_demand_drivers_3_5yr] [risk_factors] s expected to recover as the securities approach their maturity date or repricing date or if market yields for such investments decline.",
+          "[sg_secular_not_cyclical] [risk_factors] s expected to recover as the securities approach their maturity date or repricing date or if market yields for such investments decline."
+        ],
+        "BQ": [
+          "[bq_moat] Acquisitions by financial institutions, including us, are subject to approval by a variety of federal and state regulatory agencies (collectively, \u201cregulatory approvals\u201d). Our ability to engage in certain merger or acquisition transactions depends on obtaining such regulatory approvals."
+        ]
+      }
+    },
+    {
+      "ticker": "COF",
+      "cik": "0000927628",
+      "name": "Capital One",
+      "sector": "Financials",
+      "sub_industry": "Consumer Finance",
+      "sector_id": "financials",
+      "industry_id": "consumer_finance",
+      "subindustry_id": "consumer_finance",
+      "data_through": "2026-03-31",
+      "measured": {
+        "revenue_ttm": 58665000000.0,
+        "revenue_cagr_3y": 0.18810025735786073,
+        "operating_margin": 0.33665729140032385,
+        "fcf_margin": 0.4652007159294298,
+        "roic": 0.319877768886686,
+        "roe": 0.03666604096630888,
+        "net_debt_ebitda": -1.3027073284580675,
+        "interest_coverage": 1.1970422449845446,
+        "stress_verdict": "STRESSED",
+        "market_cap": 132310278144.0,
+        "pe": 11.8761015,
+        "fwd_pe": 8.981337,
+        "p_fcf": 4.848128619105199,
+        "drawdown_from_ath": 0.15017439765778082
+      },
+      "filing_evidence": {}
+    },
+    {
+      "ticker": "COIN",
+      "cik": "0001679788",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "sub_industry": "Financial Exchanges & Data",
+      "sector_id": "financials",
+      "industry_id": "financial_exchanges",
+      "subindustry_id": "financial_exchanges_data",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 6282872000.0,
+        "revenue_cagr_3y": 0.32516780075505336,
+        "operating_margin": 0.09858166774685208,
+        "fcf_margin": 0.3857232806907414,
+        "roic": 0.04988071676284079,
+        "roe": 0.10012705686861424,
+        "net_debt_ebitda": -2.6408607767197148,
+        "interest_coverage": 6.924115726870276,
+        "stress_verdict": "SURVIVES",
+        "market_cap": 47131828224.0,
+        "fwd_pe": 63.17368,
+        "ev_ebitda": 64.343,
+        "p_fcf": 19.44823628463554,
+        "drawdown_from_ath": 0.5456667736068677
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] [mdna] ve we are well-positioned to drive crypto\u2019s role in global GDP through the Everything Exchange and by advancing stablecoin adoption with USDC, including scaling payments.",
+          "[sg_demand_drivers_3_5yr] [mdna] This executive overview of Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations highlights selected information and does not contain all of the information that is important to readers of this Annual Report on Form 10-K. During 2025, we continued to make progress towards our mission by expanding access to trading through innovative derivative products, listing more spot assets, and expanding our offerings in markets globally.",
+          "[sg_secular_not_cyclical] [risk_factors] significant expenditures before any substantial associated revenue is generated and we cannot guarantee that these increased investments will result in corresponding and offsetting revenue growth.",
+          "[sg_multiple_independent_drivers] [mdna] This executive overview of Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations highlights selected information and does not contain all of the information that is important to readers of this Annual Report on Form 10-K. During 2025, we continued to make progress towards our mission by expanding access to trading through innovative derivative products, listing more spot assets, and expanding our offerings in markets globally."
+        ],
+        "BQ": [
+          "[bq_moat] Our existing competitors have, and our potential competitors are expected to have, competitive advantages over us, such as: greater resources to make acquisitions; lower labor, compliance, risk mitigation, and research and development costs; and larger and more mature intellectual property portfolios."
+        ]
+      }
+    },
+    {
+      "ticker": "DFIN",
+      "cik": "0001669811",
+      "name": "Donnelley Financial Solutions, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Financial Exchanges & Data",
+      "sector_id": "financials",
+      "industry_id": "financial_data_ratings",
+      "subindustry_id": "financial_exchanges_data",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 777500000.0,
+        "revenue_cagr_3y": -0.008264492210380725,
+        "operating_margin": 0.18906752411575561,
+        "fcf_margin": 0.19588424437299035,
+        "roic": 0.1647222151037703,
+        "roe": 0.08590604026845637,
+        "net_debt_ebitda": 1.073394495412844,
+        "interest_coverage": 11.951219512195122,
+        "stress_verdict": "SURVIVES_COMFORTABLY",
+        "market_cap": 1171247616.0,
+        "pe": 30.935066,
+        "fwd_pe": 8.725274,
+        "ev_ebitda": 8.55,
+        "p_fcf": 7.690398003939593,
+        "drawdown_from_ath": 0.3206008491876114
+      },
+      "filing_evidence": {}
+    },
+    {
+      "ticker": "EFC",
+      "cik": "0001411342",
+      "name": "Ellington Financial, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Specialized Finance",
+      "sector_id": "financials",
+      "industry_id": "mortgage_reits",
+      "subindustry_id": "specialized_finance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "roic": 0.026121715478210305,
+        "roe": 0.10685947973733542,
+        "net_debt_ebitda": -5.658465759689037,
+        "interest_coverage": 0.12444127670257309,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 1767615744.0,
+        "pe": 8.412499,
+        "fwd_pe": 6.807056,
+        "drawdown_from_ath": 0.007381480924739932
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] ities Act. On December 31, 2025, 7,657 OP LTIP Units previously granted under our 2017 Plan were converted into shares of common stock on a one-for-one basis."
+        ]
+      }
+    },
+    {
+      "ticker": "EGBN",
+      "cik": "0001050441",
+      "name": "Eagle Bancorp Inc",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 596263000.0,
+        "revenue_cagr_3y": 0.020925053616905,
+        "operating_margin": 0.3854909662346985,
+        "fcf_margin": 0.033847480054942196,
+        "roic": 0.2526794283340743,
+        "roe": -0.04137400115517691,
+        "net_debt_ebitda": -1.9329919091065588,
+        "interest_coverage": 0.7775766822393548,
+        "stress_verdict": "STRESSED",
+        "market_cap": 842272128.0,
+        "fwd_pe": 11.007968,
+        "p_fcf": 41.73382856010306,
+        "drawdown_from_ath": 0.4695959182829938
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_demand_drivers_3_5yr] The private sector, in particular, the Leisure and Hospitality sector has seen some recovery in recent years following the adverse effects of the pandemic.",
+          "[sg_secular_not_cyclical] We believe the Company\u2019s primary market, the Washington, D.C. metropolitan area, continues to exhibit resilience relative to other parts of the country."
+        ]
+      }
+    },
+    {
+      "ticker": "ESNT",
+      "cik": "0001448893",
+      "name": "Essent Group Ltd.",
+      "sector": "Financials",
+      "sub_industry": "Commercial & Residential Mortgage Finance",
+      "sector_id": "financials",
+      "industry_id": "private_mortgage_insurance",
+      "subindustry_id": "commercial_residential_mortgage_finance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 1322992000.0,
+        "revenue_cagr_3y": 0.09481313853173057,
+        "fcf_margin": 0.6242607665050128,
+        "roe": 0.12009439806765007,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 6254504960.0,
+        "pe": 9.705718,
+        "fwd_pe": 8.859212,
+        "ev_ebitda": 6.989,
+        "p_fcf": 7.573030081415004,
+        "drawdown_from_ath": 0.009772927382595815
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True\nQuarterly revenue YoY, last four: ['-1.5%', '-0.8%', '5.8%', '13.6%']",
+          "[sg_demand_drivers_3_5yr] [mdna] Mortgage interest rates, however, have remained elevated, which may lower home sale activity and affect the options available to delinquent borrowers.",
+          "[sg_secular_not_cyclical] [mdna] The private mortgage insurance industry, however, has more than doubled its share of the total insured market since 2009."
+        ]
+      }
+    },
+    {
+      "ticker": "EZPW",
+      "cik": "0000876523",
+      "name": "EZCORP, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Consumer Finance",
+      "sector_id": "financials",
+      "industry_id": "consumer_finance",
+      "subindustry_id": "consumer_finance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 1584461000.0,
+        "revenue_cagr_3y": 0.16119399619084063,
+        "operating_margin": 0.1390100482119787,
+        "fcf_margin": 0.08730098121695642,
+        "roic": 0.12787316219090147,
+        "roe": 0.14694798202948056,
+        "net_debt_ebitda": 0.8172834691728736,
+        "interest_coverage": 6.671189726193361,
+        "stress_verdict": "SURVIVES",
+        "market_cap": 2082930560.0,
+        "pe": 17.035177,
+        "fwd_pe": 15.507776,
+        "ev_ebitda": 10.338,
+        "p_fcf": 15.058236472076631,
+        "drawdown_from_ath": 0.020511366650928405
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True\n3Y CAGR: 16.1%\n5Y CAGR: 17.6%",
+          "[sg_demand_drivers_3_5yr] Our ability to add new stores is dependent on several variables, such as projected achievement of internal investment hurdles, the availability of acceptable sites or acquisition candidates, the alignment of acquirer/seller price expectations, the regulatory environment, local zoning ordinances, access to capital and availability of qualified personnel.\nDuring fiscal 2025, we continued our expansion in Latin America and the U.S. with the opening of 40 de novo stores (20 in Mexico, 14 in Guatemala, 4 in Honduras and 2 in El Salvador ) and the acquisition of 52 stores (48 in Latin America and 4 ",
+          "[sg_secular_not_cyclical] Our expansion strategy includes acquiring existing stores and opening de novo store locations."
+        ],
+        "BQ": [
+          "[bq_moat] Changes in, or failure to comply with, laws and regulations affecting our products and services could have a material adverse effect on our operations and financial performance."
+        ]
+      }
+    },
+    {
+      "ticker": "FITB",
+      "cik": "0000035527",
+      "name": "Fifth Third Bancorp",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 14877000000.0,
+        "revenue_cagr_3y": 0.09772331708603677,
+        "operating_margin": 0.4789944209181959,
+        "fcf_margin": 0.20306513409961685,
+        "roic": 0.25722150517913506,
+        "roe": 0.08437938351976405,
+        "net_debt_ebitda": -0.7794136474203047,
+        "interest_coverage": 1.7241713041374305,
+        "stress_verdict": "STRESSED",
+        "market_cap": 49461919744.0,
+        "pe": 18.363636,
+        "fwd_pe": 11.041804,
+        "p_fcf": 16.372697697451176,
+        "drawdown_from_ath": 0.0761327360465253
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] Fifth Third Bancorp faces significant risks related to regulatory changes affecting its business, financial condition and results of operations."
+        ]
+      }
+    },
+    {
+      "ticker": "HAFC",
+      "cik": "0001109242",
+      "name": "Hanmi Financial Corporation",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 450879000.0,
+        "revenue_cagr_3y": 0.07355827600635112,
+        "operating_margin": 0.1981950811636825,
+        "fcf_margin": 0.46601194555523767,
+        "roic": 0.14100587192406241,
+        "roe": 0.11343853497969551,
+        "interest_coverage": 0.5422648882847676,
+        "stress_verdict": "STRESSED",
+        "market_cap": 921498880.0,
+        "pe": 10.464646,
+        "fwd_pe": 9.222552,
+        "p_fcf": 4.385688218356615,
+        "drawdown_from_ath": 0.053227643471232274
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] Our business is also influenced by the monetary and fiscal policies of the Federal Reserve, the federal government, and the policies of regulatory agencies, particularly the FDIC and the DFPI."
+        ]
+      }
+    },
+    {
+      "ticker": "HASI",
+      "cik": "0001561894",
+      "name": "Hannon Armstrong Sustainable Infrastructure Capital, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Specialized Finance",
+      "sector_id": "financials",
+      "industry_id": "climate_infrastructure_finance",
+      "subindustry_id": "specialized_finance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 462892000.0,
+        "revenue_cagr_3y": 0.2090713440833709,
+        "fcf_margin": 0.3613715510313421,
+        "roe": 0.07045546735488009,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 5147541504.0,
+        "pe": 61.630775,
+        "fwd_pe": 12.058129,
+        "p_fcf": 30.772743872402497,
+        "drawdown_from_ath": 0.2675468249002615
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] energy demand increasing from 224 terawatt-hours in 2025 to 606 terawatt-hours in 2030. McKinsey expects that capital expenditures on data center - 39 ...",
+          "[sg_revenue_growth_sustainable] Quarterly revenue YoY, last four: ['25.7%', '13.3%', '28.1%', '41.0%'] Revenue growth accelerating (measured): True 3Y CAGR: 20.9%",
+          "[sg_demand_drivers_3_5yr] The price paid per share is based on the closing price of our common stock as of the date of the exchange and withholding. - 62 ..."
+        ],
+        "BQ": [
+          "[bq_moat] Government Policies We make investments in energy transition projects that may benefit from various federal, state or local governmental policies that support or enhance the project\u2019s economic feasibility."
+        ]
+      }
+    },
+    {
+      "ticker": "HLNE",
+      "cik": "0001433642",
+      "name": "Hamilton Lane",
+      "sector": "Financials",
+      "sub_industry": "Asset Management & Custody Banks",
+      "sector_id": "financials",
+      "industry_id": "asset_management_custody_banks",
+      "subindustry_id": "asset_management_custody_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 858366000.0,
+        "revenue_cagr_3y": 0.18313891631196788,
+        "fcf_margin": 0.4273631527809815,
+        "roic": 0.21245698132500898,
+        "roe": 0.32494820639237354,
+        "net_debt_ebitda": -0.36820346816300464,
+        "interest_coverage": 95.52103718199609,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 5809389568.0,
+        "pe": 16.022831,
+        "fwd_pe": 14.26736,
+        "ev_ebitda": 13.937,
+        "p_fcf": 15.836562499659246,
+        "drawdown_from_ath": 0.4655024732320502
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] [mdna] s include a global platform, a range of risk/return offerings via both drawdown funds and semi-liquid evergreen funds and across multiple investment strategies.",
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True",
+          "[sg_demand_drivers_3_5yr] [mdna] s include a global platform, a range of risk/return offerings via both drawdown funds and semi-liquid evergreen funds and across multiple investment strategies.",
+          "[sg_secular_not_cyclical] [mdna] s include a global platform, a range of risk/return offerings via both drawdown funds and semi-liquid evergreen funds and across multiple investment strategies.",
+          "[sg_multiple_independent_drivers] [mdna] s include a global platform, a range of risk/return offerings via both drawdown funds and semi-liquid evergreen funds and across multiple investment strategies."
+        ],
+        "BQ": [
+          "[bq_moat] We own or have a license to the trademarks, service marks or trade names that we use in connection with the operation of our business."
+        ]
+      }
+    },
+    {
+      "ticker": "HOOD",
+      "cik": "0001783879",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "sub_industry": "Investment Banking & Brokerage",
+      "sector_id": "financials",
+      "industry_id": "investment_banking_brokerage",
+      "subindustry_id": "investment_banking_brokerage",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 4932000000.0,
+        "revenue_cagr_3y": 0.43529886208501845,
+        "operating_margin": 0.16220600162206,
+        "fcf_margin": 0.3313057583130576,
+        "roic": 0.20003684572909616,
+        "roe": 0.2352807585306308,
+        "interest_coverage": 0.4953560371517028,
+        "stress_verdict": "STRESSED",
+        "market_cap": 93738319872.0,
+        "pe": 46.132744,
+        "fwd_pe": 31.786974,
+        "p_fcf": 57.36739282252142,
+        "drawdown_from_ath": 0.2800734795832387
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] We have also taken our first steps in the business-to-business and institutional markets through our acquisitions of Bitstamp and TradePMR.",
+          "[sg_demand_drivers_3_5yr] Our strategy for being number one in active traders is centered on three main priorities: new product innovations, expansion of asset classes, and improving tools.",
+          "[sg_secular_not_cyclical] We have also taken our first steps in the business-to-business and institutional markets through our acquisitions of Bitstamp and TradePMR."
+        ],
+        "BQ": [
+          "[bq_moat] We believe that we compete favorably across all key competitive factors and that we have developed a business model that is difficult to replicate."
+        ]
+      }
+    },
+    {
+      "ticker": "IBOC",
+      "cik": "0000315709",
+      "name": "Intl Bancshares Corp",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 1064312000.0,
+        "revenue_cagr_3y": 0.06363671466180354,
+        "operating_margin": 0.6849711362833455,
+        "fcf_margin": 0.42545794842113965,
+        "roic": -0.24483593776271956,
+        "roe": 0.12919584335632767,
+        "interest_coverage": 3.5519820311434196,
+        "stress_verdict": "STRESSED",
+        "market_cap": 4401293312.0,
+        "pe": 10.658133,
+        "p_fcf": 9.719741424848726,
+        "drawdown_from_ath": 0.07611590598213853
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] In particular, the activity of financial technology companies (fintechs) has grown significantly over recent years and is expected to continue to grow. Fintechs have and may continue to offer bank or bank-like products."
+        ]
+      }
+    },
+    {
+      "ticker": "KMPR",
+      "cik": "0000860748",
+      "name": "Kemper Corporation",
+      "sector": "Financials",
+      "sub_industry": "Multi-line Insurance",
+      "sector_id": "financials",
+      "industry_id": "multi_line_insurance",
+      "subindustry_id": "multi_line_insurance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 4571000000.0,
+        "revenue_cagr_3y": -0.04775076626047181,
+        "fcf_margin": 0.08676438416101509,
+        "roic": 0.11975603541626856,
+        "roe": -0.192569274416074,
+        "net_debt_ebitda": 1.2114151346729372,
+        "interest_coverage": 10.28051948051948,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 1672616960.0,
+        "fwd_pe": 6.577074,
+        "ev_ebitda": 23.368,
+        "p_fcf": 4.2173902168431665,
+        "drawdown_from_ath": 0.6393031619442737
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_demand_drivers_3_5yr] Risks Relating to Servicing Debt, Paying Dividends and/or Funding Targeted Transactions",
+          "[sg_secular_not_cyclical] Risks Relating to Servicing Debt, Paying Dividends and/or Funding Targeted Transactions"
+        ],
+        "BQ": [
+          "[bq_moat] Kemper\u2019s insurance subsidiaries are subject to significant regulation, and the evolving legal and regulatory landscape in which they operate could result in increased operating costs, reduced profitability and limited growth."
+        ]
+      }
+    },
+    {
+      "ticker": "MC",
+      "cik": "0001596967",
+      "name": "Moelis & Company",
+      "sector": "Financials",
+      "sub_industry": "Investment Banking & Brokerage",
+      "sector_id": "financials",
+      "industry_id": "investment_banking_brokerage",
+      "subindustry_id": "investment_banking_brokerage",
+      "data_through": "2026-06-30",
+      "measured": {
+        "roe": 0.502079200459587,
+        "interest_coverage": 387.2299465240642,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 4978976768.0,
+        "pe": 23.41812,
+        "fwd_pe": 17.138327,
+        "p_fcf": 11.488019935118572,
+        "drawdown_from_ath": 0.11747591130717437
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_demand_drivers_3_5yr] [business] tal markets experts to provide holistic advice. We advise both companies and creditors, utilizing our strong relationship network to access capital, identify",
+          "[sg_secular_not_cyclical] [risk_factors] cting demand for our recapitalization and restructuring advisory services declines, our recapitalization and restructuring business would be adversely affected.",
+          "[sg_multiple_independent_drivers] [business] apital markets experts to provide holistic advice. We advise both companies and creditors, utilizing our strong relationship network to access capital, identify"
+        ],
+        "BQ": [
+          "[bq_moat] We have experienced intense competition over obtaining advisory mandates in recent years, and we may experience further pricing pressures in our business in the future as some of our competitors may seek to obtain increased market share by reducing fees."
+        ]
+      }
+    },
+    {
+      "ticker": "MET",
+      "cik": "0001099219",
+      "name": "MetLife",
+      "sector": "Financials",
+      "sub_industry": "Life & Health Insurance",
+      "sector_id": "financials",
+      "industry_id": "life_insurance",
+      "subindustry_id": "life_health_insurance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 79403000000.0,
+        "revenue_cagr_3y": 0.04346053527061233,
+        "operating_margin": 0.08266690175434177,
+        "roic": 0.2579228170216536,
+        "roe": 0.13155316910350834,
+        "net_debt_ebitda": -1.2607201553862244,
+        "interest_coverage": 9.066298342541437,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 61329879040.0,
+        "pe": 18.488506,
+        "fwd_pe": 8.841038,
+        "ev_ebitda": 14.047,
+        "drawdown_from_ath": 0.037018479852062254
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] Operating margin trend: -1,529.41 bps/year",
+          "[sg_demand_drivers_3_5yr] Under our New Frontier strategy, we intend to leverage the Company\u2019s strengths to prioritize growth across four key areas of opportunity: Extend our leadership in Group Benefits; Capitalize on our unique retirement platform; Accelerate our growth in asset management; and Expand in high growth international markets.",
+          "[sg_secular_not_cyclical] We Face Technological Changes That Present New and Intensified Challenges and May Fail to Foresee or Adapt to These Changes"
+        ]
+      }
+    },
+    {
+      "ticker": "MRSH",
+      "cik": "0000062709",
+      "name": "Marsh McLennan",
+      "sector": "Financials",
+      "sub_industry": "Insurance Brokers",
+      "sector_id": "financials",
+      "industry_id": "insurance_brokers",
+      "subindustry_id": "insurance_brokers",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 27947000000.0,
+        "revenue_cagr_3y": 0.089801599863218,
+        "operating_margin": 0.21619494042294343,
+        "fcf_margin": 0.17057287007550007,
+        "roic": 0.13454863116165375,
+        "roe": 0.2534305453850807,
+        "net_debt_ebitda": 2.8809932843979387,
+        "interest_coverage": 6.28066528066528,
+        "stress_verdict": "SURVIVES",
+        "market_cap": 91929976832.0,
+        "pe": 23.521368,
+        "fwd_pe": 16.882889,
+        "ev_ebitda": 14.548,
+        "p_fcf": 19.28466054793371,
+        "drawdown_from_ath": 0.20278631427986069
+      },
+      "filing_evidence": {}
+    },
+    {
+      "ticker": "MSCI",
+      "cik": "0001408198",
+      "name": "MSCI",
+      "sector": "Financials",
+      "sub_industry": "Financial Exchanges & Data",
+      "sector_id": "financials",
+      "industry_id": "financial_data_ratings",
+      "subindustry_id": "financial_exchanges_data",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 3333754000.0,
+        "revenue_cagr_3y": 0.12359091979070125,
+        "operating_margin": 0.5566427516847374,
+        "fcf_margin": 0.47931761011760315,
+        "roic": 0.37372752654018165,
+        "roe": -0.759602315630506,
+        "net_debt_ebitda": 3.2024088238483768,
+        "interest_coverage": 7.211878140630283,
+        "stress_verdict": "STRESSED",
+        "market_cap": 41494253568.0,
+        "pe": 31.240284,
+        "fwd_pe": 25.370098,
+        "ev_ebitda": 24.301,
+        "p_fcf": 25.96755269045457,
+        "drawdown_from_ath": 0.11283171338300675
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] In Europe, disclosure requirements continue to drive demand for sustainability and climate tools... While some markets may face greater near-term challenges and uncertainty, we believe the long-term shift toward integrating financially material sustainability and climate factors into investment and risk management processes will support continued adoption of our sustainability and climate tools.",
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True",
+          "[sg_demand_drivers_3_5yr] In Europe, disclosure requirements continue to drive demand for sustainability and climate tools... While some markets may face greater near-term challenges and uncertainty, we believe the long-term shift toward integrating financially material sustainability and climate factors into investment and risk management processes will support continued adoption of our sustainability and climate tools.",
+          "[sg_secular_not_cyclical] While some markets may face greater near-term challenges and uncertainty, we believe the long-term shift toward integrating financially material sustainability and climate factors into investment and risk management processes will support continued adoption of our sustainability and climate tools."
+        ],
+        "BQ": [
+          "[bq_moat] The Company\u2019s growth in this space depends on rising global demand for sustainability and climate solutions, which may be influenced by potential regulatory uncertainty or political opposition in certain markets. While some markets may face greater near-term challenges and uncertainty, we believe the long-term shift toward integrating financially material sustainability and climate factors into investment and risk management processes will support continued adoption of our sustainability and climate tools."
+        ]
+      }
+    },
+    {
+      "ticker": "MTG",
+      "cik": "0000876437",
+      "name": "MGIC Investment Corporation",
+      "sector": "Financials",
+      "sub_industry": "Reinsurance",
+      "sector_id": "financials",
+      "industry_id": "reinsurance",
+      "subindustry_id": "reinsurance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 1195622000.0,
+        "revenue_cagr_3y": 0.010222306804955616,
+        "operating_margin": 0.769579348657017,
+        "fcf_margin": 0.5908890937102195,
+        "roic": 0.12433060588133682,
+        "roe": 0.13922736173381142,
+        "net_debt_ebitda": 0.9075539369742032,
+        "interest_coverage": 25.844058084992838,
+        "stress_verdict": "SURVIVES_COMFORTABLY",
+        "market_cap": 6418356224.0,
+        "pe": 9.778125,
+        "fwd_pe": 9.127771,
+        "ev_ebitda": 7.413,
+        "p_fcf": 9.084979368134979,
+        "drawdown_from_ath": 0.0032092548767464696
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] Total mortgage originations are forecasted to be higher in 2026, compared with 2025.",
+          "[sg_demand_drivers_3_5yr] Total mortgage originations are forecasted to be higher in 2026, compared with 2025. Both purchase originations and refinance transactions are forecasted to increase in 2026 when compared to 2025.",
+          "[sg_secular_not_cyclical] Total mortgage originations are forecasted to be higher in 2026, compared with 2025. Both purchase originations and refinance transactions are forecasted to increase in 2026 when compared to 2025."
+        ],
+        "BQ": [
+          "[bq_moat] The private mortgage insurance industry is highly competitive. We expect competition to increase from both existing competitors and new market entrants."
+        ]
+      }
+    },
+    {
+      "ticker": "PNFP",
+      "cik": "0002082866",
+      "name": "Pinnacle Financial Partners",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "roe": 0.06006878480183426,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 15350022144.0,
+        "pe": 13.991735,
+        "fwd_pe": 8.872685,
+        "p_fcf": 23.876629004384895,
+        "drawdown_from_ath": 0.20099817430047964
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_demand_drivers_3_5yr] The financial services industry is becoming even more competitive as a result of legislative, regulatory and technological changes and continued consolidation.",
+          "[sg_secular_not_cyclical] The financial services industry is becoming even more competitive as a result of legislative, regulatory and technological changes."
+        ],
+        "BQ": [
+          "[bq_moat] We believe that the most important criteria to our bank's targeted clients when selecting a bank is their desire to receive exceptional and personal service from financial professionals they know and trust. Equally important is being able to enjoy convenient access to a broad array of financial products offered by a financial institution with an ability to meet the changing needs of a sophisticated client base."
+        ]
+      }
+    },
+    {
+      "ticker": "RJF",
+      "cik": "0000720005",
+      "name": "Raymond James Financial",
+      "sector": "Financials",
+      "sub_industry": "Investment Banking & Brokerage",
+      "sector_id": "financials",
+      "industry_id": "investment_banking_brokerage",
+      "subindustry_id": "investment_banking_brokerage",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 16990000000.0,
+        "revenue_cagr_3y": 0.1083649898824286,
+        "fcf_margin": 0.08487345497351383,
+        "roe": 0.1847904479525603,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 34455056384.0,
+        "pe": 15.65096,
+        "fwd_pe": 12.64757,
+        "p_fcf": 23.89393646601942,
+        "drawdown_from_ath": 0.02798317844345186
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True\n3Y CAGR: 10.8%\n5Y CAGR: 12.8%",
+          "[sg_capacity_backlog_contracts] Acquisitions: $0"
+        ]
+      }
+    },
+    {
+      "ticker": "RLI",
+      "cik": "0000084246",
+      "name": "RLI Corp.",
+      "sector": "Financials",
+      "sub_industry": "Property & Casualty Insurance",
+      "sector_id": "financials",
+      "industry_id": "pc_insurance",
+      "subindustry_id": "property_casualty_insurance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 1974396000.0,
+        "revenue_cagr_3y": 0.0012734986188147612,
+        "operating_margin": 0.28278572282358755,
+        "fcf_margin": 0.26186033602175046,
+        "roic": 0.22757872138701318,
+        "roe": 0.2516364687608266,
+        "net_debt_ebitda": 0.3845437270758761,
+        "interest_coverage": 58.976550121474595,
+        "stress_verdict": "SURVIVES_COMFORTABLY",
+        "market_cap": 5952394752.0,
+        "pe": 13.62605,
+        "fwd_pe": 24.060452,
+        "ev_ebitda": 10.572,
+        "p_fcf": 11.512979776254507,
+        "drawdown_from_ath": 0.20026023144164223
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] We compete with a large number of companies in the insurance industry and their actions could ultimately impact our overall results."
+        ]
+      }
+    },
+    {
+      "ticker": "SBSI",
+      "cik": "0000705432",
+      "name": "Southside Bancshares, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 430588000.0,
+        "revenue_cagr_3y": 0.06820395124788736,
+        "operating_margin": 0.6343860023967226,
+        "fcf_margin": 0.29371464137412095,
+        "roic": 0.15807126759974247,
+        "roe": 0.08995397901594637,
+        "net_debt_ebitda": 2.1229552976339434,
+        "interest_coverage": 1.4974919275701575,
+        "stress_verdict": "STRESSED",
+        "market_cap": 955643904.0,
+        "pe": 12.57255,
+        "fwd_pe": 9.895062,
+        "p_fcf": 7.556289270182652,
+        "drawdown_from_ath": 0.11218131585263069
+      },
+      "filing_evidence": {}
+    },
+    {
+      "ticker": "SLM",
+      "cik": "0001032033",
+      "name": "SLM Corp",
+      "sector": "Financials",
+      "sub_industry": "Consumer Finance",
+      "sector_id": "financials",
+      "industry_id": "consumer_finance",
+      "subindustry_id": "consumer_finance",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 3068382000.0,
+        "revenue_cagr_3y": 0.05741148335906132,
+        "operating_margin": 0.6811824603325141,
+        "roic": 0.4250426097568258,
+        "roe": 0.3033262565427321,
+        "net_debt_ebitda": 0.5978982895933203,
+        "interest_coverage": 1.887241942241292,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 5034640384.0,
+        "pe": 7.4596105,
+        "fwd_pe": 7.9592705,
+        "drawdown_from_ath": 0.22144337914604761
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] Our Company Mission: SLM Corporation, more commonly known as Sallie Mae, is the premier financial brand in higher education."
+        ]
+      }
+    },
+    {
+      "ticker": "TRMK",
+      "cik": "0000036146",
+      "name": "Trustmark Corp.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 1117632000.0,
+        "revenue_cagr_3y": 0.08640031454629016,
+        "operating_margin": 0.5245814364656702,
+        "fcf_margin": 0.16724020071007273,
+        "roic": 0.26763704735990074,
+        "roe": 0.11118872822357524,
+        "net_debt_ebitda": -0.5003941591192494,
+        "interest_coverage": 1.9540752048101215,
+        "stress_verdict": "STRESSED",
+        "market_cap": 2692355840.0,
+        "pe": 11.765903,
+        "fwd_pe": 11.250608,
+        "p_fcf": 14.404326290841194,
+        "drawdown_from_ath": 0.04575435283920949
+      },
+      "filing_evidence": {}
+    },
+    {
+      "ticker": "TROW",
+      "cik": "0001113169",
+      "name": "T. Rowe Price",
+      "sector": "Financials",
+      "sub_industry": "Asset Management & Custody Banks",
+      "sector_id": "financials",
+      "industry_id": "asset_management_custody_banks",
+      "subindustry_id": "asset_management_custody_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 7592000000.0,
+        "revenue_cagr_3y": 0.06640620581807655,
+        "operating_margin": 0.30758693361433087,
+        "fcf_margin": 0.22046891464699683,
+        "roic": 0.23707549246865423,
+        "roe": 0.2060566711496545,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 23729254400.0,
+        "pe": 11.168674,
+        "fwd_pe": 10.8051815,
+        "ev_ebitda": 7.543,
+        "p_fcf": 14.176875612379018,
+        "drawdown_from_ath": 0.37535622583294814
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] The investment management industry continues to evolve and face challenging trends, including the shift in market share from traditional active strategies to passive products, persistent downward fee pressure, demand for lower cost investment vehicles, and an ever-changing regulatory landscape. In this environment, we maintain ample liquidity and resources that allow us to take advantage of attractive growth opportunities and deliver new capabilities that meet the evolving needs of our clients globally.",
+          "[sg_demand_drivers_3_5yr] We believe there are significant opportunities that align to our core capabilities. Our ongoing financial strength and discipline allows us to respond to these opportunities with several strategic, multi-year initiatives.",
+          "[sg_secular_not_cyclical] Despite these trends, we believe there are significant opportunities that align to our core capabilities. Our ongoing financial strength and discipline allows us to respond to these opportunities with several strategic, multi-year initiatives.",
+          "[sg_multiple_independent_drivers] We believe there are significant opportunities that align to our core capabilities. Our ongoing financial strength and discipline allows us to respond to these opportunities with several strategic, multi-year initiatives."
+        ],
+        "BQ": [
+          "[bq_moat] We compete with other providers of investment advisory services based primarily on the availability and objectives of the investment products offered, investment performance, fees and related expenses, and the scope and quality of investment advice and other client services."
+        ]
+      }
+    },
+    {
+      "ticker": "USB",
+      "cik": "0000036104",
+      "name": "U.S. Bancorp",
+      "sector": "Financials",
+      "sub_industry": "Diversified Banks",
+      "sector_id": "financials",
+      "industry_id": "diversified_banks",
+      "subindustry_id": "diversified_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 29694000000.0,
+        "revenue_cagr_3y": 0.031650498363435364,
+        "operating_margin": 0.8203677510608204,
+        "roic": 0.5543140561218137,
+        "roe": 0.12676340498176458,
+        "net_debt_ebitda": -1.1739077914233944,
+        "interest_coverage": 1.7208250918338515,
+        "stress_verdict": "NO_DATA",
+        "market_cap": 97331478528.0,
+        "pe": 12.469062,
+        "fwd_pe": 10.788231,
+        "drawdown_from_ath": 0.04616320280638574
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_revenue_growth_sustainable] Revenue growth accelerating (measured): True",
+          "[sg_secular_not_cyclical] Competition is based on a number of factors including, among others, customer service, quality and range of products and services offered, price, reputation, interest rates on loans and deposits, lending limits, experience, relationships and customer convenience, including the ability to address customer needs by using technology to provide products and services that customers want to adopt."
+        ],
+        "BQ": [
+          "[bq_moat] Government Policies: The operations of the Company\u2019s various businesses are affected by federal and state laws and legislative changes."
+        ]
+      }
+    },
+    {
+      "ticker": "VIRT",
+      "cik": "0001592386",
+      "name": "Virtu Financial, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Financial Exchanges & Data",
+      "sector_id": "financials",
+      "industry_id": "financial_exchanges",
+      "subindustry_id": "financial_exchanges_data",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 4079956000.0,
+        "revenue_cagr_3y": 0.23120979254521767,
+        "operating_margin": 0.347011340318376,
+        "fcf_margin": 0.12772417153518323,
+        "roic": 0.44945534722968145,
+        "roe": 0.33629311858326016,
+        "net_debt_ebitda": 0.6789304752245966,
+        "interest_coverage": 10.106368094568452,
+        "stress_verdict": "SURVIVES_COMFORTABLY",
+        "market_cap": 5804886528.0,
+        "pe": 10.920265,
+        "fwd_pe": 9.482488,
+        "p_fcf": 11.139486226490042,
+        "drawdown_from_ath": 0.030472540637785032
+      },
+      "filing_evidence": {
+        "SG": [
+          "[sg_tam_expanding] Leveraging our global market structure expertise and scaled, multi-asset technology infrastructure, we provide our clients with a robust product suite.",
+          "[sg_demand_drivers_3_5yr] Increases in market volatility can cause bid/ask spreads to widen as market participants are more willing to transact immediately.",
+          "[sg_secular_not_cyclical] Technology is at the core of our business. Our focus on technology and our ability to leverage our technology enables us to be one of the lowest cost providers.",
+          "[sg_multiple_independent_drivers] We provide our clients with a robust product suite including offerings in execution, liquidity sourcing, analytics and broker-neutral, multi-dealer platforms."
+        ],
+        "BQ": [
+          "[bq_moat] Our technology platform is highly reliable, scalable and modular, and we integrate directly with exchanges, liquidity centers, and our clients."
+        ]
+      }
+    },
+    {
+      "ticker": "WAFD",
+      "cik": "0000936528",
+      "name": "WaFd, Inc.",
+      "sector": "Financials",
+      "sub_industry": "Regional Banks",
+      "sector_id": "financials",
+      "industry_id": "regional_banking",
+      "subindustry_id": "regional_banks",
+      "data_through": "2026-06-30",
+      "measured": {
+        "revenue_ttm": 1388526000.0,
+        "revenue_cagr_3y": 2.768630168740282,
+        "operating_margin": 0.6726867195860935,
+        "fcf_margin": 0.1634632696831028,
+        "roic": 0.311776602909496,
+        "roe": 0.08496786592575586,
+        "interest_coverage": 1.541416651814299,
+        "stress_verdict": "STRESSED",
+        "market_cap": 2680107776.0,
+        "pe": 11.425868,
+        "fwd_pe": 10.771748,
+        "p_fcf": 11.808046666343573,
+        "drawdown_from_ath": 0.07200364049843397
+      },
+      "filing_evidence": {
+        "BQ": [
+          "[bq_moat] EGRRCPA also enacted several important changes in some technical compliance areas that we believe will help reduce our regulatory burden, including: \u2022 Prohibiting federal banking regulators from imposing higher capital standards on High Volatility Commercial Real Estate (\u201cHVCRE\u201d) exposures unless they are for acquisition, development or construction (\u201cADC\u201d), and clarifying ADC status; \u2022 Exempting from appraisal requirements certain transactions involving real property in rural areas and valued at less than $400,000; and \u2022 Directing the Consumer Financial Protection Bureau to provide guidance o"
+        ]
+      }
+    }
+  ]
+}

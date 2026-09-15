@@ -1,0 +1,70 @@
+{
+  "ticker": "VIRT",
+  "cik": "0001592386",
+  "sector": "Financials",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001592386-24-000026",
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "chars": 628639
+      },
+      "pack_secs": 27.9,
+      "components": {
+        "MG": {
+          "secs": 13.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-24-052953",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 41.8
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001592386-25-000055",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": 649223
+      },
+      "pack_secs": 27.2,
+      "components": {
+        "MG": {
+          "secs": 16.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104659-25-037735",
+        "form": "DEF 14A",
+        "filed": "2025-04-23",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 43.5
+    }
+  }
+}

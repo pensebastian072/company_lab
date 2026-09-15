@@ -1,0 +1,43 @@
+{
+  "ticker": "MUR",
+  "cik": "0000717423",
+  "sector": "Energy",
+  "arm": "under",
+  "targeted_meta": {
+    "n_chunks_picked": 4,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  },
+  "A": {
+    "scored": [
+      "distribution",
+      "intellectual_property",
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 19.0,
+    "parse_ok": true
+  },
+  "B": {
+    "scored": [
+      "economies_of_scale",
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      0,
+      2
+    ],
+    "secs": 17.2,
+    "parse_ok": true,
+    "weak_scored": [
+      "economies_of_scale"
+    ]
+  }
+}

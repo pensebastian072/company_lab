@@ -1,0 +1,50 @@
+{
+  "ticker": "DFIN",
+  "cik": "0001669811",
+  "sector": "Industrials",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "customer_relationships",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 17.4,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "data_advantages"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 25.6,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 8,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "customer_relationships",
+      "data_advantages",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs"
+    ]
+  }
+}

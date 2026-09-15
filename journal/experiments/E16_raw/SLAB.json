@@ -1,0 +1,51 @@
+{
+  "ticker": "SLAB",
+  "cik": "0001038074",
+  "sector": "Information Technology",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "customer_relationships",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 17.4,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "manufacturing_complexity"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 21.6,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 7,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "customer_relationships",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "switching_costs",
+      "technological_advantage"
+    ]
+  }
+}

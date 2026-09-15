@@ -1,0 +1,70 @@
+{
+  "ticker": "HOPE",
+  "cik": "0001128361",
+  "sector": "Financials",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001128361-24-000006",
+        "form": "10-K",
+        "filed": "2024-02-28",
+        "chars": 559996
+      },
+      "pack_secs": 25.8,
+      "components": {
+        "MG": {
+          "secs": 13.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-094609",
+        "form": "DEF 14A",
+        "filed": "2024-04-12",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.8
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001128361-25-000010",
+        "form": "10-K",
+        "filed": "2025-02-26",
+        "chars": 579156
+      },
+      "pack_secs": 24.7,
+      "components": {
+        "MG": {
+          "secs": 13.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 0,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-078439",
+        "form": "DEF 14A",
+        "filed": "2025-04-11",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.0
+    }
+  }
+}

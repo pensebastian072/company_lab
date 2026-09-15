@@ -1,0 +1,70 @@
+{
+  "ticker": "CPRI",
+  "cik": "0001530721",
+  "sector": "Consumer Discretionary",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001530721-24-000041",
+        "form": "10-K",
+        "filed": "2024-05-29",
+        "chars": 502947
+      },
+      "pack_secs": 25.7,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001530721-24-000058",
+        "form": "DEF 14A",
+        "filed": "2024-07-26",
+        "error": null,
+        "n_chunks": 148
+      },
+      "total_secs": 38.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001530721-25-000052",
+        "form": "10-K",
+        "filed": "2025-05-28",
+        "chars": 523879
+      },
+      "pack_secs": 21.7,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001530721-25-000078",
+        "form": "DEF 14A",
+        "filed": "2025-06-24",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 35.5
+    }
+  }
+}

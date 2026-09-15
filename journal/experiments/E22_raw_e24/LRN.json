@@ -1,0 +1,70 @@
+{
+  "ticker": "LRN",
+  "cik": "0001157408",
+  "sector": "Consumer Discretionary",
+  "decile": 9,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001558370-24-011134",
+        "form": "10-K",
+        "filed": "2024-08-07",
+        "chars": 439003
+      },
+      "pack_secs": 25.0,
+      "components": {
+        "MG": {
+          "secs": 12.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-23-049694",
+        "form": "DEF 14A",
+        "filed": "2023-10-26",
+        "error": null,
+        "n_chunks": 157
+      },
+      "total_secs": 37.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001558370-25-010334",
+        "form": "10-K",
+        "filed": "2025-08-06",
+        "chars": 426612
+      },
+      "pack_secs": 21.1,
+      "components": {
+        "MG": {
+          "secs": 13.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-044265",
+        "form": "DEF 14A",
+        "filed": "2024-10-25",
+        "error": null,
+        "n_chunks": 118
+      },
+      "total_secs": 34.1
+    }
+  }
+}

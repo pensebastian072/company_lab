@@ -1,0 +1,104 @@
+{
+  "ticker": "ES",
+  "cik": "0000072741",
+  "sector": "Utilities",
+  "decile": 1,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000072741-24-000005",
+        "form": "10-K",
+        "filed": "2024-02-14",
+        "chars": 924286
+      },
+      "pack_secs": 17.1,
+      "components": {
+        "SG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": null,
+            "revenue_growth_sustainable": 2,
+            "demand_drivers_3_5yr": 3,
+            "capacity_backlog_contracts": 1,
+            "secular_not_cyclical": 2,
+            "multiple_independent_drivers": 1
+          }
+        },
+        "BQ": {
+          "secs": 15.6,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": null,
+            "economies_of_scale": null,
+            "switching_costs": 3,
+            "network_effects": null,
+            "intellectual_property": null,
+            "brand": 2,
+            "regulatory_barriers": 4,
+            "manufacturing_complexity": null,
+            "distribution": 2,
+            "customer_relationships": 1,
+            "data_advantages": null
+          }
+        },
+        "MG": {
+          "secs": 11.1,
+          "parse_ok": true,
+          "scores": {
+            "industry_expertise": 2
+          }
+        }
+      },
+      "total_secs": 56.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000072741-25-000007",
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "chars": 929735
+      },
+      "pack_secs": 15.8,
+      "components": {
+        "SG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "tam_expanding": null,
+            "revenue_growth_sustainable": 2,
+            "demand_drivers_3_5yr": 3,
+            "capacity_backlog_contracts": 2,
+            "secular_not_cyclical": 3,
+            "multiple_independent_drivers": 1
+          }
+        },
+        "BQ": {
+          "secs": 14.8,
+          "parse_ok": true,
+          "scores": {
+            "technological_advantage": 1,
+            "economies_of_scale": 4,
+            "switching_costs": 3,
+            "network_effects": null,
+            "intellectual_property": 2,
+            "brand": 1,
+            "regulatory_barriers": 4,
+            "manufacturing_complexity": null,
+            "distribution": 3,
+            "customer_relationships": 2,
+            "data_advantages": null
+          }
+        },
+        "MG": {
+          "secs": 7.3,
+          "parse_ok": true,
+          "scores": {}
+        }
+      },
+      "total_secs": 51.2
+    }
+  }
+}

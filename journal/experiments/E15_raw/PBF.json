@@ -1,0 +1,46 @@
+{
+  "ticker": "PBF",
+  "cik": "0001534504",
+  "sector": "Energy",
+  "arm": "under",
+  "targeted_meta": {
+    "n_chunks_picked": 7,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  },
+  "A": {
+    "scored": [
+      "economies_of_scale",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.2,
+    "parse_ok": true
+  },
+  "B": {
+    "scored": [
+      "economies_of_scale",
+      "manufacturing_complexity",
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      1,
+      2
+    ],
+    "secs": 18.1,
+    "parse_ok": true,
+    "weak_scored": [
+      "economies_of_scale",
+      "manufacturing_complexity"
+    ]
+  }
+}

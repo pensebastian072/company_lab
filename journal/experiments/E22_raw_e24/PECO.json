@@ -1,0 +1,70 @@
+{
+  "ticker": "PECO",
+  "cik": "0001476204",
+  "sector": "Real Estate",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001476204-24-000022",
+        "form": "10-K",
+        "filed": "2024-02-12",
+        "chars": 489961
+      },
+      "pack_secs": 25.0,
+      "components": {
+        "MG": {
+          "secs": 13.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001476204-24-000046",
+        "form": "DEF 14A",
+        "filed": "2024-03-21",
+        "error": null,
+        "n_chunks": 139
+      },
+      "total_secs": 38.9
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001476204-25-000030",
+        "form": "10-K",
+        "filed": "2025-02-11",
+        "chars": 474576
+      },
+      "pack_secs": 23.8,
+      "components": {
+        "MG": {
+          "secs": 14.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001476204-25-000057",
+        "form": "DEF 14A",
+        "filed": "2025-03-19",
+        "error": null,
+        "n_chunks": 140
+      },
+      "total_secs": 38.1
+    }
+  }
+}

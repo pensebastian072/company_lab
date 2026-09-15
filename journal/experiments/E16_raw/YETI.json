@@ -1,0 +1,48 @@
+{
+  "ticker": "YETI",
+  "cik": "0001670592",
+  "sector": "Consumer Discretionary",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "intellectual_property"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 15.7,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "manufacturing_complexity"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 23.3,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 8,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "intellectual_property",
+      "manufacturing_complexity"
+    ]
+  }
+}

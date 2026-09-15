@@ -1,0 +1,70 @@
+{
+  "ticker": "IDA",
+  "cik": "0001057877",
+  "sector": "Utilities",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001057877-24-000005",
+        "form": "10-K",
+        "filed": "2024-02-15",
+        "chars": 657715
+      },
+      "pack_secs": 27.3,
+      "components": {
+        "MG": {
+          "secs": 12.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001057877-24-000020",
+        "form": "DEF 14A",
+        "filed": "2024-04-02",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 40.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001057877-25-000014",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": 654569
+      },
+      "pack_secs": 27.1,
+      "components": {
+        "MG": {
+          "secs": 12.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001057877-25-000028",
+        "form": "DEF 14A",
+        "filed": "2025-04-01",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.8
+    }
+  }
+}

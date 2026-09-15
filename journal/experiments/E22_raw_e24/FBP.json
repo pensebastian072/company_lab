@@ -1,0 +1,70 @@
+{
+  "ticker": "FBP",
+  "cik": "0001057706",
+  "sector": "Financials",
+  "decile": 6,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001057706-24-000004",
+        "form": "10-K",
+        "filed": "2024-02-28",
+        "chars": 1115992
+      },
+      "pack_secs": 29.0,
+      "components": {
+        "MG": {
+          "secs": 15.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": 2,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-018674",
+        "form": "DEF 14A",
+        "filed": "2024-04-08",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 44.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001057706-25-000002",
+        "form": "10-K",
+        "filed": "2025-02-28",
+        "chars": 1091254
+      },
+      "pack_secs": 27.5,
+      "components": {
+        "MG": {
+          "secs": 14.6,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-012813",
+        "form": "DEF 14A",
+        "filed": "2025-04-08",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 42.1
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "OSW",
+  "cik": "0001758488",
+  "sector": "Consumer Discretionary",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-022654",
+        "form": "10-K",
+        "filed": "2024-02-29",
+        "chars": 406958
+      },
+      "pack_secs": 27.8,
+      "components": {
+        "MG": {
+          "secs": 15.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-113960",
+        "form": "DEF 14A",
+        "filed": "2024-04-25",
+        "error": null,
+        "n_chunks": 155
+      },
+      "total_secs": 43.5
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-024552",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": 384332
+      },
+      "pack_secs": 24.4,
+      "components": {
+        "MG": {
+          "secs": 14.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-25-058002",
+        "form": "DEF 14A",
+        "filed": "2025-04-24",
+        "error": null,
+        "n_chunks": 125
+      },
+      "total_secs": 39.3
+    }
+  }
+}

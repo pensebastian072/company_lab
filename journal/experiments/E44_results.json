@@ -1,0 +1,374 @@
+{
+ "static": {
+  "filings_read": 300,
+  "per_field": {
+   "current_moat_strength": {
+    "v1": {
+     "companies_with_pool": 296,
+     "mean_candidates": 5.71,
+     "both_poles": 2,
+     "two_sided_share": 0.0068
+    },
+    "v2": {
+     "companies_with_pool": 296,
+     "mean_candidates": 5.73,
+     "both_poles": 2,
+     "two_sided_share": 0.0068
+    }
+   },
+   "competitive_position": {
+    "v1": {
+     "companies_with_pool": 140,
+     "mean_candidates": 2.22,
+     "both_poles": 0,
+     "two_sided_share": 0.0
+    },
+    "v2": {
+     "companies_with_pool": 141,
+     "mean_candidates": 1.77,
+     "both_poles": 33,
+     "two_sided_share": 0.234
+    }
+   },
+   "competitive_position_trend": {
+    "v1": {
+     "companies_with_pool": 53,
+     "mean_candidates": 1.58,
+     "both_poles": 2,
+     "two_sided_share": 0.0377
+    },
+    "v2": {
+     "companies_with_pool": 62,
+     "mean_candidates": 1.55,
+     "both_poles": 3,
+     "two_sided_share": 0.0484
+    }
+   },
+   "moat_trajectory": {
+    "v1": {
+     "companies_with_pool": 300,
+     "mean_candidates": 5.48,
+     "both_poles": 13,
+     "two_sided_share": 0.0433
+    },
+    "v2": {
+     "companies_with_pool": 282,
+     "mean_candidates": 3.73,
+     "both_poles": 11,
+     "two_sided_share": 0.039
+    }
+   },
+   "company_specific_capture": {
+    "v1": {
+     "companies_with_pool": 282,
+     "mean_candidates": 4.51,
+     "both_poles": 3,
+     "two_sided_share": 0.0106
+    },
+    "v2": {
+     "companies_with_pool": 282,
+     "mean_candidates": 4.56,
+     "both_poles": 8,
+     "two_sided_share": 0.0284
+    }
+   },
+   "demand_visibility": {
+    "v1": {
+     "companies_with_pool": 275,
+     "mean_candidates": 4.65,
+     "both_poles": 86,
+     "two_sided_share": 0.3127
+    },
+    "v2": {
+     "companies_with_pool": 285,
+     "mean_candidates": 4.99,
+     "both_poles": 88,
+     "two_sided_share": 0.3088
+    }
+   },
+   "pricing_power": {
+    "v1": {
+     "companies_with_pool": 223,
+     "mean_candidates": 2.45,
+     "both_poles": 8,
+     "two_sided_share": 0.0359
+    },
+    "v2": {
+     "companies_with_pool": 272,
+     "mean_candidates": 2.96,
+     "both_poles": 54,
+     "two_sided_share": 0.1985
+    }
+   },
+   "technology_risk": {
+    "v1": {
+     "companies_with_pool": 289,
+     "mean_candidates": 4.67,
+     "both_poles": 0,
+     "two_sided_share": 0.0
+    },
+    "v2": {
+     "companies_with_pool": 289,
+     "mean_candidates": 4.67,
+     "both_poles": 0,
+     "two_sided_share": 0.0
+    }
+   },
+   "disruption_risk": {
+    "v1": {
+     "companies_with_pool": 297,
+     "mean_candidates": 5.15,
+     "both_poles": 1,
+     "two_sided_share": 0.0034
+    },
+    "v2": {
+     "companies_with_pool": 296,
+     "mean_candidates": 4.79,
+     "both_poles": 3,
+     "two_sided_share": 0.0101
+    }
+   },
+   "regulatory_risk": {
+    "v1": {
+     "companies_with_pool": 291,
+     "mean_candidates": 4.99,
+     "both_poles": 2,
+     "two_sided_share": 0.0069
+    },
+    "v2": {
+     "companies_with_pool": 300,
+     "mean_candidates": 5.96,
+     "both_poles": 4,
+     "two_sided_share": 0.0133
+    }
+   }
+  }
+ },
+ "compare": {
+  "n_paired": 40,
+  "per_field": {
+   "current_moat_strength": {
+    "v1": {
+     "answered": 33,
+     "distinct": 1,
+     "modal_share": 1.0,
+     "spread": {
+      "MODERATE": 33
+     }
+    },
+    "v2": {
+     "answered": 33,
+     "distinct": 1,
+     "modal_share": 1.0,
+     "spread": {
+      "MODERATE": 33
+     }
+    }
+   },
+   "competitive_position": {
+    "v1": {
+     "answered": 18,
+     "distinct": 4,
+     "modal_share": 0.5,
+     "spread": {
+      "CHALLENGER": 9,
+      "LEADER": 5,
+      "LAGGARD": 3,
+      "DOMINANT": 1
+     }
+    },
+    "v2": {
+     "answered": 14,
+     "distinct": 3,
+     "modal_share": 0.429,
+     "spread": {
+      "CHALLENGER": 6,
+      "LAGGARD": 5,
+      "LEADER": 3
+     }
+    }
+   },
+   "competitive_position_trend": {
+    "v1": {
+     "answered": 2,
+     "distinct": 1,
+     "modal_share": 1.0,
+     "spread": {
+      "STABLE": 2
+     }
+    },
+    "v2": {
+     "answered": 4,
+     "distinct": 2,
+     "modal_share": 0.75,
+     "spread": {
+      "STABLE": 3,
+      "DETERIORATING": 1
+     }
+    }
+   },
+   "moat_trajectory": {
+    "v1": {
+     "answered": 38,
+     "distinct": 2,
+     "modal_share": 0.816,
+     "spread": {
+      "STABLE": 31,
+      "WEAKENING": 7
+     }
+    },
+    "v2": {
+     "answered": 25,
+     "distinct": 2,
+     "modal_share": 0.76,
+     "spread": {
+      "STABLE": 19,
+      "WEAKENING": 6
+     }
+    }
+   },
+   "company_specific_capture": {
+    "v1": {
+     "answered": 31,
+     "distinct": 2,
+     "modal_share": 0.742,
+     "spread": {
+      "LOW": 23,
+      "MODERATE": 8
+     }
+    },
+    "v2": {
+     "answered": 27,
+     "distinct": 2,
+     "modal_share": 0.852,
+     "spread": {
+      "LOW": 23,
+      "MODERATE": 4
+     }
+    }
+   },
+   "demand_visibility": {
+    "v1": {
+     "answered": 36,
+     "distinct": 3,
+     "modal_share": 0.5,
+     "spread": {
+      "MODERATE": 18,
+      "LOW": 17,
+      "HIGH": 1
+     }
+    },
+    "v2": {
+     "answered": 38,
+     "distinct": 2,
+     "modal_share": 0.526,
+     "spread": {
+      "LOW": 20,
+      "MODERATE": 18
+     }
+    }
+   },
+   "pricing_power": {
+    "v1": {
+     "answered": 25,
+     "distinct": 2,
+     "modal_share": 0.92,
+     "spread": {
+      "LOW": 23,
+      "MODERATE": 2
+     }
+    },
+    "v2": {
+     "answered": 32,
+     "distinct": 2,
+     "modal_share": 0.938,
+     "spread": {
+      "LOW": 30,
+      "MODERATE": 2
+     }
+    }
+   },
+   "technology_risk": {
+    "v1": {
+     "answered": 35,
+     "distinct": 3,
+     "modal_share": 0.6,
+     "spread": {
+      "SEVERE": 21,
+      "MODERATE": 12,
+      "ELEVATED": 2
+     }
+    },
+    "v2": {
+     "answered": 35,
+     "distinct": 3,
+     "modal_share": 0.657,
+     "spread": {
+      "SEVERE": 23,
+      "MODERATE": 10,
+      "ELEVATED": 2
+     }
+    }
+   },
+   "disruption_risk": {
+    "v1": {
+     "answered": 37,
+     "distinct": 2,
+     "modal_share": 0.892,
+     "spread": {
+      "SEVERE": 33,
+      "MODERATE": 4
+     }
+    },
+    "v2": {
+     "answered": 37,
+     "distinct": 2,
+     "modal_share": 0.946,
+     "spread": {
+      "SEVERE": 35,
+      "MODERATE": 2
+     }
+    }
+   },
+   "regulatory_risk": {
+    "v1": {
+     "answered": 37,
+     "distinct": 3,
+     "modal_share": 0.865,
+     "spread": {
+      "MODERATE": 32,
+      "SEVERE": 4,
+      "ELEVATED": 1
+     }
+    },
+    "v2": {
+     "answered": 40,
+     "distinct": 2,
+     "modal_share": 0.925,
+     "spread": {
+      "MODERATE": 37,
+      "SEVERE": 3
+     }
+    }
+   }
+  },
+  "answered_per_company": {
+   "v1": 7.3,
+   "v2": 7.125
+  },
+  "v1_competitive_position_contradictions": {
+   "claims": 18,
+   "contradicted": 6,
+   "rate": 0.3333
+  },
+  "v2_competitive_position_contradictions": {
+   "claims": 14,
+   "contradicted": 0,
+   "rate": 0.0
+  },
+  "mean_modal_share": {
+   "v1": 0.7835,
+   "v2": 0.7783
+  }
+ }
+}

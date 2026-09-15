@@ -1,0 +1,70 @@
+{
+  "ticker": "NOG",
+  "cik": "0001104485",
+  "sector": "Energy",
+  "decile": 3,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001104485-24-000045",
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "chars": 540114
+      },
+      "pack_secs": 25.0,
+      "components": {
+        "MG": {
+          "secs": 13.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104485-24-000105",
+        "form": "DEF 14A",
+        "filed": "2024-04-11",
+        "error": null,
+        "n_chunks": 135
+      },
+      "total_secs": 38.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001104485-25-000039",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": 534963
+      },
+      "pack_secs": 20.7,
+      "components": {
+        "MG": {
+          "secs": 13.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 0,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001104485-25-000089",
+        "form": "DEF 14A",
+        "filed": "2025-04-11",
+        "error": null,
+        "n_chunks": 90
+      },
+      "total_secs": 33.8
+    }
+  }
+}

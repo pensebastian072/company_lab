@@ -1,0 +1,70 @@
+{
+  "ticker": "SBRA",
+  "cik": "0001492298",
+  "sector": "Real Estate",
+  "decile": 0,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001492298-24-000008",
+        "form": "10-K",
+        "filed": "2024-02-27",
+        "chars": 506772
+      },
+      "pack_secs": 25.5,
+      "components": {
+        "MG": {
+          "secs": 13.9,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-116049",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 136
+      },
+      "total_secs": 39.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001492298-25-000008",
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "chars": 493549
+      },
+      "pack_secs": 23.7,
+      "components": {
+        "MG": {
+          "secs": 13.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-095172",
+        "form": "DEF 14A",
+        "filed": "2025-04-25",
+        "error": null,
+        "n_chunks": 140
+      },
+      "total_secs": 37.3
+    }
+  }
+}

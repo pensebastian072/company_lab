@@ -1,0 +1,330 @@
+{
+ "n_paired": 246,
+ "n_qwen_book": 371,
+ "n_lfm_book": 449,
+ "judged_fields": [
+  "current_moat_strength",
+  "competitive_position",
+  "competitive_position_trend",
+  "moat_trajectory",
+  "company_specific_capture",
+  "demand_visibility",
+  "pricing_power",
+  "technology_risk",
+  "disruption_risk",
+  "regulatory_risk"
+ ],
+ "inherited_excluded": [
+  "market_share_direction",
+  "industry_structural_growth"
+ ],
+ "P1_fields_answered_per_company": {
+  "qwen": 6.943,
+  "lfm": 7.846
+ },
+ "P1_of_possible": 10,
+ "P1_lfm_minus_qwen": 0.903,
+ "P1_won_by_lfm_on_n_companies": 158,
+ "P1_tied": 80,
+ "per_field": {
+  "current_moat_strength": {
+   "qwen": {
+    "answered": 237,
+    "distinct": 3,
+    "norm_entropy": 0.3774,
+    "modal_share": 0.865,
+    "spread": {
+     "STRONG": 205,
+     "MODERATE": 31,
+     "NONE": 1
+    }
+   },
+   "lfm": {
+    "answered": 243,
+    "distinct": 2,
+    "norm_entropy": 0.0385,
+    "modal_share": 0.996,
+    "spread": {
+     "MODERATE": 242,
+     "NONE": 1
+    }
+   },
+   "both_answered": 237,
+   "raw_agreement": 0.135,
+   "kappa": 0.0055
+  },
+  "competitive_position": {
+   "qwen": {
+    "answered": 115,
+    "distinct": 3,
+    "norm_entropy": 0.2079,
+    "modal_share": 0.948,
+    "spread": {
+     "LEADER": 109,
+     "STRONG_NUMBER_TWO": 5,
+     "CHALLENGER": 1
+    }
+   },
+   "lfm": {
+    "answered": 119,
+    "distinct": 4,
+    "norm_entropy": 0.7424,
+    "modal_share": 0.538,
+    "spread": {
+     "CHALLENGER": 64,
+     "LEADER": 41,
+     "LAGGARD": 9,
+     "DOMINANT": 5
+    }
+   },
+   "both_answered": 115,
+   "raw_agreement": 0.348,
+   "kappa": 0.0082
+  },
+  "competitive_position_trend": {
+   "qwen": {
+    "answered": 30,
+    "distinct": 3,
+    "norm_entropy": 0.486,
+    "modal_share": 0.833,
+    "spread": {
+     "IMPROVING": 25,
+     "DETERIORATING": 4,
+     "STABLE": 1
+    }
+   },
+   "lfm": {
+    "answered": 31,
+    "distinct": 3,
+    "norm_entropy": 0.8946,
+    "modal_share": 0.548,
+    "spread": {
+     "STABLE": 17,
+     "IMPROVING": 9,
+     "DETERIORATING": 5
+    }
+   },
+   "both_answered": 25,
+   "raw_agreement": 0.44,
+   "kappa": 0.1587
+  },
+  "moat_trajectory": {
+   "qwen": {
+    "answered": 194,
+    "distinct": 4,
+    "norm_entropy": 0.7254,
+    "modal_share": 0.598,
+    "spread": {
+     "STABLE": 116,
+     "STRENGTHENING": 41,
+     "WEAKENING": 34,
+     "DETERIORATING": 3
+    }
+   },
+   "lfm": {
+    "answered": 217,
+    "distinct": 2,
+    "norm_entropy": 0.3271,
+    "modal_share": 0.94,
+    "spread": {
+     "STABLE": 204,
+     "WEAKENING": 13
+    }
+   },
+   "both_answered": 172,
+   "raw_agreement": 0.628,
+   "kappa": 0.049
+  },
+  "company_specific_capture": {
+   "qwen": {
+    "answered": 144,
+    "distinct": 3,
+    "norm_entropy": 0.6994,
+    "modal_share": 0.639,
+    "spread": {
+     "MODERATE": 92,
+     "HIGH": 47,
+     "LOW": 5
+    }
+   },
+   "lfm": {
+    "answered": 198,
+    "distinct": 3,
+    "norm_entropy": 0.6876,
+    "modal_share": 0.545,
+    "spread": {
+     "MODERATE": 108,
+     "LOW": 87,
+     "HIGH": 3
+    }
+   },
+   "both_answered": 132,
+   "raw_agreement": 0.364,
+   "kappa": -0.0244
+  },
+  "demand_visibility": {
+   "qwen": {
+    "answered": 173,
+    "distinct": 3,
+    "norm_entropy": 0.7873,
+    "modal_share": 0.624,
+    "spread": {
+     "MODERATE": 108,
+     "HIGH": 50,
+     "LOW": 15
+    }
+   },
+   "lfm": {
+    "answered": 228,
+    "distinct": 3,
+    "norm_entropy": 0.7697,
+    "modal_share": 0.535,
+    "spread": {
+     "LOW": 122,
+     "MODERATE": 95,
+     "HIGH": 11
+    }
+   },
+   "both_answered": 172,
+   "raw_agreement": 0.401,
+   "kappa": 0.127
+  },
+  "pricing_power": {
+   "qwen": {
+    "answered": 97,
+    "distinct": 3,
+    "norm_entropy": 0.9758,
+    "modal_share": 0.423,
+    "spread": {
+     "MODERATE": 41,
+     "HIGH": 33,
+     "LOW": 23
+    }
+   },
+   "lfm": {
+    "answered": 174,
+    "distinct": 3,
+    "norm_entropy": 0.5338,
+    "modal_share": 0.753,
+    "spread": {
+     "LOW": 131,
+     "MODERATE": 42,
+     "HIGH": 1
+    }
+   },
+   "both_answered": 96,
+   "raw_agreement": 0.26,
+   "kappa": -0.0159
+  },
+  "technology_risk": {
+   "qwen": {
+    "answered": 237,
+    "distinct": 3,
+    "norm_entropy": 0.6835,
+    "modal_share": 0.717,
+    "spread": {
+     "ELEVATED": 170,
+     "MODERATE": 51,
+     "LOW": 16
+    }
+   },
+   "lfm": {
+    "answered": 238,
+    "distinct": 3,
+    "norm_entropy": 0.897,
+    "modal_share": 0.496,
+    "spread": {
+     "SEVERE": 118,
+     "MODERATE": 88,
+     "ELEVATED": 32
+    }
+   },
+   "both_answered": 237,
+   "raw_agreement": 0.232,
+   "kappa": 0.0672
+  },
+  "disruption_risk": {
+   "qwen": {
+    "answered": 243,
+    "distinct": 3,
+    "norm_entropy": 0.4089,
+    "modal_share": 0.877,
+    "spread": {
+     "ELEVATED": 213,
+     "MODERATE": 21,
+     "LOW": 9
+    }
+   },
+   "lfm": {
+    "answered": 244,
+    "distinct": 4,
+    "norm_entropy": 0.4386,
+    "modal_share": 0.791,
+    "spread": {
+     "SEVERE": 193,
+     "MODERATE": 44,
+     "ELEVATED": 6,
+     "LOW": 1
+    }
+   },
+   "both_answered": 243,
+   "raw_agreement": 0.045,
+   "kappa": 0.0081
+  },
+  "regulatory_risk": {
+   "qwen": {
+    "answered": 238,
+    "distinct": 3,
+    "norm_entropy": 0.4718,
+    "modal_share": 0.845,
+    "spread": {
+     "ELEVATED": 201,
+     "MODERATE": 28,
+     "LOW": 9
+    }
+   },
+   "lfm": {
+    "answered": 238,
+    "distinct": 3,
+    "norm_entropy": 0.198,
+    "modal_share": 0.954,
+    "spread": {
+     "MODERATE": 227,
+     "SEVERE": 7,
+     "ELEVATED": 4
+    }
+   },
+   "both_answered": 238,
+   "raw_agreement": 0.13,
+   "kappa": 0.0044
+  }
+ },
+ "P2_mean_norm_entropy": {
+  "qwen": 0.5823,
+  "lfm": 0.5527
+ },
+ "P2_lfm_minus_qwen": -0.0296,
+ "P4_mean_kappa": 0.0388,
+ "P4_fields_with_kappa": 10,
+ "P3_P5_sample_n": 80,
+ "P3_P5": {
+  "qwen": {
+   "claims_located_in_pool": 568,
+   "claims_not_locatable": 0,
+   "index0_share": 0.2975352112676056,
+   "abstain_rate_thin_pool_1_2": 0.35664335664335667,
+   "abstain_rate_thick_pool_5plus": 0.0784313725490196,
+   "abstain_slope_thin_minus_thick": 0.27821198409433706,
+   "n_field_observations": 664
+  },
+  "lfm": {
+   "claims_located_in_pool": 641,
+   "claims_not_locatable": 0,
+   "index0_share": 0.36349453978159124,
+   "abstain_rate_thin_pool_1_2": 0.07692307692307693,
+   "abstain_rate_thick_pool_5plus": 0.01715686274509804,
+   "abstain_slope_thin_minus_thick": 0.05976621417797889,
+   "n_field_observations": 664
+  }
+ }
+}

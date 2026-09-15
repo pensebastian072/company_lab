@@ -1,0 +1,52 @@
+{
+  "ticker": "NVST",
+  "cik": "0001757073",
+  "sector": "Health Care",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "customer_relationships",
+      "distribution",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 17.5,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "manufacturing_complexity"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 26.2,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 8,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "customer_relationships",
+      "distribution",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs"
+    ]
+  }
+}

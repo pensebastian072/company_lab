@@ -1,0 +1,62 @@
+{
+  "n_under": 20,
+  "n_control": 10,
+  "median_dims_A": 4.5,
+  "median_dims_B": 4.0,
+  "P1_median_gain": -0.5,
+  "P1_pass": false,
+  "unverified_pct_A": 0.0,
+  "unverified_pct_B": 3.33,
+  "unverified_counts": {
+    "A": [
+      0,
+      30
+    ],
+    "B": [
+      2,
+      60
+    ]
+  },
+  "P2_pass": false,
+  "controls_losing_a_dimension": [
+    "AVGO",
+    "DASH",
+    "DXC",
+    "GRBK",
+    "GT",
+    "SYY",
+    "ULTA"
+  ],
+  "P3_pass": false,
+  "median_added_secs": 2.2,
+  "P4_pass": true,
+  "weak_dimension_recovery": {
+    "network_effects": {
+      "A": 0,
+      "B": 1,
+      "n": 20
+    },
+    "manufacturing_complexity": {
+      "A": 3,
+      "B": 4,
+      "n": 20
+    },
+    "data_advantages": {
+      "A": 0,
+      "B": 1,
+      "n": 20
+    },
+    "economies_of_scale": {
+      "A": 2,
+      "B": 18,
+      "n": 20
+    }
+  },
+  "cleared_floor_A": 3,
+  "cleared_floor_B": 5,
+  "exploratory_arm_C": {
+    "note": "NOT pre-registered: A's call plus the targeted weak call, union",
+    "median_dims": 5.0,
+    "cleared_floor": 9
+  }
+}

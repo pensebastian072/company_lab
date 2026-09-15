@@ -1,0 +1,224 @@
+{
+  "experiment": "E38_model_effect",
+  "as_of": "2026-09-01T20:00:13.096316+00:00",
+  "v1_model": "qwen2.5:7b (structured)",
+  "v2_model": "LFM2.5-2.6B-Finance (structured)",
+  "v1_dir": "D:\\company_lab_data\\qual_qwen_struct",
+  "v2_dir": "D:\\company_lab_data\\qual_lfm25",
+  "components": {
+    "SG": {
+      "component": "SG",
+      "companies_compared": 1471,
+      "v1": {
+        "n_items": 8826,
+        "n_null": 2010,
+        "n_degenerate": 0,
+        "n_scored": 6816,
+        "n_chrome": 0,
+        "n_empty": 0,
+        "n_terse": 92,
+        "null_rate": 0.2277,
+        "degenerate_rate": 0.0,
+        "terse_rate": 0.0135
+      },
+      "v2": {
+        "n_items": 8823,
+        "n_null": 19,
+        "n_degenerate": 1,
+        "n_scored": 8804,
+        "n_chrome": 0,
+        "n_empty": 1,
+        "n_terse": 372,
+        "null_rate": 0.0022,
+        "degenerate_rate": 0.0001,
+        "terse_rate": 0.0423
+      },
+      "mean_score_delta": 0.351,
+      "n_score_pairs": 6797,
+      "per_key": {
+        "capacity_backlog_contracts": {
+          "v1_null": 828,
+          "v2_null": 4,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1470
+        },
+        "demand_drivers_3_5yr": {
+          "v1_null": 4,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1471
+        },
+        "multiple_independent_drivers": {
+          "v1_null": 106,
+          "v2_null": 4,
+          "v1_deg": 0,
+          "v2_deg": 1,
+          "n": 1470
+        },
+        "revenue_growth_sustainable": {
+          "v1_null": 92,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1471
+        },
+        "secular_not_cyclical": {
+          "v1_null": 0,
+          "v2_null": 11,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1470
+        },
+        "tam_expanding": {
+          "v1_null": 980,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1471
+        }
+      }
+    },
+    "BQ": {
+      "component": "BQ",
+      "companies_compared": 1471,
+      "v1": {
+        "n_items": 16181,
+        "n_null": 6471,
+        "n_degenerate": 1914,
+        "n_scored": 9710,
+        "n_chrome": 0,
+        "n_empty": 1914,
+        "n_terse": 526,
+        "null_rate": 0.3999,
+        "degenerate_rate": 0.1971,
+        "terse_rate": 0.0542
+      },
+      "v2": {
+        "n_items": 16181,
+        "n_null": 4,
+        "n_degenerate": 10,
+        "n_scored": 16177,
+        "n_chrome": 5,
+        "n_empty": 5,
+        "n_terse": 120,
+        "null_rate": 0.0002,
+        "degenerate_rate": 0.0006,
+        "terse_rate": 0.0074
+      },
+      "mean_score_delta": 0.588,
+      "n_score_pairs": 9710,
+      "per_key": {
+        "brand": {
+          "v1_null": 271,
+          "v2_null": 0,
+          "v1_deg": 174,
+          "v2_deg": 1,
+          "n": 1471
+        },
+        "customer_relationships": {
+          "v1_null": 112,
+          "v2_null": 0,
+          "v1_deg": 187,
+          "v2_deg": 2,
+          "n": 1471
+        },
+        "data_advantages": {
+          "v1_null": 1169,
+          "v2_null": 2,
+          "v1_deg": 151,
+          "v2_deg": 2,
+          "n": 1471
+        },
+        "distribution": {
+          "v1_null": 345,
+          "v2_null": 0,
+          "v1_deg": 152,
+          "v2_deg": 0,
+          "n": 1471
+        },
+        "economies_of_scale": {
+          "v1_null": 908,
+          "v2_null": 0,
+          "v1_deg": 111,
+          "v2_deg": 1,
+          "n": 1471
+        },
+        "intellectual_property": {
+          "v1_null": 391,
+          "v2_null": 0,
+          "v1_deg": 172,
+          "v2_deg": 0,
+          "n": 1471
+        },
+        "manufacturing_complexity": {
+          "v1_null": 1092,
+          "v2_null": 0,
+          "v1_deg": 152,
+          "v2_deg": 1,
+          "n": 1471
+        },
+        "network_effects": {
+          "v1_null": 1287,
+          "v2_null": 0,
+          "v1_deg": 97,
+          "v2_deg": 2,
+          "n": 1471
+        },
+        "regulatory_barriers": {
+          "v1_null": 316,
+          "v2_null": 2,
+          "v1_deg": 146,
+          "v2_deg": 1,
+          "n": 1471
+        },
+        "switching_costs": {
+          "v1_null": 158,
+          "v2_null": 0,
+          "v1_deg": 304,
+          "v2_deg": 0,
+          "n": 1471
+        },
+        "technological_advantage": {
+          "v1_null": 422,
+          "v2_null": 0,
+          "v1_deg": 268,
+          "v2_deg": 0,
+          "n": 1471
+        }
+      }
+    },
+    "MG": {
+      "component": "MG",
+      "companies_compared": 1471,
+      "v1": {
+        "n_items": 0,
+        "n_null": 0,
+        "n_degenerate": 0,
+        "n_scored": 0,
+        "n_chrome": 0,
+        "n_empty": 0,
+        "n_terse": 0,
+        "null_rate": null,
+        "degenerate_rate": null,
+        "terse_rate": null
+      },
+      "v2": {
+        "n_items": 0,
+        "n_null": 0,
+        "n_degenerate": 0,
+        "n_scored": 0,
+        "n_chrome": 0,
+        "n_empty": 0,
+        "n_terse": 0,
+        "null_rate": null,
+        "degenerate_rate": null,
+        "terse_rate": null
+      },
+      "mean_score_delta": null,
+      "n_score_pairs": 0,
+      "per_key": {}
+    }
+  }
+}

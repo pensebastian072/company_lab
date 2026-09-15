@@ -1,0 +1,70 @@
+{
+  "ticker": "LTC",
+  "cik": "0000887905",
+  "sector": "Real Estate",
+  "decile": 8,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001558370-24-001256",
+        "form": "10-K",
+        "filed": "2024-02-15",
+        "chars": null
+      },
+      "pack_secs": 23.9,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001558370-24-005193",
+        "form": "DEF 14A",
+        "filed": "2024-04-16",
+        "error": null,
+        "n_chunks": 143
+      },
+      "total_secs": 37.3
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001558370-25-001395",
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "chars": null
+      },
+      "pack_secs": 24.1,
+      "components": {
+        "MG": {
+          "secs": 14.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001558370-25-004834",
+        "form": "DEF 14A",
+        "filed": "2025-04-15",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.2
+    }
+  }
+}

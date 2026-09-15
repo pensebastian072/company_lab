@@ -1,0 +1,52 @@
+{
+  "ticker": "SBRA",
+  "cik": "0001492298",
+  "sector": "Real Estate",
+  "arm": "under",
+  "base": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 18.3,
+    "parse_ok": true
+  },
+  "repaired": {
+    "weak_scored": [
+      "economies_of_scale"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 23.2,
+    "parse_ok": true,
+    "targeted_meta": {
+      "n_chunks_picked": 7,
+      "methods": {
+        "network_effects": "embedding",
+        "manufacturing_complexity": "embedding",
+        "data_advantages": "embedding",
+        "economies_of_scale": "embedding"
+      }
+    }
+  },
+  "repair_ran": true,
+  "final": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "economies_of_scale",
+      "regulatory_barriers",
+      "switching_costs"
+    ]
+  }
+}

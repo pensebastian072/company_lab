@@ -1,0 +1,16 @@
+{
+  "ticker": "PSKY",
+  "cik": "0002041610",
+  "sector": "Communication Services",
+  "decile": 5,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "error": "no 10-K filed on or before 2024-08-22"
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "error": "no 10-K filed on or before 2025-08-22"
+    }
+  }
+}

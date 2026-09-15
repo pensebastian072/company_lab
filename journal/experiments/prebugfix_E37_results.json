@@ -1,0 +1,3905 @@
+{
+  "experiment": "E37",
+  "n_comparable": 1472,
+  "n_v1_scorecards": 1501,
+  "n_v2_scorecards": 1472,
+  "v2_parquet": "D:\\company_lab_data\\e37_snapshot_full\\v2_scores.parquet",
+  "v2_scorecards": "D:\\company_lab_data\\e37_snapshot_full\\v2_scorecards",
+  "score_denominator": 92,
+  "raw": {
+    "mean_delta": 8.74,
+    "n_up": 1380,
+    "n_down": 62,
+    "n_flat": 30
+  },
+  "decomposition_mean_points": {
+    "measured_points_delta": 0.024,
+    "judged_disagree_delta": 3.879,
+    "judged_fill_delta": 4.19,
+    "judged_lost_delta": -0.067,
+    "total": 8.026,
+    "in_score_units": {
+      "measured_points_delta": 0.03,
+      "judged_disagree_delta": 4.22,
+      "judged_fill_delta": 4.55,
+      "judged_lost_delta": -0.07
+    }
+  },
+  "C1_downgrades_kept_on_common_support": {
+    "n_downgrades": 62,
+    "threshold_points": 3,
+    "n_kept": 33,
+    "share": 0.5323
+  },
+  "C2_measured_half_moved": {
+    "n": 219,
+    "share": 0.1488,
+    "worst": [
+      {
+        "ticker": "AGCO",
+        "delta": -4
+      },
+      {
+        "ticker": "ATEN",
+        "delta": -3
+      },
+      {
+        "ticker": "GWRE",
+        "delta": -3
+      },
+      {
+        "ticker": "MCHP",
+        "delta": -3
+      },
+      {
+        "ticker": "SMTC",
+        "delta": 3
+      },
+      {
+        "ticker": "TOL",
+        "delta": -3
+      },
+      {
+        "ticker": "AIT",
+        "delta": 2
+      },
+      {
+        "ticker": "AMKR",
+        "delta": -2
+      },
+      {
+        "ticker": "ANF",
+        "delta": -2
+      },
+      {
+        "ticker": "AOSL",
+        "delta": -2
+      },
+      {
+        "ticker": "ASO",
+        "delta": 2
+      },
+      {
+        "ticker": "BBWI",
+        "delta": -2
+      },
+      {
+        "ticker": "BURL",
+        "delta": -2
+      },
+      {
+        "ticker": "CALX",
+        "delta": 2
+      },
+      {
+        "ticker": "CHE",
+        "delta": 2
+      }
+    ],
+    "total_points": 36,
+    "why": {
+      "vintage": 250,
+      "cohort": 44
+    },
+    "unexplained_examples": [],
+    "by_key": [
+      {
+        "key": "va_ev_ebitda_vs_peers",
+        "n": 62,
+        "sum_delta": 24,
+        "kinds": {
+          "disagree": 55,
+          "lost": 7
+        },
+        "why": {
+          "cohort": 16,
+          "vintage": 46
+        }
+      },
+      {
+        "key": "er_estimate_revisions",
+        "n": 40,
+        "sum_delta": 0,
+        "kinds": {
+          "disagree": 38,
+          "lost": 2
+        },
+        "why": {
+          "vintage": 40
+        }
+      },
+      {
+        "key": "va_ev_sales_vs_peers",
+        "n": 35,
+        "sum_delta": 10,
+        "kinds": {
+          "disagree": 24,
+          "lost": 11
+        },
+        "why": {
+          "vintage": 27,
+          "cohort": 8
+        }
+      },
+      {
+        "key": "va_peg",
+        "n": 32,
+        "sum_delta": 7,
+        "kinds": {
+          "disagree": 26,
+          "lost": 6
+        },
+        "why": {
+          "vintage": 32
+        }
+      },
+      {
+        "key": "va_pe_vs_own_history",
+        "n": 31,
+        "sum_delta": -6,
+        "kinds": {
+          "disagree": 30,
+          "lost": 1
+        },
+        "why": {
+          "vintage": 31
+        }
+      },
+      {
+        "key": "va_reverse_dcf",
+        "n": 22,
+        "sum_delta": 0,
+        "kinds": {
+          "disagree": 22
+        },
+        "why": {
+          "vintage": 22
+        }
+      },
+      {
+        "key": "fe_roic",
+        "n": 12,
+        "sum_delta": -2,
+        "kinds": {
+          "disagree": 12
+        },
+        "why": {
+          "cohort": 11,
+          "vintage": 1
+        }
+      },
+      {
+        "key": "fe_roe",
+        "n": 9,
+        "sum_delta": 3,
+        "kinds": {
+          "disagree": 9
+        },
+        "why": {
+          "cohort": 9
+        }
+      },
+      {
+        "key": "va_p_fcf",
+        "n": 9,
+        "sum_delta": 5,
+        "kinds": {
+          "disagree": 9
+        },
+        "why": {
+          "vintage": 9
+        }
+      },
+      {
+        "key": "fe_fcf_margin",
+        "n": 9,
+        "sum_delta": -7,
+        "kinds": {
+          "disagree": 9
+        },
+        "why": {
+          "vintage": 9
+        }
+      },
+      {
+        "key": "va_fwd_pe",
+        "n": 8,
+        "sum_delta": 6,
+        "kinds": {
+          "disagree": 8
+        },
+        "why": {
+          "vintage": 8
+        }
+      },
+      {
+        "key": "er_growth_vs_expectation",
+        "n": 6,
+        "sum_delta": 0,
+        "kinds": {
+          "disagree": 6
+        },
+        "why": {
+          "vintage": 6
+        }
+      },
+      {
+        "key": "fe_operating_margin",
+        "n": 6,
+        "sum_delta": -4,
+        "kinds": {
+          "disagree": 6
+        },
+        "why": {
+          "vintage": 6
+        }
+      },
+      {
+        "key": "fe_gross_margin",
+        "n": 6,
+        "sum_delta": -2,
+        "kinds": {
+          "disagree": 6
+        },
+        "why": {
+          "vintage": 6
+        }
+      },
+      {
+        "key": "er_earnings_surprise",
+        "n": 5,
+        "sum_delta": 2,
+        "kinds": {
+          "fill": 3,
+          "lost": 2
+        },
+        "why": {
+          "vintage": 5
+        }
+      },
+      {
+        "key": "fe_fcf_growth",
+        "n": 1,
+        "sum_delta": -1,
+        "kinds": {
+          "disagree": 1
+        },
+        "why": {
+          "vintage": 1
+        }
+      },
+      {
+        "key": "bs_dilution",
+        "n": 1,
+        "sum_delta": 1,
+        "kinds": {
+          "disagree": 1
+        },
+        "why": {
+          "vintage": 1
+        }
+      }
+    ]
+  },
+  "C3_scored_to_null": {
+    "n": 66,
+    "n_judged": 37,
+    "n_measured": 29,
+    "n_scored_subtests_v1": 50291,
+    "share_of_scored": 0.00131,
+    "by_key": [
+      [
+        "sg_secular_not_cyclical",
+        15
+      ],
+      [
+        "va_ev_sales_vs_peers",
+        11
+      ],
+      [
+        "sg_multiple_independent_drivers",
+        8
+      ],
+      [
+        "va_ev_ebitda_vs_peers",
+        7
+      ],
+      [
+        "va_peg",
+        6
+      ],
+      [
+        "sg_capacity_backlog_contracts",
+        3
+      ],
+      [
+        "sg_demand_drivers_3_5yr",
+        3
+      ],
+      [
+        "sg_revenue_growth_sustainable",
+        3
+      ],
+      [
+        "sg_tam_expanding",
+        3
+      ],
+      [
+        "bq_moat",
+        2
+      ],
+      [
+        "er_estimate_revisions",
+        2
+      ],
+      [
+        "er_earnings_surprise",
+        2
+      ],
+      [
+        "va_pe_vs_own_history",
+        1
+      ]
+    ],
+    "companies": [
+      "AFL",
+      "AGCO",
+      "AIZ",
+      "ANF",
+      "CNH",
+      "COHU",
+      "CRM",
+      "DD",
+      "DE",
+      "DKS",
+      "ELS",
+      "ESS",
+      "EWBC",
+      "HON",
+      "INVH",
+      "IRT",
+      "ITRI",
+      "JXN",
+      "KGS",
+      "LNN",
+      "LVS",
+      "MAA",
+      "MMM",
+      "MRP",
+      "NVR",
+      "NWSA",
+      "OGE",
+      "OKTA",
+      "PAHC",
+      "PATK",
+      "PLMR",
+      "PR",
+      "R",
+      "RGA",
+      "RS",
+      "SUI",
+      "TKR",
+      "TTEK",
+      "UFCS",
+      "VMRK"
+    ],
+    "judged_companies": [
+      "AFL",
+      "AIZ",
+      "COHU",
+      "EWBC",
+      "IRT",
+      "ITRI",
+      "JXN",
+      "KGS",
+      "LVS",
+      "MAA",
+      "NWSA",
+      "OGE",
+      "PATK",
+      "PLMR",
+      "R",
+      "TKR",
+      "TTEK",
+      "UFCS"
+    ],
+    "judged_points_lost_by_company": [
+      {
+        "ticker": "KGS",
+        "points": 17
+      },
+      {
+        "ticker": "R",
+        "points": 17
+      },
+      {
+        "ticker": "PLMR",
+        "points": 13
+      },
+      {
+        "ticker": "NWSA",
+        "points": 12
+      },
+      {
+        "ticker": "AIZ",
+        "points": 8
+      },
+      {
+        "ticker": "UFCS",
+        "points": 5
+      },
+      {
+        "ticker": "ITRI",
+        "points": 4
+      },
+      {
+        "ticker": "AFL",
+        "points": 3
+      },
+      {
+        "ticker": "IRT",
+        "points": 3
+      },
+      {
+        "ticker": "MAA",
+        "points": 3
+      },
+      {
+        "ticker": "COHU",
+        "points": 2
+      },
+      {
+        "ticker": "EWBC",
+        "points": 2
+      },
+      {
+        "ticker": "OGE",
+        "points": 2
+      },
+      {
+        "ticker": "PATK",
+        "points": 2
+      },
+      {
+        "ticker": "TKR",
+        "points": 2
+      },
+      {
+        "ticker": "TTEK",
+        "points": 2
+      },
+      {
+        "ticker": "JXN",
+        "points": 1
+      },
+      {
+        "ticker": "LVS",
+        "points": 1
+      }
+    ]
+  },
+  "C4_disagreement_concentration": {
+    "n_disagreements": 5834,
+    "n_distinct_keys": 25,
+    "top_keys": [
+      {
+        "key": "bq_moat",
+        "component": "BQ",
+        "n": 1279,
+        "mean_delta": 2.53,
+        "share_down": 0.163
+      },
+      {
+        "key": "sg_revenue_growth_sustainable",
+        "component": "SG",
+        "n": 944,
+        "mean_delta": 1.08,
+        "share_down": 0.168
+      },
+      {
+        "key": "sg_multiple_independent_drivers",
+        "component": "SG",
+        "n": 899,
+        "mean_delta": 0.91,
+        "share_down": 0.05
+      },
+      {
+        "key": "sg_demand_drivers_3_5yr",
+        "component": "SG",
+        "n": 846,
+        "mean_delta": -0.74,
+        "share_down": 0.693
+      },
+      {
+        "key": "sg_secular_not_cyclical",
+        "component": "SG",
+        "n": 731,
+        "mean_delta": 0.24,
+        "share_down": 0.384
+      },
+      {
+        "key": "sg_capacity_backlog_contracts",
+        "component": "SG",
+        "n": 469,
+        "mean_delta": 1.05,
+        "share_down": 0.079
+      },
+      {
+        "key": "sg_tam_expanding",
+        "component": "SG",
+        "n": 380,
+        "mean_delta": 1.51,
+        "share_down": 0.011
+      },
+      {
+        "key": "va_ev_ebitda_vs_peers",
+        "component": "VA",
+        "n": 55,
+        "mean_delta": 0.53,
+        "share_down": 0.236
+      },
+      {
+        "key": "er_estimate_revisions",
+        "component": "ER",
+        "n": 38,
+        "mean_delta": 0.05,
+        "share_down": 0.474
+      },
+      {
+        "key": "va_pe_vs_own_history",
+        "component": "VA",
+        "n": 30,
+        "mean_delta": -0.17,
+        "share_down": 0.567
+      },
+      {
+        "key": "va_peg",
+        "component": "VA",
+        "n": 26,
+        "mean_delta": 0.38,
+        "share_down": 0.308
+      },
+      {
+        "key": "va_ev_sales_vs_peers",
+        "component": "VA",
+        "n": 24,
+        "mean_delta": 0.5,
+        "share_down": 0.25
+      },
+      {
+        "key": "va_reverse_dcf",
+        "component": "VA",
+        "n": 22,
+        "mean_delta": 0.0,
+        "share_down": 0.455
+      },
+      {
+        "key": "mg_buyback_discipline",
+        "component": "MG",
+        "n": 19,
+        "mean_delta": 0.37,
+        "share_down": 0.316
+      },
+      {
+        "key": "fe_roic",
+        "component": "FE",
+        "n": 12,
+        "mean_delta": -0.17,
+        "share_down": 0.583
+      },
+      {
+        "key": "fe_roe",
+        "component": "FE",
+        "n": 9,
+        "mean_delta": 0.33,
+        "share_down": 0.333
+      },
+      {
+        "key": "va_p_fcf",
+        "component": "VA",
+        "n": 9,
+        "mean_delta": 0.56,
+        "share_down": 0.222
+      },
+      {
+        "key": "fe_fcf_margin",
+        "component": "FE",
+        "n": 9,
+        "mean_delta": -0.78,
+        "share_down": 0.889
+      },
+      {
+        "key": "va_fwd_pe",
+        "component": "VA",
+        "n": 8,
+        "mean_delta": 0.75,
+        "share_down": 0.125
+      },
+      {
+        "key": "er_growth_vs_expectation",
+        "component": "ER",
+        "n": 6,
+        "mean_delta": 0.0,
+        "share_down": 0.5
+      }
+    ]
+  },
+  "C5_common_support_mean": {
+    "mean": 4.251,
+    "median": 4.35,
+    "n_up": 1191,
+    "n_down": 196,
+    "n_flat": 85
+  },
+  "downgrades": [
+    {
+      "ticker": "KGS",
+      "name": "Kodiak Gas Services, Inc.",
+      "sector": "Energy",
+      "score_v1": 57,
+      "score_v2": 40,
+      "score_delta": -17,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.7766,
+      "coverage_delta": -0.2128,
+      "band_v1": "WEAK",
+      "band_v2": "INSUFFICIENT_DATA",
+      "measured_points_delta": 1,
+      "judged_disagree_delta": 1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": -17,
+      "common_points_v1": 35,
+      "common_points_v2": 37,
+      "common_score_delta": 2.17,
+      "n_common_subtests": 32,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 4,
+          "v2": 0,
+          "max": 4,
+          "delta": -4
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 4,
+          "v2": 0,
+          "max": 4,
+          "delta": -4
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 3,
+          "v2": 0,
+          "max": 3,
+          "delta": -3
+        },
+        {
+          "key": "sg_tam_expanding",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 3,
+          "v2": 0,
+          "max": 4,
+          "delta": -3
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 2,
+          "v2": 0,
+          "max": 3,
+          "delta": -2
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 1,
+          "v2": 0,
+          "max": 2,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "R",
+      "name": "Ryder",
+      "sector": "Industrials",
+      "score_v1": 52,
+      "score_v2": 35,
+      "score_delta": -17,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.7766,
+      "coverage_delta": -0.2128,
+      "band_v1": "WEAK",
+      "band_v2": "INSUFFICIENT_DATA",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": 1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": -17,
+      "common_points_v1": 31,
+      "common_points_v2": 32,
+      "common_score_delta": 1.09,
+      "n_common_subtests": 32,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 4,
+          "v2": 0,
+          "max": 4,
+          "delta": -4
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 3,
+          "v2": 0,
+          "max": 4,
+          "delta": -3
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 3,
+          "v2": 0,
+          "max": 3,
+          "delta": -3
+        },
+        {
+          "key": "sg_tam_expanding",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 3,
+          "v2": 0,
+          "max": 4,
+          "delta": -3
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 2,
+          "v2": 0,
+          "max": 3,
+          "delta": -2
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 2,
+          "v2": 0,
+          "max": 2,
+          "delta": -2
+        }
+      ]
+    },
+    {
+      "ticker": "NWSA",
+      "name": "News Corp (Class A)",
+      "sector": "Communication Services",
+      "score_v1": 51,
+      "score_v2": 40,
+      "score_delta": -11,
+      "coverage_v1": 0.8404,
+      "coverage_v2": 0.6702,
+      "coverage_delta": -0.1702,
+      "band_v1": "WEAK",
+      "band_v2": "INSUFFICIENT_DATA",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": -12,
+      "common_points_v1": 35,
+      "common_points_v2": 34,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 28,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 9,
+          "v2": 0,
+          "max": 15,
+          "delta": -9
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 2,
+          "v2": 0,
+          "max": 3,
+          "delta": -2
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 1,
+          "v2": 0,
+          "max": 2,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "AIZ",
+      "name": "Assurant",
+      "sector": "Financials",
+      "score_v1": 74,
+      "score_v2": 66,
+      "score_delta": -8,
+      "coverage_v1": 0.9891,
+      "coverage_v2": 0.8261,
+      "coverage_delta": -0.163,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": 1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": -8,
+      "common_points_v1": 60,
+      "common_points_v2": 61,
+      "common_score_delta": 1.09,
+      "n_common_subtests": 35,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 8,
+          "v2": 0,
+          "max": 15,
+          "delta": -8
+        }
+      ]
+    },
+    {
+      "ticker": "CACI",
+      "name": "CACI International",
+      "sector": "Industrials",
+      "score_v1": 68,
+      "score_v2": 60,
+      "score_delta": -8,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -8,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 63,
+      "common_points_v2": 55,
+      "common_score_delta": -8.7,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 12,
+          "v2": 8,
+          "max": 15,
+          "delta": -4
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "score_v1": 74,
+      "score_v2": 66,
+      "score_delta": -8,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": -2,
+      "judged_disagree_delta": -5,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 68,
+      "common_points_v2": 61,
+      "common_score_delta": -7.61,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 13,
+          "v2": 10,
+          "max": 15,
+          "delta": -3
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "er_estimate_revisions",
+          "component": "ER",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1,
+          "why": "vintage"
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 3,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "va_ev_ebitda_vs_peers",
+          "component": "VA",
+          "kind": "disagree",
+          "v1": 1,
+          "v2": 0,
+          "max": 2,
+          "delta": -1,
+          "why": "cohort"
+        }
+      ]
+    },
+    {
+      "ticker": "PAYC",
+      "name": "Paycom",
+      "sector": "Industrials",
+      "score_v1": 85,
+      "score_v2": 78,
+      "score_delta": -7,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.0,
+      "band_v1": "HIGH_CONVICTION",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -6,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 78,
+      "common_points_v2": 72,
+      "common_score_delta": -6.52,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 8,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 3,
+          "delta": -1
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "PLMR",
+      "name": "Palomar Holdings, Inc.",
+      "sector": "Financials",
+      "score_v1": 59,
+      "score_v2": 52,
+      "score_delta": -7,
+      "coverage_v1": 0.8261,
+      "coverage_v2": 0.7609,
+      "coverage_delta": -0.0652,
+      "band_v1": "WEAK",
+      "band_v2": "INSUFFICIENT_DATA",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": 7,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": -13,
+      "common_points_v1": 41,
+      "common_points_v2": 48,
+      "common_score_delta": 7.61,
+      "n_common_subtests": 30,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 4,
+          "v2": 0,
+          "max": 4,
+          "delta": -4
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 3,
+          "v2": 0,
+          "max": 3,
+          "delta": -3
+        },
+        {
+          "key": "sg_tam_expanding",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 3,
+          "v2": 0,
+          "max": 4,
+          "delta": -3
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 2,
+          "v2": 0,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 1,
+          "v2": 0,
+          "max": 2,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "NVT",
+      "name": "nVent Electric plc",
+      "sector": "Industrials",
+      "score_v1": 70,
+      "score_v2": 64,
+      "score_delta": -6,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -5,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 64,
+      "common_points_v2": 59,
+      "common_score_delta": -5.43,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 1,
+          "max": 4,
+          "delta": -3
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "ULS",
+      "name": "UL Solutions",
+      "sector": "Industrials",
+      "score_v1": 79,
+      "score_v2": 73,
+      "score_delta": -6,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -6,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 73,
+      "common_points_v2": 67,
+      "common_score_delta": -6.52,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 1,
+          "max": 4,
+          "delta": -3
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 11,
+          "v2": 9,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "score_v1": 76,
+      "score_v2": 71,
+      "score_delta": -5,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 0.9574,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -5,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 70,
+      "common_points_v2": 65,
+      "common_score_delta": -5.43,
+      "n_common_subtests": 37,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 8,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 3,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "BDC",
+      "name": "Belden Inc.",
+      "sector": "Information Technology",
+      "score_v1": 65,
+      "score_v2": 60,
+      "score_delta": -5,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -5,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 60,
+      "common_points_v2": 55,
+      "common_score_delta": -5.43,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "sector": "Information Technology",
+      "score_v1": 72,
+      "score_v2": 67,
+      "score_delta": -5,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": -3,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 66,
+      "common_points_v2": 62,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "va_reverse_dcf",
+          "component": "VA",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 1,
+          "max": 5,
+          "delta": -2,
+          "why": "vintage"
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 9,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "fe_roic",
+          "component": "FE",
+          "kind": "disagree",
+          "v1": 1,
+          "v2": 0,
+          "max": 2,
+          "delta": -1,
+          "why": "cohort"
+        }
+      ]
+    },
+    {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "sector": "Information Technology",
+      "score_v1": 76,
+      "score_v2": 71,
+      "score_delta": -5,
+      "coverage_v1": 0.9255,
+      "coverage_v2": 0.9255,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -5,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 70,
+      "common_points_v2": 65,
+      "common_score_delta": -5.43,
+      "n_common_subtests": 35,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 7,
+          "max": 15,
+          "delta": -3
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "SYY",
+      "name": "Sysco",
+      "sector": "Consumer Staples",
+      "score_v1": 59,
+      "score_v2": 54,
+      "score_delta": -5,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WEAK",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -4,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 54,
+      "common_points_v2": 50,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "COHU",
+      "name": "Cohu, Inc.",
+      "sector": "Information Technology",
+      "score_v1": 47,
+      "score_v2": 43,
+      "score_delta": -4,
+      "coverage_v1": 0.9681,
+      "coverage_v2": 0.9362,
+      "coverage_delta": -0.0319,
+      "band_v1": "REJECT",
+      "band_v2": "REJECT",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": -2,
+      "common_points_v1": 41,
+      "common_points_v2": 40,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 35,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 2,
+          "v2": 0,
+          "max": 3,
+          "delta": -2
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "score_v1": 71,
+      "score_v2": 67,
+      "score_delta": -4,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 65,
+      "common_points_v2": 62,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 7,
+          "max": 15,
+          "delta": -3
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "sector": "Communication Services",
+      "score_v1": 74,
+      "score_v2": 70,
+      "score_delta": -4,
+      "coverage_v1": 0.9787,
+      "coverage_v2": 0.9787,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": -1,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 68,
+      "common_points_v2": 64,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 12,
+          "v2": 9,
+          "max": 15,
+          "delta": -3
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "va_reverse_dcf",
+          "component": "VA",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 5,
+          "delta": -1,
+          "why": "vintage"
+        }
+      ]
+    },
+    {
+      "ticker": "VMI",
+      "name": "Valmont Industries",
+      "sector": "Industrials",
+      "score_v1": 68,
+      "score_v2": 64,
+      "score_delta": -4,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -4,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 63,
+      "common_points_v2": 59,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 8,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "ALGM",
+      "name": "Allegro MicroSystems",
+      "sector": "Information Technology",
+      "score_v1": 54,
+      "score_v2": 51,
+      "score_delta": -3,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WEAK",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 50,
+      "common_points_v2": 47,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 9,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "ATEN",
+      "name": "A10 Networks, Inc.",
+      "sector": "Information Technology",
+      "score_v1": 68,
+      "score_v2": 65,
+      "score_delta": -3,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": -3,
+      "judged_disagree_delta": 0,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 63,
+      "common_points_v2": 60,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 8,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "va_reverse_dcf",
+          "component": "VA",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 1,
+          "max": 5,
+          "delta": -2,
+          "why": "vintage"
+        },
+        {
+          "key": "va_pe_vs_own_history",
+          "component": "VA",
+          "kind": "disagree",
+          "v1": 1,
+          "v2": 0,
+          "max": 2,
+          "delta": -1,
+          "why": "vintage"
+        }
+      ]
+    },
+    {
+      "ticker": "BMI",
+      "name": "Badger Meter, Inc.",
+      "sector": "Information Technology",
+      "score_v1": 68,
+      "score_v2": 65,
+      "score_delta": -3,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 63,
+      "common_points_v2": 60,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "EVTC",
+      "name": "EVERTEC, Inc.",
+      "sector": "Financials",
+      "score_v1": 61,
+      "score_v2": 58,
+      "score_delta": -3,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 56,
+      "common_points_v2": 53,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "JLL",
+      "name": "Jones Lang LaSalle",
+      "sector": "Real Estate",
+      "score_v1": 80,
+      "score_v2": 77,
+      "score_delta": -3,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "HIGH_CONVICTION",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 74,
+      "common_points_v2": 71,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 9,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "KBR",
+      "name": "KBR, Inc.",
+      "sector": "Industrials",
+      "score_v1": 64,
+      "score_v2": 61,
+      "score_delta": -3,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": -1,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 59,
+      "common_points_v2": 56,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 1,
+          "max": 3,
+          "delta": -2
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "va_ev_ebitda_vs_peers",
+          "component": "VA",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1,
+          "why": "vintage"
+        }
+      ]
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "score_v1": 71,
+      "score_v2": 68,
+      "score_delta": -3,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 65,
+      "common_points_v2": 63,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 13,
+          "v2": 11,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "score_v1": 74,
+      "score_v2": 71,
+      "score_delta": -3,
+      "coverage_v1": 0.9681,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0319,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -6,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": 0,
+      "common_points_v1": 68,
+      "common_points_v2": 62,
+      "common_score_delta": -6.52,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 12,
+          "v2": 8,
+          "max": 15,
+          "delta": -4
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "score_v1": 66,
+      "score_v2": 63,
+      "score_delta": -3,
+      "coverage_v1": 0.8511,
+      "coverage_v2": 0.8511,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 61,
+      "common_points_v2": 58,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 33,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 12,
+          "v2": 10,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "score_v1": 53,
+      "score_v2": 50,
+      "score_delta": -3,
+      "coverage_v1": 0.9468,
+      "coverage_v2": 0.9787,
+      "coverage_delta": 0.0319,
+      "band_v1": "WEAK",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -4,
+      "judged_fill_delta": 1,
+      "judged_lost_delta": 0,
+      "common_points_v1": 49,
+      "common_points_v2": 45,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 37,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 8,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "TRIP",
+      "name": "TripAdvisor",
+      "sector": "Communication Services",
+      "score_v1": 58,
+      "score_v2": 55,
+      "score_delta": -3,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.032,
+      "band_v1": "WEAK",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 1,
+      "judged_lost_delta": 0,
+      "common_points_v1": 53,
+      "common_points_v2": 50,
+      "common_score_delta": -3.26,
+      "n_common_subtests": 37,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 8,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
+      "score_v1": 72,
+      "score_v2": 70,
+      "score_delta": -2,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0426,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -5,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": 0,
+      "common_points_v1": 66,
+      "common_points_v2": 61,
+      "common_score_delta": -5.43,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 13,
+          "v2": 11,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "AMT",
+      "name": "American Tower",
+      "sector": "Real Estate",
+      "score_v1": 60,
+      "score_v2": 58,
+      "score_delta": -2,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 0.9574,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WEAK",
+      "measured_points_delta": 1,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 55,
+      "common_points_v2": 53,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 36,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "sector": "Information Technology",
+      "score_v1": 62,
+      "score_v2": 60,
+      "score_delta": -2,
+      "coverage_v1": 0.8936,
+      "coverage_v2": 0.9255,
+      "coverage_delta": 0.0319,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -4,
+      "judged_fill_delta": 2,
+      "judged_lost_delta": 0,
+      "common_points_v1": 57,
+      "common_points_v2": 53,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 34,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 7,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "BL",
+      "name": "BlackLine Systems, Inc.",
+      "sector": "Information Technology",
+      "score_v1": 70,
+      "score_v2": 68,
+      "score_delta": -2,
+      "coverage_v1": 0.9787,
+      "coverage_v2": 0.9787,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 64,
+      "common_points_v2": 63,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "CBOE",
+      "name": "Cboe Global Markets",
+      "sector": "Financials",
+      "score_v1": 76,
+      "score_v2": 74,
+      "score_delta": -2,
+      "coverage_v1": 0.9681,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0319,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -5,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": 0,
+      "common_points_v1": 70,
+      "common_points_v2": 65,
+      "common_score_delta": -5.43,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 11,
+          "v2": 10,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "CHWY",
+      "name": "Chewy",
+      "sector": "Consumer Discretionary",
+      "score_v1": 68,
+      "score_v2": 66,
+      "score_delta": -2,
+      "coverage_v1": 0.9043,
+      "coverage_v2": 0.9043,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 63,
+      "common_points_v2": 61,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 34,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "sector": "Information Technology",
+      "score_v1": 77,
+      "score_v2": 75,
+      "score_delta": -2,
+      "coverage_v1": 0.9894,
+      "coverage_v2": 0.9574,
+      "coverage_delta": -0.032,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 71,
+      "common_points_v2": 69,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 12,
+          "v2": 8,
+          "max": 15,
+          "delta": -4
+        }
+      ]
+    },
+    {
+      "ticker": "FLS",
+      "name": "Flowserve",
+      "sector": "Industrials",
+      "score_v1": 57,
+      "score_v2": 55,
+      "score_delta": -2,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WEAK",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 52,
+      "common_points_v2": 51,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "HLNE",
+      "name": "Hamilton Lane",
+      "sector": "Financials",
+      "score_v1": 68,
+      "score_v2": 66,
+      "score_delta": -2,
+      "coverage_v1": 0.8778,
+      "coverage_v2": 0.8778,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 63,
+      "common_points_v2": 61,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 30,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 8,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "NATL",
+      "name": "NCR Atleos",
+      "sector": "Financials",
+      "score_v1": 62,
+      "score_v2": 60,
+      "score_delta": -2,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 57,
+      "common_points_v2": 55,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 8,
+          "max": 15,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "score_v1": 68,
+      "score_v2": 66,
+      "score_delta": -2,
+      "coverage_v1": 0.9787,
+      "coverage_v2": 0.9787,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 63,
+      "common_points_v2": 61,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 12,
+          "v2": 11,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "ONTO",
+      "name": "Onto Innovation",
+      "sector": "Information Technology",
+      "score_v1": 60,
+      "score_v2": 58,
+      "score_delta": -2,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 0.9574,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WEAK",
+      "measured_points_delta": 1,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 55,
+      "common_points_v2": 53,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 37,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 8,
+          "v2": 7,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "RJF",
+      "name": "Raymond James Financial",
+      "sector": "Financials",
+      "score_v1": 52,
+      "score_v2": 50,
+      "score_delta": -2,
+      "coverage_v1": 0.9,
+      "coverage_v2": 0.95,
+      "coverage_delta": 0.05,
+      "band_v1": "WEAK",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -6,
+      "judged_fill_delta": 4,
+      "judged_lost_delta": 0,
+      "common_points_v1": 48,
+      "common_points_v2": 42,
+      "common_score_delta": -6.52,
+      "n_common_subtests": 26,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 8,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_capacity_backlog_contracts",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 3,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "score_v1": 75,
+      "score_v2": 73,
+      "score_delta": -2,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 69,
+      "common_points_v2": 67,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 8,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "ACIW",
+      "name": "ACI Worldwide",
+      "sector": "Information Technology",
+      "score_v1": 71,
+      "score_v2": 70,
+      "score_delta": -1,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": -1,
+      "judged_disagree_delta": 0,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 65,
+      "common_points_v2": 64,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 8,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "va_pe_vs_own_history",
+          "component": "VA",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1,
+          "why": "vintage"
+        }
+      ]
+    },
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy",
+      "sector": "Information Technology",
+      "score_v1": 66,
+      "score_v2": 65,
+      "score_delta": -1,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": -1,
+      "judged_disagree_delta": 0,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 61,
+      "common_points_v2": 60,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 8,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "fe_roe",
+          "component": "FE",
+          "kind": "disagree",
+          "v1": 1,
+          "v2": 0,
+          "max": 1,
+          "delta": -1,
+          "why": "cohort"
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "BR",
+      "name": "Broadridge Financial Solutions",
+      "sector": "Industrials",
+      "score_v1": 75,
+      "score_v2": 74,
+      "score_delta": -1,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 69,
+      "common_points_v2": 68,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 11,
+          "v2": 9,
+          "max": 15,
+          "delta": -2
+        }
+      ]
+    },
+    {
+      "ticker": "COO",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "score_v1": 55,
+      "score_v2": 54,
+      "score_delta": -1,
+      "coverage_v1": 0.9681,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0319,
+      "band_v1": "WEAK",
+      "band_v2": "WEAK",
+      "measured_points_delta": -1,
+      "judged_disagree_delta": -3,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": 0,
+      "common_points_v1": 51,
+      "common_points_v2": 47,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "va_ev_ebitda_vs_peers",
+          "component": "VA",
+          "kind": "disagree",
+          "v1": 1,
+          "v2": 0,
+          "max": 2,
+          "delta": -1,
+          "why": "cohort"
+        }
+      ]
+    },
+    {
+      "ticker": "ENVA",
+      "name": "Enova International, Inc.",
+      "sector": "Financials",
+      "score_v1": 71,
+      "score_v2": 70,
+      "score_delta": -1,
+      "coverage_v1": 0.9891,
+      "coverage_v2": 0.9891,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "INVESTABLE",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 65,
+      "common_points_v2": 64,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 37,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 8,
+          "max": 15,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "HUBB",
+      "name": "Hubbell Incorporated",
+      "sector": "Industrials",
+      "score_v1": 63,
+      "score_v2": 62,
+      "score_delta": -1,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0426,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -4,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": 0,
+      "common_points_v1": 58,
+      "common_points_v2": 54,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 2,
+          "v2": 1,
+          "max": 2,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "score_v1": 83,
+      "score_v2": 82,
+      "score_delta": -1,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 0.9894,
+      "coverage_delta": 0.032,
+      "band_v1": "HIGH_CONVICTION",
+      "band_v2": "HIGH_CONVICTION",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -2,
+      "judged_fill_delta": 1,
+      "judged_lost_delta": 0,
+      "common_points_v1": 76,
+      "common_points_v2": 74,
+      "common_score_delta": -2.17,
+      "n_common_subtests": 37,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "IRDM",
+      "name": "Iridium Communications",
+      "sector": "Communication Services",
+      "score_v1": 62,
+      "score_v2": 61,
+      "score_delta": -1,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 0.9574,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 57,
+      "common_points_v2": 56,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 36,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 9,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "ITRI",
+      "name": "Itron, Inc.",
+      "sector": "Information Technology",
+      "score_v1": 63,
+      "score_v2": 62,
+      "score_delta": -1,
+      "coverage_v1": 0.9255,
+      "coverage_v2": 0.9149,
+      "coverage_delta": -0.0106,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 4,
+      "judged_lost_delta": -4,
+      "common_points_v1": 54,
+      "common_points_v2": 53,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 35,
+      "top_losses": [
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 3,
+          "v2": 0,
+          "max": 3,
+          "delta": -3
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 1,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_multiple_independent_drivers",
+          "component": "SG",
+          "kind": "lost",
+          "v1_status": "scored",
+          "v2_status": "no_data",
+          "v1": 1,
+          "v2": 0,
+          "max": 2,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "score_v1": 72,
+      "score_v2": 71,
+      "score_delta": -1,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "INVESTABLE",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 66,
+      "common_points_v2": 65,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 12,
+          "v2": 11,
+          "max": 15,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "LBRT",
+      "name": "Liberty Energy, Inc.",
+      "sector": "Energy",
+      "score_v1": 38,
+      "score_v2": 37,
+      "score_delta": -1,
+      "coverage_v1": 0.8617,
+      "coverage_v2": 0.8617,
+      "coverage_delta": 0.0,
+      "band_v1": "REJECT",
+      "band_v2": "REJECT",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 35,
+      "common_points_v2": 34,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 34,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Industrials",
+      "score_v1": 68,
+      "score_v2": 67,
+      "score_delta": -1,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0426,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -4,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": 0,
+      "common_points_v1": 63,
+      "common_points_v2": 59,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 12,
+          "v2": 10,
+          "max": 15,
+          "delta": -2
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "MIR",
+      "name": "Mirion Technologies, Inc.",
+      "sector": "Information Technology",
+      "score_v1": 65,
+      "score_v2": 64,
+      "score_delta": -1,
+      "coverage_v1": 0.9681,
+      "coverage_v2": 0.9681,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 60,
+      "common_points_v2": 59,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 8,
+          "max": 15,
+          "delta": -2
+        }
+      ]
+    },
+    {
+      "ticker": "NDAQ",
+      "name": "Nasdaq, Inc.",
+      "sector": "Financials",
+      "score_v1": 66,
+      "score_v2": 65,
+      "score_delta": -1,
+      "coverage_v1": 1.0,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 61,
+      "common_points_v2": 60,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 39,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial Services",
+      "sector": "Financials",
+      "score_v1": 47,
+      "score_v2": 46,
+      "score_delta": -1,
+      "coverage_v1": 0.8861,
+      "coverage_v2": 0.9367,
+      "coverage_delta": 0.0506,
+      "band_v1": "REJECT",
+      "band_v2": "REJECT",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -5,
+      "judged_fill_delta": 4,
+      "judged_lost_delta": 0,
+      "common_points_v1": 43,
+      "common_points_v2": 38,
+      "common_score_delta": -5.43,
+      "n_common_subtests": 28,
+      "top_losses": [
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 0,
+          "max": 3,
+          "delta": -3
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "SCI",
+      "name": "Service Corp Intl",
+      "sector": "Consumer Discretionary",
+      "score_v1": 54,
+      "score_v2": 53,
+      "score_delta": -1,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 1.0,
+      "coverage_delta": 0.0426,
+      "band_v1": "WEAK",
+      "band_v2": "WEAK",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -4,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": 0,
+      "common_points_v1": 50,
+      "common_points_v2": 46,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 38,
+      "top_losses": [
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 1,
+          "max": 4,
+          "delta": -3
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 4,
+          "delta": -1
+        },
+        {
+          "key": "sg_secular_not_cyclical",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 3,
+          "v2": 2,
+          "max": 3,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "sector": "Real Estate",
+      "score_v1": 49,
+      "score_v2": 48,
+      "score_delta": -1,
+      "coverage_v1": 0.9348,
+      "coverage_v2": 0.9783,
+      "coverage_delta": 0.0435,
+      "band_v1": "REJECT",
+      "band_v2": "REJECT",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -4,
+      "judged_fill_delta": 3,
+      "judged_lost_delta": 0,
+      "common_points_v1": 45,
+      "common_points_v2": 41,
+      "common_score_delta": -4.35,
+      "n_common_subtests": 35,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 9,
+          "v2": 6,
+          "max": 15,
+          "delta": -3
+        },
+        {
+          "key": "sg_demand_drivers_3_5yr",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 2,
+          "max": 4,
+          "delta": -2
+        }
+      ]
+    },
+    {
+      "ticker": "ZTS",
+      "name": "Zoetis",
+      "sector": "Health Care",
+      "score_v1": 63,
+      "score_v2": 62,
+      "score_delta": -1,
+      "coverage_v1": 0.9574,
+      "coverage_v2": 0.9574,
+      "coverage_delta": 0.0,
+      "band_v1": "WATCHLIST",
+      "band_v2": "WATCHLIST",
+      "measured_points_delta": 0,
+      "judged_disagree_delta": -1,
+      "judged_fill_delta": 0,
+      "judged_lost_delta": 0,
+      "common_points_v1": 58,
+      "common_points_v2": 57,
+      "common_score_delta": -1.09,
+      "n_common_subtests": 36,
+      "top_losses": [
+        {
+          "key": "bq_moat",
+          "component": "BQ",
+          "kind": "disagree",
+          "v1": 10,
+          "v2": 9,
+          "max": 15,
+          "delta": -1
+        },
+        {
+          "key": "sg_revenue_growth_sustainable",
+          "component": "SG",
+          "kind": "disagree",
+          "v1": 4,
+          "v2": 3,
+          "max": 4,
+          "delta": -1
+        }
+      ]
+    }
+  ]
+}

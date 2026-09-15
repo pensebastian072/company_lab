@@ -1,0 +1,44 @@
+{
+  "ticker": "AWR",
+  "cik": "0001056903",
+  "sector": "Utilities",
+  "arm": "under",
+  "targeted_meta": {
+    "n_chunks_picked": 7,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  },
+  "A": {
+    "scored": [
+      "customer_relationships",
+      "intellectual_property",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 18.8,
+    "parse_ok": true
+  },
+  "B": {
+    "scored": [
+      "economies_of_scale",
+      "regulatory_barriers"
+    ],
+    "unverified": [
+      0,
+      2
+    ],
+    "secs": 18.2,
+    "parse_ok": true,
+    "weak_scored": [
+      "economies_of_scale"
+    ]
+  }
+}

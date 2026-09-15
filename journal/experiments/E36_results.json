@@ -1,0 +1,260 @@
+{
+  "experiment": "E36",
+  "as_of": "2026-08-30T03:36:15.662537+00:00",
+  "v1_model": "qwen2.5:7b",
+  "v2_model": "LFM2.5-2.6B-Finance",
+  "v1_dir": "D:\\company_lab_data\\qual",
+  "v2_dir": "D:\\company_lab_data\\qual_lfm25",
+  "components": {
+    "SG": {
+      "component": "SG",
+      "companies_compared": 1090,
+      "v1": {
+        "n_items": 6534,
+        "n_null": 1520,
+        "n_degenerate": 0,
+        "n_scored": 5014,
+        "n_chrome": 0,
+        "n_empty": 0,
+        "n_terse": 60,
+        "null_rate": 0.2326,
+        "degenerate_rate": 0.0,
+        "terse_rate": 0.012
+      },
+      "v2": {
+        "n_items": 6525,
+        "n_null": 15,
+        "n_degenerate": 0,
+        "n_scored": 6510,
+        "n_chrome": 0,
+        "n_empty": 0,
+        "n_terse": 266,
+        "null_rate": 0.0023,
+        "degenerate_rate": 0.0,
+        "terse_rate": 0.0409
+      },
+      "mean_score_delta": 0.386,
+      "n_score_pairs": 4988,
+      "per_key": {
+        "capacity_backlog_contracts": {
+          "v1_null": 622,
+          "v2_null": 3,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1086
+        },
+        "demand_drivers_3_5yr": {
+          "v1_null": 0,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1087
+        },
+        "multiple_independent_drivers": {
+          "v1_null": 72,
+          "v2_null": 4,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1085
+        },
+        "revenue_growth_sustainable": {
+          "v1_null": 62,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1087
+        },
+        "secular_not_cyclical": {
+          "v1_null": 15,
+          "v2_null": 8,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1086
+        },
+        "tam_expanding": {
+          "v1_null": 749,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 1088
+        }
+      }
+    },
+    "BQ": {
+      "component": "BQ",
+      "companies_compared": 1090,
+      "v1": {
+        "n_items": 11967,
+        "n_null": 4659,
+        "n_degenerate": 1657,
+        "n_scored": 7308,
+        "n_chrome": 0,
+        "n_empty": 1657,
+        "n_terse": 454,
+        "null_rate": 0.3893,
+        "degenerate_rate": 0.2267,
+        "terse_rate": 0.0621
+      },
+      "v2": {
+        "n_items": 11979,
+        "n_null": 2,
+        "n_degenerate": 10,
+        "n_scored": 11977,
+        "n_chrome": 5,
+        "n_empty": 5,
+        "n_terse": 95,
+        "null_rate": 0.0002,
+        "degenerate_rate": 0.0008,
+        "terse_rate": 0.0079
+      },
+      "mean_score_delta": 0.599,
+      "n_score_pairs": 7297,
+      "per_key": {
+        "brand": {
+          "v1_null": 200,
+          "v2_null": 0,
+          "v1_deg": 148,
+          "v2_deg": 1,
+          "n": 1087
+        },
+        "customer_relationships": {
+          "v1_null": 87,
+          "v2_null": 0,
+          "v1_deg": 161,
+          "v2_deg": 2,
+          "n": 1087
+        },
+        "data_advantages": {
+          "v1_null": 806,
+          "v2_null": 1,
+          "v1_deg": 146,
+          "v2_deg": 2,
+          "n": 1086
+        },
+        "distribution": {
+          "v1_null": 257,
+          "v2_null": 0,
+          "v1_deg": 128,
+          "v2_deg": 0,
+          "n": 1087
+        },
+        "economies_of_scale": {
+          "v1_null": 642,
+          "v2_null": 0,
+          "v1_deg": 87,
+          "v2_deg": 1,
+          "n": 1087
+        },
+        "intellectual_property": {
+          "v1_null": 303,
+          "v2_null": 0,
+          "v1_deg": 143,
+          "v2_deg": 0,
+          "n": 1087
+        },
+        "manufacturing_complexity": {
+          "v1_null": 800,
+          "v2_null": 0,
+          "v1_deg": 128,
+          "v2_deg": 1,
+          "n": 1087
+        },
+        "network_effects": {
+          "v1_null": 909,
+          "v2_null": 0,
+          "v1_deg": 111,
+          "v2_deg": 2,
+          "n": 1087
+        },
+        "regulatory_barriers": {
+          "v1_null": 206,
+          "v2_null": 1,
+          "v1_deg": 142,
+          "v2_deg": 1,
+          "n": 1087
+        },
+        "switching_costs": {
+          "v1_null": 137,
+          "v2_null": 0,
+          "v1_deg": 252,
+          "v2_deg": 0,
+          "n": 1087
+        },
+        "technological_advantage": {
+          "v1_null": 312,
+          "v2_null": 0,
+          "v1_deg": 211,
+          "v2_deg": 0,
+          "n": 1087
+        }
+      }
+    },
+    "MG": {
+      "component": "MG",
+      "companies_compared": 1090,
+      "v1": {
+        "n_items": 5321,
+        "n_null": 3546,
+        "n_degenerate": 1,
+        "n_scored": 1775,
+        "n_chrome": 0,
+        "n_empty": 1,
+        "n_terse": 139,
+        "null_rate": 0.6664,
+        "degenerate_rate": 0.0006,
+        "terse_rate": 0.0783
+      },
+      "v2": {
+        "n_items": 0,
+        "n_null": 0,
+        "n_degenerate": 0,
+        "n_scored": 0,
+        "n_chrome": 0,
+        "n_empty": 0,
+        "n_terse": 0,
+        "null_rate": null,
+        "degenerate_rate": null,
+        "terse_rate": null
+      },
+      "mean_score_delta": null,
+      "n_score_pairs": 0,
+      "per_key": {
+        "execution_history": {
+          "v1_null": 510,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 0
+        },
+        "founder_led": {
+          "v1_null": 1022,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 0
+        },
+        "industry_expertise": {
+          "v1_null": 83,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 0
+        },
+        "ownership": {
+          "v1_null": 975,
+          "v2_null": 0,
+          "v1_deg": 1,
+          "v2_deg": 0,
+          "n": 0
+        },
+        "tenure": {
+          "v1_null": 956,
+          "v2_null": 0,
+          "v1_deg": 0,
+          "v2_deg": 0,
+          "n": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "ticker": "AVGO",
+  "cik": "0001730168",
+  "sector": "Information Technology",
+  "arm": "control",
+  "targeted_meta": {
+    "n_chunks_picked": 6,
+    "methods": {
+      "network_effects": "embedding",
+      "manufacturing_complexity": "embedding",
+      "data_advantages": "embedding",
+      "economies_of_scale": "embedding"
+    }
+  },
+  "A": {
+    "scored": [
+      "brand",
+      "customer_relationships",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 18.8,
+    "parse_ok": true
+  },
+  "B": {
+    "scored": [
+      "customer_relationships",
+      "distribution",
+      "economies_of_scale",
+      "intellectual_property",
+      "manufacturing_complexity",
+      "switching_costs",
+      "technological_advantage"
+    ],
+    "unverified": [
+      0,
+      2
+    ],
+    "secs": 22.0,
+    "parse_ok": true,
+    "weak_scored": [
+      "economies_of_scale",
+      "manufacturing_complexity"
+    ]
+  }
+}

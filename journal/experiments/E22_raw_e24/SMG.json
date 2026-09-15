@@ -1,0 +1,70 @@
+{
+  "ticker": "SMG",
+  "cik": "0000825542",
+  "sector": "Materials",
+  "decile": 2,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-23",
+      "filing": {
+        "accn": "0001546380-23-000037",
+        "form": "10-K",
+        "filed": "2023-11-22",
+        "chars": null
+      },
+      "pack_secs": 23.4,
+      "components": {
+        "MG": {
+          "secs": 15.0,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": null,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001443984-23-000378",
+        "form": "DEF 14A",
+        "filed": "2023-12-13",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 38.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-23",
+      "filing": {
+        "accn": "0001546380-24-000043",
+        "form": "10-K",
+        "filed": "2024-11-26",
+        "chars": null
+      },
+      "pack_secs": 24.3,
+      "components": {
+        "MG": {
+          "secs": 15.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": null,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001443984-24-000319",
+        "form": "DEF 14A",
+        "filed": "2024-12-18",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.3
+    }
+  }
+}

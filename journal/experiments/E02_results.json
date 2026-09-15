@@ -1,0 +1,1109 @@
+{
+  "study": "E02_measured_half_battery",
+  "as_of": "2026-08-12T14:48:38.779881+00:00",
+  "panel": {
+    "rows": 67889,
+    "symbols": 675,
+    "start": "2016-01-31",
+    "end": "2026-08-31",
+    "median_avail": 38.0
+  },
+  "caveats": [
+    "The LLM half (SG/BQ/MG, 50 points) is excluded - it cannot be backtested without hindsight.",
+    "ER, PEG, forward P/E and the reverse DCF are not reconstructible, so the score is out of ~37 of 45 available points.",
+    "Universe is today's index members: delisted and removed constituents are absent, which flatters every long result.",
+    "2016-2025 was mostly a rising market; value-ish measured factors underperformed over it."
+  ],
+  "q1": {
+    "question": "Does the measured score rank forward returns?",
+    "by_decile_1y": {
+      "0": {
+        "n": 6056,
+        "mean": 0.18197548899209096,
+        "median": 0.10639999351908025,
+        "hit": 0.6537318361955086,
+        "mean_score_pct": 0.248665237524714
+      },
+      "1": {
+        "n": 6002,
+        "mean": 0.1602383660037823,
+        "median": 0.0941167799689917,
+        "hit": 0.6262912362545818,
+        "mean_score_pct": 0.38715906093135727
+      },
+      "2": {
+        "n": 5982,
+        "mean": 0.16035647105170406,
+        "median": 0.09822765322508975,
+        "hit": 0.6345703778000669,
+        "mean_score_pct": 0.4627293252444097
+      },
+      "3": {
+        "n": 6003,
+        "mean": 0.1721492126999544,
+        "median": 0.10897378515331135,
+        "hit": 0.6476761619190404,
+        "mean_score_pct": 0.5198284337359328
+      },
+      "4": {
+        "n": 6007,
+        "mean": 0.15642245675854302,
+        "median": 0.11547781163235127,
+        "hit": 0.6608956217745963,
+        "mean_score_pct": 0.570477423144046
+      },
+      "5": {
+        "n": 5975,
+        "mean": 0.15312668114617806,
+        "median": 0.10648245980050819,
+        "hit": 0.6533891213389121,
+        "mean_score_pct": 0.6158566911390145
+      },
+      "6": {
+        "n": 5986,
+        "mean": 0.1569592570245286,
+        "median": 0.11367841793975797,
+        "hit": 0.6566989642499165,
+        "mean_score_pct": 0.659961187334652
+      },
+      "7": {
+        "n": 5999,
+        "mean": 0.15966461243314548,
+        "median": 0.11624078098480395,
+        "hit": 0.6632772128688115,
+        "mean_score_pct": 0.7095201297041799
+      },
+      "8": {
+        "n": 5985,
+        "mean": 0.1836559135514011,
+        "median": 0.1366389137881513,
+        "hit": 0.6900584795321637,
+        "mean_score_pct": 0.7661083546684042
+      },
+      "9": {
+        "n": 6045,
+        "mean": 0.19158514261493895,
+        "median": 0.13831207446615867,
+        "hit": 0.6602150537634408,
+        "mean_score_pct": 0.8569960630730875
+      }
+    },
+    "monthly_ic_1y": {
+      "n_months": 115,
+      "mean": 0.042644622465598206,
+      "median": 0.050985690804897774,
+      "share_positive": 0.6782608695652174
+    },
+    "by_decile_excess_1y": {
+      "0": {
+        "n": 5948,
+        "mean": 0.02841901874667563,
+        "median": -0.03778013348472514,
+        "hit": 0.4418291862811029
+      },
+      "1": {
+        "n": 5898,
+        "mean": 0.00421330399041825,
+        "median": -0.04981609785581259,
+        "hit": 0.4262461851475076
+      },
+      "2": {
+        "n": 5879,
+        "mean": 0.004293047303271781,
+        "median": -0.0576974493880027,
+        "hit": 0.41724783126382037
+      },
+      "3": {
+        "n": 5896,
+        "mean": 0.016736385758601185,
+        "median": -0.042008235863251864,
+        "hit": 0.4360583446404342
+      },
+      "4": {
+        "n": 5904,
+        "mean": 0.000802472111784169,
+        "median": -0.040028381412724245,
+        "hit": 0.4412262872628726
+      },
+      "5": {
+        "n": 5872,
+        "mean": -0.0026655530352659488,
+        "median": -0.035057661422912945,
+        "hit": 0.44073569482288827
+      },
+      "6": {
+        "n": 5880,
+        "mean": 0.0018010387599325807,
+        "median": -0.03328192625125037,
+        "hit": 0.4479591836734694
+      },
+      "7": {
+        "n": 5895,
+        "mean": 0.0047526441644762905,
+        "median": -0.026530048303380793,
+        "hit": 0.46157760814249366
+      },
+      "8": {
+        "n": 5882,
+        "mean": 0.028285407161281993,
+        "median": -0.005284297299589014,
+        "hit": 0.48962937776266574
+      },
+      "9": {
+        "n": 5938,
+        "mean": 0.033920963710085426,
+        "median": -0.01178798697221134,
+        "hit": 0.48416975412596835
+      }
+    },
+    "monthly_ic_excess_1y": {
+      "n_months": 108,
+      "mean": 0.03906640998764192,
+      "share_positive": 0.6574074074074074
+    },
+    "per_year": {
+      "2016": {
+        "n": 3928,
+        "top_decile_mean": 0.2896104078720307,
+        "bottom_decile_mean": 0.15202856692911498,
+        "top_minus_bottom": 0.1375818409429157,
+        "top_decile_median": 0.2515443384062718,
+        "bottom_decile_median": 0.13761027970030104,
+        "mean_ic": 0.09019101231510794,
+        "top_decile_excess": 0.09580373315854253,
+        "bottom_decile_excess": -0.006530789319693988,
+        "spy_1y": 0.20674512679679585
+      },
+      "2017": {
+        "n": 6866,
+        "top_decile_mean": 0.21164777623151243,
+        "bottom_decile_mean": 0.1818109953414032,
+        "top_minus_bottom": 0.029836780890109244,
+        "top_decile_median": 0.15315553584950525,
+        "bottom_decile_median": 0.08828376852637276,
+        "mean_ic": 0.09456203686140487,
+        "top_decile_excess": 0.07834909171183546,
+        "bottom_decile_excess": 0.048512310821726246,
+        "spy_1y": 0.13331389321494638
+      },
+      "2018": {
+        "n": 6783,
+        "top_decile_mean": 0.11146803952722667,
+        "bottom_decile_mean": 0.16596453789487825,
+        "top_minus_bottom": -0.05449649836765158,
+        "top_decile_median": 0.07681632091795454,
+        "bottom_decile_median": 0.15179093057713822,
+        "mean_ic": -0.003886103427956399,
+        "top_decile_excess": 0.016725367309509978,
+        "bottom_decile_excess": 0.07122186567716156,
+        "spy_1y": 0.09470057143514465
+      },
+      "2019": {
+        "n": 6705,
+        "top_decile_mean": 0.12507900264384625,
+        "bottom_decile_mean": 0.10780949093628005,
+        "top_minus_bottom": 0.0172695117075662,
+        "top_decile_median": 0.09408742479847942,
+        "bottom_decile_median": 0.01961425847820053,
+        "mean_ic": 0.10324029522145069,
+        "top_decile_excess": 0.01158329664003496,
+        "bottom_decile_excess": -0.0056862150675312225,
+        "spy_1y": 0.11354634625779178
+      },
+      "2020": {
+        "n": 6688,
+        "top_decile_mean": 0.47311516830391764,
+        "bottom_decile_mean": 0.4941923448143758,
+        "top_minus_bottom": -0.02107717651045815,
+        "top_decile_median": 0.4147787113448901,
+        "bottom_decile_median": 0.3369546863644389,
+        "mean_ic": 0.07279197446407804,
+        "top_decile_excess": 0.11319086381766914,
+        "bottom_decile_excess": 0.13406038100873952,
+        "spy_1y": 0.36002987627388183
+      },
+      "2021": {
+        "n": 6591,
+        "top_decile_mean": -0.07749937003190989,
+        "bottom_decile_mean": 0.04580928623262589,
+        "top_minus_bottom": -0.12330865626453577,
+        "top_decile_median": -0.09964337863582984,
+        "bottom_decile_median": 0.029360007591613058,
+        "mean_ic": -0.0647161902235072,
+        "top_decile_excess": -0.052603249830195015,
+        "bottom_decile_excess": 0.07111084889515716,
+        "spy_1y": -0.025151255788477014
+      },
+      "2022": {
+        "n": 6461,
+        "top_decile_mean": 0.13080120212088514,
+        "bottom_decile_mean": 0.029148364992909074,
+        "top_minus_bottom": 0.10165283712797607,
+        "top_decile_median": 0.06988330389806896,
+        "bottom_decile_median": -0.015447547228168657,
+        "mean_ic": 0.06371425520948534,
+        "top_decile_excess": 0.048420736567030956,
+        "bottom_decile_excess": -0.0527519254053707,
+        "spy_1y": 0.08228403319343652
+      },
+      "2023": {
+        "n": 6361,
+        "top_decile_mean": 0.31180818509851677,
+        "bottom_decile_mean": 0.22765246900906813,
+        "top_minus_bottom": 0.08415571608944863,
+        "top_decile_median": 0.24674406193442167,
+        "bottom_decile_median": 0.1850174936173824,
+        "mean_ic": 0.08552096570715152,
+        "top_decile_excess": 0.033732977844624104,
+        "bottom_decile_excess": -0.05024784053718369,
+        "spy_1y": 0.27805911446327813
+      },
+      "2024": {
+        "n": 6209,
+        "top_decile_mean": 0.19261754534451214,
+        "bottom_decile_mean": 0.18327822041211891,
+        "top_minus_bottom": 0.009339324932393228,
+        "top_decile_median": 0.13604913013680553,
+        "bottom_decile_median": 0.10764940879967766,
+        "mean_ic": 0.006343568154113695,
+        "top_decile_excess": 0.029055559937948533,
+        "bottom_decile_excess": 0.0197162350055553,
+        "spy_1y": 0.16358460974078087
+      },
+      "2025": {
+        "n": 3448,
+        "top_decile_mean": 0.18435598054966992,
+        "bottom_decile_mean": 0.24648950755236113,
+        "top_minus_bottom": -0.0621335270026912,
+        "top_decile_median": 0.06323106326042882,
+        "bottom_decile_median": 0.1572595920118961,
+        "mean_ic": -0.06700145540459261,
+        "top_decile_excess": -0.03573718000579642,
+        "bottom_decile_excess": 0.026396346996894755,
+        "spy_1y": 0.2200430041341666
+      }
+    },
+    "years_top_beats_bottom": "6/10",
+    "passes": true,
+    "verdict": "measured score ranks forward returns"
+  },
+  "q2": {
+    "question": "Detection timing on the realised winners",
+    "n_winners": 25,
+    "winners": [
+      {
+        "ticker": "CVNA",
+        "move_start": "2022-12-31",
+        "fwd_3y": 94.10026256845339,
+        "score_pct_at_start": 0.38461538461538464,
+        "score_pct_12m_before": 0.5,
+        "max_score_pct_before": 0.5,
+        "months_of_history_before": 67,
+        "en_at_start": 0,
+        "fe_at_start": 3,
+        "va_at_start": 0,
+        "pe_pctile_at_start": null,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "ENPH",
+        "move_start": "2018-01-31",
+        "fwd_3y": 86.5580909090909,
+        "score_pct_at_start": 0.19047619047619047,
+        "score_pct_12m_before": 0.29411764705882354,
+        "max_score_pct_before": 0.56,
+        "months_of_history_before": 25,
+        "en_at_start": 1,
+        "fe_at_start": 0,
+        "va_at_start": 1,
+        "pe_pctile_at_start": 0.34509803921568627,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "APP",
+        "move_start": "2022-12-31",
+        "fwd_3y": 59.105362674291236,
+        "score_pct_at_start": 0.5,
+        "score_pct_12m_before": 0.1,
+        "max_score_pct_before": 0.5,
+        "months_of_history_before": 20,
+        "en_at_start": 0,
+        "fe_at_start": 12,
+        "va_at_start": 1,
+        "pe_pctile_at_start": null,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "should_have_seen"
+      },
+      {
+        "ticker": "PLTR",
+        "move_start": "2022-12-31",
+        "fwd_3y": 27.298063943416512,
+        "score_pct_at_start": 0.6111111111111112,
+        "score_pct_12m_before": 0.43333333333333335,
+        "max_score_pct_before": 0.6111111111111112,
+        "months_of_history_before": 26,
+        "en_at_start": 1,
+        "fe_at_start": 10,
+        "va_at_start": 8,
+        "pe_pctile_at_start": 0.029304029304029304,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2022-11-30",
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "should_have_seen"
+      },
+      {
+        "ticker": "SMCI",
+        "move_start": "2021-02-28",
+        "fwd_3y": 25.542671225237676,
+        "score_pct_at_start": 0.5625,
+        "score_pct_12m_before": 0.6666666666666666,
+        "max_score_pct_before": 0.8055555555555556,
+        "months_of_history_before": 55,
+        "en_at_start": 0,
+        "fe_at_start": 6,
+        "va_at_start": 3,
+        "pe_pctile_at_start": 0.7506538796861377,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2016-08-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2016-11-30",
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "VRT",
+        "move_start": "2023-04-30",
+        "fwd_3y": 21.933710956136384,
+        "score_pct_at_start": 0.5625,
+        "score_pct_12m_before": 0.375,
+        "max_score_pct_before": 0.5625,
+        "months_of_history_before": 57,
+        "en_at_start": 2,
+        "fe_at_start": 9,
+        "va_at_start": 4,
+        "pe_pctile_at_start": 0.06983240223463687,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "LITE",
+        "move_start": "2023-04-30",
+        "fwd_3y": 19.61164243644754,
+        "score_pct_at_start": 0.4878048780487805,
+        "score_pct_12m_before": 0.8780487804878049,
+        "max_score_pct_before": 0.9459459459459459,
+        "months_of_history_before": 79,
+        "en_at_start": 0,
+        "fe_at_start": 7,
+        "va_at_start": 7,
+        "pe_pctile_at_start": 0.8913443830570903,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2017-05-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2018-05-31",
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "TSLA",
+        "move_start": "2019-05-31",
+        "fwd_3y": 19.474804376858348,
+        "score_pct_at_start": 0.5,
+        "score_pct_12m_before": 0.5384615384615384,
+        "max_score_pct_before": 0.5384615384615384,
+        "months_of_history_before": 34,
+        "en_at_start": 0,
+        "fe_at_start": 10,
+        "va_at_start": 0,
+        "pe_pctile_at_start": 0.008156606851549755,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "should_have_seen"
+      },
+      {
+        "ticker": "WDC",
+        "move_start": "2023-06-30",
+        "fwd_3y": 18.28136604830555,
+        "score_pct_at_start": 0.4146341463414634,
+        "score_pct_12m_before": 0.8292682926829268,
+        "max_score_pct_before": 0.8536585365853658,
+        "months_of_history_before": 83,
+        "en_at_start": 1,
+        "fe_at_start": 5,
+        "va_at_start": 3,
+        "pe_pctile_at_start": 0.34977578475336324,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2018-08-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2022-02-28",
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "TTD",
+        "move_start": "2017-11-30",
+        "fwd_3y": 16.64083979183739,
+        "score_pct_at_start": 0.5454545454545454,
+        "score_pct_12m_before": 0.2,
+        "max_score_pct_before": 0.5454545454545454,
+        "months_of_history_before": 13,
+        "en_at_start": 0,
+        "fe_at_start": 7,
+        "va_at_start": 1,
+        "pe_pctile_at_start": 0.8603896103896104,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "STX",
+        "move_start": "2023-05-31",
+        "fwd_3y": 14.271644167857803,
+        "score_pct_at_start": 0.3170731707317073,
+        "score_pct_12m_before": 0.7560975609756098,
+        "max_score_pct_before": 0.8048780487804879,
+        "months_of_history_before": 82,
+        "en_at_start": 1,
+        "fe_at_start": 6,
+        "va_at_start": 2,
+        "pe_pctile_at_start": 0.8966613672496025,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2017-06-30",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2018-11-30",
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "NVDA",
+        "move_start": "2022-09-30",
+        "fwd_3y": 14.260744404040073,
+        "score_pct_at_start": 0.7073170731707317,
+        "score_pct_12m_before": 0.8780487804878049,
+        "max_score_pct_before": 1.0,
+        "months_of_history_before": 74,
+        "en_at_start": 1,
+        "fe_at_start": 10,
+        "va_at_start": 9,
+        "pe_pctile_at_start": 0.9015091342335186,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2016-08-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2016-08-31",
+        "verdict": "caught"
+      },
+      {
+        "ticker": "MU",
+        "move_start": "2023-06-30",
+        "fwd_3y": 14.229686251648467,
+        "score_pct_at_start": 0.5609756097560976,
+        "score_pct_12m_before": 0.6829268292682927,
+        "max_score_pct_before": 0.9512195121951219,
+        "months_of_history_before": 83,
+        "en_at_start": 1,
+        "fe_at_start": 9,
+        "va_at_start": 3,
+        "pe_pctile_at_start": 0.9880668257756563,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2017-10-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2017-10-31",
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "HOOD",
+        "move_start": "2022-12-31",
+        "fwd_3y": 13.36877841366477,
+        "score_pct_at_start": 0.17391304347826086,
+        "score_pct_12m_before": 0.1,
+        "max_score_pct_before": 0.45454545454545453,
+        "months_of_history_before": 17,
+        "en_at_start": 0,
+        "fe_at_start": 2,
+        "va_at_start": 0,
+        "pe_pctile_at_start": null,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "FIX",
+        "move_start": "2023-04-30",
+        "fwd_3y": 12.308035946247722,
+        "score_pct_at_start": 0.7368421052631579,
+        "score_pct_12m_before": 0.7105263157894737,
+        "max_score_pct_before": 0.8947368421052632,
+        "months_of_history_before": 81,
+        "en_at_start": 0,
+        "fe_at_start": 13,
+        "va_at_start": 6,
+        "pe_pctile_at_start": 0.9102462271644162,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2016-08-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2016-08-31",
+        "verdict": "caught"
+      },
+      {
+        "ticker": "MRNA",
+        "move_start": "2019-07-31",
+        "fwd_3y": 11.328006855243746,
+        "score_pct_at_start": 0.21739130434782608,
+        "score_pct_12m_before": 0.21739130434782608,
+        "max_score_pct_before": 0.2608695652173913,
+        "months_of_history_before": 5,
+        "en_at_start": 0,
+        "fe_at_start": 2,
+        "va_at_start": 0,
+        "pe_pctile_at_start": 0.6051660516605166,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "CIEN",
+        "move_start": "2023-04-30",
+        "fwd_3y": 10.831102284261226,
+        "score_pct_at_start": 0.4375,
+        "score_pct_12m_before": 0.7073170731707317,
+        "max_score_pct_before": 0.918918918918919,
+        "months_of_history_before": 81,
+        "en_at_start": 1,
+        "fe_at_start": 3,
+        "va_at_start": 1,
+        "pe_pctile_at_start": 0.8260524225575854,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2016-08-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2016-12-31",
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "ETSY",
+        "move_start": "2018-01-31",
+        "fwd_3y": 10.201025586353945,
+        "score_pct_at_start": 0.6111111111111112,
+        "score_pct_12m_before": 0.42857142857142855,
+        "max_score_pct_before": 0.6111111111111112,
+        "months_of_history_before": 25,
+        "en_at_start": 1,
+        "fe_at_start": 14,
+        "va_at_start": 5,
+        "pe_pctile_at_start": 0.6445993031358885,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2017-06-30",
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "should_have_seen"
+      },
+      {
+        "ticker": "TRGP",
+        "move_start": "2020-03-31",
+        "fwd_3y": 10.167536203067566,
+        "score_pct_at_start": 0.5,
+        "score_pct_12m_before": 0.5384615384615384,
+        "max_score_pct_before": 0.5384615384615384,
+        "months_of_history_before": 44,
+        "en_at_start": 1,
+        "fe_at_start": 6,
+        "va_at_start": 3,
+        "pe_pctile_at_start": 0.05555555555555555,
+        "crossed_60pct_before": false,
+        "first_cross_60": null,
+        "crossed_70pct_before": false,
+        "first_cross_70": null,
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "COHR",
+        "move_start": "2023-05-31",
+        "fwd_3y": 9.198945875884858,
+        "score_pct_at_start": 0.631578947368421,
+        "score_pct_12m_before": 0.868421052631579,
+        "max_score_pct_before": 0.8947368421052632,
+        "months_of_history_before": 82,
+        "en_at_start": 1,
+        "fe_at_start": 11,
+        "va_at_start": 5,
+        "pe_pctile_at_start": 0.9933054393305439,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2016-08-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2016-08-31",
+        "verdict": "should_have_seen"
+      },
+      {
+        "ticker": "VST",
+        "move_start": "2022-09-30",
+        "fwd_3y": 8.992871024563367,
+        "score_pct_at_start": 0.5,
+        "score_pct_12m_before": 0.7,
+        "max_score_pct_before": 0.825,
+        "months_of_history_before": 65,
+        "en_at_start": 1,
+        "fe_at_start": 4,
+        "va_at_start": 9,
+        "pe_pctile_at_start": 0.9752650176678446,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2019-05-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2020-04-30",
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "RCL",
+        "move_start": "2022-06-30",
+        "fwd_3y": 8.561761338669747,
+        "score_pct_at_start": 0.5365853658536586,
+        "score_pct_12m_before": 0.4878048780487805,
+        "max_score_pct_before": 0.7317073170731707,
+        "months_of_history_before": 71,
+        "en_at_start": 0,
+        "fe_at_start": 13,
+        "va_at_start": 5,
+        "pe_pctile_at_start": 0.9781746031746031,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2017-08-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2017-12-31",
+        "verdict": "should_have_seen"
+      },
+      {
+        "ticker": "GNRC",
+        "move_start": "2018-10-31",
+        "fwd_3y": 8.531426393374023,
+        "score_pct_at_start": 0.868421052631579,
+        "score_pct_12m_before": 0.6052631578947368,
+        "max_score_pct_before": 0.868421052631579,
+        "months_of_history_before": 27,
+        "en_at_start": 2,
+        "fe_at_start": 16,
+        "va_at_start": 8,
+        "pe_pctile_at_start": 0.008865248226950355,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2017-02-28",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2018-01-31",
+        "verdict": "caught"
+      },
+      {
+        "ticker": "DELL",
+        "move_start": "2023-05-31",
+        "fwd_3y": 8.283073923295165,
+        "score_pct_at_start": 0.43902439024390244,
+        "score_pct_12m_before": 0.675,
+        "max_score_pct_before": 0.7804878048780488,
+        "months_of_history_before": 82,
+        "en_at_start": 1,
+        "fe_at_start": 6,
+        "va_at_start": 5,
+        "pe_pctile_at_start": 0.1814595660749507,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2021-01-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2021-07-31",
+        "verdict": "couldnt_have_seen"
+      },
+      {
+        "ticker": "SEDG",
+        "move_start": "2018-10-31",
+        "fwd_3y": 8.15934082106894,
+        "score_pct_at_start": 0.926829268292683,
+        "score_pct_12m_before": 0.6829268292682927,
+        "max_score_pct_before": 0.9512195121951219,
+        "months_of_history_before": 34,
+        "en_at_start": 1,
+        "fe_at_start": 18,
+        "va_at_start": 10,
+        "pe_pctile_at_start": 0.43043478260869567,
+        "crossed_60pct_before": true,
+        "first_cross_60": "2016-05-31",
+        "crossed_70pct_before": true,
+        "first_cross_70": "2016-05-31",
+        "verdict": "caught"
+      }
+    ],
+    "summary": {
+      "universe_mean_score_pct": 0.5785581960623496,
+      "winners_mean_score_pct_at_start": 0.5169463479318644,
+      "winners_above_universe_mean": 7,
+      "share_crossing_70pct_before_move": 0.56,
+      "share_crossing_60pct_before_move": 0.64
+    },
+    "verdict_counts": {
+      "couldnt_have_seen": 15,
+      "should_have_seen": 6,
+      "caught": 4
+    },
+    "verdict_meaning": {
+      "caught": "score already >=70% of available points before the move",
+      "should_have_seen": "fundamentals were already strong (FE >= 10/15) but valuation or entry held the score down - the framework saw the quality and refused the price",
+      "couldnt_have_seen": "fundamentals were not yet strong at the start; the earnings arrived after the move, so no fundamentals-based score could have known"
+    }
+  },
+  "q3": {
+    "question": "What did it flag that went badly?",
+    "n_top_decile": 6045,
+    "n_bad": 842,
+    "bad_rate": 0.13928866832092637,
+    "universe_bad_rate": 0.12549966688874084,
+    "worse_than_base_rate": true,
+    "component_means": {
+      "fe": {
+        "mean_in_bad": 15.271971496437054,
+        "mean_in_good": 14.700365173938113
+      },
+      "bs": {
+        "mean_in_bad": 8.108076009501188,
+        "mean_in_good": 7.85854314818374
+      },
+      "va": {
+        "mean_in_bad": 7.961995249406176,
+        "mean_in_good": 7.680761099365751
+      },
+      "en": {
+        "mean_in_bad": 1.2814726840855106,
+        "mean_in_good": 1.2458197193926581
+      }
+    },
+    "worst": [
+      {
+        "ticker": "NKTR",
+        "date": "2018-08-31",
+        "fwd_1y": -0.7459624060150376,
+        "score_pct": 0.8055555555555556,
+        "fe": 14,
+        "bs": 8,
+        "va": 7,
+        "en": 0
+      },
+      {
+        "ticker": "META",
+        "date": "2021-10-31",
+        "fwd_1y": -0.7130870130866047,
+        "score_pct": 1.0,
+        "fe": 18,
+        "bs": 9,
+        "va": 8,
+        "en": 2
+      },
+      {
+        "ticker": "NKTR",
+        "date": "2018-09-30",
+        "fwd_1y": -0.69850656167979,
+        "score_pct": 0.8333333333333334,
+        "fe": 14,
+        "bs": 8,
+        "va": 7,
+        "en": 1
+      },
+      {
+        "ticker": "TSLA",
+        "date": "2021-12-31",
+        "fwd_1y": -0.6941244095915257,
+        "score_pct": 0.8947368421052632,
+        "fe": 18,
+        "bs": 8,
+        "va": 7,
+        "en": 1
+      },
+      {
+        "ticker": "ALGN",
+        "date": "2021-10-31",
+        "fwd_1y": -0.6898063094459083,
+        "score_pct": 0.8857142857142857,
+        "fe": 18,
+        "bs": 7,
+        "va": 5,
+        "en": 1
+      },
+      {
+        "ticker": "ALGN",
+        "date": "2021-09-30",
+        "fwd_1y": -0.6897576410892826,
+        "score_pct": 0.8857142857142857,
+        "fe": 18,
+        "bs": 7,
+        "va": 5,
+        "en": 1
+      },
+      {
+        "ticker": "ALGN",
+        "date": "2021-11-30",
+        "fwd_1y": -0.6794131698516505,
+        "score_pct": 0.9142857142857143,
+        "fe": 18,
+        "bs": 7,
+        "va": 6,
+        "en": 1
+      },
+      {
+        "ticker": "ALGN",
+        "date": "2021-12-31",
+        "fwd_1y": -0.6779834731045672,
+        "score_pct": 0.8857142857142857,
+        "fe": 18,
+        "bs": 7,
+        "va": 5,
+        "en": 1
+      },
+      {
+        "ticker": "IT",
+        "date": "2025-06-30",
+        "fwd_1y": -0.6700911035997862,
+        "score_pct": 0.8421052631578947,
+        "fe": 13,
+        "bs": 9,
+        "va": 8,
+        "en": 2
+      },
+      {
+        "ticker": "ALGN",
+        "date": "2021-08-31",
+        "fwd_1y": -0.6572764500024794,
+        "score_pct": 0.8571428571428571,
+        "fe": 18,
+        "bs": 7,
+        "va": 5,
+        "en": 0
+      },
+      {
+        "ticker": "SMCI",
+        "date": "2024-03-31",
+        "fwd_1y": -0.6539806064282162,
+        "score_pct": 0.8048780487804879,
+        "fe": 15,
+        "bs": 9,
+        "va": 9,
+        "en": 0
+      },
+      {
+        "ticker": "JWN",
+        "date": "2019-03-31",
+        "fwd_1y": -0.6456746228326954,
+        "score_pct": 0.8378378378378378,
+        "fe": 10,
+        "bs": 8,
+        "va": 11,
+        "en": 2
+      }
+    ],
+    "by_sector": {
+      "": 204,
+      "Information Technology": 153,
+      "Consumer Discretionary": 100,
+      "Health Care": 97,
+      "Financials": 93,
+      "Industrials": 49,
+      "Energy": 46,
+      "Communication Services": 46
+    }
+  },
+  "q4": {
+    "question": "Which component carries any signal there is?",
+    "ic_1y": {
+      "fe": {
+        "n_months": 115,
+        "mean_ic": 0.05187362813653733,
+        "median_ic": 0.0773557486989662,
+        "share_positive": 0.6956521739130435
+      },
+      "bs": {
+        "n_months": 115,
+        "mean_ic": -0.00010337520725232762,
+        "median_ic": -0.0050253112503531915,
+        "share_positive": 0.4434782608695652
+      },
+      "va": {
+        "n_months": 115,
+        "mean_ic": 0.009619845281234577,
+        "median_ic": 0.012510309549156736,
+        "share_positive": 0.5739130434782609
+      },
+      "en": {
+        "n_months": 115,
+        "mean_ic": -0.05094344609048098,
+        "median_ic": -0.0496563963133159,
+        "share_positive": 0.28695652173913044
+      },
+      "measured_pct": {
+        "n_months": 115,
+        "mean_ic": 0.042644622465598206,
+        "median_ic": 0.050985690804897774,
+        "share_positive": 0.6782608695652174
+      }
+    },
+    "ranked_by_mean_ic": [
+      [
+        "fe",
+        0.05187362813653733
+      ],
+      [
+        "measured_pct",
+        0.042644622465598206
+      ],
+      [
+        "va",
+        0.009619845281234577
+      ],
+      [
+        "bs",
+        -0.00010337520725232762
+      ],
+      [
+        "en",
+        -0.05094344609048098
+      ]
+    ]
+  },
+  "q5": {
+    "question": "Do the framework's own bands order returns?",
+    "by_band_1y": {
+      "EXCEPTIONAL": {
+        "n": 1419,
+        "mean": 0.14879695076629282,
+        "median": 0.08910119118845128,
+        "hit": 0.5926708949964764
+      },
+      "HIGH_CONVICTION": {
+        "n": 5220,
+        "mean": 0.19479582371844129,
+        "median": 0.13290688186288346,
+        "hit": 0.6641762452107279
+      },
+      "INVESTABLE": {
+        "n": 9873,
+        "mean": 0.16745139842062345,
+        "median": 0.12234613511504089,
+        "hit": 0.6694013977514434
+      },
+      "WATCHLIST": {
+        "n": 13036,
+        "mean": 0.15767085317023577,
+        "median": 0.11483863699349117,
+        "hit": 0.6617060447990181
+      },
+      "WEAK": {
+        "n": 12289,
+        "mean": 0.172174134762343,
+        "median": 0.12056025364440515,
+        "hit": 0.6638457156806901
+      },
+      "REJECT": {
+        "n": 18203,
+        "mean": 0.16553584705974508,
+        "median": 0.09841159020359502,
+        "hit": 0.6375872108993023
+      }
+    },
+    "ordering_checked": [
+      "EXCEPTIONAL",
+      "HIGH_CONVICTION",
+      "INVESTABLE",
+      "WATCHLIST",
+      "WEAK",
+      "REJECT"
+    ],
+    "monotone": false,
+    "passes": false
+  },
+  "q6": {
+    "question": "Does the score fall before price does?",
+    "n_drawdown_events": 3918,
+    "share_score_was_already_falling": 0.37978560490045943,
+    "examples": [
+      {
+        "ticker": "AAL",
+        "date": "2017-12-31",
+        "fwd_1y": -0.3768647194465796,
+        "score_change_prior_6m": -0.0484
+      },
+      {
+        "ticker": "AAL",
+        "date": "2018-01-31",
+        "fwd_1y": -0.3362973669674093,
+        "score_change_prior_6m": -0.0645
+      },
+      {
+        "ticker": "AAL",
+        "date": "2018-02-28",
+        "fwd_1y": -0.3622903225806452,
+        "score_change_prior_6m": -0.0968
+      },
+      {
+        "ticker": "AAL",
+        "date": "2018-03-31",
+        "fwd_1y": -0.3784056966897613,
+        "score_change_prior_6m": -0.0645
+      },
+      {
+        "ticker": "AAL",
+        "date": "2018-05-31",
+        "fwd_1y": -0.37556886640607046,
+        "score_change_prior_6m": 0.0323
+      },
+      {
+        "ticker": "AAL",
+        "date": "2018-08-31",
+        "fwd_1y": -0.3338391401037806,
+        "score_change_prior_6m": 0.0323
+      },
+      {
+        "ticker": "AAL",
+        "date": "2018-09-30",
+        "fwd_1y": -0.352161665053243,
+        "score_change_prior_6m": -0.0323
+      },
+      {
+        "ticker": "AAL",
+        "date": "2018-11-30",
+        "fwd_1y": -0.321637291511078,
+        "score_change_prior_6m": -0.0645
+      },
+      {
+        "ticker": "AAL",
+        "date": "2019-02-28",
+        "fwd_1y": -0.4664882154882155,
+        "score_change_prior_6m": -0.0968
+      },
+      {
+        "ticker": "AAL",
+        "date": "2019-03-31",
+        "fwd_1y": -0.6152947103274559,
+        "score_change_prior_6m": -0.0645
+      },
+      {
+        "ticker": "AAL",
+        "date": "2019-04-30",
+        "fwd_1y": -0.6322554872695347,
+        "score_change_prior_6m": -0.0645
+      },
+      {
+        "ticker": "AAL",
+        "date": "2019-05-31",
+        "fwd_1y": -0.5929941241278002,
+        "score_change_prior_6m": -0.0968
+      }
+    ],
+    "note": "A score that falls before price would be genuinely useful. A share near 0.5 means the score carries no early warning."
+  }
+}

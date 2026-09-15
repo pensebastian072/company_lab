@@ -1,0 +1,70 @@
+{
+  "ticker": "KVUE",
+  "cik": "0001944048",
+  "sector": "Consumer Staples",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001944048-24-000057",
+        "form": "10-K",
+        "filed": "2024-03-01",
+        "chars": 655507
+      },
+      "pack_secs": 27.3,
+      "components": {
+        "MG": {
+          "secs": 12.1,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001944048-24-000091",
+        "form": "DEF 14A",
+        "filed": "2024-04-10",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001944048-25-000033",
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "chars": 647190
+      },
+      "pack_secs": 27.5,
+      "components": {
+        "MG": {
+          "secs": 11.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": null,
+            "ownership": null,
+            "execution_history": 0,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001944048-25-000114",
+        "form": "DEF 14A",
+        "filed": "2025-04-09",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 39.2
+    }
+  }
+}

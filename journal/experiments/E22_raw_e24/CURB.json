@@ -1,0 +1,43 @@
+{
+  "ticker": "CURB",
+  "cik": "0002027317",
+  "sector": "Real Estate",
+  "decile": 6,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "error": "no 10-K filed on or before 2024-08-22"
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-024834",
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "chars": null
+      },
+      "pack_secs": 20.7,
+      "components": {
+        "MG": {
+          "secs": 13.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-064065",
+        "form": "DEF 14A",
+        "filed": "2025-03-26",
+        "error": null,
+        "n_chunks": 123
+      },
+      "total_secs": 34.1
+    }
+  }
+}

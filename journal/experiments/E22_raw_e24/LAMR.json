@@ -1,0 +1,70 @@
+{
+  "ticker": "LAMR",
+  "cik": "0001090425",
+  "sector": "Real Estate",
+  "decile": 4,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0001628280-24-006537",
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "chars": 466257
+      },
+      "pack_secs": 21.0,
+      "components": {
+        "MG": {
+          "secs": 16.2,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-088448",
+        "form": "DEF 14A",
+        "filed": "2024-04-05",
+        "error": null,
+        "n_chunks": 80
+      },
+      "total_secs": 37.2
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0001628280-25-006706",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": 474222
+      },
+      "pack_secs": 20.9,
+      "components": {
+        "MG": {
+          "secs": 14.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 2,
+            "tenure": 2,
+            "ownership": 2,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-073398",
+        "form": "DEF 14A",
+        "filed": "2025-04-04",
+        "error": null,
+        "n_chunks": 80
+      },
+      "total_secs": 35.3
+    }
+  }
+}

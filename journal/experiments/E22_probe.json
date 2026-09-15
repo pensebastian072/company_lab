@@ -1,0 +1,8 @@
+{
+  "probe_companies": 1,
+  "readings_failed": 0,
+  "median_secs_per_company": 62.8,
+  "projected_hours_for_400": 7.0,
+  "projected_hours_for_200": 3.5,
+  "as_of": "2026-08-23T01:07:19.216411+00:00"
+}

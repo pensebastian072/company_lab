@@ -1,0 +1,489 @@
+{
+  "experiment": "E40",
+  "n_paired_companies": 873,
+  "n_control_companies": 875,
+  "dimension_shapes": {
+    "qwen-v1": {
+      "technological_advantage": {
+        "n": 631,
+        "modal_value": 3,
+        "modal_share": 0.246,
+        "stdev": 1.436,
+        "mean": 2.33
+      },
+      "economies_of_scale": {
+        "n": 327,
+        "modal_value": 3,
+        "modal_share": 0.407,
+        "stdev": 0.872,
+        "mean": 2.911
+      },
+      "switching_costs": {
+        "n": 771,
+        "modal_value": 1,
+        "modal_share": 0.385,
+        "stdev": 0.957,
+        "mean": 1.917
+      },
+      "network_effects": {
+        "n": 148,
+        "modal_value": 0,
+        "modal_share": 0.399,
+        "stdev": 1.828,
+        "mean": 1.905
+      },
+      "intellectual_property": {
+        "n": 632,
+        "modal_value": 3,
+        "modal_share": 0.305,
+        "stdev": 1.165,
+        "mean": 2.712
+      },
+      "brand": {
+        "n": 712,
+        "modal_value": 3,
+        "modal_share": 0.315,
+        "stdev": 1.074,
+        "mean": 2.58
+      },
+      "regulatory_barriers": {
+        "n": 705,
+        "modal_value": 2,
+        "modal_share": 0.342,
+        "stdev": 1.052,
+        "mean": 2.634
+      },
+      "manufacturing_complexity": {
+        "n": 225,
+        "modal_value": 2,
+        "modal_share": 0.311,
+        "stdev": 1.201,
+        "mean": 2.342
+      },
+      "distribution": {
+        "n": 656,
+        "modal_value": 2,
+        "modal_share": 0.41,
+        "stdev": 0.807,
+        "mean": 2.616
+      },
+      "customer_relationships": {
+        "n": 803,
+        "modal_value": 2,
+        "modal_share": 0.326,
+        "stdev": 1.034,
+        "mean": 2.448
+      },
+      "data_advantages": {
+        "n": 234,
+        "modal_value": 1,
+        "modal_share": 0.342,
+        "stdev": 1.361,
+        "mean": 1.735
+      }
+    },
+    "LFM2.5": {
+      "technological_advantage": {
+        "n": 873,
+        "modal_value": 4,
+        "modal_share": 0.474,
+        "stdev": 0.94,
+        "mean": 3.747
+      },
+      "economies_of_scale": {
+        "n": 873,
+        "modal_value": 3,
+        "modal_share": 0.565,
+        "stdev": 0.665,
+        "mean": 3.365
+      },
+      "switching_costs": {
+        "n": 873,
+        "modal_value": 2,
+        "modal_share": 0.647,
+        "stdev": 0.655,
+        "mean": 2.367
+      },
+      "network_effects": {
+        "n": 873,
+        "modal_value": 3,
+        "modal_share": 0.541,
+        "stdev": 0.914,
+        "mean": 2.77
+      },
+      "intellectual_property": {
+        "n": 873,
+        "modal_value": 2,
+        "modal_share": 0.386,
+        "stdev": 1.252,
+        "mean": 2.742
+      },
+      "brand": {
+        "n": 873,
+        "modal_value": 3,
+        "modal_share": 0.458,
+        "stdev": 0.894,
+        "mean": 3.389
+      },
+      "regulatory_barriers": {
+        "n": 872,
+        "modal_value": 2,
+        "modal_share": 0.43,
+        "stdev": 1.0,
+        "mean": 2.232
+      },
+      "manufacturing_complexity": {
+        "n": 873,
+        "modal_value": 1,
+        "modal_share": 0.364,
+        "stdev": 1.175,
+        "mean": 1.989
+      },
+      "distribution": {
+        "n": 873,
+        "modal_value": 3,
+        "modal_share": 0.472,
+        "stdev": 0.832,
+        "mean": 2.865
+      },
+      "customer_relationships": {
+        "n": 873,
+        "modal_value": 3,
+        "modal_share": 0.385,
+        "stdev": 0.924,
+        "mean": 2.932
+      },
+      "data_advantages": {
+        "n": 873,
+        "modal_value": 1,
+        "modal_share": 0.36,
+        "stdev": 1.109,
+        "mean": 1.939
+      }
+    },
+    "qwen-structured": {
+      "technological_advantage": {
+        "n": 632,
+        "modal_value": 3,
+        "modal_share": 0.258,
+        "stdev": 1.442,
+        "mean": 2.324
+      },
+      "economies_of_scale": {
+        "n": 333,
+        "modal_value": 3,
+        "modal_share": 0.411,
+        "stdev": 0.85,
+        "mean": 2.973
+      },
+      "switching_costs": {
+        "n": 780,
+        "modal_value": 2,
+        "modal_share": 0.386,
+        "stdev": 0.938,
+        "mean": 1.924
+      },
+      "network_effects": {
+        "n": 117,
+        "modal_value": 0,
+        "modal_share": 0.419,
+        "stdev": 1.894,
+        "mean": 2.034
+      },
+      "intellectual_property": {
+        "n": 641,
+        "modal_value": 3,
+        "modal_share": 0.287,
+        "stdev": 1.211,
+        "mean": 2.661
+      },
+      "brand": {
+        "n": 713,
+        "modal_value": 2,
+        "modal_share": 0.317,
+        "stdev": 1.12,
+        "mean": 2.561
+      },
+      "regulatory_barriers": {
+        "n": 696,
+        "modal_value": 2,
+        "modal_share": 0.366,
+        "stdev": 0.993,
+        "mean": 2.667
+      },
+      "manufacturing_complexity": {
+        "n": 223,
+        "modal_value": 3,
+        "modal_share": 0.283,
+        "stdev": 1.23,
+        "mean": 2.363
+      },
+      "distribution": {
+        "n": 665,
+        "modal_value": 2,
+        "modal_share": 0.438,
+        "stdev": 0.808,
+        "mean": 2.549
+      },
+      "customer_relationships": {
+        "n": 807,
+        "modal_value": 2,
+        "modal_share": 0.336,
+        "stdev": 1.015,
+        "mean": 2.455
+      },
+      "data_advantages": {
+        "n": 185,
+        "modal_value": 1,
+        "modal_share": 0.314,
+        "stdev": 1.484,
+        "mean": 1.881
+      }
+    }
+  },
+  "D1_D2_modal_share": {
+    "per_dimension_gap_candidate_minus_incumbent": [
+      0.228,
+      0.158,
+      0.262,
+      0.142,
+      0.081,
+      0.143,
+      0.088,
+      0.053,
+      0.062,
+      0.059,
+      0.018
+    ],
+    "mean_gap": 0.118,
+    "counts": {
+      "candidate_more_concentrated": 11,
+      "incumbent_more_concentrated": 0,
+      "tied": 0
+    }
+  },
+  "D3_fills": {
+    "LFM2.5_over_qwen-v1": {
+      "fills": {
+        "n": 3736,
+        "modal_value": 3,
+        "modal_share": 0.328,
+        "stdev": 1.07,
+        "mean": 2.331
+      },
+      "both_scored": {
+        "n": 5844,
+        "modal_value": 3,
+        "modal_share": 0.324,
+        "stdev": 1.05,
+        "mean": 3.032
+      },
+      "modal_share_gap": 0.004,
+      "by_key": {
+        "brand": {
+          "n": 159,
+          "modal_value": 3,
+          "modal_share": 0.566,
+          "stdev": 0.725,
+          "mean": 2.95
+        },
+        "customer_relationships": {
+          "n": 68,
+          "modal_value": 3,
+          "modal_share": 0.412,
+          "stdev": 0.951,
+          "mean": 2.353
+        },
+        "data_advantages": {
+          "n": 637,
+          "modal_value": 1,
+          "modal_share": 0.421,
+          "stdev": 0.914,
+          "mean": 1.673
+        },
+        "distribution": {
+          "n": 215,
+          "modal_value": 3,
+          "modal_share": 0.419,
+          "stdev": 0.789,
+          "mean": 2.512
+        },
+        "economies_of_scale": {
+          "n": 544,
+          "modal_value": 3,
+          "modal_share": 0.592,
+          "stdev": 0.637,
+          "mean": 3.292
+        },
+        "intellectual_property": {
+          "n": 239,
+          "modal_value": 2,
+          "modal_share": 0.531,
+          "stdev": 0.796,
+          "mean": 1.707
+        },
+        "manufacturing_complexity": {
+          "n": 646,
+          "modal_value": 1,
+          "modal_share": 0.461,
+          "stdev": 1.042,
+          "mean": 1.683
+        },
+        "network_effects": {
+          "n": 723,
+          "modal_value": 3,
+          "modal_share": 0.55,
+          "stdev": 0.856,
+          "mean": 2.679
+        },
+        "regulatory_barriers": {
+          "n": 165,
+          "modal_value": 2,
+          "modal_share": 0.485,
+          "stdev": 0.596,
+          "mean": 1.558
+        },
+        "switching_costs": {
+          "n": 100,
+          "modal_value": 2,
+          "modal_share": 0.71,
+          "stdev": 0.711,
+          "mean": 2.29
+        },
+        "technological_advantage": {
+          "n": 240,
+          "modal_value": 4,
+          "modal_share": 0.417,
+          "stdev": 0.869,
+          "mean": 3.179
+        }
+      }
+    },
+    "qwen-structured_over_qwen-v1": {
+      "fills": {
+        "n": 465,
+        "modal_value": 2,
+        "modal_share": 0.318,
+        "stdev": 1.072,
+        "mean": 1.557
+      },
+      "both_scored": {
+        "n": 5316,
+        "modal_value": 2,
+        "modal_share": 0.309,
+        "stdev": 1.124,
+        "mean": 2.519
+      },
+      "modal_share_gap": 0.009,
+      "by_key": {
+        "brand": {
+          "n": 41,
+          "modal_value": 1,
+          "modal_share": 0.415,
+          "stdev": 0.828,
+          "mean": 1.439
+        },
+        "customer_relationships": {
+          "n": 31,
+          "modal_value": 1,
+          "modal_share": 0.387,
+          "stdev": 0.908,
+          "mean": 1.419
+        },
+        "data_advantages": {
+          "n": 49,
+          "modal_value": 1,
+          "modal_share": 0.367,
+          "stdev": 1.007,
+          "mean": 1.082
+        },
+        "distribution": {
+          "n": 66,
+          "modal_value": 2,
+          "modal_share": 0.53,
+          "stdev": 0.773,
+          "mean": 2.091
+        },
+        "economies_of_scale": {
+          "n": 50,
+          "modal_value": 3,
+          "modal_share": 0.48,
+          "stdev": 0.668,
+          "mean": 2.56
+        },
+        "intellectual_property": {
+          "n": 49,
+          "modal_value": 1,
+          "modal_share": 0.367,
+          "stdev": 0.938,
+          "mean": 1.347
+        },
+        "manufacturing_complexity": {
+          "n": 51,
+          "modal_value": 0,
+          "modal_share": 0.235,
+          "stdev": 1.396,
+          "mean": 1.824
+        },
+        "network_effects": {
+          "n": 33,
+          "modal_value": 0,
+          "modal_share": 0.697,
+          "stdev": 1.343,
+          "mean": 0.788
+        },
+        "regulatory_barriers": {
+          "n": 32,
+          "modal_value": 2,
+          "modal_share": 0.594,
+          "stdev": 0.661,
+          "mean": 1.75
+        },
+        "switching_costs": {
+          "n": 32,
+          "modal_value": 1,
+          "modal_share": 0.844,
+          "stdev": 0.464,
+          "mean": 1.188
+        },
+        "technological_advantage": {
+          "n": 31,
+          "modal_value": 1,
+          "modal_share": 0.484,
+          "stdev": 0.67,
+          "mean": 0.742
+        }
+      }
+    }
+  },
+  "D4_sg_evidence": {
+    "qwen-v1": {
+      "n_subtests": 4032,
+      "unverified_rate": 0.0047
+    },
+    "LFM2.5": {
+      "n_subtests": 5219,
+      "unverified_rate": 0.0971
+    },
+    "qwen-structured": {
+      "n_subtests": 4034,
+      "unverified_rate": 0.0007
+    }
+  },
+  "D4_common_support": {
+    "common_support": {
+      "n": 6758,
+      "incumbent_unverified": 0.0049,
+      "candidate_unverified": 0.0801
+    },
+    "candidate_only": {
+      "n": 2028,
+      "candidate_unverified": 0.1302
+    }
+  },
+  "D5_judged_vs_measured": {
+    "qwen-v1": 0.267,
+    "LFM2.5": 0.214,
+    "qwen-structured": 0.285
+  }
+}

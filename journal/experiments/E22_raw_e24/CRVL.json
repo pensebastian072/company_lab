@@ -1,0 +1,70 @@
+{
+  "ticker": "CRVL",
+  "cik": "0000874866",
+  "sector": "Health Care",
+  "decile": 6,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-064645",
+        "form": "10-K",
+        "filed": "2024-05-24",
+        "chars": 259187
+      },
+      "pack_secs": 24.9,
+      "components": {
+        "MG": {
+          "secs": 14.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": null,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-24-165642",
+        "form": "DEF 14A",
+        "filed": "2024-06-21",
+        "error": null,
+        "n_chunks": 82
+      },
+      "total_secs": 39.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-076999",
+        "form": "10-K",
+        "filed": "2025-05-23",
+        "chars": 264220
+      },
+      "pack_secs": 24.2,
+      "components": {
+        "MG": {
+          "secs": 12.8,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 2,
+            "ownership": 1,
+            "execution_history": 2,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001193125-25-145760",
+        "form": "DEF 14A",
+        "filed": "2025-06-24",
+        "error": null,
+        "n_chunks": 115
+      },
+      "total_secs": 37.0
+    }
+  }
+}

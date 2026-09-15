@@ -1,0 +1,34 @@
+{
+  "ticker": "CLF",
+  "cik": "0000764065",
+  "sector": "Materials",
+  "arm": "control",
+  "base": {
+    "scored": [
+      "brand",
+      "distribution",
+      "economies_of_scale",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs"
+    ],
+    "unverified": [
+      0,
+      1
+    ],
+    "secs": 16.6,
+    "parse_ok": true
+  },
+  "repaired": null,
+  "repair_ran": false,
+  "final": {
+    "scored": [
+      "brand",
+      "distribution",
+      "economies_of_scale",
+      "manufacturing_complexity",
+      "regulatory_barriers",
+      "switching_costs"
+    ]
+  }
+}

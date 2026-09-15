@@ -1,0 +1,64 @@
+{
+  "ticker": "GTY",
+  "cik": "0001052752",
+  "sector": "Real Estate",
+  "decile": 7,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-015982",
+        "form": "10-K",
+        "filed": "2024-02-15",
+        "chars": null
+      },
+      "pack_secs": 21.2,
+      "components": {
+        "MG": {
+          "secs": 14.4,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": 1,
+            "tenure": 2,
+            "ownership": null,
+            "execution_history": 1,
+            "industry_expertise": 2
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-24-013007",
+        "form": "DEF 14A",
+        "filed": "2024-03-13",
+        "error": null,
+        "n_chunks": 110
+      },
+      "total_secs": 35.6
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-019976",
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "chars": null
+      },
+      "pack_secs": 21.3,
+      "components": {
+        "MG": {
+          "secs": 15.5,
+          "parse_ok": false,
+          "scores": {}
+        }
+      },
+      "proxy": {
+        "accn": "0001140361-25-008521",
+        "form": "DEF 14A",
+        "filed": "2025-03-13",
+        "error": null,
+        "n_chunks": 113
+      },
+      "total_secs": 36.8
+    }
+  }
+}

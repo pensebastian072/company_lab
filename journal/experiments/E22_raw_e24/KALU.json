@@ -1,0 +1,70 @@
+{
+  "ticker": "KALU",
+  "cik": "0000811596",
+  "sector": "Materials",
+  "decile": 6,
+  "readings": {
+    "t_minus_2": {
+      "as_of": "2024-08-22",
+      "filing": {
+        "accn": "0000950170-24-018958",
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "chars": null
+      },
+      "pack_secs": 24.1,
+      "components": {
+        "MG": {
+          "secs": 12.3,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 0,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-24-049151",
+        "form": "DEF 14A",
+        "filed": "2024-04-26",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.4
+    },
+    "t_minus_1": {
+      "as_of": "2025-08-22",
+      "filing": {
+        "accn": "0000950170-25-024313",
+        "form": "10-K",
+        "filed": "2025-02-20",
+        "chars": null
+      },
+      "pack_secs": 24.2,
+      "components": {
+        "MG": {
+          "secs": 12.7,
+          "parse_ok": true,
+          "scores": {
+            "founder_led": null,
+            "tenure": 1,
+            "ownership": 2,
+            "execution_history": null,
+            "industry_expertise": 1
+          }
+        }
+      },
+      "proxy": {
+        "accn": "0000950170-25-059349",
+        "form": "DEF 14A",
+        "filed": "2025-04-28",
+        "error": null,
+        "n_chunks": 160
+      },
+      "total_secs": 36.9
+    }
+  }
+}
