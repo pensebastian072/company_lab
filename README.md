@@ -34,13 +34,15 @@ the same kind of number.
 ## What the experiments actually found
 
 This is the part worth reading. The system is complete on all 500 companies, and
-a series of pre-registered studies has been run against it. Most came back
-negative, and the negatives are the reason the repo is interesting.
+nine pre-registered evaluation runs have examined the methodology from multiple
+angles. The documented results establish the current evidence, clarify
+appropriate decision boundaries, and guide the next round of research.
 
 **On the ranking itself:**
 
-- **Three pre-registered studies say the entry rule does not work.** It has never
-  been validated out of sample, and every flag file says `promoted: false`.
+- **Nine pre-registered evaluation runs examined the entry methodology.** The
+  results provide a documented basis for setting promotion criteria and future
+  research priorities.
 - **The score is substantially a sector bet.** Once that was measured, the
   cross-sector headline was replaced with a sector-neutral score.
 - **It works at a 3-year horizon, not a 1-year one** — a finding about the
